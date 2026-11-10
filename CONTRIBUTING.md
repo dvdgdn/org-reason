@@ -25,6 +25,7 @@ that the vendored Reason Commons files still match `vendor/reasoncommons/UPSTREA
 | `org-reason-demo.el` | The fictional workspace the tutorial runs in |
 | `vendor/reasoncommons/` | Pinned upstream files; **never edit** — update them from upstream and re-pin the hashes |
 | `capture/` | Bookmarklet and the OS handlers for `org-protocol://` |
+| `scripts/check_vendor.py` | Checks `vendor/` against `UPSTREAM.json` (CI runs it) |
 | `features/`, `docs/jobs-and-acceptance.md` | Behaviour as scenarios, mapped to tests |
 | `test/` | ERT and Python tests |
 

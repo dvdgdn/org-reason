@@ -32,7 +32,7 @@ jobs:
       - name: Install Python requirements
         run: python -m pip install -r requirements.txt
       - name: Vendored Reason Commons files match their pinned hashes
-        run: python -I -c "import hashlib, json, pathlib, sys; d = pathlib.Path('vendor/reasoncommons'); files = json.loads((d / 'UPSTREAM.json').read_text())['files']; bad = [n for n, h in files.items() if hashlib.sha256((d / n).read_bytes()).hexdigest() != h]; sys.exit('changed: ' + ', '.join(bad) if bad else 0)"
+        run: python -I scripts/check_vendor.py
       - name: Python tests
         run: python -m unittest discover -s test -p 'test_*.py' -v
       - name: Emacs tests
