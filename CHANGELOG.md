@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.1.1 — 2026-11-10
+
+Fixes from the first CI run on Windows; all tests now pass on Linux, macOS and
+Windows.
+
+- A workspace file holding only ASCII is read with an undecided encoding;
+  adding a non-ASCII character then made saving ask for a coding system on
+  Windows, whose default isn't UTF-8. Such files are now saved as UTF-8 (by
+  the package, and, with the mode on, by you and Org capture), keeping their
+  line endings.
+- Windows gives a directory a short 8.3 name and a long one. Paths are now
+  built from one canonical name, so a file is never visited twice and
+  relative links are rebased correctly when an entry moves.
+- CI: the workflow file parses (the vendor hash check is now
+  `scripts/check_vendor.py`), and the Python 3.9 job runs on Ubuntu 22.04.
+  `make test` and `make compile` load the sources, not stale `.elc` files
+  that `package-vc` leaves in a clone.
+
 ## 0.1.0 — 2026-11-10
 
 First public release.
@@ -21,7 +39,6 @@ First public release.
 - `C-c r h` opens a guided tutorial in a separate Emacs on fictional data.
 - If the workspace is inside `org-roam-directory`, only its `knowledge/` notes
   are indexed (`org-reason-roam-knowledge-only`).
-- Works on macOS, Linux and Windows: Python is found automatically (`py` first on
-  Windows), process I/O and new files are UTF-8 with LF, workspace files are
-  saved as UTF-8 without asking, paths use one canonical directory name (Windows
-  8.3 short names), and capture handlers are included for all three.
+- Built for macOS, Linux and Windows: Python is found automatically (`py` first
+  on Windows), process I/O and new files are UTF-8 with LF, and capture handlers
+  are included for all three.

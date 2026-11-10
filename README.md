@@ -8,7 +8,7 @@ freeze a prediction before you know the outcome, compare it with what happened,
 and work through recurring problems with Reason Commons thinking-process trees.
 Plain Org files, on macOS, Linux and Windows.
 
-**Version 0.1.0 — working software, with explicit limits.** Capture, GTD clarification,
+**Version 0.1.1 — working software, with explicit limits.** Capture, GTD clarification,
 media preservation, prediction review, practice records, and native Reason Commons
 editing are implemented and covered by automated Emacs and Python tests on all
 three platforms. Whether it earns its upkeep is for field use to show.
