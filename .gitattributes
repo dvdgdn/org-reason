@@ -1,0 +1,9 @@
+# The same bytes on every OS: Org and YAML records are compared and hashed,
+# and Windows checkouts would otherwise get CRLF.
+* text=auto eol=lf
+*.ps1 text eol=crlf
+# Pinned upstream files, checked against UPSTREAM.json: never converted.
+vendor/** -text
+*.png binary
+*.jpg binary
+*.pdf binary

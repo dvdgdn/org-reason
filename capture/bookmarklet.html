@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Org Reason Bookmarklet</title>
+<style>
+  :root { --bg: #fbfaf7; --fg: #1d1c1a; --muted: #6b6760; --chip: #1f4e79; --chip-fg: #fff; --rule: #e3e0d9; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #161615; --fg: #eceae5; --muted: #9b978f; --chip: #8fb8e0; --chip-fg: #10161c; --rule: #2c2b29; }
+  }
+  body { background: var(--bg); color: var(--fg); font: 16px/1.5 -apple-system, system-ui, "Segoe UI", sans-serif; max-width: 40rem; margin: 3rem auto; padding: 0 16px; }
+  h1 { font-size: 1.4rem; margin-bottom: .25rem; }
+  p.lede { color: var(--muted); margin-top: 0; }
+  a.bm { display: inline-block; background: var(--chip); color: var(--chip-fg); text-decoration: none; font-weight: 600; padding: .45rem 1rem; border-radius: 999px; cursor: grab; margin: 1rem 0; }
+  code { font-size: .9em; }
+  .muted { color: var(--muted); font-size: .9rem; border-top: 1px solid var(--rule); padding-top: 1rem; }
+</style>
+</head>
+<body>
+<h1>Org Reason bookmarklet</h1>
+<p class="lede">Drag the button onto your bookmarks bar. On any page, select text (or nothing) and click it.</p>
+<a class="bm" href="javascript:(()=>{const e=encodeURIComponent,s=String(getSelection()).trim();location.href='org-protocol://reason-capture?url='+e(location.href)+'&amp;title='+e(document.title)+'&amp;body='+e(s||location.href)})()">Org Reason</a>
+<p>The selection, or just the link when nothing is selected, goes straight into the Org Reason inbox, unclassified, titled with the page title. Clarify it later with <code>C-c r x</code>.</p>
+<p class="muted">Emacs must be running a server, and your OS must pass <code>org-protocol://</code> links to <code>emacsclient</code>: see “Browser capture” in <code>docs/install.md</code>. The first time a site sends a capture, the browser asks to open the handler; allow it for that site. Only the page URL, title and selection are sent, only when you click, and only to your own Emacs.</p>
+</body>
+</html>

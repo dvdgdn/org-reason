@@ -1,0 +1,14 @@
+# Built by Emacs or package-vc
+*.elc
+*.eln
+*-autoloads.el
+*-pkg.el
+# Python
+.venv/
+__pycache__/
+*.pyc
+# Editors and OS
+*~
+\#*#
+.#*
+.DS_Store

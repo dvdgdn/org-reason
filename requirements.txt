@@ -1,0 +1,3 @@
+PyYAML==6.0.3
+# Windows has no system time-zone database for zoneinfo.
+tzdata; sys_platform == "win32"

@@ -1,0 +1,38 @@
+#+title: Synthetic demonstration — no claims about the user
+
+* Try the files
+The companion reason-commons.yaml contains six native tree families. Every node
+and relationship is a proposal attributed to a fictional example author. The
+statements are illustrative hypotheses, not observed facts or endorsed conclusions.
+
+To explore it through Org Reason, copy that YAML to a new demonstration commons
+directory under your chosen data root, named commons/demo/reason-commons.yaml.
+Then C-c r t v and choose demo. Keep demonstration data separate from real cases.
+
+* Inspect a joint cause
+In current_reality, demo-cl1 has two source conditions and one target effect.
+They operate together in this proposed relationship. Replacing it with two
+independent links would change the claim. Ask what evidence and enabling
+conditions would be needed before relying on it.
+
+* Inspect an apparent conflict
+The conflict tree contrasts avoiding all records with recording every detail.
+Those are deliberately extreme prerequisite claims. The legitimate needs are
+attention for real work and retained useful feedback. Challenge the assumptions
+that make either extreme seem necessary before accepting the model.
+
+* Inspect the change and its risk
+The future-reality injection traces to the current undesirable effect and the
+conflicting prerequisites. Its negative branch keeps administrative burden
+visible. The prerequisite and transition trees describe how a small test could
+become possible and what observable effect it should have.
+
+* Turn reasoning into a commitment deliberately
+Select demo-t2 using C-c r t x. It creates one GTD reminder linked to that native
+node. Repeat the command to open the same reminder. The node remains proposed.
+Creating a task is not the same act as endorsing its reasoning.
+
+* Practise a full learning loop using disposable data
+Use C-c r p to write a clearly labelled synthetic forecast. Freeze it with
+C-c r f, then record a synthetic outcome with C-c r o. Inspect the original
+with C-c r v. Do not use these artificial outcomes as personal calibration data.

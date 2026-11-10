@@ -1,0 +1,521 @@
+#+title: Org Reason - user guide and tutorial
+#+startup: overview
+#+options: toc:2 num:nil
+
+Open exercise records in the demo workspace. This guide is not your inbox.
+
+
+* A user's guide and worked tutorial
+
+*From capture to a better next decision*
+
+This guide teaches the working v0.1 interface through one example: improving a
+German writing practice. The statements and results in the tutorial are examples,
+not claims about you. Use the isolated demo first, then repeat the useful parts
+with a real case.
+
+You will capture an observation, clarify a project, choose a next action, build a
+small TOC branch, preserve a prediction, and review an outcome. Optional lessons
+cover voice, handwriting, metadata, focused practice, and the weekly review.
+
+*The learning path*
+
+1. Open a separate demo workspace.
+2. Capture attention without classifying it.
+3. Clarify outcomes and commitments.
+4. Choose and carry out an available action.
+5. Build a proposed causal branch.
+6. Examine endorsement, objections, and implementation.
+7. Preserve a prediction and compare an outcome.
+8. Import evidence and add useful metadata.
+9. Practise, review, and move into normal use.
+10. Keep a command and recovery reference nearby.
+
+For a TOC practitioner, the key addition is persistent feedback: keep the earlier
+diagnosis and forecast available when examining the next outcome. Acceptance of
+a formulation, evidence for a cause, and a commitment to act remain distinct.
+
+*Use the structure that serves the decision.* A simple reminder can remain a
+next action. An unexplained observation can remain a note. You do not need six
+trees, a probability, or a full experiment for every capture.
+
+This tutorial covers software behavior, not a claim that the combined method is
+optimal for everyone. Audio recording uses your existing recorder. Recognition
+backends are optional. Nothing here starts monitoring, reminders, cloud sync, or
+publication.
+
+
+* 1. Open the demo and learn the controls
+
+** Start a separate Emacs
+
+In your normal Emacs, press C-c r h. If you are reading this there, you came
+here that way: this copy of the guide is open in a separate Emacs, titled "Org
+Reason tutorial — fictional data", beside the dashboard of a fictional workspace.
+From a terminal, in the package directory, the same thing is:
+
+#+begin_src sh :eval never
+emacs -Q -L . -l org-reason-demo
+#+end_src
+
+This process keeps its data in ~/.emacs.d/org-reason-demo/. It loads neither your
+normal init nor ~/org. It creates two fictional inbox items and one fictional
+project on its first run. Reopening it preserves your exercises and the boxes you
+ticked in this copy; delete that directory to start over.
+
+- [ ] the Org Reason dashboard opens and initially reports two unclarified captures. If you already used the demo, its count reflects that work.
+
+** Read the keystrokes
+
+| Notation | Meaning |
+|-
+| C-c r c | Press Control+c; release; type r; then c |
+| M-x | Alt+x (Option+x on a Mac, or Command+x if your init makes Command Meta) |
+| M-: | Evaluate one Emacs Lisp expression |
+| RET / TAB | Confirm a prompt / complete input or expand an Org heading |
+| C-g | Cancel the current prompt or command |
+| C-x C-s | Save the current file |
+| C-c C-o | Open the Org link at point |
+
+In a clean demo, your usual completion packages are not loaded. Ordinary Emacs
+completion still works. Your own configured Emacs will supply its usual interface.
+
+** Know which buffer you are in
+
+The dashboard, agenda, and commons outline are derived views. Edit records in
+their Org files or use their commands. For capture clarification, put point on an
+inbox heading. For prediction freezing, put point on the experiment's top heading.
+
+Emacs and bundled Org suffice for the core lessons. The commons lessons run a
+small Python script, which needs PyYAML. If a commons command reports that
+Python or PyYAML is missing, docs/install.md shows how to give it a virtual
+environment. You can skip lessons 5 and 6 until then.
+
+
+* 2. Capture a useful observation
+
+** Exercise: save a fragment
+
+Press C-c r c. At the Capture prompt, type:
+
+[TUTORIAL] I hesitate when the next German writing step is unclear.
+
+Press RET. Open the inbox with C-c r i. Find the new heading; use TAB if its body
+is folded. The complete text is in its body as well as a short heading.
+
+Open the PROPERTIES drawer if you want to inspect it. The entry has an ID,
+capture time, device, method, default language, and private classification. It
+requires no topic, object type, project, or causal explanation.
+
+- [ ] the item is safely in the inbox. You have recorded an observation to examine, not established the system constraint.
+
+** Exercise: capture the desired outcome
+
+Press C-c r c again and enter:
+
+[TUTORIAL] One German paragraph is revised and checked.
+
+Leave the first observation unclarified for now. We will turn this second item
+into a project in the next lesson.
+
+** Other capture routes
+
+| Source | Route |
+|-
+| Selected text in Emacs | Select the region, then C-c r c |
+| Longer ordinary Org capture | M-x org-capture, choose r, finish with C-c C-c |
+| Browser selection | The bookmarklet in capture/bookmarklet.html (see docs/install.md) |
+| Audio, scan, photograph, or file | C-c r m; preserve the original now and interpret later |
+| Several exported files | Put direct files in inbox/drop/ and run C-c r I |
+
+The older browser templates (p and L) keep filing into your Org-roam inbox note.
+Until you deliberately switch, include that collection point in your review too.
+
+** Keep interpretation separate
+
+You could later classify the first capture as observation, question, feeling,
+reference, or failure feedback. A feeling can be recorded without assigning a
+cause. The short expected/observed capture on C-c r ! is enough when you do not
+want a longer debrief.
+
+To retrieve a record later, use C-c r / and choose a property or TAG. Your normal
+Org-roam and text-search commands remain useful for the rest of your notes.
+
+
+* 3. Clarify a project and its next action
+
+** Exercise: process the outcome
+
+Open the inbox with C-c r i. Put point on the heading about revising and checking
+a German paragraph. Press C-c r x and answer:
+
+| Prompt | Tutorial answer |
+|-
+| Choose where it belongs | project |
+| Desired outcome | [TUTORIAL] One German paragraph is revised and checked |
+| First available physical action | [TUTORIAL] Underline one uncertain sentence in the paragraph |
+| Context | @computer |
+| Estimated effort H:MM | 0:10 |
+
+Clarification moves the identified entry into its own project file, retaining
+its original body and ID. Its first action is a NEXT child. The command normally
+leaves you at the inbox; use C-c r a to find the project and action.
+
+- [ ] one project outcome and one available next action exist. The inbox item has moved, rather than leaving a second live reminder behind.
+
+** Apply the same decision to other items
+
+| What the item means | Choose |
+|-
+| A single physical step available now | next-action |
+| A quick action you have actually completed | done-now |
+| An outcome delegated to someone else | delegate; record who you are waiting for |
+| A possible future commitment | someday |
+| Useful material with no action | reference, or a suitable knowledge type |
+| A genuine date-specific commitment | calendar; enter its actual date |
+| A future bring-forward reminder | tickler; choose the revisit date |
+| A discussion point for a person or meeting | agenda |
+| No useful retention | discard; it remains recoverable |
+
+Do not add dates to make ordinary actions look urgent. For a quick actionable
+item, do it during processing when it fits the present context, then choose
+done-now. Clarification does not send a delegated message or schedule a meeting.
+
+Store later dependent project steps as ordinary TODO children or project support.
+Promote a step to NEXT when it becomes available. A project is a desired outcome;
+the action is the visible thing you can do next.
+
+
+* 4. Choose, do, and check the next step
+
+** Exercise: choose available work
+
+Press C-c r e. Choose @computer, enter 15 minutes, and leave energy blank. The
+short tutorial action should be available. Other matching demo actions may also
+appear. Open its ID link with C-c C-o to work on the source heading.
+
+Context, time, and energy filter possibilities. You make the priority decision.
+Unknown estimates remain visible rather than being silently treated as zero.
+
+** Exercise: record actual work
+
+If you have a disposable sentence to use, underline or mark one uncertainty in
+it. At the action heading, C-c C-x C-i starts Org's clock and C-c C-x C-o stops
+it. C-c C-t changes the action's state; select DONE only after completing it.
+Save with C-x C-s.
+
+| Record | Question it answers |
+|-
+| EFFORT: 0:10 | How long did I estimate this action would take? |
+| Org CLOCK intervals | How long did I actually clock? |
+| DONE | Has this action been completed? |
+| Project outcome | Is the larger desired result now achieved? |
+
+Marking the action complete does not mean the paragraph has been checked. Open
+C-c r d and refresh with g. The project should appear among projects missing an
+available action, wait, or dated commitment, unless another such child exists.
+
+- [ ] the exception is useful feedback. Choose the project's next real step, record a legitimate wait, or close the project if its outcome is achieved.
+
+** Add another project step without duplicating it
+
+Open the project heading from the agenda. On an existing child heading, run
+M-x org-insert-heading-respect-content (usually C-RET). It creates a sibling
+after that entry's body and properties. Write the physical action, then use
+C-c C-t to select NEXT. C-c C-q adds its context tag. Save the file.
+
+You can also use M-x org-reason-next-action for a standalone action. Keep project
+actions inside their project's file when you want the project audit to see
+them. A reference elsewhere is not automatically counted as a child commitment.
+
+For a time summary, open C-c r a and use R to toggle the agenda's clock report.
+Time records are optional; measure where the result will inform a decision.
+
+
+* 5. Build one proposed TOC branch
+
+** Exercise: create a commons
+
+After configuring Python in lesson 1, press C-c r t c. Enter:
+
+| Prompt | Answer |
+|-
+| Short commons directory name | tutorial-writing |
+| Goal / system | TUTORIAL: a sustainable German writing practice |
+| Your participant ID | self |
+| Your display name | The name you choose to record |
+
+The commons starts with an empty goal tree. Its YAML is canonical; the Org
+outline is a view. This example begins with a small current-reality branch.
+
+** Exercise: propose three statements
+
+Use C-c r t n three times. Choose current_reality for the tree each time:
+
+| Role | Statement |
+|-
+| cause | The next writing step is unclear. |
+| cause | No time is available to clarify the step. |
+| undesirable_effect | Writing starts later than intended. |
+
+If asked who contributed the statement, select your explicitly configured
+participant. Each new node is proposed. Copying text into a node does not verify it.
+
+** Exercise: propose a joint cause
+
+Use C-c r t l. Select current_reality. Select both cause labels in the source
+conditions prompt, separated by a comma; use completion and submit the complete
+list together. Select the undesirable effect as the target and contributes_to
+as the relation. The outline should show one relationship with AND between sources.
+
+- [ ] the claim is that these conditions operate together in this relationship. Two separate links would assert different causal paths.
+
+Read the claim aloud: if the step is unclear AND time to clarify is unavailable,
+writing is expected to start late. Ask about enabling conditions, exceptions,
+and additional causes. Fatigue, competing commitments, and task difficulty remain
+possible alternatives. This branch alone does not establish a binding constraint.
+
+For other questions, use goal for necessary conditions, conflict for a Cloud,
+future_reality for a change and its negative branches, prerequisite for obstacles,
+and transition for conditions, actions, and expected effects. Build only what
+would help choose or challenge the next move.
+
+
+* 6. Endorse, challenge, and connect an action
+
+** Exercise: understand endorsement
+
+Use C-c r t a to inspect one identified item. Read the displayed formulation,
+attribution, and assumptions. Endorse it only if you want to record it as your
+current working reasoning in this tutorial. Otherwise cancel with C-g or answer no.
+
+To endorse a relationship, its endpoints must already be accepted. You therefore
+endorse the relevant nodes first, then the link. Acceptance of the formulation
+does not independently verify a cause or authorize implementation.
+
+Use C-c r t g to open the active tree's offline accepted-reasoning diagram. If
+there are no accepted items in that tree, the command explains this; the Org
+view still shows the proposals. Full and latest-change diagrams are stored locally.
+
+** Exercise: retain a reservation
+
+Press C-c r t ?. Choose assumption and select the causal relationship. Add:
+
+Writing could begin if the next step were clear and the necessary materials were available.
+
+An added assumption returns the affected formulation to proposed. Alternatively,
+add a challenge such as: “A clear next step was available during a late start.”
+A substantive challenge disputes the item and demotes dependent accepted links
+when necessary. The objection remains attributed and visible.
+
+- [ ] changing a status does not erase prior reasoning. The backlog records unfinished reasoning separately from your commitments.
+
+Resolution is deliberately substantive. Edit the canonical YAML or use your
+upstream LTP workflow to preserve the challenge and explain its resolution.
+One-click endorsement of an unresolved disputed item is refused.
+
+** Exercise: create one linked commitment
+
+Add a node with C-c r t n, choosing transition and kind action. Use:
+
+Write the next physical step for one German paragraph.
+
+Press C-c r t x, select that action node, and choose @computer. It creates one
+GTD NEXT reminder with a native commons reference. Repeat the command: it opens
+the same reminder, even if completed. It does not create another task or endorse
+the node. Create a new action deliberately when starting a new round of work.
+
+To return to the model, use C-c r t v. An explicit Org link can also use the
+form rc:commons-name/item-id, with the actual ID from the commons.
+
+
+* 7. Preserve a forecast and review an outcome
+
+** Exercise: draft the test
+
+Press C-c r p. Use a title beginning TUTORIAL. For the prediction, write:
+
+With a physical next step prepared beforehand, at least four of my next five German writing attempts will start within two minutes of choosing to begin.
+
+Choose a review date, for example +7d. This threshold is an example to revise,
+not a proven dose. The command opens an editable experiment with sections for
+boundary, baseline, intervention, measurement, alternative, guardrail, action,
+and reconsideration. Unknown baselines stay unknown. Measure a comparable baseline
+before claiming an improvement from the change.
+
+Describe how you would count attempts and start delays. Note whether five attempts
+actually occurred and what else could affect them. A possible guardrail is to
+simplify or stop if preparing records displaces the writing itself. Create the
+physical work as a GTD action when you commit to it.
+
+** Exercise: freeze the original
+
+Move point to the experiment's top heading, then press C-c r f. Leave probability
+blank. This tutorial uses an illustrative case, so answer n when asked whether
+the outcome is still unknown to you; do not turn an invented result into a
+prospective personal forecast. In a real test, answer y only before its outcome
+is known. Package commands never overwrite the saved forecast.
+
+Use C-c r v to inspect that original. In real work, carry out the intervention
+and gather observations before continuing to the outcome step.
+
+** Exercise: record a clearly labelled tutorial outcome
+
+Press C-c r o, select the experiment, and choose inconclusive. Enter:
+
+TUTORIAL ONLY: no real writing attempts have been observed. This entry exercises the review interface.
+
+Leave feeling blank unless useful. For the next decision, enter “Choose a real
+case and collect comparable observations.” The command opens a linked result;
+fill its implementation and comparability sections. It marks the experiment
+reviewed. A second programmatic result is refused; append visible corrections
+or create a follow-up experiment rather than rewriting the original.
+You can still inspect the reviewed original with C-c r v.
+
+| Real assessment | Meaning to examine |
+|-
+| supported / contradicted | What observations fit or conflict with the stated prediction? |
+| implementation-failed | Was the intended intervention actually carried out? |
+| inconclusive | Was evidence insufficient, incomparable, or too early? |
+
+An observed success can fit several explanations. If you choose binary scoring,
+the exact yes/no event and its outcome are separate from the causal assessment.
+
+
+* 8. Preserve sources and add only useful metadata
+
+** Exercise: import an original
+
+Create a harmless note, image, or audio export outside the workspace. Press
+C-c r m, select the file, and choose file, handwriting, or audio. A copy is stored
+under media/<capture-id>/ and an inbox record carries its digest and original link.
+The source file remains where it was. Clarify the capture as reference, then open
+its original link with C-c C-o. The generated link survives refiling.
+
+For several files, put direct regular files in inbox/drop/ and press C-c r I.
+Repeated imports skip known content hashes. Subdirectories and symlinks are not
+traversed, and source files are not deleted.
+
+** Add an interpretation later
+
+Record audio with your existing recorder, then import the export. No microphone
+recorder or speech model is bundled. For recognition, configure a local argv list
+as described in docs/install.md, then use C-c r D on the capture to run OCR or
+transcription explicitly. It runs asynchronously and saves separate text marked
+pending. No interpretation is silently treated as verified reasoning.
+
+If a tool already produced a text file, use M-x org-reason-import-interpretation at
+the capture. Select transcript or ocr and answer whether a person authored it.
+After comparing machine text with the original, use
+M-x org-reason-mark-interpretation-reviewed to record your check of the latest version.
+
+- [ ] the original, the interpretation, and your review status remain distinguishable. Human-reviewed is your assertion, not an automated guarantee of accuracy.
+
+** Exercise: distinguish the dimensions
+
+At an identified workspace heading, use C-c r M to set optional fields:
+
+| Dimension | Example |
+|-
+| Content language / learning target | OR_LANGUAGE: en; OR_TARGET_LANGUAGE: de |
+| Original source language | OR_SOURCE_LANGUAGE: de |
+| Original recorder, if known | OR_SOURCE_DEVICE: phone |
+| Feeling | OR_FEELING: confusion, in your own words |
+| Descriptive action activity | OR_ACTION_KIND: read |
+
+Use C-c C-q for topic tags such as german and contexts such as @computer.
+Use C-c r / to retrieve by a field or TAG. A field earns its place when it helps
+retrieve something or changes a decision. Privacy metadata is not encryption.
+
+
+* 9. Practise, review, and start using your real system
+
+** Exercise: plan a useful repetition
+
+Press C-c r s. Enter a specific component skill, a small challenge, and a reliable
+feedback source. For example:
+
+| Prompt | Example |
+|-
+| Specific component skill | German verb placement in subordinate clauses |
+| Small challenge | Write three short sentences using weil |
+| Feedback source | A teacher or a correction source checked for this construction |
+
+The record has space for your attempt, actual feedback, next adjustment, and a
+transfer check. Complete these after the attempt. Later inspect ordinary writing
+to see whether the skill carries over. A practice score and real-work improvement
+are different outcomes. Other training tools remain separate training tasks.
+
+** Exercise: open a weekly review
+
+Press C-c r w. Use the Org checkboxes as you work through collection points,
+clarification, action lists, past and future calendar, waiting, project outcomes,
+checklists, and incubated possibilities. C-c C-c toggles a checkbox. Save the file.
+Reopen it: your answers should still be there.
+
+The review includes paper, email, voice notes, legacy capture targets, and your
+external calendar. The software does not inspect those sources automatically.
+The optional learning section follows the commitment review. Compare due forecasts
+with observations and decide whether to keep, adjust, stop, or seek evidence.
+
+- [ ] finish with one meaningful next decision and something to defer or stop. More completed checkboxes do not establish a better system outcome.
+
+** Move into your normal Emacs
+
+Close the separate tutorial Emacs when finished. In your normal Emacs, with
+org-reason-mode on, C-c r works on your real records in org-reason-directory
+(~/org/reason/ by default). Do not copy tutorial outcomes into real records.
+
+Start with capture, clarification, and a review. Then choose one real improvement
+question, preserve an actual prediction, act, and return when evidence exists.
+Keep the system small enough that it supports the work. For another device, set its own
+org-reason-directory and device, and decide separately what may be synced or shared.
+
+
+* 10. Reference and recovery
+
+** The compact command map
+
+All keys below begin with C-c r. Commands are also available through M-x.
+
+| Keys | Job |
+|-
+| c / i / x | Capture / inbox / clarify current inbox item |
+| a / e / d / w | Agenda / choose action / dashboard / weekly review |
+| p / f / v / o | Draft experiment / freeze / original forecast / outcome |
+| s / ! | Practice record / expected-observed capture |
+| m / I / D | Import original / import drop files / derive interpretation |
+| M / / | Set optional metadata / find by property or tag |
+| t c / t v | Create commons / view and validate |
+| t n / t l | Propose node / relationship |
+| t a / t ? | Endorse / add assumption, challenge, or backlog |
+| t g / t x | Accepted diagrams / one linked GTD action |
+| h | This tutorial, in a separate Emacs on fictional data |
+
+** When something does not look right
+
+| Symptom | Next step |
+|-
+| Keys do nothing | Enable the mode. Try its M-x command to check for a key conflict. |
+| Clarification is refused | Use an identified inbox heading, not a derived view. |
+| Freeze is refused | Use the experiment's top heading. Check Prediction and OR_REVIEW_ON. Originals are not overwritten. |
+| No open experiments | Only frozen, unreviewed experiments are offered. Draft or create a follow-up. |
+| No accepted diagram | The active tree needs accepted items. Proposals remain in the Org view. |
+| Python or PyYAML error | Choose the venv Python containing PyYAML. |
+| YAML changed or is locked | Reconcile buffers and reload. Remove a stale lock only when no writer remains. |
+| Duplicate IDs reported | Inspect both dashboard file links. Preserve the material and reconcile the IDs. |
+| Recognition fails | Inspect diagnostics and its command. The original remains available. |
+
+** What to preserve
+
+Back up the entire private data root, including media, forecast snapshots,
+.org-reason/ before-images, and .reason-commons/ accepted history. The Org-roam
+index and rendered diagrams are derived, not substitutes for those records.
+
+To disable the interface, toggle M-x org-reason-mode. Data remains.
+See docs/install.md for rollback and docs/reasoncommons.md for canonical YAML
+editing, substantive challenge resolution, and the limits of concurrent writing.
+The package sends no messages and publishes nothing automatically.
+
+This guide was checked against the shipped commands. Hardware, OS URL
+handling, and recognition quality still need your local smoke test (docs/install.md).

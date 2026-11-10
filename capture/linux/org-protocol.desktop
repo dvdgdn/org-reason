@@ -1,0 +1,12 @@
+[Desktop Entry]
+# Hands org-protocol:// links to the running Emacs. Install with:
+#   cp org-protocol.desktop ~/.local/share/applications/
+#   xdg-mime default org-protocol.desktop x-scheme-handler/org-protocol
+Name=Org Protocol
+Comment=Pass org-protocol:// links to Emacs
+Exec=emacsclient -n %u
+Icon=emacs
+Type=Application
+Terminal=false
+NoDisplay=true
+MimeType=x-scheme-handler/org-protocol;

@@ -1,0 +1,242 @@
+schema_version: 1
+project: SYNTHETIC EXAMPLE — a writing practice system
+driver: example
+participants:
+  example: Fictional example author
+active_tree: current_reality
+trees:
+  goal:
+    nodes:
+    - id: demo-g1
+      kind: goal
+      text: Real writing improves through useful feedback.
+      status: proposed
+      contributions: &id001
+      - by: example
+        attribution: explicit
+        mode: text
+    - id: demo-g2
+      kind: necessary_condition
+      text: Feedback identifies a specific change.
+      status: proposed
+      contributions: *id001
+    - id: demo-g3
+      kind: necessary_condition
+      text: An adjusted attempt is made.
+      status: proposed
+      contributions: *id001
+    links:
+    - id: demo-gl1
+      from:
+      - demo-g2
+      to: demo-g1
+      relation: necessary_for
+      status: proposed
+      contributions: *id001
+    - id: demo-gl2
+      from:
+      - demo-g3
+      to: demo-g1
+      relation: necessary_for
+      status: proposed
+      contributions: *id001
+    backlog: []
+  current_reality:
+    nodes:
+    - id: demo-c1
+      kind: cause
+      text: The next writing step is unclear.
+      status: proposed
+      contributions: *id001
+    - id: demo-c2
+      kind: cause
+      text: There is no reserved time to clarify the next step.
+      status: proposed
+      contributions: *id001
+    - id: demo-c3
+      kind: undesirable_effect
+      text: Some planned writing attempts do not start.
+      status: proposed
+      contributions: *id001
+    links:
+    - id: demo-cl1
+      from:
+      - demo-c1
+      - demo-c2
+      to: demo-c3
+      relation: contributes_to
+      status: proposed
+      contributions: *id001
+    backlog:
+    - ref: demo-cl1
+      work: test_causality
+      note: Synthetic hypothesis, not an observation about the user.
+  conflict:
+    nodes:
+    - id: demo-o
+      kind: objective
+      text: Useful work progresses sustainably.
+      status: proposed
+      contributions: *id001
+    - id: demo-b
+      kind: need
+      text: Attention is available for real work.
+      status: proposed
+      contributions: *id001
+    - id: demo-c
+      kind: need
+      text: Useful feedback is retained.
+      status: proposed
+      contributions: *id001
+    - id: demo-d
+      kind: prerequisite
+      text: Avoid all record keeping.
+      status: proposed
+      contributions: *id001
+    - id: demo-dp
+      kind: prerequisite
+      text: Record every detail.
+      status: proposed
+      contributions: *id001
+    links:
+    - id: demo-co1
+      from:
+      - demo-b
+      to: demo-o
+      relation: necessary_for
+      status: proposed
+      contributions: *id001
+    - id: demo-co2
+      from:
+      - demo-c
+      to: demo-o
+      relation: necessary_for
+      status: proposed
+      contributions: *id001
+    - id: demo-co3
+      from:
+      - demo-d
+      to: demo-b
+      relation: necessary_for
+      status: proposed
+      contributions: *id001
+    - id: demo-co4
+      from:
+      - demo-dp
+      to: demo-c
+      relation: necessary_for
+      status: proposed
+      contributions: *id001
+    - id: demo-co5
+      from:
+      - demo-d
+      to: demo-dp
+      relation: conflicts_with
+      status: proposed
+      contributions: *id001
+    backlog: []
+  future_reality:
+    nodes:
+    - id: demo-f1
+      kind: injection
+      text: Capture one useful mismatch and review it once.
+      status: proposed
+      contributions: *id001
+      addresses:
+      - demo-c3
+      derived_from:
+      - demo-d
+      - demo-dp
+    - id: demo-f2
+      kind: predicted_effect
+      text: A clearer next writing step is selected.
+      status: proposed
+      contributions: *id001
+    - id: demo-f3
+      kind: undesirable_effect
+      text: Record keeping displaces the actual attempt.
+      status: proposed
+      contributions: *id001
+    links:
+    - id: demo-fl1
+      from:
+      - demo-f1
+      to: demo-f2
+      relation: contributes_to
+      status: proposed
+      contributions: *id001
+    - id: demo-fl2
+      from:
+      - demo-f1
+      to: demo-f3
+      relation: contributes_to
+      status: proposed
+      contributions: *id001
+    backlog:
+    - ref: demo-fl2
+      work: examine_assumption
+      note: Keep a stopping condition for excess administration.
+  prerequisite:
+    nodes:
+    - id: demo-p1
+      kind: objective
+      text: The small feedback loop is usable.
+      status: proposed
+      contributions: *id001
+      implements:
+      - demo-f1
+    - id: demo-p2
+      kind: obstacle
+      text: A quick capture command is not yet familiar.
+      status: proposed
+      contributions: *id001
+    - id: demo-p3
+      kind: intermediate_objective
+      text: One capture and one retrieval have been tried.
+      status: proposed
+      contributions: *id001
+    links:
+    - id: demo-pl1
+      from:
+      - demo-p3
+      to: demo-p2
+      relation: overcomes
+      status: proposed
+      contributions: *id001
+    - id: demo-pl2
+      from:
+      - demo-p3
+      to: demo-p1
+      relation: necessary_for
+      status: proposed
+      contributions: *id001
+    backlog: []
+  transition:
+    nodes:
+    - id: demo-t1
+      kind: existing_condition
+      text: The demonstration contains synthetic inbox items.
+      status: proposed
+      contributions: *id001
+    - id: demo-t2
+      kind: action
+      text: Capture and retrieve one disposable sentence.
+      status: proposed
+      contributions: *id001
+      implements:
+      - demo-p3
+    - id: demo-t3
+      kind: expected_effect
+      text: The capture and retrieval path has been exercised.
+      status: proposed
+      contributions: *id001
+    links:
+    - id: demo-tl1
+      from:
+      - demo-t1
+      - demo-t2
+      to: demo-t3
+      relation: produces
+      status: proposed
+      contributions: *id001
+    backlog: []
