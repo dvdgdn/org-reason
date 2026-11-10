@@ -14,8 +14,9 @@ jobs:
         emacs: ['30.1']
         python: ['3.12']
         include:
-          # The oldest supported Emacs, and the Python macOS ships.
-          - os: ubuntu-latest
+          # The oldest supported Emacs, and the Python macOS ships (newer
+          # Ubuntu images no longer offer 3.9).
+          - os: ubuntu-22.04
             emacs: '29.4'
             python: '3.9'
     defaults:

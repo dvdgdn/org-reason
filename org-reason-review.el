@@ -35,7 +35,7 @@
                 "- [ ] Remove any metadata or ritual that costs more than it helps.\n\n"
                 "* One decision for next week\n\n"
                 "* What to defer or stop\n\n")
-        (save-buffer)))
+        (org-reason--save-buffer)))
     (find-file file)))
 
 (defun org-reason-health-data ()

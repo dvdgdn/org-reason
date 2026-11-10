@@ -41,12 +41,12 @@ source remains recoverable.  Plain files cannot provide a two-file transaction."
       (unless (bolp) (insert "\n"))
       (let ((position (point)))
         (condition-case error-data
-            (progn (insert text "\n") (save-buffer))
+            (progn (insert text "\n") (org-reason--save-buffer))
           (error (delete-region position (point-max))
                  (signal (car error-data) (cdr error-data))))))
     (with-current-buffer source
       (delete-region start end)
-      (save-buffer))
+      (org-reason--save-buffer))
     (org-id-add-location id destination)
     id))
 
@@ -110,7 +110,7 @@ This function is also a stable API for capture adapters and tests."
                          (append '(("OR_TYPE" . "action"))
                                  (unless (string-empty-p effort) (list (cons "EFFORT" effort))))
                          "NEXT" (and context (list context))))
-        (save-buffer))
+        (org-reason--save-buffer))
       id)))
 
 (defun org-reason-clarify ()

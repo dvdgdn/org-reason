@@ -46,9 +46,39 @@ absolute path, such as a virtual environment's python, to choose."
 (defconst org-reason--todo-line
   "#+todo: TODO(t) NEXT(n) WAIT(w@) SOMEDAY(s) | DONE(d!) CANCELLED(c@)\n")
 
+(defvar org-reason--root nil
+  "Cache: (`org-reason-directory' . its canonical name).")
+
+(defun org-reason--root ()
+  "The workspace directory under one canonical name.
+On Windows a directory can have two names, a short 8.3 one and the long
+one, and Org's ID index records the long one; building every path from
+the truename keeps one file from being visited under both."
+  (unless (equal (car org-reason--root) org-reason-directory)
+    (setq org-reason--root
+          (cons org-reason-directory
+                (file-name-as-directory (file-truename (expand-file-name org-reason-directory))))))
+  (cdr org-reason--root))
+
 (defun org-reason-path (relative)
   "Resolve RELATIVE inside `org-reason-directory'."
-  (expand-file-name relative (file-name-as-directory org-reason-directory)))
+  (expand-file-name relative (org-reason--root)))
+
+(defun org-reason--prefer-utf-8 ()
+  "Save this workspace buffer as UTF-8 if its encoding is still undecided.
+A file holding only ASCII is read as `undecided'; adding a non-ASCII
+character then makes saving ask for a coding system wherever the default
+is not UTF-8, as on Windows.  The line endings are kept."
+  (when (and buffer-file-name
+             (eq (coding-system-base buffer-file-coding-system) 'undecided)
+             (file-in-directory-p buffer-file-name (org-reason--root)))
+    (setq buffer-file-coding-system
+          (coding-system-change-text-conversion buffer-file-coding-system 'utf-8))))
+
+(defun org-reason--save-buffer ()
+  "Save the current workspace buffer, as UTF-8 when undecided."
+  (org-reason--prefer-utf-8)
+  (save-buffer))
 
 (defun org-reason--now () (format-time-string "%Y-%m-%dT%H:%M:%S%z"))
 (defun org-reason--today () (format-time-string "%Y-%m-%d"))
@@ -136,7 +166,7 @@ STATE and TAGS use Org's ordinary TODO and tag machinery."
               (when tags (org-set-tags tags)))
             (goto-char (point-max))
             (insert (or body "") "\n\n"))))
-      (save-buffer))
+      (org-reason--save-buffer))
     (org-id-add-location id file)
     id))
 
@@ -230,7 +260,7 @@ own: `local-set-key' would change `org-mode-map', and so every Org buffer."
             (when tags (org-set-tags tags)))
           (org-end-of-subtree t t)
           (insert (or body "") "\n\n"))))
-    (save-buffer)
+    (org-reason--save-buffer)
     (org-id-add-location id buffer-file-name)
     id))
 
@@ -264,8 +294,12 @@ Only parsed links are changed: code examples and absolute links stay literal."
               (search (org-element-property :search-option link)))
           (when (and (equal (org-element-property :type link) "file")
                      (not (file-name-absolute-p path)))
-            (let* ((absolute (expand-file-name (org-link-unescape path) (file-name-directory source)))
-                   (relative (file-relative-name absolute (file-name-directory destination)))
+            ;; Canonical directory names: on Windows one directory can have
+            ;; a short and a long name, and mixing them breaks the result.
+            (let* ((absolute (expand-file-name (org-link-unescape path)
+                                               (file-truename (file-name-directory source))))
+                   (relative (file-relative-name absolute
+                                                 (file-truename (file-name-directory destination))))
                    (replacement (concat "file:" (org-link-escape relative)
                                         (if search (concat "::" search) ""))))
               (save-excursion

@@ -26,7 +26,7 @@ Topic tags and context tags still use ordinary `org-set-tags-command'."
     (user-error "Use an effort estimate in H:MM"))
   (if (string-empty-p value) (org-entry-delete nil property)
     (org-entry-put nil property (org-reason--clean value)))
-  (save-buffer))
+  (org-reason--save-buffer))
 
 (defun org-reason-find (property value)
   "Find identified records by PROPERTY and VALUE, using normal completion.

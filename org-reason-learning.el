@@ -94,7 +94,7 @@ are not tamper-proof or independently timestamped."
       (set-file-modes file #o600))
     (org-entry-put nil "OR_STATUS" "open")
     (org-entry-put nil "OR_FORECAST" (file-relative-name file org-reason-directory))
-    (save-buffer)
+    (org-reason--save-buffer)
     (message "Original prediction preserved; review %s" review)
     file))
 
@@ -158,7 +158,7 @@ BINARY-OUTCOME is yes, no, or unknown, independent of the causal assessment."
                       (cons "OR_FEELING" feeling)))))
           (org-entry-put nil "OR_RESULT_ID" result-id)
           (org-entry-put nil "OR_STATUS" "reviewed")
-          (save-buffer)
+          (org-reason--save-buffer)
           result-id)))))
 
 (defun org-reason-record-result ()

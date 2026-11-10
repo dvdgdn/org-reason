@@ -22,5 +22,6 @@ First public release.
 - If the workspace is inside `org-roam-directory`, only its `knowledge/` notes
   are indexed (`org-reason-roam-knowledge-only`).
 - Works on macOS, Linux and Windows: Python is found automatically (`py` first on
-  Windows), process I/O and new files are UTF-8 with LF, and capture handlers
-  are included for all three.
+  Windows), process I/O and new files are UTF-8 with LF, workspace files are
+  saved as UTF-8 without asking, paths use one canonical directory name (Windows
+  8.3 short names), and capture handlers are included for all three.

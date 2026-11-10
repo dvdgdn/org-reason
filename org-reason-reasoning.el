@@ -247,7 +247,7 @@
              (task (org-reason-next-action (gethash "text" node) context nil (concat "rc:" ref))))
         (org-reason-open-id task)
         (org-entry-put nil "OR_RC_REF" ref)
-        (save-buffer)))))
+        (org-reason--save-buffer)))))
 
 (org-link-set-parameters "rc" :follow #'org-reason-rc-follow)
 (provide 'org-reason-reasoning)

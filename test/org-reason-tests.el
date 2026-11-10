@@ -275,6 +275,23 @@
       (org-reason-test-load-roam)
       (should-not org-roam-file-exclude-regexp))))
 
+(ert-deftest org-reason-test-ascii-only-files-are-saved-as-utf-8 ()
+  ;; On Windows the default encoding is not UTF-8, so saving a non-ASCII
+  ;; character into a file read as `undecided' would stop and ask.
+  (org-reason-test-workspace
+    (org-reason-initialize)
+    (with-current-buffer (find-file-noselect (org-reason-path "learning/experiments.org"))
+      (should (eq (coding-system-base buffer-file-coding-system) 'undecided))
+      (org-reason--prefer-utf-8)
+      (should (eq buffer-file-coding-system 'utf-8-unix)))))
+
+(ert-deftest org-reason-test-paths-use-one-canonical-directory-name ()
+  ;; Windows gives a directory a short 8.3 name and a long one; macOS's
+  ;; temporary directory is behind a symlink.  Paths use the truename.
+  (org-reason-test-workspace
+    (should (equal (org-reason-path "inbox/inbox.org")
+                   (expand-file-name "inbox/inbox.org" (file-truename org-reason-directory))))))
+
 (ert-deftest org-reason-test-browser-protocol-captures-into-inbox ()
   (org-reason-test-workspace
     (org-reason-mode 1)

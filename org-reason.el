@@ -183,8 +183,11 @@ keeps your data.  Existing browser templates are left in place."
   :global t :group 'org-reason
   (if org-reason-mode
       (progn (org-reason-capture-enable)
+             ;; Also for saves by you or Org capture, not only the package's.
+             (add-hook 'before-save-hook #'org-reason--prefer-utf-8)
              (with-eval-after-load 'org-roam (org-reason--roam-setup)))
     (org-reason-capture-disable)
+    (remove-hook 'before-save-hook #'org-reason--prefer-utf-8)
     (org-reason--roam-teardown)))
 
 (provide 'org-reason)

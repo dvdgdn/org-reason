@@ -91,7 +91,7 @@ Machine interpretations stay review-pending; originals are never replaced."
         (insert (format "\nInterpretation (%s; %s; %s): [[reason-file:%s][text]]\n"
                         kind (if human-authored "human-authored" "machine; review pending")
                         (org-reason--now) relative))
-        (save-buffer)))
+        (org-reason--save-buffer)))
     file))
 
 (defun org-reason-import-interpretation (file kind)
@@ -150,7 +150,7 @@ The asynchronous program receives argv directly, never through a shell."
   (unless (org-entry-get nil "OR_LATEST_DERIVATIVE") (user-error "No interpretation attached"))
   (org-entry-put nil "OR_DERIVATIVE_REVIEW" "human-reviewed")
   (org-entry-put nil "OR_DERIVATIVE_REVIEWED_AT" (org-reason--now))
-  (save-buffer))
+  (org-reason--save-buffer))
 
 (provide 'org-reason-media)
 ;;; org-reason-media.el ends here

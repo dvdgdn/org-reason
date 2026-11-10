@@ -39,5 +39,10 @@ that the vendored Reason Commons files still match `vendor/reasoncommons/UPSTREA
 - Package commands never overwrite originals, frozen forecasts or history files.
 - Derived views bind keys through `org-reason--view-setup`, never `local-set-key`,
   which would change `org-mode-map` for every Org buffer.
-- Write new files as UTF-8 with LF (`coding-system-for-write 'utf-8-unix`) so
-  records are identical across operating systems.
+- Write new files as UTF-8 with LF (`coding-system-for-write 'utf-8-unix`), save
+  through `org-reason--save-buffer`, and build paths with `org-reason-path`, so
+  records are identical across operating systems and Windows never prompts for
+  an encoding or visits one file under two names.
+- `make test` loads the sources (`load-prefer-newer`); if Emacs uses this clone
+  via `package-vc-install-from-checkout`, run `M-x package-vc-rebuild` after
+  editing, or it keeps loading the stale byte-compiled files.
