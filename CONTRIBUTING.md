@@ -11,7 +11,8 @@ make demo      # the tutorial on fictional data
 
 Every test works in its own temporary directory; none reads or writes a real
 `org-reason-directory`. CI runs the same on Linux, macOS and Windows, and checks
-that the vendored Reason Commons files still match `vendor/reasoncommons/UPSTREAM.json`.
+that the vendored Reason Commons files still match `vendor/reasoncommons/UPSTREAM.json`
+and that automated scenarios have test definitions.
 
 ## Layout
 

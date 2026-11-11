@@ -8,6 +8,7 @@
 (require 'org)
 (require 'org-element)
 (require 'org-id)
+(require 'org-src)
 (require 'subr-x)
 (require 'seq)
 
@@ -33,14 +34,20 @@ python3 there is often only a Microsoft Store placeholder.  Set an
 absolute path, such as a virtual environment's python, to choose."
   :type '(choice (const :tag "Find automatically" nil) string))
 
+(defconst org-reason--package-root
+  (file-name-directory (or load-file-name buffer-file-name))
+  "Directory containing Org Reason's code and bundled files.")
+
+(defun org-reason--system-python ()
+  (seq-some #'executable-find
+            (if (eq system-type 'windows-nt) '("py" "python" "python3")
+              '("python3" "python"))))
+
 (defun org-reason-python ()
   "Return the Python program to run, or signal a `user-error'."
   (or (if org-reason-python-command
           (executable-find org-reason-python-command)
-        (seq-some #'executable-find
-                  (if (eq system-type 'windows-nt)
-                      '("py" "python" "python3")
-                    '("python3" "python"))))
+        (org-reason--system-python))
       (user-error "No Python 3 found; set `org-reason-python-command'")))
 
 (defconst org-reason--todo-line
@@ -87,7 +94,33 @@ is not UTF-8, as on Windows.  The line endings are kept."
   (if (string-match-p "\\`[[:alnum:]_-]+\\'" id) id (secure-hash 'sha256 id)))
 (defun org-reason--clean (text)
   "Return TEXT as a single-line property value."
-  (string-trim (replace-regexp-in-string "[\n\r]+" " " (or text ""))))
+  (org-reason--inert-file-locals
+   (string-trim (replace-regexp-in-string "[\n\r]+" " " (or text "")))))
+
+(defun org-reason--inert-file-locals (text)
+  "Quote Emacs's file-local variable markers anywhere in TEXT."
+  (let ((case-fold-search t))
+    (replace-regexp-in-string
+     "-\\*-" "-\\*-"
+     (replace-regexp-in-string "Local Variables:" (lambda (match)
+                                                     (concat (substring match 0 -1) "\\:"))
+                                text t t)
+     t t)))
+
+(defun org-reason--literal-text (text)
+  "Make TEXT inert as an Org example, keeping line breaks and indentation."
+  (let ((text (replace-regexp-in-string "\r\n?" "\n" text)))
+    (concat "#+begin_example\n"
+            (org-escape-code-in-string (org-reason--inert-file-locals text))
+            (unless (string-suffix-p "\n" text) "\n")
+            "#+end_example\n")))
+
+(defun org-reason--sha256-file (file)
+  "Hash the literal bytes of FILE."
+  (with-temp-buffer
+    (set-buffer-multibyte nil)
+    (insert-file-contents-literally file)
+    (secure-hash 'sha256 (current-buffer))))
 
 (defun org-reason--ensure-directory (path)
   "Create PATH privately, without changing existing permissions."
@@ -103,11 +136,13 @@ is not UTF-8, as on Windows.  The line endings are kept."
   (let ((path (org-reason-path relative)))
     (org-reason--ensure-directory (file-name-directory path))
     (unless (file-exists-p path)
-      (with-temp-buffer
-        (insert "#+title: " title "\n" org-reason--todo-line "#+startup: overview\n\n")
-        (let ((coding-system-for-write 'utf-8-unix)) ; the same bytes on every OS
-          (write-region (point-min) (point-max) path nil 'silent nil 'excl)))
-      (set-file-modes path #o600))
+      (condition-case nil
+          (with-temp-buffer
+            (insert "#+title: " (org-reason--clean title) "\n" org-reason--todo-line "#+startup: overview\n\n")
+            (let ((coding-system-for-write 'utf-8-unix))
+              (write-region (point-min) (point-max) path nil 'silent nil 'excl))
+            (set-file-modes path #o600))
+        (file-already-exists nil)))
     path))
 
 (defun org-reason-initialize ()
@@ -135,7 +170,10 @@ is not UTF-8, as on Windows.  The line endings are kept."
 
 (defun org-reason--buffer (file)
   "Visit FILE and refuse to overwrite concurrent changes."
-  (let ((buffer (find-file-noselect file)))
+  (let* ((enable-local-variables nil)
+         (enable-local-eval nil)
+         (buffer (or (get-file-buffer file) (find-buffer-visiting file)
+                     (find-file-noselect file))))
     (with-current-buffer buffer
       (unless (verify-visited-file-modtime buffer)
         (if (buffer-modified-p)
@@ -174,18 +212,42 @@ STATE and TAGS use Org's ordinary TODO and tag machinery."
   "Return Org files beneath SUBDIR of this workspace."
   (let ((root (org-reason-path (or subdir ""))))
     (when (file-directory-p root)
-      (directory-files-recursively root "\\.org\\'"))))
+      (let ((drop (directory-file-name (org-reason-path "inbox/drop"))))
+        (unless (equal (directory-file-name root) drop)
+          (seq-filter #'file-regular-p
+                      (directory-files-recursively
+                       root "\\.org\\'" nil
+                       (lambda (dir) (not (equal (directory-file-name dir) drop))))))))))
+
+(defun org-reason--scan-file (file function)
+  "Call FUNCTION at the start of FILE, without visiting it.
+Read live edits when present.  For an unmodified stale buffer, read the
+current disk contents without reverting the user's buffer."
+  (let ((buffer (or (get-file-buffer file) (find-buffer-visiting file))))
+    (if (and buffer (or (buffer-modified-p buffer)
+                        (verify-visited-file-modtime buffer)))
+        (with-current-buffer buffer
+          (org-with-wide-buffer
+           (goto-char (point-min))
+           (funcall function)))
+      (with-temp-buffer
+        (setq default-directory (file-name-directory file))
+        (when (condition-case nil (insert-file-contents file) (file-missing nil))
+          (let ((org-inhibit-startup t) (org-element-cache-persistent nil))
+            (delay-mode-hooks (org-mode)))
+          (goto-char (point-min))
+          (funcall function))))))
 
 (defun org-reason--find-id (id)
   "Resolve ID, including after a refile; return a marker or nil."
   (or (ignore-errors (org-id-find id 'marker))
       (catch 'found
         (dolist (file (org-reason--files))
-          (with-current-buffer (org-reason--buffer file)
-            (org-with-wide-buffer
-             (goto-char (point-min))
-             (let ((position (org-find-entry-with-id id)))
-               (when position
+          (when (org-reason--scan-file file (lambda () (org-find-entry-with-id id)))
+            (with-current-buffer (org-reason--buffer file)
+              (org-with-wide-buffer
+               (goto-char (point-min))
+               (when-let ((position (org-find-entry-with-id id)))
                  (org-id-add-location id file)
                  (throw 'found (copy-marker position))))))))))
 
@@ -197,22 +259,26 @@ STATE and TAGS use Org's ordinary TODO and tag machinery."
     (goto-char marker)
     (org-fold-show-context 'link-search)))
 
-(defun org-reason--entries (subdir predicate)
+(defun org-reason--entries (subdir predicate &optional extra)
   "Return plists for headings under SUBDIR satisfying PREDICATE.
-PREDICATE runs at the heading; no filesystem mutation is performed."
+PREDICATE and optional EXTRA run at the heading.  EXTRA receives the file
+name and returns additional plist fields.  Results contain only values."
   (let (entries)
     (dolist (file (org-reason--files subdir))
-      (with-current-buffer (org-reason--buffer file)
-        (org-with-wide-buffer
+      (org-reason--scan-file
+       file
+       (lambda ()
          (org-map-entries
           (lambda ()
             (when (funcall predicate)
-              (push (list :id (org-entry-get nil "ID")
-                          :title (org-get-heading t t t t)
-                          :state (org-get-todo-state)
-                          :file file :marker (copy-marker (point))
-                          :properties (org-entry-properties nil 'standard))
-                    entries))) nil 'file))))
+              (push (append (list :id (org-entry-get nil "ID")
+                                  :title (org-get-heading t t t t)
+                                  :state (org-get-todo-state)
+                                  :file file
+                                  :tags (org-get-tags)
+                                  :properties (org-entry-properties nil 'standard))
+                            (when extra (funcall extra file)))
+                    entries)))))))
     (nreverse entries)))
 
 (defun org-reason--property (entry property)
@@ -237,11 +303,11 @@ own: `local-set-key' would change `org-mode-map', and so every Org buffer."
     (when refresh (define-key map (kbd "g") refresh))
     (use-local-map map))
   (goto-char (point-min))
+  (set-buffer-modified-p nil)
   (read-only-mode 1))
 
-(defun org-reason--child (title body properties &optional state tags)
-  "Append an identified child at the current heading; return its ID."
-  (org-reason--require-entry)
+(defun org-reason--insert-child (title body properties &optional state tags)
+  "Insert an identified child at point without saving; return its ID."
   (let ((id (or (cdr (assoc "ID" properties)) (org-id-new)))
         (level (1+ (org-outline-level))))
     (save-excursion
@@ -260,8 +326,6 @@ own: `local-set-key' would change `org-mode-map', and so every Org buffer."
             (when tags (org-set-tags tags)))
           (org-end-of-subtree t t)
           (insert (or body "") "\n\n"))))
-    (org-reason--save-buffer)
-    (org-id-add-location id buffer-file-name)
     id))
 
 (defun org-reason--date-valid-p (date)

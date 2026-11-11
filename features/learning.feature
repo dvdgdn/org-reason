@@ -30,3 +30,16 @@ Feature: Let outcomes improve the next decision
     When I attempt a small challenge and obtain reliable feedback
     Then I can record an adjustment for the next repetition
     And a real-work transfer check is distinct from the practice score
+
+  @LRN05 @automated
+  Scenario: Review calibration against a baseline
+    Given resolved prospective forecasts with snapshot digests
+    When I inspect calibration
+    Then I see forecast means, observed frequencies, counts, and a constant-rate baseline
+    And a changed snapshot is reported and excluded from scoring
+
+  @LRN06 @automated
+  Scenario: Review a due prediction directly from the dashboard
+    When I select Record outcome beside a due prediction
+    Then I see its frozen text, probability, and binary event
+    And I can record an outcome and create a NEXT action linked to it

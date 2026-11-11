@@ -1,5 +1,17 @@
 # Changelog
 
+## Unreleased
+
+- Capture external text as literal Org, support optional per-device inboxes,
+  and import plain text from the drop directory.
+- Scan records without visiting unopened files. Retry an interrupted
+  clarification, schedule commitments with a time, and archive completed actions.
+- Verify frozen forecast digests, show calibration bands and a constant-rate
+  baseline, and review due forecasts directly from the dashboard.
+- Add the worked example, command menu, and configurable prefix.
+- Set up Reason Commons Python from Emacs, release write locks on process exit,
+  and load node kinds from the vendored schema.
+
 ## 0.1.1 — 2026-11-10
 
 Fixes from the first CI run on Windows; all tests now pass on Linux, macOS and

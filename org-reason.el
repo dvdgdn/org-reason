@@ -33,12 +33,14 @@
 (require 'org-reason-learning)
 (require 'org-reason-review)
 (require 'org-reason-metadata)
+(require 'transient)
 
 (autoload 'org-reason-import-file "org-reason-media" nil t)
 (autoload 'org-reason-import-drop "org-reason-media" nil t)
 (autoload 'org-reason-derive "org-reason-media" nil t)
 (autoload 'org-reason-import-interpretation "org-reason-media" nil t)
 (autoload 'org-reason-mark-interpretation-reviewed "org-reason-media" nil t)
+(autoload 'org-reason-setup-python "org-reason-reasoning" nil t)
 (autoload 'org-reason-commons-new "org-reason-reasoning" nil t)
 (autoload 'org-reason-node-add "org-reason-reasoning" nil t)
 (autoload 'org-reason-link-add "org-reason-reasoning" nil t)
@@ -51,7 +53,7 @@
 (autoload 'org-reason-rc-follow "org-reason-reasoning" nil nil)
 (org-link-set-parameters "rc" :follow #'org-reason-rc-follow)
 
-(defconst org-reason--link-views '("inbox" "agenda" "engage" "dashboard" "review")
+(defconst org-reason--link-views '("inbox" "agenda" "engage" "dashboard" "review" "example" "tutorial")
   "Views an org-reason: link may open.  Nothing else runs from a link.")
 
 (defun org-reason-link-follow (view _argument)
@@ -102,6 +104,67 @@ dashboard; delete that directory to start over."
                    keys (list "-l" "org-reason-demo")))
     (message "Opening the Org Reason tutorial in a separate Emacs, on fictional data")))
 
+;;;###autoload
+(defun org-reason-example ()
+  "Open a read-only worked example with the outcome folded."
+  (interactive)
+  (with-current-buffer (get-buffer-create "*Org Reason Example*")
+    (let ((inhibit-read-only t))
+      (erase-buffer)
+      (insert-file-contents (expand-file-name "examples/first-loop.org" org-reason--package-root))
+      (let ((org-inhibit-startup t)) (org-mode))
+      (org-fold-show-all)
+      (goto-char (point-min))
+      (when (re-search-forward "^\\* Outcome$" nil t)
+        (beginning-of-line)
+        (org-fold-hide-subtree))
+      (org-reason--view-setup)))
+  (pop-to-buffer "*Org Reason Example*"))
+
+(transient-define-prefix org-reason-commons-menu ()
+  "Open the Reason Commons command menu."
+  [["Commons"
+    ("c" "Create commons" org-reason-commons-new)
+    ("v" "View commons" org-reason-reasoning-view)
+    ("g" "Open diagrams" org-reason-reasoning-diagram)
+    ("P" "Set up Python" org-reason-setup-python)]
+   ["Reasoning"
+    ("n" "Propose node" org-reason-node-add)
+    ("l" "Propose relationship" org-reason-link-add)
+    ("a" "Endorse item" org-reason-item-accept)
+    ("?" "Annotate item" org-reason-item-annotate)
+    ("x" "Create linked action" org-reason-node-action)]])
+
+;;;###autoload
+(transient-define-prefix org-reason-menu ()
+  "Open the Org Reason command menu."
+  [["Capture"
+    ("c" "Capture text" org-reason-capture)
+    ("i" "Open inbox" org-reason-inbox)
+    ("x" "Clarify capture" org-reason-clarify)
+    ("m" "Import original" org-reason-import-file)
+    ("I" "Import drop folder" org-reason-import-drop)
+    ("D" "Run OCR or transcription" org-reason-derive)]
+   ["Commitments"
+    ("d" "Dashboard" org-reason-dashboard)
+    ("a" "Agenda" org-reason-agenda)
+    ("e" "Choose next action" org-reason-engage)
+    ("w" "Weekly review" org-reason-review)
+    ("A" "Archive completed actions" org-reason-archive-actions)]
+   ["Learning"
+    ("p" "Draft experiment" org-reason-experiment)
+    ("f" "Freeze prediction" org-reason-freeze-prediction)
+    ("o" "Record outcome" org-reason-record-result)
+    ("v" "Show original forecast" org-reason-show-forecast)
+    ("s" "Plan practice" org-reason-practice)
+    ("!" "Capture feedback" org-reason-feedback)]
+   ["Explore"
+    ("t" "Reason Commons" org-reason-commons-menu)
+    ("M" "Edit metadata" org-reason-metadata)
+    ("/" "Find records" org-reason-find)
+    ("E" "See an example" org-reason-example)
+    ("h" "Open tutorial" org-reason-tutorial)]])
+
 (defvar org-reason-reasoning-map
   (let ((map (make-sparse-keymap)))
     (define-key map (kbd "c") #'org-reason-commons-new)
@@ -112,6 +175,7 @@ dashboard; delete that directory to start over."
     (define-key map (kbd "?") #'org-reason-item-annotate)
     (define-key map (kbd "g") #'org-reason-reasoning-diagram)
     (define-key map (kbd "x") #'org-reason-node-action)
+    (define-key map (kbd "P") #'org-reason-setup-python)
     map))
 (defvar org-reason-command-map
   (let ((map (make-sparse-keymap)))
@@ -121,14 +185,31 @@ dashboard; delete that directory to start over."
                         ("o" . org-reason-record-result) ("s" . org-reason-practice) ("!" . org-reason-feedback)
                         ("m" . org-reason-import-file) ("I" . org-reason-import-drop) ("D" . org-reason-derive)
                         ("v" . org-reason-show-forecast) ("M" . org-reason-metadata) ("/" . org-reason-find)
-                        ("h" . org-reason-tutorial)))
+                        ("h" . org-reason-tutorial) ("E" . org-reason-example)
+                        ("A" . org-reason-archive-actions) ("?" . org-reason-menu)))
       (define-key map (kbd (car binding)) (cdr binding)))
     (define-key map (kbd "t") org-reason-reasoning-map)
     map))
-(defvar org-reason-mode-map
-  (let ((map (make-sparse-keymap)))
-    (define-key map (kbd "C-c r") org-reason-command-map)
-    map))
+(defvar org-reason-mode-map (make-sparse-keymap))
+(defvar org-reason--installed-prefix nil)
+
+(defun org-reason--bind-prefix (prefix)
+  "Bind the Org Reason command map under PREFIX, or unbind it for nil."
+  (let ((keys (and prefix (kbd prefix))))
+    (when (and org-reason--installed-prefix
+               (eq (lookup-key org-reason-mode-map org-reason--installed-prefix) org-reason-command-map))
+      (define-key org-reason-mode-map org-reason--installed-prefix nil))
+    (when keys (define-key org-reason-mode-map keys org-reason-command-map))
+    (setq org-reason--installed-prefix keys)))
+
+(defcustom org-reason-key-prefix "C-c r"
+  "Prefix for Org Reason keys while the global mode is active.
+Set it to nil to use M-x org-reason-menu without adding a prefix."
+  :type '(choice (const :tag "No prefix" nil) (string :tag "Key sequence"))
+  :set (lambda (symbol value)
+         (org-reason--bind-prefix value)
+         (set-default symbol value))
+  :group 'org-reason)
 
 (defcustom org-reason-roam-knowledge-only t
   "Whether Org-roam indexes only the knowledge/ notes of the workspace.
@@ -176,13 +257,14 @@ when the workspace is not inside that directory."
 
 ;;;###autoload
 (define-minor-mode org-reason-mode
-  "Enable additive capture and the C-c r command prefix globally.
+  "Enable additive capture and the configured command prefix globally.
 Disabling removes package-installed capture entries, keybindings and the
 Org-roam index exclusion (see `org-reason-roam-knowledge-only'), but
 keeps your data.  Existing browser templates are left in place."
   :global t :group 'org-reason
   (if org-reason-mode
-      (progn (org-reason-capture-enable)
+      (progn (org-reason--bind-prefix org-reason-key-prefix)
+             (org-reason-capture-enable)
              ;; Also for saves by you or Org capture, not only the package's.
              (add-hook 'before-save-hook #'org-reason--prefer-utf-8)
              (with-eval-after-load 'org-roam (org-reason--roam-setup)))

@@ -36,6 +36,7 @@ class CommonsContracts(unittest.TestCase):
             commons.execute(self.file, {"op": "new", "project": "Overwrite", "participant": "tester", "name": "Tester"})
         self.assertEqual(old, self.file.read_bytes())
 
+    # @RC01
     def test_capture_is_proposed_with_attribution(self):
         ident = self.node()
         item = self.inspect()["state"]["trees"]["goal"]["nodes"][0]
@@ -44,6 +45,7 @@ class CommonsContracts(unittest.TestCase):
         self.assertEqual(item["contributions"], [{"by": "tester", "attribution": "explicit", "mode": "text"}])
         self.assertNotIn("accepted_by", item)
 
+    # @RC01
     def test_all_six_tree_families_use_native_kinds(self):
         kinds = {"goal": "goal", "current_reality": "undesirable_effect", "conflict": "need",
                  "future_reality": "injection", "prerequisite": "obstacle", "transition": "action"}
@@ -51,6 +53,7 @@ class CommonsContracts(unittest.TestCase):
             self.node(tree=tree, kind=kind)
         commons.upstream.validate(self.inspect()["state"])
 
+    # @RC02
     def test_and_link_is_one_relationship_with_multiple_sources(self):
         a, b, target = self.node(), self.node(), self.node(kind="goal")
         self.change("add-link", tree="goal", **{"from": [a, b], "to": target, "relation": "necessary_for"})
@@ -66,6 +69,7 @@ class CommonsContracts(unittest.TestCase):
             self.change("add-link", tree="goal", **{"from": [a], "to": "missing", "relation": "necessary_for"})
         self.assertEqual(old, self.file.read_bytes())
 
+    # @RC09
     def test_assistant_contribution_is_not_human_acceptance(self):
         ident = self.node(by="assistant")
         old = self.file.read_bytes()
@@ -73,6 +77,7 @@ class CommonsContracts(unittest.TestCase):
             self.change("accept", id=ident, by="assistant")
         self.assertEqual(old, self.file.read_bytes())
 
+    # @RC03
     def test_endpoints_must_be_accepted_before_link(self):
         a, b = self.node(), self.node(kind="goal")
         link = self.change("add-link", tree="goal", **{"from": [a], "to": b, "relation": "necessary_for"})["id"]
@@ -82,6 +87,7 @@ class CommonsContracts(unittest.TestCase):
             self.change("accept", id=ident)
         self.assertEqual(commons.find_item(self.inspect()["state"], link)[2]["status"], "accepted")
 
+    # @RC04
     def test_challenging_node_demotes_incident_links_and_retains_history(self):
         a, b = self.node(), self.node(kind="goal")
         link = self.change("add-link", tree="goal", **{"from": [a], "to": b, "relation": "necessary_for"})["id"]
@@ -95,6 +101,7 @@ class CommonsContracts(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.change("accept", id=a)
 
+    # @RC05
     def test_backlog_is_independent_of_acceptance(self):
         ident = self.node()
         self.change("accept", id=ident)
@@ -107,6 +114,7 @@ class CommonsContracts(unittest.TestCase):
         self.assertFalse(list((self.file.parent / ".reason-commons/history").glob("*.yaml")))
         self.assertTrue(list((self.file.parent / ".org-reason/history").glob("*.yaml")))
 
+    # @RC06
     def test_stale_digest_refuses_without_lost_update(self):
         prior = self.inspect()["sha256"]
         self.node()
@@ -116,6 +124,7 @@ class CommonsContracts(unittest.TestCase):
                                   "kind": "goal", "text": "Stale change"})
         self.assertEqual(old, self.file.read_bytes())
 
+    # @RC06
     def test_uncooperative_external_edit_is_detected_before_replace(self):
         prior = commons.digest(self.file.read_bytes())
         self.file.write_text(self.file.read_text() + "# outside edit\n")
@@ -123,12 +132,40 @@ class CommonsContracts(unittest.TestCase):
             commons.replace_checked(self.file, b"destroy", prior)
         self.assertTrue(self.file.read_text().endswith("# outside edit\n"))
 
-    def test_lock_refuses_parallel_writer(self):
-        with commons.lock(self.file):
-            with self.assertRaises(ValueError):
-                self.node()
-        self.assertFalse(self.file.with_name("reason-commons.yaml.org-reason-lock").exists())
+    # @RC12
+    def test_lock_releases_when_writer_is_killed(self):
+        program = """
+from pathlib import Path
+import sys
+import time
+from org_reason_commons import lock
+with lock(Path(sys.argv[1])):
+    print("locked", flush=True)
+    time.sleep(30)
+"""
+        with subprocess.Popen([sys.executable, "-c", program, str(self.file)],
+                              cwd=PACKAGE, stdout=subprocess.PIPE, text=True) as writer:
+            try:
+                self.assertEqual(writer.stdout.readline().strip(), "locked")
+                with self.assertRaisesRegex(ValueError, "Another process"):
+                    self.node()
+            finally:
+                writer.kill()
+                writer.wait(timeout=10)
+        self.assertTrue(self.node())
 
+    # @RC13
+    def test_inspect_reports_kinds_and_suggests_open_relation_vocabulary(self):
+        inspection = self.inspect()
+        self.assertEqual(set(inspection["tree_kinds"]), set(commons.upstream.KINDS))
+        for tree, kinds in inspection["tree_kinds"].items():
+            self.assertEqual(set(kinds), commons.upstream.KINDS[tree] | {"observation"})
+        self.assertIn("causes", inspection["relation_suggestions"])
+        source, target = self.node(), self.node()
+        self.assertTrue(self.change("add-link", **{"from": [source], "to": target,
+                                                   "relation": "requires_a_prior_check"})["saved"])
+
+    # @RC07
     def test_unfamiliar_schema_and_duplicate_yaml_keys_are_rejected(self):
         self.file.write_text("schema_version: 99\n")
         with self.assertRaises(ValueError):
@@ -137,6 +174,7 @@ class CommonsContracts(unittest.TestCase):
         with self.assertRaises(Exception):
             self.inspect()
 
+    # @RC08
     def test_unknown_optional_data_survives_reserialization(self):
         state = self.inspect()["state"]
         state["community_metadata"] = {"languages": ["en", "de", "zh"], "nested": {"value": 17}}
@@ -144,6 +182,7 @@ class CommonsContracts(unittest.TestCase):
         self.node()
         self.assertEqual(self.inspect()["state"]["community_metadata"], state["community_metadata"])
 
+    # @RC11
     def test_rendering_failure_reports_saved_state(self):
         with patch.object(commons.upstream, "update", side_effect=OSError("synthetic renderer failure")):
             result = self.change("add-node", kind="goal", text="Keep the valid save.")

@@ -21,8 +21,9 @@ not an official or certified GTD product. Primary references are in `sources.md`
 | Discussion point for a person/meeting | Agenda entry with person/meeting | Keep it available for that conversation |
 
 Your external calendar remains authoritative for its appointments. Org Reason
-calendar entries appear through normal Org scheduling; add an exact time in Org
-when needed. Actual deadlines can use Org's standard `DEADLINE`, with its normal
+calendar entries appear through normal Org scheduling. Enter a date alone or
+a date with an optional time such as `2026-11-14 15:00` during clarification.
+Tickler entries take a date. Actual deadlines can use Org's standard `DEADLINE`, with its normal
 warning behavior. Dates are not assigned to ordinary actions by default.
 
 ## Projects and support
@@ -64,3 +65,10 @@ a finite project. Review higher horizons when the decision warrants it.
 It becomes a GTD reminder only when you choose a concrete action and make that
 commitment. Reasoning acceptance, empirical evidence, and permission to implement
 a change remain separate decisions.
+
+
+## Archive completed actions
+
+Run `C-c r A` or `M-x org-reason-archive-actions` to move completed and
+cancelled single actions to `archive/actions.org`. The command keeps their
+IDs, links, and subtrees. Use `C-c r /` to find archived actions.

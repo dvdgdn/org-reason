@@ -16,12 +16,6 @@ Nil means no backend is configured.  Microphone recording is done by your
 existing recorder; import its audio file without waiting for a transcript."
   :type '(repeat string) :group 'org-reason)
 
-(defun org-reason--sha256-file (file)
-  (with-temp-buffer
-    (set-buffer-multibyte nil)
-    (insert-file-contents-literally file)
-    (secure-hash 'sha256 (current-buffer))))
-
 (defun org-reason-import-file (source &optional method)
   "Copy SOURCE into a capture's media directory and preserve its digest.
 Return the new capture ID.  Never move or delete the source file."
@@ -41,7 +35,7 @@ Return the new capture ID.  Never move or delete the source file."
     ;; Hash the preserved bytes, even if an external writer changed the source.
     (setq digest (org-reason--sha256-file destination))
     (org-reason--append
-     (org-reason-path "inbox/inbox.org") (file-name-nondirectory source)
+     (org-reason--capture-file) (file-name-nondirectory source)
      (format "Original: [[reason-file:%s][%s]]\n\nInterpretation may be added later.\n"
              relative
              (org-reason--clean (file-name-nondirectory source)))
@@ -51,20 +45,35 @@ Return the new capture ID.  Never move or delete the source file."
              (org-reason--capture-properties (or method "file") (expand-file-name source))))))
 
 (defun org-reason-import-drop ()
-  "Import regular files directly inside inbox/drop, skipping known hashes.
+  "Import files directly inside inbox/drop, skipping known hashes.
+UTF-8 text (.txt, .text, .md, .org) becomes a plain capture.
 Source files remain in place.  Subdirectories and symlinks are not traversed."
   (interactive)
   (org-reason-initialize)
   (let ((known (make-hash-table :test #'equal)) (imported 0) (skipped 0))
-    (dolist (entry (org-reason--entries "" (lambda () (org-entry-get nil "OR_SHA256"))))
-      (puthash (org-reason--property entry "OR_SHA256") t known))
+    (dolist (entry (org-reason--entries "" (lambda () (or (org-entry-get nil "OR_SHA256")
+                                                         (org-entry-get nil "OR_DROP_SHA256")))))
+      (puthash (or (org-reason--property entry "OR_DROP_SHA256")
+                   (org-reason--property entry "OR_SHA256")) t known))
     (dolist (file (directory-files (org-reason-path "inbox/drop") t directory-files-no-dot-files-regexp))
       (when (and (file-regular-p file) (not (file-symlink-p file)))
-        (let ((digest (org-reason--sha256-file file)))
-          (if (gethash digest known) (cl-incf skipped)
-            (org-reason-import-file file "drop")
-            (puthash digest t known) (cl-incf imported)))))
-    (message "Imported %d; skipped %d already captured files" imported skipped)
+        (let* ((plain (member (downcase (or (file-name-extension file) "")) '("txt" "text" "md" "org")))
+               (bytes (when plain
+                        (with-temp-buffer
+                          (set-buffer-multibyte nil)
+                          (insert-file-contents-literally file)
+                          (buffer-string))))
+               (digest (if plain (secure-hash 'sha256 bytes) (org-reason--sha256-file file)))
+               (content (when plain (decode-coding-string bytes 'utf-8))))
+          (if (or (gethash digest known) (and plain (string-blank-p content)))
+              (cl-incf skipped)
+            (if plain
+                (org-reason--capture-plain-text content (file-name-nondirectory file) "drop" file
+                                                (list (cons "OR_DROP_SHA256" digest)))
+              (org-reason-import-file file "drop"))
+            (puthash digest t known)
+            (cl-incf imported)))))
+    (message "Imported %d; skipped %d empty or already captured files" imported skipped)
     (list :imported imported :skipped skipped)))
 
 (defun org-reason-add-derivative (id text kind &optional human-authored)

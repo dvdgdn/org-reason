@@ -7,6 +7,7 @@ Upstream validation and accepted-history rendering are pinned under vendor/.
 from __future__ import annotations
 
 import argparse
+import errno
 from contextlib import contextmanager
 from copy import deepcopy
 from datetime import datetime, timezone
@@ -25,6 +26,18 @@ try:
     import update_views as upstream
 except ImportError as error:
     raise SystemExit("Reason Commons needs PyYAML in this Python environment. See docs/install.md.") from error
+
+
+# Relations are suggested vocabulary in schema.md; the validator accepts
+# any nonempty relation. Keep this list in the bridge and allow custom terms.
+RELATION_SUGGESTIONS = (
+    "necessary_for", "causes", "contributes_to", "conflicts_with",
+    "overcomes", "produces", "precedes",
+)
+
+
+def node_kinds(tree):
+    return upstream.KINDS[tree] | {"observation"}
 
 
 def now():
@@ -82,7 +95,7 @@ def transform(state, request):
             ident = "n-" + str(uuid.uuid4())
             item = {"id": ident, "kind": text(request, "kind"), "text": text(request, "text"),
                     "status": "proposed", "contributions": [contribution(state, request)]}
-            require(item["kind"] in upstream.KINDS[tree_name] | {"observation"}, "Kind does not belong to this tree")
+            require(item["kind"] in node_kinds(tree_name), "Kind does not belong to this tree")
             tree["nodes"].append(item)
         else:
             ident = "l-" + str(uuid.uuid4())
@@ -138,15 +151,26 @@ def write_new(path, data):
 
 @contextmanager
 def lock(path):
-    lockfile = path.with_name(path.name + ".org-reason-lock")
+    # Keep the inode in place. Unlinking it can let two writers lock different
+    # files. Closing the descriptor, including on process death, releases it.
+    lockfile = path.parent / ".org-reason" / (path.name + ".lock")
+    lockfile.parent.mkdir(mode=0o700, exist_ok=True)
+    descriptor = os.open(lockfile, os.O_RDWR | os.O_CREAT, 0o600)
     try:
-        write_new(lockfile, f"pid={os.getpid()} time={now()}\n".encode())
-    except FileExistsError as error:
-        raise ValueError(f"Another writer or stale lock exists: {lockfile}. Reconcile before retrying.") from error
-    try:
+        try:
+            if os.name == "nt":
+                import msvcrt
+                msvcrt.locking(descriptor, msvcrt.LK_NBLCK, 1)
+            else:
+                import fcntl
+                fcntl.flock(descriptor, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except OSError as error:
+            if error.errno not in {errno.EACCES, errno.EAGAIN, errno.EDEADLK}:
+                raise
+            raise ValueError(f"Another process is editing {path.name}; retry when it finishes") from error
         yield
     finally:
-        lockfile.unlink(missing_ok=True)
+        os.close(descriptor)
 
 
 def replace_checked(path, data, expected_digest):
@@ -185,7 +209,9 @@ def execute(path, request):
         # Parse the same bytes we hash; reject duplicate keys with the upstream loader.
         state = yaml.load(raw.decode("utf-8"), Loader=upstream.StateLoader)
         upstream.validate(state)
-        return {"sha256": digest(raw), "state": state}
+        return {"sha256": digest(raw), "state": state,
+                "tree_kinds": {tree: sorted(node_kinds(tree)) for tree in upstream.KINDS},
+                "relation_suggestions": RELATION_SUGGESTIONS}
 
     if operation == "views":
         with lock(path):

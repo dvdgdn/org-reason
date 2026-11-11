@@ -35,3 +35,17 @@ Feature: Capture attention before classifying it
     When I explicitly click the Org Reason bookmarklet
     Then the selected text and source URL appear in the Org Reason inbox
     And legacy bookmarklets retain their configured destinations
+
+  @CAP06 @automated
+  Scenario: Preserve external text as one capture
+    When a browser selection contains headings, Org directives, and Emacs local variables
+    Then the inbox contains one identified capture with literal text
+    And clarification preserves its complete body
+
+  @CAP07 @automated
+  Scenario: Capture text from a device sharing the workspace
+    Given per-device inboxes and a legacy inbox
+    When I import a UTF-8 note from the drop directory
+    Then the note is captured as text in this device's inbox
+    And I can still clarify captures from any inbox
+    And a repeat import skips the same bytes

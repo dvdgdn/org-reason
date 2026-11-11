@@ -72,3 +72,22 @@ Feature: Reason in the actual Reason Commons model
     When valid YAML is saved but generating its views fails
     Then the result reports the successful save and the view error separately
     And a retry is not implied to be necessary to save the same contribution
+
+  @RC12 @automated
+  Scenario: Recover after an interrupted reasoning edit
+    Given a Python process holds the Commons write lock
+    Then a second writer is rejected
+    When the process is killed
+    Then a new edit can acquire the lock
+
+  @RC13 @automated
+  Scenario: Offer the native schema vocabulary
+    When Emacs inspects a commons
+    Then it receives the vendor's tree kinds and suggested relations
+    And custom relation text remains valid
+
+  @RC14 @automated
+  Scenario: Configure Python after installing requirements
+    When the virtual environment and dependency installation succeed
+    Then Emacs saves that interpreter for future Reason Commons commands
+    And a failed dependency installation leaves the current setting intact

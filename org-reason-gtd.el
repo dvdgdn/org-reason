@@ -1,54 +1,88 @@
 ;;; org-reason-gtd.el --- GTD clarification and action views -*- lexical-binding: t; -*-
 ;; SPDX-License-Identifier: GPL-3.0-or-later
 ;;; Code:
-(require 'org-reason-core)
+(require 'org-reason-capture)
 (require 'org-agenda)
 (require 'org-clock)
+
+(defvar org-time-was-given) ; dynamically bound for org-read-date
 
 (defcustom org-reason-contexts '("@computer" "@calls" "@home" "@work" "@errands" "@anywhere")
   "Contexts available when clarifying an action."
   :type '(repeat string) :group 'org-reason)
 
-(defun org-reason--move (destination properties &optional state tags)
-  "Move the current subtree to DESTINATION, preserving its ID and body.
-Save the destination before removing the source.  If writing fails, the
-source remains recoverable.  Plain files cannot provide a two-file transaction."
+(defun org-reason--move (destination transform &optional alternatives)
+  "Move this subtree to DESTINATION after applying TRANSFORM to a copy.
+A saved destination carries the source path and digest.  A retry can
+finish removing the same source without re-creating the destination."
   (org-reason--require-entry)
   (let* ((source (current-buffer))
          (source-file buffer-file-name)
+         (relative-source (file-relative-name source-file (org-reason--root)))
          (id (org-entry-get nil "ID"))
-         (start (copy-marker (point)))
-         (end (copy-marker (save-excursion (org-end-of-subtree t t) (point)) t))
-         (text (buffer-substring-no-properties start end)))
-    (when (file-equal-p buffer-file-name destination)
+         (start (point))
+         (end (save-excursion (org-end-of-subtree t t) (point)))
+         (text (buffer-substring-no-properties start end))
+         (digest (secure-hash 'sha256 text)))
+    (when (file-equal-p source-file destination)
       (user-error "Source and destination must differ"))
-    ;; Transform a copy, so cancellation or a write failure leaves the inbox intact.
-    (setq text
-          (with-temp-buffer
-            (insert org-reason--todo-line text)
-            (org-mode)
-            (goto-char (point-min))
-            (outline-next-heading)
-            (dolist (pair properties)
-              (org-entry-put nil (car pair) (org-reason--clean (cdr pair))))
-            (org-entry-put nil "OR_CLARIFIED" (org-reason--now))
-            (let ((org-inhibit-logging t)) (org-todo (or state 'none)))
-            (when tags (org-set-tags (delete-dups (append (org-get-tags nil t) tags))))
-            (save-excursion (org-reason--rebase-file-links source-file destination))
-            (buffer-substring-no-properties (line-beginning-position) (point-max))))
+    (unless (verify-visited-file-modtime source)
+      (user-error "Inbox or actions file changed on disk; reconcile it first"))
+    (dolist (file alternatives)
+      (when (and (not (equal file destination)) (file-exists-p file)
+                 (org-reason--scan-file file (lambda () (org-find-entry-with-id id))))
+        (user-error "ID %s already exists in %s; inspect it or retry the original disposition"
+                    id (file-relative-name file (org-reason--root)))))
     (with-current-buffer (org-reason--buffer destination)
-      (goto-char (point-max))
-      (unless (bolp) (insert "\n"))
-      (let ((position (point)))
-        (condition-case error-data
-            (progn (insert text "\n") (org-reason--save-buffer))
-          (error (delete-region position (point-max))
-                 (signal (car error-data) (cdr error-data))))))
+      (org-with-wide-buffer
+       (goto-char (point-min))
+       (let ((existing (org-find-entry-with-id id)))
+         (if existing
+             (progn
+               (goto-char existing)
+               (unless (and (equal (org-entry-get nil "OR_MOVE_SOURCE") relative-source)
+                            (equal (org-entry-get nil "OR_MOVE_SHA256") digest))
+                 (user-error "ID %s already exists in the destination; reconcile both entries" id))
+               (org-reason--save-buffer))
+           (let ((prepared
+                  (with-temp-buffer
+                    (insert org-reason--todo-line text)
+                    (delay-mode-hooks (org-mode))
+                    (goto-char (point-min))
+                    (outline-next-heading)
+                    (org-entry-put nil "OR_MOVE_SOURCE" relative-source)
+                    (org-entry-put nil "OR_MOVE_SHA256" digest)
+                    (funcall transform)
+                    (save-excursion (org-reason--rebase-file-links source-file destination))
+                    (buffer-substring-no-properties (line-beginning-position) (point-max)))))
+             (atomic-change-group
+               (goto-char (point-max))
+               (unless (bolp) (insert "\n"))
+               (insert prepared "\n")
+               (org-reason--save-buffer)))))))
     (with-current-buffer source
-      (delete-region start end)
-      (org-reason--save-buffer))
+      (unless (and (verify-visited-file-modtime source)
+                   (<= end (point-max))
+                   (equal text (buffer-substring-no-properties start end)))
+        (user-error "Source changed during the move; reconcile both entries"))
+      (atomic-change-group
+        (delete-region start end)
+        (org-reason--save-buffer)))
     (org-id-add-location id destination)
     id))
+
+(defun org-reason--clarification-destinations (id)
+  "Return the possible destination paths for an inbox capture ID."
+  (mapcar #'org-reason-path
+          (append '("gtd/actions.org" "gtd/waiting.org" "gtd/someday.org"
+                    "gtd/calendar.org" "gtd/tickler.org" "gtd/agendas.org" "archive/discarded.org")
+                  (let ((name (concat (org-reason--id-filename id) ".org")))
+                    (list (concat "gtd/projects/" name) (concat "knowledge/notes/" name))))))
+
+(defun org-reason--calendar-date-valid-p (date)
+  (and (stringp date)
+       (string-match-p "\\`[0-9-]\\{10\\}\\(?: \\(?:[01][0-9]\\|2[0-3]\\):[0-5][0-9]\\)?\\'" date)
+       (org-reason--date-valid-p (substring date 0 10))))
 
 (defun org-reason--effort-valid-p (effort)
   (or (string-empty-p effort)
@@ -58,9 +92,10 @@ source remains recoverable.  Plain files cannot provide a two-file transaction."
 (defun org-reason-clarify-entry (disposition &optional options)
   "Clarify the entry at point using DISPOSITION and OPTIONS.
 OPTIONS is a plist with :context, :effort, :person, :date, :next or :title.
+A calendar :date accepts YYYY-MM-DD or YYYY-MM-DD HH:MM; tickler is date-only.
 This function is also a stable API for capture adapters and tests."
   (org-reason--require-entry)
-  (unless (file-equal-p buffer-file-name (org-reason-path "inbox/inbox.org"))
+  (unless (org-reason--inbox-file-p buffer-file-name)
     (user-error "Clarify from the inbox; use ordinary Org editing elsewhere"))
   (let* ((effort (or (plist-get options :effort) ""))
          (context (plist-get options :context))
@@ -68,9 +103,13 @@ This function is also a stable API for capture adapters and tests."
          (person (plist-get options :person))
          (props nil) destination state)
     (unless (org-reason--effort-valid-p effort) (user-error "Use effort H:MM, or leave it blank"))
-    (when (and (member disposition '("calendar" "tickler"))
-               (not (and date (org-reason--date-valid-p date))))
-      (user-error "A genuine calendar date is required"))
+    (pcase disposition
+      ("calendar"
+       (unless (org-reason--calendar-date-valid-p date)
+         (user-error "Use a real calendar date, optionally followed by HH:MM")))
+      ("tickler"
+       (unless (and (stringp date) (org-reason--date-valid-p date))
+         (user-error "Use a real date for the tickler"))))
     (when (and (equal disposition "delegate")
                (or (not person) (string-empty-p (string-trim person))))
       (user-error "Record who you are waiting for"))
@@ -99,18 +138,31 @@ This function is also a stable API for capture adapters and tests."
       ("discard" (setq destination "archive/discarded.org" props '(("OR_TYPE" . "discarded"))))
       (_ (user-error "Unknown disposition: %s" disposition)))
     (unless (string-empty-p effort) (push (cons "EFFORT" effort) props))
-    (let ((id (org-reason--move (org-reason-path destination) props state (and context (list context)))))
-      (with-current-buffer (marker-buffer (org-reason--find-id id))
-        (goto-char (org-reason--find-id id))
-        (when (plist-get options :title)
-          (org-edit-headline (org-reason--clean (plist-get options :title))))
-        (when date (org-schedule nil date))
-        (when (equal disposition "project")
-          (org-reason--child (plist-get options :next) ""
-                         (append '(("OR_TYPE" . "action"))
-                                 (unless (string-empty-p effort) (list (cons "EFFORT" effort))))
-                         "NEXT" (and context (list context))))
-        (org-reason--save-buffer))
+    (let* ((file (org-reason-path destination))
+           (tags (and context (list context)))
+           child-id
+           (id
+            (org-reason--move
+             file
+             (lambda ()
+               (dolist (pair props)
+                 (org-entry-put nil (car pair) (org-reason--clean (cdr pair))))
+               (org-entry-put nil "OR_CLARIFIED" (org-reason--now))
+               (let ((org-inhibit-logging t))
+                 (org-todo (or state 'none))
+                 (when date (org-schedule nil date)))
+               (when-let ((title (plist-get options :title)))
+                 (org-edit-headline (org-reason--clean title)))
+               (when tags (org-set-tags (delete-dups (append (org-get-tags nil t) tags))))
+               (when (equal disposition "project")
+                 (setq child-id
+                       (org-reason--insert-child
+                        (plist-get options :next) ""
+                        (append '(("OR_TYPE" . "action"))
+                                (unless (string-empty-p effort) (list (cons "EFFORT" effort))))
+                        "NEXT" tags))))
+             (org-reason--clarification-destinations (org-entry-get nil "ID")))))
+      (when child-id (org-id-add-location child-id file))
       id)))
 
 (defun org-reason-clarify ()
@@ -134,8 +186,13 @@ This function is also a stable API for capture adapters and tests."
       (setq options (plist-put options :effort (read-string "Estimated effort H:MM (optional): "))))
     (when (member choice '("delegate" "agenda"))
       (setq options (plist-put options :person (read-string "Who / meeting: "))))
-    (when (member choice '("calendar" "tickler"))
-      (setq options (plist-put options :date (org-read-date nil nil nil "Genuine date / bring-forward date: "))))
+    (pcase choice
+      ("calendar"
+       (let (org-time-was-given)
+         (setq options (plist-put options :date
+                                  (org-read-date t nil nil "Commitment date and optional time: ")))))
+      ("tickler"
+       (setq options (plist-put options :date (org-read-date nil nil nil "Bring-forward date: ")))))
     (when (and (equal choice "done-now")
                (not (y-or-n-p "Have you actually completed this action? ")))
       (user-error "Leave it in the inbox, or clarify it as a next action"))
@@ -179,28 +236,49 @@ This function is also a stable API for capture adapters and tests."
           (setq available nil)))
       available)))
 
+(defun org-reason--stalled-project-p ()
+  "Whether the current project is active without a usable commitment."
+  (and (equal (org-entry-get nil "OR_TYPE") "project")
+       (not (org-entry-is-done-p))
+       (not (equal (org-get-todo-state) "SOMEDAY"))
+       (let ((root (point)))
+         (not (catch 'covered
+                (org-map-entries
+                 (lambda ()
+                   (when (and (> (point) root) (org-reason--available-tree-p)
+                              (not (org-entry-is-done-p))
+                              (or (member (org-get-todo-state) '("NEXT" "WAIT"))
+                                  (and (equal (org-entry-get nil "OR_TYPE") "calendar")
+                                       (or (org-entry-get nil "SCHEDULED")
+                                           (org-entry-get nil "DEADLINE")))))
+                     (throw 'covered t)))
+                 nil 'tree)
+                nil)))))
+
 (defun org-reason-projects-without-next-action ()
   "Return active projects lacking NEXT, WAIT, or a dated commitment."
-  (seq-filter
-   (lambda (entry)
-     (with-current-buffer (marker-buffer (plist-get entry :marker))
-       (save-excursion
-         (goto-char (plist-get entry :marker))
-         (let ((root (point)) (covered nil))
-           (org-map-entries
-            (lambda ()
-              (when (and (> (point) root) (org-reason--available-tree-p)
-                         (not (org-entry-is-done-p))
-                         (or (member (org-get-todo-state) '("NEXT" "WAIT"))
-                             (and (equal (org-entry-get nil "OR_TYPE") "calendar")
-                                  (or (org-entry-get nil "SCHEDULED")
-                                      (org-entry-get nil "DEADLINE")))))
-                (setq covered t))) nil 'tree)
-           (not covered)))))
-   (org-reason--entries "gtd" (lambda ()
-                            (and (equal (org-entry-get nil "OR_TYPE") "project")
-                                 (not (org-entry-is-done-p))
-                                 (not (equal (org-get-todo-state) "SOMEDAY")))))))
+  (org-reason--entries "gtd" #'org-reason--stalled-project-p))
+
+(defun org-reason-archive-actions ()
+  "Move completed single actions to archive/actions.org, preserving their IDs."
+  (interactive)
+  (org-reason-initialize)
+  (let ((destination (org-reason--ensure-file "archive/actions.org" "Completed single actions"))
+        (count 0))
+    (with-current-buffer (org-reason--buffer (org-reason-path "gtd/actions.org"))
+      (org-with-wide-buffer
+       (dolist (marker (delq nil (org-map-entries
+                                  (lambda ()
+                                    (when (and (= (org-outline-level) 1)
+                                               (org-entry-is-done-p)
+                                               (org-entry-get nil "ID"))
+                                      (point-marker))))))
+         (goto-char marker)
+         (org-reason--move destination
+                           (lambda () (org-entry-put nil "OR_ARCHIVED" (org-reason--now))))
+         (cl-incf count))))
+    (message "Archived %d completed actions" count)
+    count))
 
 (defun org-reason-engage (context minutes energy)
   "Filter available NEXT actions by CONTEXT, MINUTES and ENERGY.

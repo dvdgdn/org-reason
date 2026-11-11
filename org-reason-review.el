@@ -38,40 +38,83 @@
         (org-reason--save-buffer)))
     (find-file file)))
 
-(defun org-reason-health-data ()
+(defun org-reason--health-entries ()
+  (org-reason--entries
+   "" (lambda () (org-entry-get nil "ID"))
+   (lambda (file)
+     (cond
+      ((org-reason--inbox-file-p file) (list :inbox (= (org-outline-level) 1)))
+      ((file-in-directory-p file (org-reason-path "gtd/"))
+       (list :gtd t :stalled (org-reason--stalled-project-p)))))))
+
+(cl-defun org-reason-health-data (&optional (entries (org-reason--health-entries)))
   "Return actionable exceptions, without assigning a productivity score."
-  (let ((seen (make-hash-table :test #'equal)) duplicates missing-media)
-    (dolist (entry (org-reason--entries "" (lambda () (org-entry-get nil "ID"))))
-      (let ((id (plist-get entry :id)) (original (org-reason--property entry "OR_ORIGINAL")))
-        (let ((previous (gethash id seen)))
-          (if previous
-              (progn
-                (unless (memq previous duplicates) (push previous duplicates))
-                (push entry duplicates))
-            (puthash id entry seen)))
-        (when (and original (not (file-exists-p (org-reason-path original)))) (push entry missing-media))))
-    (list :duplicates duplicates :missing-media missing-media
-          :projects (org-reason-projects-without-next-action)
-          :waiting (org-reason--entries "gtd" (lambda () (and (equal (org-get-todo-state) "WAIT")
-                                                          (not (org-entry-get nil "OR_WAITING_FOR")))))
-          :due (seq-filter (lambda (e) (let ((date (org-reason--property e "OR_REVIEW_ON")))
-                                        (and date (not (string-lessp (org-reason--today) date)))))
-                           (org-reason--experiments t)))))
+  (let ((seen (make-hash-table :test #'equal)) (today (org-reason--today))
+        (inbox 0) duplicates missing-media projects waiting due)
+    (dolist (entry entries)
+      (let* ((id (plist-get entry :id))
+             (original (org-reason--property entry "OR_ORIGINAL"))
+             (previous (gethash id seen))
+             (date (org-reason--property entry "OR_REVIEW_ON")))
+        (if previous
+            (progn
+              (unless (memq previous duplicates) (push previous duplicates))
+              (push entry duplicates))
+          (puthash id entry seen))
+        (when (plist-get entry :inbox) (cl-incf inbox))
+        (when (plist-get entry :stalled) (push entry projects))
+        (when (and original (not (file-exists-p (org-reason-path original))))
+          (push entry missing-media))
+        (when (and (plist-get entry :gtd) (equal (plist-get entry :state) "WAIT")
+                   (not (org-reason--property entry "OR_WAITING_FOR")))
+          (push entry waiting))
+        (when (and (equal (org-reason--property entry "OR_TYPE") "experiment")
+                   (equal (org-reason--property entry "OR_STATUS") "open")
+                   (not (org-reason--property entry "OR_RESULT_ID"))
+                   date (not (string-lessp today date)))
+          (push entry due))))
+    (list :inbox inbox :duplicates (nreverse duplicates) :missing-media (nreverse missing-media)
+          :projects (nreverse projects) :waiting (nreverse waiting) :due (nreverse due))))
+
+(defun org-reason--insert-calibration (calibration)
+  (insert (format "\n* Prediction feedback\nFrozen: %d · Prospective binary events: %d · Scored: %d · Unresolved: %d\n"
+                  (plist-get calibration :frozen) (plist-get calibration :eligible)
+                  (plist-get calibration :scored) (plist-get calibration :unresolved)))
+  (when-let ((buckets (plist-get calibration :buckets)))
+    (insert "\n| Probability band | Forecasts | Mean forecast | Observed yes |\n"
+            "|------------------+-----------+---------------+--------------|\n")
+    (dolist (bucket buckets)
+      (let ((high (plist-get bucket :high)))
+        (insert (format "| %d–%s%d%% | %d | %.0f%% | %.0f%% |\n"
+                        (plist-get bucket :low) (if (= high 100) "" "<") high
+                        (plist-get bucket :count) (* 100 (plist-get bucket :forecast))
+                        (* 100 (plist-get bucket :actual))))))
+    (save-excursion (forward-line -1) (org-table-align))
+    (insert (format "\nBrier score %.3f · Constant-rate baseline %.3f (using this sample’s yes rate). Lower is better.\n"
+                    (plist-get calibration :brier) (plist-get calibration :baseline))))
+  (when (> (plist-get calibration :unverified) 0)
+    (insert (format "\nOlder snapshots without a digest: %d.\n" (plist-get calibration :unverified))))
+  (when-let ((problems (plist-get calibration :problems)))
+    (insert "\nSnapshot problems excluded from scoring\n")
+    (dolist (problem problems)
+      (insert (format "- [[id:%s][%s]] · %s\n" (plist-get (car problem) :id)
+                      (plist-get (car problem) :title) (org-reason--clean (cdr problem)))))))
 
 (defun org-reason-dashboard ()
   "Show open loops and review cues; this is a view, never another task store."
   (interactive)
   (org-reason-initialize)
-  (let* ((health (org-reason-health-data))
-         (inbox (org-reason--entries "inbox" (lambda () (= (org-outline-level) 1))))
-         (calibration (org-reason-calibration-data)))
+  (let* ((entries (org-reason--health-entries))
+         (health (org-reason-health-data entries))
+         (calibration (org-reason-calibration-data entries)))
     (with-current-buffer (get-buffer-create "*Org Reason*")
       (let ((inhibit-read-only t))
         (erase-buffer) (org-mode)
         (insert "#+title: Org Reason\n\n"
                 "[[org-reason:inbox][Inbox]] · [[org-reason:agenda][Commitments]] · "
-                "[[org-reason:engage][Next actions]] · [[org-reason:review][Weekly review]]\n\n")
-        (insert (format "* Inbox: %d unclarified captures\n" (length inbox)))
+                "[[org-reason:engage][Next actions]] · [[org-reason:review][Weekly review]]\n"
+                "[[org-reason:example][See an example]]\n\n")
+        (insert (format "* Inbox: %d unclarified captures\n" (plist-get health :inbox)))
         (dolist (section '((:projects . "Projects missing an available action, wait, or dated commitment")
                             (:due . "Predictions due for review")
                             (:waiting . "Waiting entries missing a person")
@@ -85,17 +128,14 @@
                       (insert (format "- [[file:%s][%s]] — %s\n" (plist-get entry :file)
                                       (plist-get entry :title)
                                       (file-relative-name (plist-get entry :file) org-reason-directory)))
-                    (insert (format "- [[id:%s][%s]]\n" (plist-get entry :id) (plist-get entry :title)))))
+                    (insert (format "- [[id:%s][%s]]" (plist-get entry :id) (plist-get entry :title)))
+                    (when (eq (car section) :due)
+                      (insert (format " · [[org-reason-result:%s][Record outcome]]" (plist-get entry :id))))
+                    (insert "\n")))
               (insert "None found.\n"))))
-        (insert (format "\n* Prediction feedback\nFrozen: %d. Prospective binary events: %d. Scored: %d. Unresolved / unknown: %d.\n"
-                        (plist-get calibration :frozen) (plist-get calibration :eligible)
-                        (plist-get calibration :scored) (plist-get calibration :unresolved)))
-        (when (plist-get calibration :brier)
-          (insert (format "Mean Brier score: %.3f (0 is best; small, selected samples need care).\n"
-                          (plist-get calibration :brier))))
-        (insert "This measures these forecasts, not intelligence, competence, or causal proof.\n"
-                "\n* Today\nCheck the real calendar, then choose a next action by context, time, energy and priority.\n"
-                "\nNo background reminders or monitoring are running. Refresh with g; q quits.\n")
+        (org-reason--insert-calibration calibration)
+        (insert "\n* Today\nCheck the real calendar, then choose a next action by context, time, energy and priority.\n"
+                "\nRefresh with g. Quit with q.\n")
         (org-reason--view-setup #'org-reason-dashboard)))
     (pop-to-buffer "*Org Reason*")))
 

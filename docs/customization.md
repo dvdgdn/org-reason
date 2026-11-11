@@ -37,7 +37,8 @@ stdout. Mark the latest interpretation reviewed with
 user assertion, not automated verification. Derived text never auto-creates accepted nodes.
 
 Phone and paper are legitimate collection tools. Put exported files directly in
-`inbox/drop/` and run `C-c r I`. Repeat runs skip already captured content hashes
+`inbox/drop/` and run `C-c r I`. UTF-8 `.txt`, `.text`, `.md`, and `.org` files
+become literal text captures. Repeat runs skip already captured content hashes
 without deleting source files. The command scans only direct regular files;
 subdirectories and symlinks are not followed. A watched-folder daemon is not shipped.
 
@@ -45,7 +46,7 @@ subdirectories and symlinks are not followed. A watched-folder daemon is not shi
 
 | API | Contract |
 |---|---|
-| `org-reason-capture-text TEXT &optional TITLE METHOD SOURCE` | Save without classification; return ID |
+| `org-reason-capture-text TEXT &optional TITLE METHOD SOURCE` | Save literal text without classification and return its ID |
 | `org-reason-import-file PATH &optional METHOD` | Preserve original bytes; return capture ID |
 | `org-reason-add-derivative ID TEXT KIND &optional HUMAN` | Preserve a separate interpretation; machine output pending |
 | `org-reason-clarify-entry DISPOSITION OPTIONS` | Apply one explicit inbox decision while retaining ID |

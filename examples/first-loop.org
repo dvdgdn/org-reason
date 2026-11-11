@@ -1,0 +1,22 @@
+#+title: One small experiment
+
+A fictional example. Press TAB on *Outcome* when you are ready to see what
+happened. Press q to return.
+
+* Capture
+“Revise one German paragraph.”
+
+* Clarify
+Turn the reminder into a concrete next action.
+
+~NEXT Underline the sentence I’m least sure about.~
+
+* Freeze a prediction
+“With the next step ready, I’ll start within two minutes in at least four
+of my next five sessions.”
+
+* Outcome
+I started within two minutes in three of the five sessions. Next time, I’ll
+leave the paragraph open at the marked sentence.
+
+[[org-reason:tutorial][Try it yourself in the tutorial]]

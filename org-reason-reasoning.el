@@ -9,16 +9,6 @@
 (defcustom org-reason-participant nil
   "Your explicit participant ID, or nil to choose from each commons."
   :type '(choice (const nil) string) :group 'org-reason)
-(defconst org-reason--package-root
-  (file-name-directory (or load-file-name buffer-file-name))
-  "Directory of this file, beside org_reason_commons.py and vendor/.")
-(defconst org-reason--tree-kinds
-  '(("goal" "goal" "critical_success_factor" "necessary_condition" "observation")
-    ("current_reality" "undesirable_effect" "cause" "observation")
-    ("conflict" "objective" "need" "prerequisite" "observation")
-    ("future_reality" "injection" "existing_condition" "predicted_effect" "desirable_effect" "undesirable_effect" "observation")
-    ("prerequisite" "objective" "obstacle" "intermediate_objective" "observation")
-    ("transition" "existing_condition" "need" "action" "expected_effect" "observation")))
 (defvar-local org-reason--commons-view-file nil)
 
 (defun org-reason--commons-path (slug)
@@ -63,6 +53,29 @@
                              (concat "YAML saved with its before-image, but the event log failed: "
                                      (gethash "history_warning" result))))
           result)))))
+
+(defun org-reason-setup-python (directory)
+  "Install the bundled Reason Commons requirements in a venv in DIRECTORY.
+Set and save `org-reason-python-command' after installation succeeds."
+  (interactive (list (read-directory-name
+                      "Reason Commons virtual environment: "
+                      (expand-file-name "org-reason-venv" user-emacs-directory))))
+  (let* ((base (or (org-reason--system-python) (user-error "Install Python 3 first")))
+         (directory (expand-file-name directory))
+         (python (expand-file-name (if (eq system-type 'windows-nt) "Scripts/python.exe" "bin/python")
+                                   directory))
+         (requirements (expand-file-name "requirements.txt" org-reason--package-root))
+         (log (get-buffer-create "*Org Reason: Python setup*")))
+    (unless (file-readable-p requirements) (user-error "Cannot read %s" requirements))
+    (with-current-buffer log (erase-buffer))
+    (unless (and (or (file-exists-p (expand-file-name "pyvenv.cfg" directory))
+                     (eq 0 (call-process base nil (list log t) nil "-m" "venv" directory)))
+                 (file-executable-p python)
+                 (eq 0 (call-process python nil (list log t) nil "-m" "pip" "install" "-r" requirements)))
+      (display-buffer log)
+      (user-error "Python setup failed; see the setup buffer"))
+    (customize-save-variable 'org-reason-python-command python)
+    (message "Reason Commons Python set to %s" python)))
 
 (defun org-reason--rc-inspect (file) (org-reason--rc-call file '(("op" . "inspect"))))
 (defun org-reason--rc-actor (state &optional allow-assistant)
@@ -122,8 +135,9 @@
   (interactive)
   (let* ((file (org-reason--choose-commons)) (inspection (org-reason--rc-inspect file))
          (state (gethash "state" inspection))
-         (tree (completing-read "Tree question: " org-reason--tree-kinds nil t nil nil (gethash "active_tree" state)))
-         (kind (completing-read "Role in this tree: " (cdr (assoc tree org-reason--tree-kinds)) nil t))
+         (kinds (gethash "tree_kinds" inspection))
+         (tree (completing-read "Tree question: " kinds nil t nil nil (gethash "active_tree" state)))
+         (kind (completing-read "Role in this tree: " (gethash tree kinds) nil t))
          (text (if (use-region-p) (buffer-substring-no-properties (region-beginning) (region-end))
                  (read-string "Statement: "))))
     (org-reason--rc-call file (list '("op" . "add-node") (cons "tree" tree) (cons "kind" kind) (cons "text" text)
@@ -142,8 +156,10 @@
          (chosen (completing-read-multiple "Source conditions (comma-separated; together = AND): " choices nil t))
          (sources (mapcar (lambda (choice) (cdr (assoc choice choices))) chosen))
          (target (cdr (assoc (completing-read "Target: " choices nil t) choices)))
-         (relation (completing-read "Source → target relation: "
-                                    '("necessary_for" "causes" "contributes_to" "conflicts_with" "overcomes" "produces" "precedes") nil t)))
+         (relations (delete-dups (append (gethash "relation_suggestions" inspection)
+                                          (mapcar (lambda (link) (gethash "relation" link))
+                                                  (gethash "links" (gethash tree (gethash "trees" state)))))))
+         (relation (completing-read "Source → target relation: " relations)))
     (org-reason--rc-call file (list '("op" . "add-link") (cons "tree" tree)
                                (cons "from" (vconcat sources)) (cons "to" target) (cons "relation" relation)
                                (cons "by" (org-reason--rc-actor state))

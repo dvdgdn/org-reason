@@ -20,39 +20,10 @@ themselves an executable test suite. Manual checks are explicitly tagged.
 
 ## Automated traceability
 
-The full test names begin `org-reason-test-` (ERT) or `test_` (Python). The suffixes
-below identify the actual executable contracts. Some scenarios share a test
-because they describe inseparable parts of one end-to-end workflow.
-
-| Scenarios | Executable contract suffixes |
-|---|---|
-| CAP01 | `capture-needs-no-classification` |
-| CAP02 | `existing-capture-templates-and-protocol-survive`, `owned-template-enable-disable` |
-| CAP03 | `standard-org-capture-really-finalizes` |
-| CAP04 | `drop-import-is-repeatable-and-does-not-delete` |
-| GTD01 | `clarification-preserves-identity-and-body` |
-| GTD02 | `project-has-single-next-action-and-audit` |
-| GTD03 | `waiting-records-person-and-delegation-date`, `invalid-clarification-keeps-inbox` |
-| GTD04 | `incubation-is-not-next-action` |
-| GTD05 | `real-date-required-only-for-calendar-or-tickler` |
-| GTD06 | `failed-refile-keeps-source-material` |
-| GTD07 | `review-preserves-answers-on-repeat` |
-| GTD09 | `engage-filters-context-time-and-completed-parent` |
-| LRN01, LRN03 | `prediction-original-cannot-be-rewritten-by-freeze` |
-| LRN02 | `retrospective-and-unresolved-not-silently-scored` |
-| RC01 | `capture_is_proposed_with_attribution`, `all_six_tree_families_use_native_kinds` |
-| RC02 | `and_link_is_one_relationship_with_multiple_sources` |
-| RC03 | `endpoints_must_be_accepted_before_link` |
-| RC04 | `challenging_node_demotes_incident_links_and_retains_history` |
-| RC05 | `backlog_is_independent_of_acceptance` |
-| RC06 | `stale_digest_refuses_without_lost_update`, `uncooperative_external_edit_is_detected_before_replace` |
-| RC07 | `unfamiliar_schema_and_duplicate_yaml_keys_are_rejected` |
-| RC08 | `unknown_optional_data_survives_reserialization` |
-| RC09 | `assistant_contribution_is_not_human_acceptance` |
-| RC10 | `rc-link-selects-the-reasoning-object`, `emacs-python-real-schema-round-trip` |
-| RC11 | `rendering_failure_reports_saved_state` |
-| MED01, MED02 | `media-original-and-link-survive-refile` |
-| MED05 | `async-machine-output-is-separate-and-pending` |
+Test definitions carry their scenario IDs in the comment above each test.
+Run `python3 scripts/check_scenarios.py` to verify that each `@automated`
+scenario names at least one executable ERT or Python contract. CI runs this
+check alongside both test suites.
 
 Additional tests cover exclusive creation, cooperative locking, Unicode CLI I/O,
 proposal-versus-accepted history, idempotent initialization, filename containment,

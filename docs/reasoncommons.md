@@ -59,7 +59,8 @@ or an action's `OR_REASON` to navigate it.
 
 Work in turns with Claude Code or the upstream LTP workflow. The bridge refuses
 to operate while the YAML has unsaved edits in Emacs, rejects a stale inspected
-digest, and reports a remaining lock rather than overwriting another writer.
+digest, and refuses writes while another process holds the OS lock. The OS
+releases that lock when the writer exits.
 Unknown schema versions are refused. Existing unversioned drafts need a deliberate
 upstream migration; the package does not guess their meaning.
 

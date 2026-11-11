@@ -7,14 +7,15 @@ The code does not live inside `~/org`; private data does not live in this reposi
 
 | Relative path | Responsibility |
 |---|---|
-| `inbox/inbox.org` | One Org Reason inbox; unclarified captures |
-| `inbox/drop/` | Manually delivered audio, scans, images, or arbitrary files |
+| `inbox/inbox.org` | Default inbox for unclarified captures |
+| `inbox/device-*.org` | Optional inbox files for individual devices |
+| `inbox/drop/` | Manually delivered plain text, audio, scans, or other files |
 | `gtd/actions.org` | Current single next actions |
 | `gtd/projects/<id>.org` | One project outcome, its actions, and project support |
 | `gtd/waiting.org` | Standalone delegated outcomes |
 | `gtd/someday.org` | Incubation |
 | `gtd/agendas.org` | Discussion points for people and meetings |
-| `gtd/calendar.org` | Genuine date-specific commitments |
+| `gtd/calendar.org` | Day- and time-specific commitments |
 | `gtd/tickler.org` | Dated bring-forward reminders |
 | `gtd/horizons.org` | Purpose, vision, goals, and responsibility areas |
 | `gtd/checklists.org` | Reusable review and work checklists |
@@ -22,6 +23,7 @@ The code does not live inside `~/org`; private data does not live in this reposi
 | `knowledge/notes/<id>.org` | Identified reference, observation, question, hypothesis, feeling, or failure |
 | `knowledge/daily/` | Reserved for an optional user-configured daily-note workflow |
 | `learning/experiments.org` | Working experiment records and linked outcome children |
+| `archive/actions.org` | Completed or cancelled single actions |
 | `learning/forecasts/<id>.json` | Original formulation, timestamp, self-reported prospectivity, optional binary event and probability |
 | `learning/practice.org` | Challenge, feedback, adjusted repetition, and transfer check |
 | `learning/reflections.org` | Available for manually organized reflections; clarification normally creates individual knowledge notes |

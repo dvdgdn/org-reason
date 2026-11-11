@@ -31,21 +31,29 @@ Topic tags and context tags still use ordinary `org-set-tags-command'."
 (defun org-reason-find (property value)
   "Find identified records by PROPERTY and VALUE, using normal completion.
 Use TAG for topics or contexts; an empty VALUE matches any value."
-  (interactive
-   (let* ((property (completing-read "Find by: " (append '("OR_TYPE" "TAG") (mapcar #'car org-reason-metadata-fields)) nil t))
-          (entries (org-reason--entries "" (lambda () (org-entry-get nil "ID"))))
-          (values (delete-dups (delq nil (mapcar (lambda (e) (org-reason--property e property)) entries)))))
-     (list property (completing-read (concat property " (blank = any): ") values nil nil))))
-  (let* ((entries (org-reason--entries
-                   "" (lambda ()
-                        (and (org-entry-get nil "ID")
-                             (if (equal property "TAG") (or (string-empty-p value) (member value (org-get-tags)))
-                               (let ((actual (org-entry-get nil property)))
-                                 (and actual (or (string-empty-p value) (equal actual value)))))))))
-         (choices (mapcar (lambda (e) (cons (format "%s · %s [%s]" (or (org-reason--property e "OR_TYPE") "inbox")
-                                                   (plist-get e :title) (plist-get e :id)) (plist-get e :id))) entries)))
+  (interactive (list nil nil))
+  (let* ((property (or property
+                       (completing-read "Find by: "
+                                        (append '("OR_TYPE" "TAG") (mapcar #'car org-reason-metadata-fields))
+                                        nil t)))
+         (entries (org-reason--entries "" (lambda () (org-entry-get nil "ID"))))
+         (values-for (if (equal property "TAG")
+                         (lambda (entry) (plist-get entry :tags))
+                       (lambda (entry)
+                         (when-let ((actual (org-reason--property entry property))) (list actual)))))
+         (value (or value (completing-read (concat property " (blank = any): ")
+                                           (delete-dups (seq-mapcat values-for entries)))))
+         choices)
+    (dolist (entry entries)
+      (let ((values (funcall values-for entry))
+            (id (plist-get entry :id)))
+        (when (or (member value values)
+                  (and (string-empty-p value) (or values (equal property "TAG"))))
+          (push (cons (format "%s · %s [%s]" (or (org-reason--property entry "OR_TYPE") "inbox")
+                              (plist-get entry :title) id) id)
+                choices))))
     (unless choices (user-error "No matching records"))
-    (org-reason-open-id (cdr (assoc (completing-read "Record: " choices nil t) choices)))))
+    (org-reason-open-id (cdr (assoc (completing-read "Record: " (nreverse choices) nil t) choices)))))
 
 (provide 'org-reason-metadata)
 ;;; org-reason-metadata.el ends here

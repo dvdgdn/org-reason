@@ -2,44 +2,55 @@
 
 [![tests](https://github.com/dvdgdn/org-reason/actions/workflows/test.yml/badge.svg)](https://github.com/dvdgdn/org-reason/actions/workflows/test.yml)
 
-An Emacs system for making commitments dependable and learning cumulative:
-capture anything into one inbox, clarify it into next actions and projects (GTD),
-freeze a prediction before you know the outcome, compare it with what happened,
-and work through recurring problems with Reason Commons thinking-process trees.
-Plain Org files, on macOS, Linux and Windows.
+![Org Reason dashboard in Emacs with fictional captures, a due forecast, and calibration feedback](docs/dashboard.png)
 
-**Version 0.1.1 — working software, with explicit limits.** Capture, GTD clarification,
-media preservation, prediction review, practice records, and native Reason Commons
-editing are implemented and covered by automated Emacs and Python tests on all
-three platforms. Whether it earns its upkeep is for field use to show.
+Org Reason keeps your inbox, next actions, and predictions in plain Org files.
+It also supports [Reason Commons](https://reasoncommons.com/), a method and
+shared record for reasoning about goals, causes, and proposed changes.
+
+## Quick start
+
+After [installing Org Reason](#install), try these commands.
+
+1. `C-c r c` captures a thought, such as “Revise one German paragraph.”
+2. `C-c r i` opens the inbox. Put point on that capture.
+3. `C-c r x` clarifies it. Choose `next-action` and enter “Underline the sentence I’m least sure about.”
+
+On the dashboard (`C-c r d`), **See an example** opens a fictional capture,
+next action, and frozen prediction in a read-only Org buffer. Press `TAB` on
+**Outcome** to reveal what happened. Press `q` to return. The same example
+opens with `M-x org-reason-example`.
 
 ## Install
 
-Emacs 29.1 or newer (`use-package :vc` needs Emacs 30; on 29, use
-`M-x package-vc-install` with the URL instead):
+Org Reason requires Emacs 29.1 or newer. With Emacs 30, add this to your init.
 
 ```elisp
 (use-package org-reason
-  :vc (:url "https://github.com/dvdgdn/org-reason" :rev :newest)
+  :vc (:url "https://github.com/dvdgdn/org-reason" :rev "v0.1.1")
   :custom
-  (org-reason-directory "~/org/reason/")   ; your records; never in this repo
-  (org-reason-device (system-name))        ; recorded on each capture
+  (org-reason-directory "~/org/reason/")
   :config
   (org-reason-mode 1))
 ```
 
-That is all capture, GTD, review and learning need. The Reason Commons commands
-(`C-c r t …`) also need Python 3 with PyYAML, and browser capture needs the OS to
-pass `org-protocol://` links to Emacs. [docs/install.md](docs/install.md) covers
-both on macOS, Windows and Linux, plus using one set of records from several
-computers. Update with `M-x package-vc-upgrade`.
+On Emacs 29, use `M-:` to evaluate
+`(package-vc-install "https://github.com/dvdgdn/org-reason" "v0.1.1")`,
+then omit the `:vc` line above. Both snippets install the latest tagged
+release. To try the dashboard example and the other unreleased features
+shown here, [install from a checkout](docs/install.md#1-the-package).
+
+The Reason Commons commands need Python 3 and PyYAML. In a development
+checkout, `M-x org-reason-setup-python` installs the Python requirements
+into a virtual environment. The [installation guide](docs/install.md) covers
+browser capture and using one workspace from several computers.
 
 ## Learn it
 
-Press **`C-c r h`** for the guided tutorial, as `C-h t` is for Emacs. It opens in a
-separate Emacs that loads neither your init nor your records: the guide on one side,
-the dashboard of a fictional workspace on the other. Your progress is kept in a copy
-of the guide under `~/.emacs.d/org-reason-demo/`; delete that directory to start over.
+`C-c r ?` opens the command menu. Customize `org-reason-key-prefix` to
+choose your own prefix, or set it to `nil` and use `M-x org-reason-menu`.
+`C-c r h` opens the guided tutorial in a separate Emacs with a fictional
+workspace. Tutorial progress is stored under `~/.emacs.d/org-reason-demo/`.
 
 ## Why
 
@@ -91,6 +102,8 @@ reasoning is available when it would change a consequential decision.
 | `C-c r e` | Choose available actions by context, time, energy, then your priority |
 | `C-c r d` | See exceptions: stalled projects, due predictions, missing originals |
 | `C-c r w` | Open this week's review without erasing previous answers |
+| `C-c r ?` | Discover commands in the menu |
+| `C-c r E` | Open a worked example with a folded outcome |
 | `C-c r h` | The guided tutorial, in a separate Emacs on fictional data |
 
 When useful, add these:
@@ -100,6 +113,7 @@ When useful, add these:
 | `C-c r m` / `C-c r I` | Import one original / process the drop directory |
 | `C-c r D` | Explicitly run a configured local OCR or transcription adapter |
 | `C-c r M` / `C-c r /` | Add optional metadata / find by property or tag |
+| `C-c r A` | Archive completed single actions, keeping IDs and links |
 | `C-c r !` | Capture “expected / observed” and stop there |
 | `C-c r p`, `f`, `o` | Draft experiment, freeze original prediction, record outcome |
 | `C-c r v` | Inspect an original forecast |

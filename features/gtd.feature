@@ -62,3 +62,17 @@ Feature: Make commitments dependable
     When I choose computer work with fifteen minutes available
     Then the short computer action is shown
     And the longer action, call, and completed-project child are excluded
+
+  @GTD10 @automated
+  Scenario: Finish an interrupted clarification
+    Given a complete project with a first next action was saved during clarification
+    But removing the inbox copy failed
+    When I retry the original disposition from the inbox
+    Then the inbox copy is removed and the saved project remains with its first action
+
+  @GTD11 @automated
+  Scenario: Archive completed single actions
+    Given a completed and an open action
+    When I archive completed actions
+    Then the completed action's ID resolves to its archived subtree
+    And the open action remains available

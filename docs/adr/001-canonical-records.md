@@ -5,8 +5,8 @@ Status: implemented in 0.1.0.
 Reason Commons is the organizing discipline and canonical format for formal
 reasoning. It is not forced to represent raw audio, a shopping reminder, or every
 emotional experience. Those remain identified Org/media records and can connect
-to formal reasoning when useful. This follows the conceptual-foundation option
-in the supplied design conversation.
+to formal reasoning when useful. Using Org for routine capture keeps recording
+a commitment independent of classifying it in a reasoning tree.
 
 Org task state, object type, topic, origin, and epistemic status are separate
 dimensions. Views do not duplicate reminders. Frozen forecasts preserve earlier

@@ -5,10 +5,18 @@
 (require 'org-reason-capture)
 (require 'json)
 
-(defun org-reason--json-read (file)
-  (let ((json-object-type 'alist) (json-array-type 'list) (json-key-type 'string)
-        (json-false :false) (json-null nil))
-    (json-read-file file)))
+(declare-function org-reason-next-action "org-reason-gtd" (title &optional context effort reason))
+
+(defun org-reason--json-read (file &optional expected-digest)
+  "Read FILE, verifying its exact bytes first when EXPECTED-DIGEST is set."
+  (with-temp-buffer
+    (set-buffer-multibyte nil)
+    (insert-file-contents-literally file)
+    (when (and expected-digest (not (equal expected-digest (secure-hash 'sha256 (current-buffer)))))
+      (user-error "Forecast snapshot SHA-256 mismatch"))
+    (let ((json-object-type 'alist) (json-array-type 'list) (json-key-type 'string)
+          (json-false :false) (json-null nil))
+      (json-read-from-string (decode-coding-string (buffer-string) 'utf-8)))))
 
 (defun org-reason--forecast-path (id)
   (org-reason-path (concat "learning/forecasts/" (org-reason--id-filename id) ".json")))
@@ -35,7 +43,7 @@ Return its ID.  A draft is not a prospective forecast until explicitly frozen."
                      (org-read-date nil nil nil "Review the outcome on: ")))
   (org-reason-open-id (org-reason-create-experiment title prediction review-on))
   (org-fold-show-subtree)
-  (message "Fill the relevant fields, then C-c r f to freeze the prediction"))
+  (message "Fill the relevant fields, then run org-reason-freeze-prediction"))
 
 (defun org-reason--section-text (name)
   "Read the immediate subsection NAME of the current entry."
@@ -74,7 +82,8 @@ are not tamper-proof or independently timestamped."
   (let* ((id (org-entry-get nil "ID"))
          (prediction (org-reason--section-text "Prediction"))
          (review (org-entry-get nil "OR_REVIEW_ON"))
-         (file (org-reason--forecast-path id)))
+         (file (org-reason--forecast-path id))
+         digest)
     (unless (and prediction (not (string-empty-p prediction))) (user-error "Write a Prediction section first"))
     (unless (and review (org-reason--date-valid-p review)) (user-error "Set OR_REVIEW_ON to a valid date"))
     (when (file-exists-p file) (user-error "Prediction already frozen; create a new experiment for a revision"))
@@ -88,13 +97,17 @@ are not tamper-proof or independently timestamped."
                  (cons "original_org" (buffer-substring-no-properties
                                        (point) (save-excursion (org-end-of-subtree t t) (point)))))))
       (with-temp-buffer
-        (insert (json-encode snapshot) "\n")
-        (let ((coding-system-for-write 'utf-8-unix)) ; the same bytes on every OS
+        (set-buffer-multibyte nil)
+        (insert (encode-coding-string (concat (json-encode snapshot) "\n") 'utf-8-unix))
+        (setq digest (secure-hash 'sha256 (current-buffer)))
+        (let ((coding-system-for-write 'no-conversion))
           (write-region (point-min) (point-max) file nil 'silent nil 'excl)))
       (set-file-modes file #o600))
-    (org-entry-put nil "OR_STATUS" "open")
-    (org-entry-put nil "OR_FORECAST" (file-relative-name file org-reason-directory))
-    (org-reason--save-buffer)
+    (atomic-change-group
+      (org-entry-put nil "OR_STATUS" "open")
+      (org-entry-put nil "OR_FORECAST" (file-relative-name file org-reason-directory))
+      (org-entry-put nil "OR_FORECAST_SHA256" digest)
+      (org-reason--save-buffer))
     (message "Original prediction preserved; review %s" review)
     file))
 
@@ -117,16 +130,53 @@ are not tamper-proof or independently timestamped."
     (unless choices (user-error (if include-reviewed "No frozen predictions" "No open frozen experiments")))
     (cdr (assoc (completing-read "Review experiment: " choices nil t) choices))))
 
+(defun org-reason--read-forecast (id expected-digest)
+  "Return the saved forecast for ID after checking its identity and digest."
+  (let* ((file (org-reason--forecast-path id))
+         (snapshot (if (file-readable-p file)
+                       (org-reason--json-read file expected-digest)
+                     (user-error "Forecast snapshot is missing")))
+         (probability (cdr (assoc "probability" snapshot)))
+         (event (cdr (assoc "binary_event" snapshot))))
+    (unless (and (equal (cdr (assoc "schema_version" snapshot)) 1)
+                 (equal (cdr (assoc "id" snapshot)) id)
+                 (stringp (cdr (assoc "original_org" snapshot)))
+                 (or (null probability)
+                     (and (numberp probability) (<= 0 probability 1)
+                          (stringp event) (not (string-blank-p event)))))
+      (user-error "Invalid forecast snapshot for %s" id))
+    snapshot))
+
+(defun org-reason--experiment-marker (id)
+  (let ((marker (org-reason--find-id id)))
+    (unless (and marker (org-with-point-at marker
+                          (equal (org-entry-get nil "OR_TYPE") "experiment")))
+      (user-error "Experiment not found: %s" id))
+    marker))
+
+(defun org-reason--display-forecast (snapshot digest)
+  (with-current-buffer (get-buffer-create "*Org Reason: original forecast*")
+    (let ((inhibit-read-only t)
+          (event (cdr (assoc "binary_event" snapshot)))
+          (probability (cdr (assoc "probability" snapshot))))
+      (erase-buffer)
+      (org-mode)
+      (insert "#+title: Original forecast\n\n")
+      (unless digest (insert "This snapshot was saved without a SHA-256 digest.\n\n"))
+      (when (numberp probability)
+        (insert (format "Forecast probability: %g%%\n\n" (* 100 probability))
+                "Yes/no event\n"
+                (org-reason--literal-text event) "\n"))
+      (insert (cdr (assoc "original_org" snapshot)))
+      (org-reason--view-setup))
+    (display-buffer (current-buffer))))
+
 (defun org-reason-show-forecast (id)
   "Show the original forecast ID without relying on edited working text."
   (interactive (list (org-reason--choose-experiment t)))
-  (let ((snapshot (org-reason--json-read (org-reason--forecast-path id))))
-    (with-current-buffer (get-buffer-create "*Org Reason: original forecast*")
-      (let ((inhibit-read-only t))
-        (erase-buffer) (org-mode)
-        (insert "#+title: Original forecast\n\n" (cdr (assoc "original_org" snapshot)))
-        (org-reason--view-setup))
-      (display-buffer (current-buffer)))))
+  (let ((digest (org-with-point-at (org-reason--experiment-marker id)
+                  (org-entry-get nil "OR_FORECAST_SHA256"))))
+    (org-reason--display-forecast (org-reason--read-forecast id digest) digest)))
 
 (defun org-reason-add-result (id assessment observation &optional binary-outcome feeling next-decision)
   "Append an outcome for frozen experiment ID, preserving its original forecast.
@@ -135,72 +185,113 @@ BINARY-OUTCOME is yes, no, or unknown, independent of the causal assessment."
   (unless (member assessment '("supported" "contradicted" "implementation-failed" "inconclusive"))
     (user-error "Unknown assessment"))
   (unless (member binary-outcome '(nil "yes" "no" "unknown")) (user-error "Unknown binary outcome"))
-  (when (string-empty-p (string-trim observation)) (user-error "Record what actually happened"))
-  (unless (file-exists-p (org-reason--forecast-path id)) (user-error "Freeze a prediction before recording its outcome"))
-  (let ((marker (org-reason--find-id id)))
-    (unless marker (user-error "Experiment not found"))
-    (with-current-buffer (marker-buffer marker)
-      (save-excursion
-        (goto-char marker)
-        (when (org-entry-get nil "OR_RESULT_ID")
-          (user-error "Already reviewed; append a correction manually or create a follow-up experiment"))
-        (let ((result-id
-               (org-reason--child
-                (concat "Outcome — " (org-reason--today))
-                (concat "Observation: " observation "\n\n"
-                        "Implementation fidelity: Unknown — was the intervention carried out?\n\n"
-                        "Comparability / changed conditions: Unknown.\n\n"
-                        "What this changes in the model: Unknown.\n\n"
-                        "Next decision: " (or next-decision "Unknown.") "\n")
-                (list '("OR_TYPE" . "result") (cons "OR_FOR" id)
-                      (cons "OR_RECORDED" (org-reason--now)) (cons "OR_ASSESSMENT" assessment)
-                      (cons "OR_BINARY_OUTCOME" (or binary-outcome "unknown"))
-                      (cons "OR_FEELING" feeling)))))
-          (org-entry-put nil "OR_RESULT_ID" result-id)
-          (org-entry-put nil "OR_STATUS" "reviewed")
-          (org-reason--save-buffer)
-          result-id)))))
+  (when (string-blank-p observation) (user-error "Record what actually happened"))
+  (org-with-point-at (org-reason--experiment-marker id)
+    (org-reason--read-forecast id (org-entry-get nil "OR_FORECAST_SHA256"))
+    (when (org-entry-get nil "OR_RESULT_ID")
+      (user-error "Already reviewed; append a correction manually or create a follow-up experiment"))
+    (let (result-id)
+      (atomic-change-group
+        (setq result-id
+              (org-reason--insert-child
+               (concat "Outcome — " (org-reason--today))
+               (concat "Observation\n" (org-reason--literal-text observation)
+                       "\nImplementation fidelity: Unknown — was the intervention carried out?\n\n"
+                       "Comparability / changed conditions: Unknown.\n\n"
+                       "What this changes in the model: Unknown.\n\n"
+                       "Next decision\n" (org-reason--literal-text (or next-decision "Unknown.")))
+               (list '("OR_TYPE" . "result") (cons "OR_FOR" id)
+                     (cons "OR_RECORDED" (org-reason--now))
+                     (cons "OR_ASSESSMENT" assessment)
+                     (cons "OR_BINARY_OUTCOME" (or binary-outcome "unknown"))
+                     (cons "OR_FEELING" feeling))))
+        (org-entry-put nil "OR_RESULT_ID" result-id)
+        (org-entry-put nil "OR_STATUS" "reviewed")
+        (org-reason--save-buffer))
+      (org-id-add-location result-id buffer-file-name)
+      result-id)))
 
-(defun org-reason-record-result ()
-  "Compare an original prediction with observations and the next decision."
+(defun org-reason-record-result (&optional id)
+  "Review forecast ID, or choose an open experiment."
   (interactive)
-  (let* ((id (org-reason--choose-experiment))
-         (_view (org-reason-show-forecast id))
+  (let* ((id (or id (org-reason--choose-experiment)))
+         (digest (org-with-point-at (org-reason--experiment-marker id)
+                   (unless (and (equal (org-entry-get nil "OR_STATUS") "open")
+                                (not (org-entry-get nil "OR_RESULT_ID")))
+                     (user-error "Choose an open frozen experiment"))
+                   (org-entry-get nil "OR_FORECAST_SHA256")))
+         (snapshot (org-reason--read-forecast id digest))
+         (_view (org-reason--display-forecast snapshot digest))
          (assessment (completing-read "Assessment: " '("supported" "contradicted" "implementation-failed" "inconclusive") nil t))
          (observation (read-string "What did you observe? "))
-         (snapshot (org-reason--json-read (org-reason--forecast-path id)))
          (outcome (when (numberp (cdr (assoc "probability" snapshot)))
                     (completing-read (format "Did this event occur: %s? " (cdr (assoc "binary_event" snapshot)))
                                      '("yes" "no" "unknown") nil t)))
          (feeling (read-string "Feeling (optional): "))
-         (decision (read-string "Next decision (continue / adjust / stop / seek evidence): ")))
-    (org-reason-open-id (org-reason-add-result id assessment observation outcome feeling decision))))
+         (decision (read-string "Next decision (continue / adjust / stop / seek evidence): "))
+         (result (org-reason-add-result id assessment observation outcome feeling decision)))
+    (org-reason-open-id result)
+    (when (and (not (string-blank-p decision))
+               (y-or-n-p "Create a NEXT action linked to this result? "))
+      (let ((title (read-string "Physical next action: " decision)))
+        (unless (string-blank-p title)
+          (org-reason-open-id (org-reason-next-action title nil nil (concat "id:" result))))))
+    result))
 
-(defun org-reason-calibration-data ()
-  "Return honest counts and Brier scores for eligible binary forecasts.
-Only self-reported prospective, resolved yes/no events are scored.
-Unresolved and inconclusive records remain in the denominator counts."
-  (let ((frozen 0) (eligible 0) (scored 0) (sum 0.0))
-    (dolist (entry (org-reason--experiments))
-      (let ((file (org-reason--forecast-path (plist-get entry :id))))
-        (when (file-exists-p file)
-          (cl-incf frozen)
-          (let* ((snapshot (org-reason--json-read file))
-                 (probability (cdr (assoc "probability" snapshot)))
-                 (result (org-reason--property entry "OR_RESULT_ID"))
-                 (marker (and result (org-reason--find-id result))))
-            (when (and (eq (cdr (assoc "prospective" snapshot)) t) (numberp probability))
-              (cl-incf eligible)
-              (when marker
-                (with-current-buffer (marker-buffer marker)
-                  (save-excursion
-                    (goto-char marker)
-                    (let ((answer (org-entry-get nil "OR_BINARY_OUTCOME")))
-                      (when (member answer '("yes" "no"))
+(defun org-reason--review-forecast-link (id _argument)
+  (org-reason-record-result id))
+
+(org-link-set-parameters "org-reason-result" :follow #'org-reason--review-forecast-link)
+
+(cl-defun org-reason-calibration-data
+    (&optional (entries (org-reason--entries "" (lambda () (org-entry-get nil "ID")))))
+  "Return calibration counts, probability buckets, and Brier scores.
+Use resolved prospective yes/no forecasts.  The constant-rate reference
+predicts the observed yes rate for every scored event in this sample."
+  (let ((by-id (make-hash-table :test #'equal))
+        (buckets (make-vector 5 nil))
+        (frozen 0) (eligible 0) (scored 0) (sum 0.0) (yes 0) (unverified 0)
+        problems)
+    (dolist (entry entries)
+      (puthash (plist-get entry :id) entry by-id))
+    (dolist (entry entries)
+      (when (equal (org-reason--property entry "OR_TYPE") "experiment")
+        (let* ((id (plist-get entry :id))
+               (digest (org-reason--property entry "OR_FORECAST_SHA256")))
+          (when (or digest (org-reason--property entry "OR_FORECAST")
+                    (file-exists-p (org-reason--forecast-path id)))
+            (cl-incf frozen)
+            (condition-case err
+                (let* ((snapshot (org-reason--read-forecast id digest))
+                       (probability (cdr (assoc "probability" snapshot)))
+                       (result (gethash (org-reason--property entry "OR_RESULT_ID") by-id))
+                       (answer (org-reason--property result "OR_BINARY_OUTCOME")))
+                  (unless digest (cl-incf unverified))
+                  (when (and (eq (cdr (assoc "prospective" snapshot)) t)
+                             (numberp probability) (<= 0 probability 1))
+                    (cl-incf eligible)
+                    (when (member answer '("yes" "no"))
+                      (let* ((actual (if (equal answer "yes") 1 0))
+                             (index (min 4 (floor (* 5 probability))))
+                             (bucket (or (aref buckets index) (list 0 0.0 0))))
                         (cl-incf scored)
-                        (cl-incf sum (expt (- probability (if (equal answer "yes") 1 0)) 2))))))))))))
-    (list :frozen frozen :eligible eligible :scored scored
-          :unresolved (- eligible scored) :brier (and (> scored 0) (/ sum scored)))))
+                        (cl-incf yes actual)
+                        (cl-incf sum (expt (- probability actual) 2))
+                        (cl-incf (nth 0 bucket))
+                        (cl-incf (nth 1 bucket) probability)
+                        (cl-incf (nth 2 bucket) actual)
+                        (aset buckets index bucket)))))
+              (error (push (cons entry (error-message-string err)) problems)))))))
+    (let ((rate (and (> scored 0) (/ (float yes) scored))))
+      (list :frozen frozen :eligible eligible :scored scored :unresolved (- eligible scored)
+            :unverified unverified :problems (nreverse problems)
+            :brier (and rate (/ sum scored)) :baseline (and rate (* rate (- 1 rate)))
+            :buckets (cl-loop for bucket across buckets
+                              for low from 0 by 20
+                              when bucket
+                              collect (cl-destructuring-bind (n forecast actual) bucket
+                                        (list :low low :high (+ low 20) :count n
+                                              :forecast (/ forecast n) :actual (/ (float actual) n))))))))
 
 (defun org-reason-practice (skill challenge feedback)
   "Create a focused practice rep for SKILL, CHALLENGE, and FEEDBACK source."

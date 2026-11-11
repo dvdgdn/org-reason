@@ -11,7 +11,7 @@ With Emacs 30, in your init:
 
 ```elisp
 (use-package org-reason
-  :vc (:url "https://github.com/dvdgdn/org-reason" :rev :newest)
+  :vc (:url "https://github.com/dvdgdn/org-reason" :rev "v0.1.1")
   :custom
   (org-reason-directory "~/org/reason/")
   (org-reason-device (system-name))
@@ -19,13 +19,15 @@ With Emacs 30, in your init:
   (org-reason-mode 1))
 ```
 
-On Emacs 29, run `M-x package-vc-install RET https://github.com/dvdgdn/org-reason`
-once, then use the same block without the `:vc` line. Either way,
-`M-x package-vc-upgrade RET org-reason` updates it.
+On Emacs 29, evaluate
+`(package-vc-install "https://github.com/dvdgdn/org-reason" "v0.1.1")` with
+`M-:`, then use the same block without the `:vc` line. These snippets pin
+the latest tagged release. Update the tag when you choose a newer release.
 
 To work on Org Reason itself, clone the repository and run
-`M-x package-vc-install-from-checkout` on the clone: the same block then loads
-your working copy. After editing, `M-x package-vc-rebuild` recompiles it.
+`M-x package-vc-install-from-checkout` on the clone. Use the same block
+without the `:vc` line. After editing, use `M-x package-vc-rebuild` to
+recompile it. The new commands below are available from a development checkout.
 
 The data directory is created the first time the mode is turned on; loading the
 library alone writes nothing. Your records stay there and never belong in this
@@ -34,7 +36,9 @@ repository.
 | Setting | Default | What it is |
 |---|---|---|
 | `org-reason-directory` | `~/org/reason/` | Where your records live |
-| `org-reason-device` | `(system-name)` | Recorded on each capture; name each computer |
+| `org-reason-device` | `(system-name)` | Stable device name recorded on each capture |
+| `org-reason-inbox-per-device` | `nil` | Give each device its own inbox file |
+| `org-reason-key-prefix` | `C-c r` | Customize the prefix. Set to `nil` to use `M-x org-reason-menu` |
 | `org-reason-language` | `en` | Default language of new material |
 | `org-reason-capture-key` | `r` | The `org-capture` template key, added only if free |
 | `org-reason-roam-knowledge-only` | `t` | If the workspace is inside `org-roam-directory`, index only its `knowledge/` notes |
@@ -48,30 +52,17 @@ on Windows it tries the `py` launcher first, since `python3` there is often only
 a Microsoft Store placeholder. It needs PyYAML, plus `tzdata` on Windows, where
 Python has no time-zone database. Both are in `requirements.txt`.
 
-The simplest setup is a virtual environment of its own. In the package directory
-(`M-x find-library RET org-reason`, then `M-x dired-jump` shows it):
+With Python 3 installed, run `M-x org-reason-setup-python` (also
+`C-c r t P` with the default prefix). Choose the virtual environment
+directory. The command creates or reuses the environment, runs pip with
+the bundled requirements, and saves `org-reason-python-command` in your
+Emacs customization file after installation succeeds. Pip downloads the
+requirements using its normal package index settings.
 
-macOS and Linux:
-
-```sh
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
-```
-
-Windows (PowerShell):
-
-```powershell
-py -m venv .venv
-.venv\Scripts\python -m pip install -r requirements.txt
-```
-
-Then point Emacs at it:
-
-```elisp
-(setq org-reason-python-command
-      (expand-file-name (if (eq system-type 'windows-nt) ".venv/Scripts/python.exe" ".venv/bin/python")
-                        (file-name-directory (locate-library "org-reason"))))
-```
+For manual setup, create a venv with `python3 -m venv PATH` (or
+`py -m venv PATH` on Windows), then run its Python with
+`-m pip install -r requirements.txt` from the package directory.
+Point `org-reason-python-command` to that interpreter.
 
 If the Python you already have includes PyYAML, no setup is needed.
 
@@ -115,13 +106,18 @@ Install the package on each computer the same way. Give each its own
 sync `org-reason-directory` with a tool you trust (a private Git repository,
 Syncthing, a cloud folder):
 
-- Edit on one computer at a time and let the sync finish before switching.
-  Clarifying moves an entry between files; two computers doing that to the same
-  files between syncs produce conflicts or duplicates. `C-c r d` lists duplicate IDs.
-- Sync the records, including `media/`, `learning/forecasts/` and each commons'
-  `.org-reason/` and `.reason-commons/` histories.
-- Don't sync per-computer state: Emacs's `.org-id-locations`, an Org-roam database,
-  or a leftover `*.org-reason-lock` file.
+- Set `org-reason-inbox-per-device` to `t` and give each computer a distinct,
+  stable `org-reason-device`. Each device appends to its own file. The inbox
+  command offers a choice of files, including the existing `inbox/inbox.org`.
+- Coordinate clarification and edits to shared files. Wait for sync before
+  switching devices. The dashboard lists duplicate IDs.
+- From a phone, drop a UTF-8 `.txt`, `.text`, `.md`, or `.org` file in
+  `inbox/drop/` and run `C-c r I` in Emacs to capture its text. Other files
+  are imported as originals. The drop files stay in place.
+- Sync `media/`, `learning/forecasts/`, and the Commons histories in
+  `.org-reason/history/` and `.reason-commons/` with the Org records.
+- Keep Emacs's `.org-id-locations`, the Org-roam database, and Commons
+  `.org-reason/*.lock` files local to each computer.
 - With Git, keep line endings as they are (`git config core.autocrlf false` in that
   repository, or a `.gitattributes` with `* -text`): the forecast snapshots and
   commons histories are compared byte for byte.
@@ -182,14 +178,15 @@ Back up the complete data directory, including media, forecast snapshots,
 `.org-reason/`, and `.reason-commons/`. An Org-roam database is not canonical data.
 Restore from backups and reconcile duplicate IDs before relying on links.
 
-A refile saves the destination before removing the source. A crash between those
-two writes can leave a recoverable duplicate; `C-c r d` surfaces duplicate IDs.
-Reasoning edits use a lock, digest comparison, before-images, atomic replacement,
-and accepted-history snapshots. A noncooperating external editor still requires
-coordination; this is not a multiwriter database.
+A refile saves the complete destination before removing the source. If it stops
+between those writes, repeat the original disposition on the inbox entry to
+finish removing it. The dashboard lists both copies if reconciliation is needed.
 
-After a killed Python process, a `.org-reason-lock` can remain beside the YAML.
-Confirm no writer is running and inspect the working file and history before
-removing that stale lock. If valid YAML was saved but rendering failed, the command
-reports that separately: fix the history/render issue and invoke the diagram
-command again.
+The Reason Commons bridge holds an OS lock for the duration of a write. The
+operating system releases it when the Python process exits, including after an
+interruption. Leave the persistent lock file in place. Older versions use a
+different lock mechanism, so finish any writes from those versions before
+switching. Digest checks and before-images remain available for recovery.
+
+If valid YAML was saved but rendering failed, the command reports that
+separately. Fix the history or rendering issue and open the diagram again.

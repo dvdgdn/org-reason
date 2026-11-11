@@ -172,7 +172,7 @@ leaves you at the inbox; use C-c r a to find the project and action.
 | An outcome delegated to someone else | delegate; record who you are waiting for |
 | A possible future commitment | someday |
 | Useful material with no action | reference, or a suitable knowledge type |
-| A genuine date-specific commitment | calendar; enter its actual date |
+| A genuine date-specific commitment | calendar, with an optional time |
 | A future bring-forward reminder | tickler; choose the revisit date |
 | A discussion point for a person or meeting | agenda |
 | No useful retention | discard; it remains recoverable |
@@ -356,7 +356,11 @@ the outcome is still unknown to you; do not turn an invented result into a
 prospective personal forecast. In a real test, answer y only before its outcome
 is known. Package commands never overwrite the saved forecast.
 
-Use C-c r v to inspect that original. In real work, carry out the intervention
+Use C-c r v to inspect that original and its binary event and probability.
+New snapshots carry a SHA-256 digest on the experiment. The dashboard reports
+missing or changed snapshots and excludes them from calibration.
+
+In real work, carry out the intervention
 and gather observations before continuing to the outcome step.
 
 ** Exercise: record a clearly labelled tutorial outcome
@@ -370,7 +374,14 @@ case and collect comparable observations.” The command opens a linked result;
 fill its implementation and comparability sections. It marks the experiment
 reviewed. A second programmatic result is refused; append visible corrections
 or create a follow-up experiment rather than rewriting the original.
-You can still inspect the reviewed original with C-c r v.
+You can still inspect the reviewed original with C-c r v. From the dashboard,
+follow Record outcome next to a due forecast to review it directly. After
+recording a decision, you can create a NEXT action linked to its outcome.
+
+The dashboard groups resolved prospective yes/no predictions by probability.
+Compare the mean forecast and the observed yes rate in each group, keeping the
+sample size in view. The constant-rate Brier baseline uses the observed yes
+rate for every event in the scored sample.
 
 | Real assessment | Meaning to examine |
 |-
@@ -393,6 +404,7 @@ The source file remains where it was. Clarify the capture as reference, then ope
 its original link with C-c C-o. The generated link survives refiling.
 
 For several files, put direct regular files in inbox/drop/ and press C-c r I.
+UTF-8 .txt, .text, .md, and .org files become plain-text captures.
 Repeated imports skip known content hashes. Subdirectories and symlinks are not
 traversed, and source files are not deleted.
 
@@ -502,7 +514,7 @@ All keys below begin with C-c r. Commands are also available through M-x.
 | No open experiments | Only frozen, unreviewed experiments are offered. Draft or create a follow-up. |
 | No accepted diagram | The active tree needs accepted items. Proposals remain in the Org view. |
 | Python or PyYAML error | Choose the venv Python containing PyYAML. |
-| YAML changed or is locked | Reconcile buffers and reload. Remove a stale lock only when no writer remains. |
+| YAML changed or is locked | Reconcile buffers, or wait for the other writer to finish, then retry. |
 | Duplicate IDs reported | Inspect both dashboard file links. Preserve the material and reconcile the IDs. |
 | Recognition fails | Inspect diagnostics and its command. The original remains available. |
 
