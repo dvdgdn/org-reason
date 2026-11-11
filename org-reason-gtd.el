@@ -165,11 +165,114 @@ This function is also a stable API for capture adapters and tests."
       (when child-id (org-id-add-location child-id file))
       id)))
 
+(defconst org-reason--clarify-help
+  '(("Is it actionable"
+     . "Is it actionable?  Pick where this inbox item belongs.
+
+next-action  One physical step you can do yourself, now or soon.
+project      An outcome needing several steps; you name the first step.
+delegate     Someone else owns it and you are waiting on them.
+done-now     You already did it (a two-minute thing).
+calendar     Must happen on a particular date or time.
+tickler      Not now; bring it back on a particular date.
+someday      Maybe later; no commitment.
+agenda       A point to raise with a person or in a meeting.
+reference    Useful information, nothing to do.
+discard      Neither; it is moved aside, not deleted.
+question, observation, hypothesis, feeling, failure
+             Reasoning material rather than a task.
+
+If unsure whether it is one step or several, ask: could I finish it in
+one sitting?  Yes: next-action.  No: project.")
+    ("Desired outcome"
+     . "Desired outcome: the finished state, not a step.
+
+Good:  German essay on Kafka written
+       Passport renewed
+       Berlin trip booked
+Weak:  Work on essay   (an activity, not a result)
+
+Next you will be asked for the first physical action.")
+    ("Physical, visible next action"
+     . "A next action is one concrete step you could start in the next minute.
+Start with a verb; say what your hands, voice or eyes would do.
+
+Good:  Open the essay file and write the first sentence.
+       Text Anna to ask which weekend she is free.
+       Look up the passport office's opening hours.
+Weak:  Work on essay  /  Figure out the trip  /  Passport
+
+If you cannot picture starting it, make it smaller.")
+    ("First available physical action"
+     . "The first available physical action: the one step you could start now
+without deciding or looking anything up first.  Start with a verb.
+
+Project \"Write German essay on Kafka\":
+  Open the essay file and write the first sentence of the introduction.
+Project \"Renew passport\":
+  Look up the passport office's opening hours on their website.
+Project \"Plan Berlin trip\":
+  Text Anna to ask which weekend she is free.
+
+Not this: \"Work on essay\", \"Research\", \"Figure it out\".
+Later steps stay as TODO under the project until this one is done.
+If it turns out to be a single step, C-g and clarify it as next-action.")
+    ("Context"
+     . "Context: where or with what you can do this action, such as @computer,
+@phone or @home.  It lets C-c r e list only what is possible right now.
+Pick the one place that most limits it.")
+    ("Estimated effort"
+     . "Estimated effort as H:MM, for example 0:20 or 1:30.
+Optional: leave it blank if unsure.  Blank means no time filter hides it.")
+    ("Who / meeting"
+     . "Who you are waiting on (delegate), or the person or meeting this is for (agenda).")
+    ("Commitment date"
+     . "A real date, optionally with a time, such as 2026-11-14 15:00.
+Use it only for things that must happen then.")
+    ("Bring-forward date"
+     . "The date this should come back to your attention.  It is a reminder,
+not a deadline."))
+  "Help text for each clarification prompt, keyed by the start of the prompt.")
+
+(defun org-reason-clarify-help ()
+  "Show help about the clarification prompt being answered."
+  (interactive)
+  (let ((text (cdr (seq-find (lambda (entry)
+                               (string-prefix-p (car entry) (minibuffer-prompt)))
+                             org-reason--clarify-help))))
+    (with-help-window "*Org Reason help*"
+      (princ (or text "No help for this prompt.")))))
+
+(defvar org-reason--clarify-help-map
+  (let ((map (make-sparse-keymap)))
+    (define-key map (kbd "M-?") #'org-reason-clarify-help)
+    map))
+
+(defun org-reason--clarify-bind-help ()
+  "Make `M-?' show help in the current clarification prompt."
+  (use-local-map (make-composed-keymap org-reason--clarify-help-map (current-local-map)))
+  (minibuffer-message " (M-? for help)"))
+
+(defun org-reason-capture-and-clarify (text)
+  "Capture TEXT (or the region), then clarify the new entry at once."
+  (interactive (list (if (use-region-p)
+                         (buffer-substring-no-properties (region-beginning) (region-end))
+                       (read-string "Capture: "))))
+  (let* ((id (org-reason-capture text))
+         (marker (org-reason--find-id id)))
+    (unless marker (user-error "Captured %s, but could not find it to clarify" id))
+    (pop-to-buffer-same-window (marker-buffer marker))
+    (goto-char marker)
+    (org-reason-clarify)))
+
 (defun org-reason-clarify ()
-  "Guide the GTD decision for the current inbox entry."
+  "Guide the GTD decision for the current inbox entry.
+At any prompt, \\<org-reason--clarify-help-map>\\[org-reason-clarify-help] shows help."
   (interactive)
   (org-reason--require-entry)
-  (let* ((choice (completing-read
+  (let* ((minibuffer-setup-hook
+          (cons #'org-reason--clarify-bind-help minibuffer-setup-hook))
+         (choice (completing-read
                   "Is it actionable? Choose where it belongs: "
                   '("next-action" "project" "delegate" "done-now" "calendar" "tickler"
                     "someday" "agenda" "reference" "question" "observation"

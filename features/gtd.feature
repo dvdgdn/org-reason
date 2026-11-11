@@ -76,3 +76,15 @@ Feature: Make commitments dependable
     When I archive completed actions
     Then the completed action's ID resolves to its archived subtree
     And the open action remains available
+
+  @GTD12 @automated
+  Scenario: Capture and clarify in one step
+    When I capture a thought and clarify it immediately
+    Then the new entry is the one clarified
+    And it appears once in the action system and not in the inbox
+
+  @GTD13 @automated
+  Scenario: Explain a clarification prompt
+    Given I am answering a clarification prompt
+    When I ask for help
+    Then I see an explanation with examples for that prompt

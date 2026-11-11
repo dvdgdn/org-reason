@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Add `C-c r C` to capture and clarify in one step, and `M-?` at every
+  clarification prompt to show help with examples.
 - Capture external text as literal Org, support optional per-device inboxes,
   and import plain text from the drop directory.
 - Scan records without visiting unopened files. Retry an interrupted

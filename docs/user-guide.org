@@ -492,7 +492,7 @@ All keys below begin with C-c r. Commands are also available through M-x.
 
 | Keys | Job |
 |-
-| c / i / x | Capture / inbox / clarify current inbox item |
+| c / C / i / x | Capture / capture and clarify at once / inbox / clarify current inbox item |
 | a / e / d / w | Agenda / choose action / dashboard / weekly review |
 | p / f / v / o | Draft experiment / freeze / original forecast / outcome |
 | s / ! | Practice record / expected-observed capture |

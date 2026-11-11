@@ -697,4 +697,50 @@
                                         (expand-file-name "requirements.txt" org-reason--package-root))))
         (should (equal (cadr calls) (list "bootstrap-python" "-m" "venv" directory)))))))
 
+;; @GTD12
+(ert-deftest org-reason-test-capture-and-clarify-acts-on-the-new-entry ()
+  (org-reason-test-workspace
+    (let (id)
+      (cl-letf (((symbol-function 'completing-read)
+                 (lambda (prompt &rest _) (if (string-prefix-p "Context" prompt) "@computer" "next-action")))
+                ((symbol-function 'read-string)
+                 (lambda (prompt &optional initial &rest _)
+                   (if (string-prefix-p "Estimated" prompt) "0:10" (or initial "Do it"))))
+                ((symbol-function 'pop-to-buffer-same-window) #'set-buffer))
+        (setq id (org-reason-capture-and-clarify "Call the dentist")))
+      (should-not (org-reason--entries "inbox" (lambda () (org-entry-get nil "ID"))))
+      (should (= 1 (length (org-reason--entries "" (lambda ()
+                                                     (and (equal (org-get-todo-state) "NEXT")
+                                                          (org-entry-get nil "ID"))))))))))
+
+;; @GTD13
+(ert-deftest org-reason-test-clarify-prompts-offer-help ()
+  (org-reason-test-workspace
+    ;; Every prompt of one clarification, not just the first, gets the help key.
+    (let ((id (org-reason-capture-text "Plan a trip")) (bound nil))
+      (cl-letf (((symbol-function 'completing-read)
+                 (lambda (prompt &rest _)
+                   (push (memq #'org-reason--clarify-bind-help minibuffer-setup-hook) bound)
+                   (if (string-prefix-p "Context" prompt) "@computer" "project")))
+                ((symbol-function 'read-string)
+                 (lambda (prompt &optional initial &rest _)
+                   (push (memq #'org-reason--clarify-bind-help minibuffer-setup-hook) bound)
+                   (if (string-prefix-p "Estimated" prompt) "" (or initial "Go"))))
+                ((symbol-function 'org-get-heading) (lambda (&rest _) "Trip")))
+        (org-reason-test-at id (org-reason-clarify)))
+      (should (>= (length bound) 4))
+      (should (cl-every #'identity bound))
+      (should-not (memq #'org-reason--clarify-bind-help minibuffer-setup-hook)))
+    ;; The help text matches the prompt being answered.
+    (dolist (case '(("First available physical action: " . "Start with a verb")
+                    ("Context: " . "@computer")))
+      (cl-letf (((symbol-function 'minibuffer-prompt) (lambda () (car case))))
+        (org-reason-clarify-help)
+        (with-current-buffer "*Org Reason help*"
+          (should (string-match-p (regexp-quote (cdr case)) (buffer-string))))))
+    (cl-letf (((symbol-function 'minibuffer-prompt) (lambda () "Unknown: ")))
+      (org-reason-clarify-help)
+      (with-current-buffer "*Org Reason help*"
+        (should (string-match-p "No help" (buffer-string)))))))
+
 ;;; org-reason-tests.el ends here

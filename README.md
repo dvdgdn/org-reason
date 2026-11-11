@@ -97,7 +97,8 @@ reasoning is available when it would change a consequential decision.
 |---|---|
 | `C-c r c` | Capture a thought or selected region; no classification |
 | `C-c r i` | Open the inbox |
-| `C-c r x` | Clarify the inbox entry at point |
+| `C-c r x` | Clarify the inbox entry at point (`M-?` at any of its prompts explains it) |
+| `C-c r C` | Capture, then clarify the new entry straight away |
 | `C-c r a` | Projects, next actions, waiting, someday, and calendar view |
 | `C-c r e` | Choose available actions by context, time, energy, then your priority |
 | `C-c r d` | See exceptions: stalled projects, due predictions, missing originals |

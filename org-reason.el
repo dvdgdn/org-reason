@@ -140,6 +140,7 @@ dashboard; delete that directory to start over."
   "Open the Org Reason command menu."
   [["Capture"
     ("c" "Capture text" org-reason-capture)
+    ("C" "Capture and clarify" org-reason-capture-and-clarify)
     ("i" "Open inbox" org-reason-inbox)
     ("x" "Clarify capture" org-reason-clarify)
     ("m" "Import original" org-reason-import-file)
@@ -179,7 +180,8 @@ dashboard; delete that directory to start over."
     map))
 (defvar org-reason-command-map
   (let ((map (make-sparse-keymap)))
-    (dolist (binding '(("c" . org-reason-capture) ("i" . org-reason-inbox) ("x" . org-reason-clarify)
+    (dolist (binding '(("c" . org-reason-capture) ("C" . org-reason-capture-and-clarify)
+                        ("i" . org-reason-inbox) ("x" . org-reason-clarify)
                         ("d" . org-reason-dashboard) ("a" . org-reason-agenda) ("e" . org-reason-engage)
                         ("w" . org-reason-review) ("p" . org-reason-experiment) ("f" . org-reason-freeze-prediction)
                         ("o" . org-reason-record-result) ("s" . org-reason-practice) ("!" . org-reason-feedback)
