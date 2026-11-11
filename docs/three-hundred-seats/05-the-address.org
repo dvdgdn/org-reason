@@ -1,0 +1,59 @@
+#+title: Step 5: Track what you are waiting for
+#+subtitle: After chapter 5, The Address
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:04-the-price-of-waiting.org][Step 4]] · [[file:README.org][All steps]] · Next: [[file:06-two-hundred-twenty.org][Step 6]]
+
+* In the story
+
+Maya sends Jo the drawing and crosses off the action. She stops her pencil
+halfway across =VENUE=: the outcome now depends on Jo. She writes =Jo — dinner
+capacity= and sets a reminder for nine thirty. Then a printer's deadline
+arrives, and she announces the address before Jo has answered.
+
+* Your trusted system — Step 5: Waiting For
+
+/Five minutes./
+
+Sending something finishes your action. The result is still open until the
+other person answers.
+
+Start a list titled *Waiting For*. Look through your projects, your sent
+messages and what is left of your captured list. Find every result that now
+depends on someone else's reply. For each write:
+
+- the person's name;
+- exactly what you are waiting for;
+- the date you asked;
+- *when you will check* if you have heard nothing, set early enough that you
+  could still do something else.
+
+Then read down the list and ask of each line: have I told anyone this is
+settled? If you have, either tell them it is still open or move your check
+time earlier. A hold with a time on it is not yet a yes.
+
+* The same step in Org Reason
+
+For an inbox item that is in someone else's hands: ~C-c r x~, choose
+=delegate=, and at =Who / meeting= give the person's name. The item moves to
+=gtd/waiting.org= as WAIT, with the person and today's date recorded.
+
+For something not yet captured, ~C-c r C~ captures and clarifies in one go.
+Write the line the way Maya does: =Jo — dinner capacity for our layout=.
+
+To set the check time, open the entry from the agenda (~C-c r a~, ~RET~), press
+~C-c C-s~ on its heading and give a date, or a date and time such as
+=tomorrow 9:30=. It appears in the agenda on that day, still marked WAIT.
+
+Org Reason does not send the request or the follow-up. It records that you are
+waiting.
+
+- [ ] The WAIT block in ~C-c r a~ shows a name on every line.
+- [ ] ~C-c r d~ lists nothing under "Waiting entries missing a person".
+
+* Carry forward
+
+A Waiting For list with a check time on each line. Keep it beside Next
+Actions. Any line you have already reported to someone as settled gets
+checked first.

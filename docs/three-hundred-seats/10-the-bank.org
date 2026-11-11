@@ -1,0 +1,56 @@
+#+title: Step 10: Park what cannot start yet
+#+subtitle: After chapter 10, The Bank
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:09-dinner-twice.org][Step 9]] · [[file:README.org][All steps]] · Next: [[file:11-the-list-with-names.org][Step 11]]
+
+* In the story
+
+The bank has no more money this year; its committee meets in December. It
+does have four people who can make phone calls, once there is one sheet
+telling them all what to say. Maya writes =Denise — four callers once we have
+a script= where Denise can see her write it, then phones Ruth with the news
+she had hoped not to give.
+
+* Your trusted system — Step 10: Not yet, and maybe
+
+/Five minutes./
+
+Your Next Actions list should hold only what you could do today. Other things
+need a place too, kept off that list.
+
+1. Read your Next Actions. Mark every line that can't start until something
+   else happens. Move each one off the list and into its project's notes,
+   written with its trigger: "Brief the callers /once the script exists/."
+2. Start a list titled *Someday / Maybe*. Move onto it anything you would like
+   to do but are not committing to now. It is fine for this list to be long.
+3. When someone offers help you can't use yet, write down the offer, who made
+   it and what it is waiting on. Let them see you write it.
+4. If one of your waiting-fors has come back as a no, tell the person who is
+   counting on it today. Say what is solid and what is not.
+
+* The same step in Org Reason
+
+- A project step that can't start yet :: open the project (~C-c r a~, ~RET~),
+  add a heading inside it as in step 6, but with ~C-c C-t~ choose TODO, not
+  NEXT. Put the trigger in the heading: =Brief the four callers (once the
+  script exists)=. TODO steps stay with the project and are not offered as
+  available work. When the trigger happens, ~C-c C-t~ changes it to NEXT.
+- An action already on the list that turns out to be blocked :: open it and
+  change NEXT to TODO the same way, or to WAIT if a person is the block.
+- A someday item :: ~C-c r x~ in the inbox, or ~C-c r C~ for a new one, and
+  choose =someday=. It goes to =gtd/someday.org= and appears in its own block
+  at the bottom of the agenda.
+- Something to reconsider on a date :: choose =tickler= and give the date,
+  for example the day after the committee meets.
+
+- [ ] Every NEXT in ~C-c r a~ is something you could start today.
+- [ ] The SOMEDAY block has at least one thing in it that you are glad not to
+  be doing this month.
+
+* Carry forward
+
+A Next Actions list with nothing blocked on it, later steps parked with their
+triggers, and a Someday / Maybe list. You now have every list the system
+needs. Step 11 looks at them all together.

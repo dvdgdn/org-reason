@@ -1,0 +1,67 @@
+#+title: Step 14: Hand over a decision
+#+subtitle: After chapter 14, The Walkthrough
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:13-the-correction.org][Step 13]] · [[file:README.org][All steps]] · Next: [[file:15-thirty-one.org][Step 15]]
+
+* In the story
+
+The walkthrough and the recital are at the same hour. Maya first offers to
+join by video and sign afterwards. Eli asks, "Who says it's fine?" So she
+gives him the decision: a hundred and sixty or fewer, the lane from the ramp
+and the kitchen kept open, two hundred dollars he can spend without calling,
+and don't sign if it can't be made to work. She tells the others before they
+can ask her. Then she sits in the chair with her name on it and puts her phone
+away.
+
+* Your trusted system — Step 14: Delegate the decision as well
+
+/Ten minutes./
+
+If you hand over a task but keep the decision, you still have to be there.
+Hand over both, and say where the edges are.
+
+Choose one thing this week that someone else could decide. Write five lines.
+
+1. *Outcome:* what has to be true at the end.
+2. *Limits:* what must not change, in numbers where you can.
+3. *Means:* the money, time or tools they may use without asking.
+4. *Stop:* the point at which they do not go ahead, and what they bring back to
+   you.
+5. *Report:* what you want to hear afterwards, and when.
+
+Give the five lines to the person. Then tell everyone else involved who decides
+now. Do it before the moment arrives, so nobody phones you in the middle.
+
+Put the report on your Waiting For list. Then be unavailable. If someone asks
+you anyway, the answer is the person's name.
+
+* The same step in Org Reason
+
+1. Press ~C-c r C~ and type the outcome as one line, for example
+   =Eli — signed final floor plan for Weller=. Choose =delegate= and give the
+   name.
+2. Open the entry from the agenda (~C-c r a~, ~RET~). Under the heading, write
+   the other four lines:
+   #+begin_example
+   Limits: 160 or fewer per sitting; lane from ramp and kitchen stays open.
+   Means: $200 setup allowance, no need to call.
+   Stop: if it can't work inside that, don't sign; tell me what would change.
+   Report: photo of the signed plan, Thursday evening.
+   Told: Jo, Denise, Ruth — Thursday 4 pm.
+   #+end_example
+3. ~C-c C-s~ on the heading sets when you expect the report.
+4. Send the brief yourself. The entry is your record of what you said.
+
+When the report comes, read the =Limits= line against it before you mark the
+entry DONE.
+
+- [ ] One WAIT entry carries an outcome, limits, means, a stop rule and a
+  report time.
+- [ ] The =Told:= line names everyone who might otherwise have asked you.
+
+* Carry forward
+
+One decision that someone else now owns, and an hour of your own given back.
+Notice what you did with the hour.

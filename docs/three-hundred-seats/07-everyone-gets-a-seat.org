@@ -1,0 +1,62 @@
+#+title: Step 7: Keep the calendar for what is dated
+#+subtitle: After chapter 7, Everyone Gets a Seat
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:06-two-hundred-twenty.org][Step 6]] · [[file:README.org][All steps]] · Next: [[file:08-the-phone-on-the-table.org][Step 8]]
+
+* In the story
+
+Before noon Maya can buy one thing, the room, so she signs for it and leaves
+the price of a second service open until Monday. She draws a line through
+=Find a room= and writes the work that is left: =Serve both groups dinner=.
+She blocks half an hour to look through her week's pages. A phone call takes
+it.
+
+* Your trusted system — Step 7: Calendar
+
+/Ten minutes./
+
+The calendar holds only what has to happen on a certain day or at a certain
+time. If you also fill it with things you merely hope to do, you stop
+believing it.
+
+1. Go through your captured list, Projects and Waiting For. Move onto the
+   calendar every appointment, every deadline someone else has set, and every
+   time you have promised an answer ("I'll call you by lunchtime").
+2. Take off the calendar anything that isn't tied to its date. Those are next
+   actions. Maya's coffee order sat at six o'clock for no reason she could
+   remember.
+3. When a project's outcome is reached, cross it off the Projects list. If
+   work remains, give that work its own name as a new project.
+4. Block thirty minutes this week to look over all your lists. Treat it as an
+   appointment with someone you would not cancel on.
+
+* The same step in Org Reason
+
+Your appointments stay in whatever calendar you already use. Org Reason adds
+dated commitments to its own agenda.
+
+- A commitment for a day or time :: ~C-c r x~ on the inbox item, choose
+  =calendar=, then give the date, with a time if there is one
+  (=2026-11-14 11:30=). It moves to =gtd/calendar.org=.
+- Something to bring back later :: choose =tickler= and a date. On that day
+  the agenda shows it again. A tickler is a reminder to reconsider, with no
+  commitment yet.
+- A real deadline on a project or action :: ~C-c C-d~ on its heading.
+- A finished project :: ~C-c C-t~ on the project heading, choose DONE. Capture
+  the remaining work with ~C-c r C~ and clarify it as a new =project=.
+- The review block :: ~C-c r C~, type =Look over all my lists=, choose
+  =calendar=, give the day and time.
+
+Ordinary next actions get no date. The agenda's first block then shows only
+what truly belongs to each day.
+
+- [ ] ~C-c r a~ shows this week with only real commitments on it.
+- [ ] The inbox (~C-c r i~) is empty, or close to it, for the first time.
+
+* Carry forward
+
+A calendar you can believe, an empty inbox, and a half-hour appointment with
+your lists. If the appointment gets eaten, as Maya's did, move it to a new
+time straight away so it doesn't just disappear.

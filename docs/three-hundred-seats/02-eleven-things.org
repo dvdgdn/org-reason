@@ -1,0 +1,53 @@
+#+title: Step 2: Capture everything
+#+subtitle: After chapter 2, Eleven Things
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:01-the-room.org][Step 1]] · [[file:README.org][All steps]] · Next: [[file:03-a-room-with-tables.org][Step 3]]
+
+* In the story
+
+On the back of an envelope Maya writes eleven things from her memory, her
+pockets and her messages: =room=, =van=, =coffee=. The twelfth is a worry, not
+a task. Writing it down doesn't mean she has to send it to anyone. Only then
+can she hear her daughter's first note.
+
+* Your trusted system — Step 2: Capture everything
+
+/Fifteen minutes. This is one of the two long steps./
+
+Take the list of entrances from step 1 and go through them one at a time:
+messages, pockets, bag, desk, voicemail, then your head. Write down everything
+that has your attention. Tasks, promises, unanswered messages, things to fix,
+decisions, and worries with no action attached.
+
+Three rules:
+
+- One line per thing. A single word is enough if you will know what it means
+  tomorrow.
+- Don't sort, rank or solve. =van= is a complete entry today.
+- Don't stop at the work things. The recital goes on the same list as the venue.
+
+You are finished when you sit for a full minute and nothing new comes. Expect
+thirty to a hundred lines. That number is normal.
+
+* The same step in Org Reason
+
+1. Press ~C-c r c~, type one thing, press ~RET~. Repeat. The prompt takes one
+   line and files it at once, so the rhythm is fast.
+2. For something already on screen in Emacs, select the text and press
+   ~C-c r c~: the selection is captured without retyping.
+3. For paper, a photograph or a voice memo, press ~C-c r m~ and choose the
+   file. Org Reason keeps a copy of the original with an inbox entry pointing
+   to it.
+4. Capture the worries too. Later you may file one as a =feeling= or a
+   =question=, which is not a task and never shows up as one.
+
+Do not press ~C-c r x~ yet, however obvious an item looks.
+
+- [ ] ~C-c r d~ opens the dashboard, and its first line counts your
+  unclarified captures. Note the number.
+
+* Carry forward
+
+A full inbox, unsorted. In step 3 you learn the two questions that empty it.

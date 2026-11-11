@@ -1,0 +1,51 @@
+#+title: Step 1: Notice where promises arrive
+#+subtitle: After chapter 1, The Room
+#+startup: showall
+#+options: toc:nil num:nil
+
+[[file:README.org][All steps]] · Next: [[file:02-eleven-things.org][Step 2]]
+
+* In the story
+
+Maya's email inbox is empty and she still loses the hall. The promise that
+mattered, "I'll get back to you by Tuesday", was made on the phone in a car.
+It never reached anything she would look at again.
+
+* Your trusted system — Step 1: Notice where promises arrive
+
+/Five minutes./
+
+An empty inbox only proves that one entrance is clear. Commitments also arrive
+in calls, hallways, texts, voicemail, paper and your own head.
+
+1. List every place a promise can reach you. Include the spoken ones.
+2. Think back over the last week. Find one thing you said yes to out loud that
+   is written down nowhere. Write it down now, in whatever words come.
+3. Choose one place where new commitments will go from today: a notebook, an
+   app, a tray. One. It has to be with you when people ask you for things.
+
+You don't have to do anything about what you wrote. For now it only has to
+be somewhere other than your memory.
+
+* The same step in Org Reason
+
+Your one place is the Org Reason inbox.
+
+1. Press ~C-c r c~. At the prompt, type the spoken promise from step 2 above
+   and press ~RET~. Nothing else is asked: no project, no date, no category.
+2. Press ~C-c r c~ again and type your list of entrances as one line, for
+   example =Promises reach me by: work email, phone calls, texts, the kitchen
+   whiteboard, meetings=.
+3. Press ~C-c r i~ to open the inbox. Both entries are there, each with an ID
+   and the time you captured it.
+
+- [ ] Two captures are in the inbox, and you decided nothing about either.
+
+If you are often away from Emacs when promises are made, decide now how they
+get to the inbox: a pocket notebook you empty each evening, or files dropped
+into =inbox/drop/= and imported with ~C-c r I~.
+
+* Carry forward
+
+Your one capture place, and the list of entrances. Step 2 fills the first and
+uses the second.

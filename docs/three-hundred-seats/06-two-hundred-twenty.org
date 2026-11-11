@@ -1,0 +1,57 @@
+#+title: Step 6: Say what done means
+#+subtitle: After chapter 6, Two Hundred Twenty
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:05-the-address.org][Step 5]] · [[file:README.org][All steps]] · Next: [[file:07-everyone-gets-a-seat.org][Step 7]]
+
+* In the story
+
+The brochure said "up to 300 guests". With Maya's tables, stage and serving
+line, the room seats two hundred twenty. One extra chair blocks the cart and
+the way in from the ramp. The number she had announced described a different
+room from the one she needed.
+
+* Your trusted system — Step 6: Outcomes you can check
+
+/Ten minutes./
+
+Open your Projects list and pick the three that matter most this month.
+
+1. Rewrite each outcome so that a stranger could walk in and tell whether it
+   is done. Include the conditions that would make a near miss useless: how
+   many, by when, for whom, at what cost. "Hall booked" becomes "Hall booked:
+   300 seated at dinner tables, step-free entrance, out by 9:30".
+2. Under each, make two short columns: *Known* and *Assumed*. A fact goes under
+   Known only if you have seen it yourself or someone responsible has told you.
+   A brochure, a photograph and "it should be fine" go under Assumed.
+3. For the assumption that would hurt most if it were wrong, write a next
+   action that tests it. Put a chair at the table.
+
+* The same step in Org Reason
+
+1. Press ~C-c r a~ and ~RET~ on a project to open its file.
+2. Edit the project heading itself until it states the checkable outcome. Its
+   ID does not change, so links to it still work.
+3. Under the heading, below the property drawer, add:
+   #+begin_example
+   Known:
+   - Jo is holding Saturday until noon.
+   Assumed:
+   - The room seats 300 with our layout.
+   #+end_example
+4. Add the test as an action inside the project. Put point on the existing
+   NEXT heading, press ~C-RET~ for a new heading at the same level, type the
+   action, then ~C-c C-t~ and choose NEXT. ~C-c C-q~ adds a context tag.
+5. Save with ~C-x C-s~.
+
+Actions kept under their project are the ones the dashboard counts when it
+checks that the project is moving.
+
+- [ ] Three projects have outcomes a stranger could check.
+- [ ] Each has one NEXT action that tests its riskiest assumption.
+
+* Carry forward
+
+Three sharpened outcomes and three tests. From here on, write new project
+outcomes this way the first time.

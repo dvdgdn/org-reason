@@ -1,0 +1,68 @@
+#+title: Step 11: Review the whole system
+#+subtitle: After chapter 11, The List with Names
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:10-the-bank.org][Step 10]] · [[file:README.org][All steps]] · Next: [[file:12-the-cost-of-saying-it.org][Step 12]]
+
+* In the story
+
+Early on Tuesday, before anyone else is in, Maya lays out the notebook, the
+laptop, the envelope and a paper bag from her coat pocket. She leaves the
+unread mail alone and opens the calendar first. She deletes a reminder about a
+hall she no longer has, sends one two-minute email, and parks an idea for next
+year on a back page. Then she finds two deadlines eight lines apart, and the
+earlier one is tomorrow. Because she has seen it in time, she can rethink what
+she is offering.
+
+* Your trusted system — Step 11: The first full review
+
+/Fifteen to thirty minutes. This is the step that makes the rest work./
+
+Do it somewhere quiet, in this order. Don't answer messages while you do it.
+
+1. *Gather.* Empty pockets, bags, loose paper and phone notes into your capture
+   place. Clarify each item as in steps 3–7.
+2. *Calendar, back two weeks.* Does anything need a follow-up?
+3. *Calendar, ahead four weeks.* What needs preparing? Check each deadline
+   against its source document. Look for an earlier deadline hiding behind the
+   one you wrote down.
+4. *Next Actions.* Cross off what is done. Remove what no longer matters.
+5. *Waiting For.* Does every line have a name and a check time? Is any overdue?
+6. *Projects.* For each one: is the outcome still what I want, and what is its
+   live step?
+7. *Someday / Maybe.* Promote one item or delete one.
+8. *Collisions.* Is there any day on which you have promised to be in two
+   places?
+
+Finish by writing one thing you now see that you didn't see before.
+
+* The same step in Org Reason
+
+Press ~C-c r w~. It opens this week's review file, =gtd/reviews/<year>-W<week>.org=,
+with a checklist in the same order: Get clear, Get current, Get creative.
+~C-c C-c~ on a line ticks its box. The file keeps your answers; reopening it
+later in the week continues where you stopped.
+
+Work with two views beside it:
+
+- ~C-c r d~, the dashboard, for the inbox count, projects without a live step,
+  and waiting entries without a person. Aim for zero, "None found", "None
+  found".
+- ~C-c r a~, the agenda, for the calendar, NEXT, WAIT, projects and SOMEDAY, in
+  that order. In the agenda, ~b~ and ~f~ move back and forward a week.
+
+Org Reason cannot see your paper, your email or your outside calendar. The
+checklist's first lines remind you to look at them yourself.
+
+Under =One decision for next week=, write the thing you now see. Under =What to
+defer or stop=, write at least one line. Skip the optional learning section
+this time.
+
+- [ ] Inbox at zero, no stalled projects, a name on every WAIT.
+- [ ] The review file has one decision and one thing to stop.
+
+* Carry forward
+
+Lists that are true as of today, a decision, and a rough idea of how long a
+review takes you. You will need that number in step 17.

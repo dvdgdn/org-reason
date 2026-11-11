@@ -1,0 +1,63 @@
+#+title: Step 12: Check each project against its purpose
+#+subtitle: After chapter 12, The Cost of Saying It
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:11-the-list-with-names.org][Step 11]] · [[file:README.org][All steps]] · Next: [[file:13-the-correction.org][Step 13]]
+
+* In the story
+
+Ruth writes =$14,000= on a scrap of tape and sticks it beside the quote. The
+dinner as sold would leave the pantry short even if every guest came.
+Receptions with refunds on offer might not. Ruth asks what happens at thirty
+refunds, at thirty-seven, at sixty, and what she would do in each case. They
+choose before the caterer's noon deadline. Maya had expected to feel relief.
+It lasts about as long as it takes Ruth to fold a schedule.
+
+* Your trusted system — Step 12: Purpose
+
+/Ten minutes./
+
+A project is a way of getting something that matters more than the project
+itself. When the two come apart, keep the purpose and change the project.
+
+1. On a new page titled *What this is for*, list the few things your projects
+   serve: areas you are responsible for, and goals for this year. Five to ten
+   lines.
+2. Beside each project on your Projects list, write which line it serves. A
+   project that serves none is a candidate for Someday / Maybe, or for
+   stopping.
+3. Pick the project in most trouble. Write its purpose on a slip of paper and
+   put it where you can see it. Ask: is the plan as it stands still the best
+   way to reach this? What else would?
+4. Write the number at which the answer changes: "This works if no more than
+   __." Then write what you will do above that number.
+
+Decide while the people who depend on you can still adjust.
+
+* The same step in Org Reason
+
+1. Open =gtd/horizons.org= in your Org Reason directory (~C-x C-f~). Add a
+   heading for each area of responsibility or goal: ~M-RET~, type it, repeat.
+2. Open each project from ~C-c r a~ and extend the =For:= line from step 4 so
+   it names one of those headings.
+3. A project that serves nothing: ~C-c C-t~ on its heading and choose SOMEDAY to
+   set it aside, or CANCELLED to stop it. Either one asks nothing more of you
+   and keeps the record.
+4. For the threshold in item 4, write it under the project heading:
+   =Works if refunds ≤ 36. Above that: combine the Friday runs.=
+
+*Optional: keep the forecast honest.* A threshold like that is a prediction, and
+Org Reason can hold you to it. ~C-c r p~ drafts an experiment: give it a title,
+the prediction ("No more than 36 of 300 will ask for a refund") and a review
+date. With point on its top heading, ~C-c r f~ freezes the wording so it cannot
+be quietly improved afterwards. Step 15 compares it with what happened. Lesson
+7 of the [[file:../user-guide.org][user guide]] covers this in full.
+
+- [ ] =gtd/horizons.org= has five to ten headings.
+- [ ] Every active project names what it is for, and one has a threshold.
+
+* Carry forward
+
+A purpose behind every project, and one plan you have decided to change. Other
+people were promised the old plan, and they have not been told yet.

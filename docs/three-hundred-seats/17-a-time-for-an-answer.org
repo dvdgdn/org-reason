@@ -1,0 +1,80 @@
+#+title: Step 17: Keep it running
+#+subtitle: After chapter 17, A Time for an Answer
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:16-doors-open.org][Step 16]] · [[file:README.org][All steps]]
+
+* In the story
+
+The invoices go into a labelled envelope. Maya crosses off =call Maren=: what
+she wanted from the call was reassurance, and that was never an action. Then a
+stranger phones to ask whether she can confirm the same hall for the spring.
+Maya can see the empty Saturday in her memory, and she doesn't answer from it.
+She asks what the room has to do, says "I can give you a status by two
+tomorrow", and stays in the car until the call is in her notebook and two
+checks are on the calendar.
+
+* Your trusted system — Step 17: Maintain
+
+/Ten minutes, then a little every week./
+
+A system built in a crisis usually stops being used when the crisis ends. Four
+habits keep it going.
+
+1. *Capture at the moment of the promise.* Before you leave the car, the room
+   or the call, write it down. This is step 1 again, as a reflex.
+2. *Answer with a time when you don't have the fact.* Say "I'll tell you by
+   two tomorrow", then put both the check and the reply on your calendar. Don't
+   confirm anything from memory.
+3. *File what is finished.* Label it so you can find it next year, and take it
+   off your lists.
+4. *Review every week.* Take the time you measured in step 11, pick a day and
+   an hour, and put it on the calendar as a repeating appointment.
+
+Last, read your lists once more and cross off anything that is a wish. You
+can only do actions.
+
+You now have one inbox, six lists, a calendar and a review. Read the story's
+first chapter again and count how many of them would have caught Tuesday.
+
+* The same step in Org Reason
+
+- The reflex :: ~C-c r C~ captures and clarifies in one motion. For the call
+  in the story it is used three times: =Anika — date and room requirements=
+  as =delegate=; =Ask Jo what Weller has in March= as =next-action= with
+  =@calls=; and =Give Anika a status= as =calendar= at =tomorrow 14:00=. If
+  there is no time even for that, ~C-c r c~ takes one line and asks nothing.
+- The weekly review :: open =gtd/calendar.org= and add a heading =Weekly
+  review= (~M-RET~). Press ~C-c C-s~ and give the day and time. Then edit the
+  timestamp it inserts so that it ends in =+1w=, for example
+  =<2026-11-13 Fri 16:00 +1w>=. It now appears in the agenda every week. When
+  it comes up, ~C-c r w~ opens that week's checklist, and marking the entry
+  DONE moves it to the following week.
+- Filing :: clarify finished paperwork as =reference= (~C-c r x~), or import
+  the file itself with ~C-c r m~. ~C-c r /~ with =OR_TYPE= and =reference=
+  finds it later.
+- Wishes :: for an entry that was never an action, ~C-c C-t~ and CANCELLED,
+  with a word about what you really wanted.
+
+Then make the dashboard (~C-c r d~) the first thing you open each morning.
+When it shows no unclarified captures, no stalled projects and no nameless
+waits, the system is working.
+
+- [ ] A repeating =Weekly review= entry is in the agenda.
+- [ ] The next promise you make aloud is in the inbox before you stand up.
+
+* What you built
+
+| Part      | General form                              | In Org Reason                                  |
+|-----------+-------------------------------------------+------------------------------------------------|
+| Capture   | One place for everything                  | ~C-c r c~, ~C-c r C~, ~C-c r m~; ~C-c r i~     |
+| Clarify   | Outcome, next action, two-minute rule     | ~C-c r x~                                      |
+| Organize  | Next Actions, Projects, Waiting For       | NEXT, =gtd/projects/=, WAIT                    |
+|           | Calendar, per-person lists, Someday       | =calendar=, =tickler=, =agenda=, =someday=     |
+| Reflect   | Weekly review; purposes                   | ~C-c r w~, ~C-c r d~, =gtd/horizons.org=       |
+| Engage    | Context, time, energy, then priority      | ~C-c r e~                                      |
+
+From here the [[file:../user-guide.org][user guide]] goes on to what Org Reason adds beyond these lists:
+writing down why you expect a change to work, and checking afterwards whether
+it did.

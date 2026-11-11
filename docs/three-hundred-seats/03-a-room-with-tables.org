@@ -1,0 +1,61 @@
+#+title: Step 3: Clarify — outcome and next action
+#+subtitle: After chapter 3, A Room with Tables
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:02-eleven-things.org][Step 2]] · [[file:README.org][All steps]] · Next: [[file:04-the-price-of-waiting.org][Step 4]]
+
+* In the story
+
+=room= becomes =300 at dinner tables, step-free way in=, and nine candidate
+halls shrink to a few in two phone calls. =van= becomes =Rental desk: confirm
+cargo van for Sat. Call again 9:40 if no word=. When Maya finally draws a line
+through it, she knows what the line means.
+
+* Your trusted system — Step 3: Clarify
+
+/Ten minutes./
+
+Take the first ten lines of your captured list, in order. Don't skip the ugly
+ones. For each, ask two questions.
+
+1. *What would be true when this is finished?* Write a result someone else
+   could check.
+2. *What is the very next thing I would physically do?* Start with a verb:
+   call, send, look up, draft. If you can't picture your hands doing it, it is
+   still too big.
+
+Then sort each line one of four ways:
+
+- It takes under two minutes: do it now.
+- It is one step: write the step on a new list titled *Next Actions*.
+- It needs nothing done: keep it as reference, or cross it out.
+- It needs several steps, someone else, or a particular day: put a mark beside
+  it and leave it. Steps 4, 5 and 7 deal with those.
+
+* The same step in Org Reason
+
+Press ~C-c r i~ to open the inbox, put point on the first heading and press
+~C-c r x~. The first prompt is the sort above. ~M-?~ at any prompt explains it.
+
+| Your line is                    | Choose        | Then                                                     |
+|---------------------------------+---------------+----------------------------------------------------------|
+| One step you can take           | =next-action= | Rewrite it as the physical action; pick a context        |
+| Done in two minutes, just now   | =done-now=    | Do it first. The command asks if you really did          |
+| Worth keeping, nothing to do    | =reference=   | Your list of entrances from step 1 belongs here          |
+| A worry or a question           | =feeling=, =question= | Kept as a note, never shown as a task            |
+| Nothing                         | =discard=     | Moved aside to =archive/discarded.org=, not deleted      |
+
+The context (=@calls=, =@computer=, =@errands= …) says where the action is
+possible. Effort is optional; leave it blank if you don't know.
+
+Leave the several-step, waiting and dated items in the inbox for now.
+
+- [ ] ~C-c r a~ shows your new actions under NEXT, each starting with a verb.
+- [ ] The inbox count on ~C-c r d~ has gone down by about ten.
+
+* Carry forward
+
+A Next Actions list, and an inbox that still holds the bigger items. Clarify a
+few more lines whenever you have five minutes. The next four steps empty the
+rest.

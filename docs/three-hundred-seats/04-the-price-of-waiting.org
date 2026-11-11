@@ -1,0 +1,64 @@
+#+title: Step 4: Name your projects
+#+subtitle: After chapter 4, The Price of Waiting
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:03-a-room-with-tables.org][Step 3]] · [[file:README.org][All steps]] · Next: [[file:05-the-address.org][Step 5]]
+
+* In the story
+
+Ruth holds the adding-machine tape flat with a stapler. The supper has to leave
+fourteen thousand dollars for the winter delivery runs, and there is fifteen
+hundred to spare. Now Maya knows what the room is for and what a wrong
+decision costs. Ruth adds one more thing: find out before you tell someone
+there will be an address.
+
+* Your trusted system — Step 4: Projects
+
+/Ten minutes./
+
+Go back to the lines you marked in step 3 as needing several steps. Each is a
+project: any result that takes more than one action to reach.
+
+Start a list titled *Projects*. For each one write three things.
+
+1. *The outcome*, as a finished state: "Passport renewed", not "passport".
+2. *What it is for, and who is counting on it.* One line. Ruth's version is
+   "winter runs paid for: $14,000".
+3. *The next action*, which goes on your Next Actions list.
+
+The Projects list is short entries only. It reminds you what you have agreed
+to finish. Plans, drawings and budgets are kept elsewhere.
+
+Most people find between ten and forty projects. If one of yours has a real
+deadline set by someone else, write it beside the outcome. Don't invent
+deadlines for the others.
+
+* The same step in Org Reason
+
+In the inbox (~C-c r i~), put point on a several-step item and press ~C-c r x~.
+
+| Prompt                           | Answer                                           |
+|----------------------------------+--------------------------------------------------|
+| Choose where it belongs          | =project=                                        |
+| Desired outcome                  | The finished state                               |
+| First available physical action  | One step you could start now, verb first         |
+| Context, effort                  | As in step 3                                     |
+
+The item moves into its own file under =gtd/projects/= with the action beneath
+it as a NEXT heading. A project cannot be created without a first action.
+
+To record what the project is for, open it from the agenda (~C-c r a~, then
+~RET~ on the project) and add a line under the heading, for example
+=For: winter runs paid for. Ruth needs the number by Friday noon.=
+
+For a deadline someone else has set, press ~C-c C-d~ on the project heading and
+give the date.
+
+- [ ] ~C-c r a~ lists your projects in their own block, and each has a NEXT
+  action somewhere above it in the same view.
+
+* Carry forward
+
+A Projects list where every entry has a reason and a next action. What is left
+in the inbox now is mostly waiting on other people, or tied to a day.

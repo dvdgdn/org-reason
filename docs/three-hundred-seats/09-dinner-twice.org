@@ -1,0 +1,56 @@
+#+title: Step 9: Act on the answer
+#+subtitle: After chapter 9, Dinner Twice
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:08-the-phone-on-the-table.org][Step 8]] · [[file:README.org][All steps]] · Next: [[file:10-the-bank.org][Step 10]]
+
+* In the story
+
+The caterer's answer arrives, and it is $4,800 more than the plan can carry.
+In her notebook the waiting-for line ends in a neat check mark, though the
+project now has nowhere to go. Maya feels the pull of a "clear, lovely little
+job", an email about a freezer switch. Ruth asks what happens if the bank says
+no.
+
+* Your trusted system — Step 9: Keep every project moving
+
+/Ten minutes./
+
+An answer you were waiting for has to be acted on. If you tick it and stop,
+the project stalls, and usually nobody notices for days.
+
+1. Go down your Waiting For list. For every answer that has come in, cross off
+   the line and immediately write what it changes: a new next action, a new
+   waiting-for, or a decision that the project is finished or dead.
+2. Go down your Projects list. Put your finger on each one and find its live
+   step: a next action, a waiting-for, or a date on the calendar. A project
+   with none of the three is stalled. Give it a step now.
+3. For your most uncertain project, write the fallback: "If the answer is no,
+   then I will ___." You should know that before you ask.
+4. Look at your Next Actions. Is there a small, pleasant one you keep choosing
+   while a harder one sits? Do the harder one's first two minutes today.
+
+* The same step in Org Reason
+
+1. Press ~C-c r a~ and look at the WAIT block. For each answer that has
+   arrived, press ~RET~ to open the entry, add a line under the heading saying
+   what the answer was, then ~C-c C-t~ and choose DONE.
+2. Press ~C-c r d~ for the dashboard. The section "Projects missing an
+   available action, wait, or dated commitment" is step 2 above, done for you.
+   Press ~g~ to refresh it after changes.
+3. Follow each listed project's link (~C-c C-o~) and add its next step as a
+   NEXT heading inside the project, as in step 6.
+4. Write the fallback as a line under the project heading:
+   =If no: ask for two weeks more and cut the second print run.=
+
+The dashboard can tell that a project has no live step. It cannot tell that a
+step is vague or the wrong one. That judgment is yours.
+
+- [ ] The dashboard's stalled-projects section reads "None found."
+- [ ] Your most uncertain project has an "If no" line.
+
+* Carry forward
+
+No project without a live step, and one written fallback. Come back to this
+check whenever an answer arrives.

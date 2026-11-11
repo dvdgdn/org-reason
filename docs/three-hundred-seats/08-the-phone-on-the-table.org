@@ -1,0 +1,56 @@
+#+title: Step 8: Know whose list it is
+#+subtitle: After chapter 8, The Phone on the Table
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:07-everyone-gets-a-seat.org][Step 7]] · [[file:README.org][All steps]] · Next: [[file:09-dinner-twice.org][Step 9]]
+
+* In the story
+
+Maya answers a volunteer's text with "Of course", and a shift Eli had already
+staffed comes apart. Eli asks, "I need to know whose sheet it is." Maya tells
+the volunteer to get her time from Eli. Writing that message takes longer than
+giving the hour away did.
+
+* Your trusted system — Step 8: Owners
+
+/Five minutes./
+
+Every list and every decision has one owner. When you answer a request that
+belongs on someone else's list, they are left to deal with what you promised.
+
+1. Read down your Projects and Waiting For lists. Beside each entry that
+   involves other people, write who decides. If it is you, write "me". If you
+   don't know, finding out is a next action.
+2. Start a page for each person you deal with often, titled with their name.
+   When something comes up that is theirs to decide or that you need to raise
+   with them, write it there. Don't answer it yourself.
+3. Think of the last quick favor you granted. Was it yours to grant? If not,
+   tell the owner today what you said.
+
+From now on, a request that belongs to someone else gets one reply: "Ask
+Eli. That's his sheet."
+
+* The same step in Org Reason
+
+- A point to raise with a person :: ~C-c r C~, type the point starting with
+  their name (=Eli: who takes the van keys?=), choose =agenda=, and give the
+  name again at =Who / meeting=. It is filed in =gtd/agendas.org= with the
+  person recorded. Use a meeting's name in the same way for things to bring to
+  a regular meeting.
+- Finding everything for one person before you talk :: open =gtd/agendas.org=
+  in your Org Reason directory and search for the name (~C-s~). Search
+  =gtd/waiting.org= the same way to see what that person owes you. Starting
+  each line with the name, as Maya does, is what makes this quick.
+- Recording who decides on a project :: open the project from ~C-c r a~ and add
+  a line under the heading, such as =Decides: Eli (staffing sheet)=.
+- When you have handed a decision to someone and need to hear the result ::
+  it is a WAIT entry, as in step 5.
+
+- [ ] Each project that involves other people names who decides.
+- [ ] At least one person has entries waiting for your next conversation.
+
+* Carry forward
+
+An owner on every shared commitment, and a list per person. Before your next
+conversation with any of them, read their list.

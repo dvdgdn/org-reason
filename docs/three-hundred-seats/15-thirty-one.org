@@ -1,0 +1,65 @@
+#+title: Step 15: Verify before you cross off
+#+subtitle: After chapter 15, Thirty One
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:14-the-walkthrough.org][Step 14]] · [[file:README.org][All steps]] · Next: [[file:16-doors-open.org][Step 16]]
+
+* In the story
+
+A table of ten turns out to be six arrivals and four refunds, and one of the
+four was being treated by the others, so the money goes back to three people.
+Maya goes through the names one by one. When the refund receipt appears she
+reads both its numbers. She used to look only for the word "successful". The
+two receptions and the refunds add up to three hundred. Ruth asks, "Anybody we
+didn't call?"
+
+* Your trusted system — Step 15: Close the loops
+
+/Ten minutes./
+
+Crossing a line off shows that you did something. It doesn't show that the
+thing arrived, was the right amount, or reached the right person.
+
+1. Take the last ten things you crossed off. For each, ask what you saw that
+   proves the result: a reply, a receipt, the thing itself. Where you saw
+   nothing, look now.
+2. Take your Waiting For list. For each answer received, ask whether it
+   answered your actual question or a neighbouring one. If you are unsure, go
+   through the details with the person.
+3. Pick one finished project and make it add up. Count what went in and what
+   came out: invitations sent against replies received, money owed against
+   money paid. The totals should match. Where they don't, something is still
+   open.
+4. Ask Ruth's question of the whole project: is there anybody we didn't
+   answer?
+
+Only then mark the project done.
+
+* The same step in Org Reason
+
+1. Open =gtd/actions.org= in your Org Reason directory, press ~C-c / T~ and
+   type =DONE=. Org folds the file down to what you have completed. For any
+   you can't vouch for, add a line under the heading saying what you saw:
+   =Receipt: $300 returned, $450 still paid.= ~C-c C-c~ removes the
+   highlighting afterwards.
+2. If one turns out not to be finished, ~C-c C-t~ puts it back to NEXT or
+   WAIT. Reopening is cheap and the entry keeps its history.
+3. For the project you are reconciling, open its file and read every heading
+   beneath it. Each should be DONE or CANCELLED, with nothing left as TODO.
+   Then ~C-c C-t~ and DONE on the project heading itself.
+4. ~C-c r A~ moves completed single actions to =archive/actions.org=. They
+   keep their IDs, and ~C-c r /~ with =OR_TYPE= and =action= still finds them.
+
+If you froze a forecast in step 12 and its outcome is now known, ~C-c r o~
+records what happened beside what you predicted. The original wording stays
+as it was.
+
+- [ ] One project is DONE with nothing open beneath it.
+- [ ] The NEXT and WAIT blocks in ~C-c r a~ hold only things that are still
+  true.
+
+* Carry forward
+
+Lists in which a completed mark means the result was checked. From now on,
+before crossing anything off, ask what you saw that shows it is done.

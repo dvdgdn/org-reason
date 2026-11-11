@@ -1,0 +1,75 @@
+#+title: Step 16: Choose what needs you now
+#+subtitle: After chapter 16, Doors Open
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:15-thirty-one.org][Step 15]] · [[file:README.org][All steps]] · Next: [[file:17-a-time-for-an-answer.org][Step 17]]
+
+* In the story
+
+A sponsor's photograph is blocking the cart, and guests for the second
+reception are lining up outside in the wind. Maya knows exactly what to say to
+move the photograph. Eli calls across the room to ask whether she can open the
+second list. Moving the photograph is his job, and he can do it. Only she is
+free to work the door. She goes to the door. Earlier she had tried to hand a
+driver an address that Eli had already given him; she folded her copy and put
+it away.
+
+* Your trusted system — Step 16: Engage
+
+/Five minutes now, then all day./
+
+The lists show you your options. You still have to choose among them, and
+choosing well is a skill of its own.
+
+When you have a gap, read your Next Actions and narrow them with four
+questions, in this order:
+
+1. *Where am I, and what do I have with me?* Drop what is impossible here.
+2. *How long do I have?* Drop what won't fit.
+3. *How much energy do I have?* Drop what you would do badly.
+4. *Of what is left, which matters most, and which can only I do?*
+
+Then do that one thing and no other.
+
+Two checks from the story:
+
+- When something goes wrong in front of you, ask whose it is before you step
+  in. If you handed it over in step 14, leave it with them.
+- When you catch yourself repeating an instruction someone already has, stop.
+  Fold the paper and put it away.
+
+Try it once today. Write down what you chose and what you left alone.
+
+* The same step in Org Reason
+
+Press ~C-c r e~ and answer three prompts.
+
+| Prompt            | Answer                                                    |
+|-------------------+-----------------------------------------------------------|
+| Context           | Where you are: =@computer=, =@calls=, =@errands=. Blank for any |
+| Minutes available | A whole number. Blank for any                             |
+| Energy            | =low=, =medium= or =high=. Blank for any                  |
+
+The buffer lists the NEXT actions that fit. Actions tagged =@anywhere= always
+appear. Actions with no estimate stay visible and are never assumed to be
+quick. The fourth question is not asked, because the priority is yours to
+decide. Follow a link with ~C-c C-o~, do the action, then ~C-c C-t~ and DONE.
+
+Two details make the filter worth trusting:
+
+- Each action needs a context that is really a constraint. ~C-c C-q~ on an
+  action changes its tags.
+- To filter by energy, give demanding actions the property =OR_ENERGY= with
+  the value =high=: ~C-c r M~ on the action's heading sets it.
+
+What you handed over in step 14 is not in this list. It is in the WAIT block,
+under the other person's name.
+
+- [ ] You chose one action through ~C-c r e~, did it, and marked it DONE.
+- [ ] You can name one thing you saw and deliberately left to its owner.
+
+* Carry forward
+
+The habit of choosing from the lists. You stop choosing from whatever is
+loudest. One step is left: keeping the system alive after the crisis is over.
