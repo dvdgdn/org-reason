@@ -1,11 +1,126 @@
-#+title: Step 11: Review the whole system
-#+subtitle: After chapter 11, The List with Names
+#+title: 11. The List with Names
+#+subtitle: Three Hundred Seats · Part Three: Changing the Promise
 #+startup: showall
 #+options: toc:nil num:nil
 
-Previous: [[file:10-the-bank.org][Step 10]] · [[file:README.org][All steps]] · Next: [[file:12-the-cost-of-saying-it.org][Step 12]]
+Previous: [[file:10-the-bank.org][10. The Bank]] · [[file:README.org][Contents]] · Next: [[file:12-the-cost-of-saying-it.org][12. The Cost of Saying It]]
 
-* In the story
+* The chapter
+
+On Tuesday Maya went to the pantry early, before the freezer started its
+morning cycle. She put the notebook, the laptop and the envelope from her
+kitchen table in front of her. Then she took a paper bag out of her coat
+pocket. She’d used it in the car to write down two things while she waited for
+Nina. One was /where does the van go after unload/. The other was /music
+stand/.
+
+She’d told Ruth on the phone that she’d bring her options. All she had so far
+was a number and a small list of cuts she couldn’t make add up. She had twenty
+minutes before Ruth got in and began to answer the guest replies. It would
+have been satisfying to see the unread count go down. She moved the mail
+window out of the way and opened the calendar instead.
+
+There was the date of the supper, the load-in, and the nine-thirty finish.
+Friday at noon said /final headcount to Sergio/. Thursday said /fitting/, then
+/Nina, recital/. The week after the supper had a dentist appointment she’d
+forgotten she’d moved. She checked the confirmation in her messages and
+changed it. Below that was a reminder to call Gene on Friday and ask when they
+could pick up the keys for a room they weren’t going to use. She deleted it.
+
+She put the messages beside the notebook. The van was confirmed. Doris had
+directions, but no time. Eli had put Leila at the late door and Ben at the
+early door. Luis could take the keys if the rental desk added him to the
+paperwork. Maya wrote /Ask Eli to confirm Luis can drive the rental/ under the
+things she needed to discuss with him. She stopped herself from writing /Done/
+beside Leila. The first shift was filled; the keys still had to change hands.
+She made a place on the page for the names of people she was waiting for and
+the dates they’d said they would answer. If there was no date, she picked a
+time to check.
+
+The paper bag went in a little stack with the envelope. She sent the building
+manager the photograph of the freezer switch; it took less time than finding
+the photograph. The coffee order was part of the food quote, so she crossed it
+off. On a page near the back she wrote /ask the museum about next year/, where
+it could wait until she wanted ideas for another supper. From the kitchen
+window someone tapped on the glass and held up a cup. She waved. She had run
+out of coffee half an hour ago.
+
+The second tab of Sergio’s quote was in a message under a guest’s reply. She
+opened it to see which hands he wanted to pay for. There were two times in
+heavy type at the bottom. /Friday noon: final count./ Below it, /Wednesday
+noon: release unbooked staff./
+
+She looked at the calendar again. She’d copied Friday when the quote came in.
+The two deadlines sat eight lines apart on her screen now. If she waited until
+Friday to decide, she could tell him how many plates he needed. The people
+who’d carry the plates would have jobs somewhere else.
+
+She put Wednesday noon on the calendar. Then she drew a line through /room/ on
+the loose envelope and wrote /Weller booked/ next to it. The envelope had
+become a record of the week she’d thought she was going to have. At the top of
+a clean page she wrote the result Ruth needed: /Winter routes paid for —
+$14,000 net/. Below it she copied the offer from the back of an old ticket:
+/Winter Supper. Three courses. Music. Doors at six./ She added /300 × $75/
+because it mattered what people had paid. For the first time since the gym,
+she took out the dinner drawing without looking for a way to fit another table
+on it.
+
+What did people get for seventy-five dollars? Some got the chance to sit down
+together. Some came because they remembered standing in the pantry line, or
+because they knew somebody who still did. There were three courses printed on
+the ticket. Nobody had bought a ticket that said /whatever works for Maya/.
+
+Last year, during the wait for dessert, Ruth had told the room how much it
+cost to deliver a week’s groceries to one building. A table had asked for a
+second microphone so a man at the far end could hear her better. Maya had sent
+a runner out for one. She remembered being annoyed that Ruth had started
+before she had the microphone ready. By the time it came, the table had gone
+quiet to listen.
+
+Maya turned over the floor plan. The two circles were still there. Each held a
+hundred and fifty people. The first time around she’d put a dinner in each
+one. What else could she put in them that people would pay to come to?
+Something they could eat from one plate. Time to sit with the people they’d
+come with. The music could stay. Ruth could talk in both rooms. They could say
+exactly what the new ticket bought and return the money to anyone who wanted
+the old dinner or couldn’t make the time.
+
+Maya called Sergio before she could run it all the way through in her head.
+
+“Can you price two receptions?” she said. “Seated if people want to sit. Light
+food from a couple of stations. Enough that people can have a plate, and we
+tell them to eat dinner somewhere else.”
+
+“How many?”
+
+“Up to a hundred and sixty in each. We’re going to offer refunds. Give me a
+number that holds even if everyone comes.”
+
+“Same end time?”
+
+“Out at nine thirty. We’d have the guests out earlier.”
+
+“You might get both out with the crew you have, plus a few. I’d want a clean
+half hour between the groups.”
+
+“Can you put the price and the crew on one page and send it by nine tomorrow?
+I need Ruth to see it before you let anybody go.”
+
+He said he could. Maya put /Sergio — reception quote, Wed 9/ where she could
+find it and put a check at nine fifteen on her list for the morning. If she
+didn’t hear, she’d call from Ruth’s office.
+
+She was about to close the laptop when a new message from Jo arrived. Jo had
+two possible walkthrough times on Thursday. One was at three, while the cable
+company was replacing a box by the side door. That had just fallen through.
+The other was six. A wedding crew took the room first thing Friday. Jo needed
+somebody to stand in the room with her and sign the final plan before the
+wedding crew put down its dance floor.
+
+Maya opened the calendar for the second time that morning. It took one glance
+to see whose name was already there.
+
+* What Maya has just learned
 
 Early on Tuesday, before anyone else is in, Maya lays out the notebook, the
 laptop, the envelope and a paper bag from her coat pocket. She leaves the

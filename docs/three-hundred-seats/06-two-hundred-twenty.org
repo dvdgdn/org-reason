@@ -1,11 +1,125 @@
-#+title: Step 6: Say what done means
-#+subtitle: After chapter 6, Two Hundred Twenty
+#+title: 6. Two Hundred Twenty
+#+subtitle: Three Hundred Seats · Part Two: Saving the Seats
 #+startup: showall
 #+options: toc:nil num:nil
 
-Previous: [[file:05-the-address.org][Step 5]] · [[file:README.org][All steps]] · Next: [[file:07-everyone-gets-a-seat.org][Step 7]]
+Previous: [[file:05-the-address.org][5. The Address]] · [[file:README.org][Contents]] · Next: [[file:07-everyone-gets-a-seat.org][7. Everyone Gets a Seat]]
 
-* In the story
+* The chapter
+
+Maya was in the school drop-off lane when Jo’s answer came. Nina had just
+wrestled the cello out of the back seat. Maya watched her stop to let a little
+boy pass, then take the short steps up to the side door one at a time. The
+crossing guard motioned for Maya to pull forward. She drove around the corner
+and parked behind a delivery van.
+
+/We can seat 220 with your dinner setup. That includes the stage and serving
+tables on the drawing. For 300, I can set chairs in rows. I’ll hold the date
+through noon as promised./
+
+Maya read it twice. At two hundred twenty she was eighty seats short. She
+brought up the guest list and scrolled until the row numbers caught up.
+Somewhere around row two hundred twenty she was looking at the names of people
+who had bought tables together.
+
+She called Denise.
+
+“Where are the cards?”
+
+“With the mailroom. They go out at ten.”
+
+“Can you get the boxes back?”
+
+There was a little pause. “The email went yesterday, Maya.”
+
+“I know. Get the boxes back if you can. I’ll call you at eleven.”
+
+Maya was still in the car when a guest named Doris Heller called. She wanted
+to know if the entrance on Dock Street had steps. Her brother was coming
+straight from work and had offered to drop her by the door. She’d looked at
+the picture online and could see a flight of steps at the front.
+
+Maya opened her mouth to say the hall would have another entrance. She knew it
+had a loading door. She had no idea what lay between that door and the room.
+
+“I’m going to see it this morning,” she said. “Can I call you by lunchtime?”
+
+“I leave at twelve thirty. Before then would be good.”
+
+Maya wrote Doris’s number on the same page as Jo’s and put eleven thirty on
+the calendar. Then she called Eli and asked him to bring the drawing. She told
+Ruth the number before she told her what she planned to do about it. Ruth said
+she’d meet them at Weller at ten.
+
+The hall looked bigger from the doorway than it had in the picture. The
+windows went up two stories. The building had once been a cable works, Jo
+said. There was a square cut into the wood floor where machinery had stood.
+Maya could see why people hired it for weddings. With the tables folded away
+it would have taken a long time to walk across carrying a drink.
+
+Jo took them to one of the round tables set up for a wedding that weekend. Eli
+put his drawing on the cloth. Jo slid her own plan next to it. Twenty-two
+circles. Maya went around them with her finger, counting a second time after
+she’d reached the bottom.
+
+“What if we take the stage away?” Maya asked.
+
+“I can get you another table, maybe two. How many people do you need to seat?”
+
+“Three hundred.”
+
+Jo went to the stack of chairs against the wall. Together she and Maya carried
+one over and put it at the table. There were already ten. Maya backed the new
+chair into the space between the table and a little cart with tubs on it. The
+chair fit if the person sitting in it drew their knees in. Eli took the cart
+by the handle and tried to go past. The near wheel clipped a chair leg. He
+took his hand off the cart.
+
+“That’s the route from the kitchen,” Jo said. “It’s the way in from the ramp,
+too.”
+
+Maya looked down the length of the room to the door. In the photo she’d
+studied yesterday the woman with the glass had been standing right about here.
+She’d had the whole aisle to herself.
+
+Jo showed her the ramp. It came in from the side lot on Dock Street and went
+straight to a wide door. There was a metal lip at the threshold, low enough
+for the cart to roll over it. Maya took a picture from the pavement so she
+could tell Doris where to ask her brother to stop.
+
+Ruth arrived in her pantry apron with her coat buttoned over it. She listened
+to Jo, took a slow look around the room and asked Maya how quickly they could
+tell the guests.
+
+“We have it until nine thirty that night,” Maya said. “We could seat them in
+two groups. One early, one late.”
+
+Jo checked her booking sheet. “If you’re packed out by nine thirty. You’d need
+to leave time to reset the room.”
+
+Maya turned over the drawing. Eli held it flat while she traced the base of a
+water glass twice. She wrote 150 in each circle.
+
+“I can ask Sergio what he needs to do two services,” he said. “I’ll need times
+to give him.”
+
+Ruth looked at the second circle. “These people bought dinner, Maya. Some of
+them bought a whole table.”
+
+“We’ll keep parties together. We can ask who can come early.”
+
+“And what am I telling my board at noon?”
+
+Maya’s phone buzzed on the table. Denise had got the boxes back. A minute
+later came a screenshot of the ticket email with Weller Hall under the words
+/We look forward to seeing you/. Maya turned the phone so Ruth could see it.
+
+“Tell them everyone gets a seat,” she said. “Two sittings.”
+
+Eli folded the drawing between the two circles and went out to call the
+caterer.
+
+* What Maya has just learned
 
 The brochure said "up to 300 guests". With Maya's tables, stage and serving
 line, the room seats two hundred twenty. One extra chair blocks the cart and

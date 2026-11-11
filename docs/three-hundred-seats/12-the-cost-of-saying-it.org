@@ -1,11 +1,124 @@
-#+title: Step 12: Check each project against its purpose
-#+subtitle: After chapter 12, The Cost of Saying It
+#+title: 12. The Cost of Saying It
+#+subtitle: Three Hundred Seats · Part Three: Changing the Promise
 #+startup: showall
 #+options: toc:nil num:nil
 
-Previous: [[file:11-the-list-with-names.org][Step 11]] · [[file:README.org][All steps]] · Next: [[file:13-the-correction.org][Step 13]]
+Previous: [[file:11-the-list-with-names.org][11. The List with Names]] · [[file:README.org][Contents]] · Next: [[file:13-the-correction.org][13. The Correction]]
 
-* In the story
+* The chapter
+
+At eight fifty-eight on Wednesday, Sergio sent a photograph of the new menu
+beside his quote. There were little sandwiches with the bread turned so you
+could see what was in them, cups of squash soup and apple cake cut into
+squares. You could eat everything with one spoon and a napkin. The photograph
+came from a job he’d done at a library. On the edge of it, a woman had put her
+book down open to take a sandwich.
+
+Maya brought the photograph and both quotes to Ruth. She found her by the back
+door, seeing the Wednesday driver off. The van they owned had to be started
+with the driver’s door open so you could hear if the starter caught. They
+waited till it did.
+
+“How long do you have?” Maya asked.
+
+“I have until that van comes back or somebody calls about it.”
+
+They spread the papers on the packing table. Maya set down the figure for two
+full dinners first. Ruth read it, then moved it aside to see the photograph.
+
+“What would you call that?” Ruth asked.
+
+“A reception.”
+
+“Would you call it supper?”
+
+“No.”
+
+“What are you telling a woman who paid for supper?”
+
+“That the room we booked won’t serve all three hundred at dinner tables. That
+we can give her a place at one of these two receptions. And if that isn’t what
+she wants, she gets the seventy-five dollars back.”
+
+Ruth looked at the photograph again. “Have you counted the people who’ll want
+it back?”
+
+“I can tell you how many we can afford.”
+
+Maya put down the original budget. The reception menu saved thirty-seven
+hundred dollars against the original dinner. The second crew and reset added
+twenty-five hundred. Sergio had written the two numbers on separate lines.
+Ruth used the edge of the other quote to run a pencil straight down the page
+between them.
+
+“So twelve hundred better than the night we sold,” she said.
+
+“If everybody keeps a ticket. Sixteen thousand seven hundred to the pantry.”
+
+Ruth took a scrap of tape and wrote $14,000 on it. She stuck it on the table
+beside the quote.
+
+“Twenty-seven hundred between us and that,” she said.
+
+“Thirty-six tickets.”
+
+“And the thirty-seventh?”
+
+“Thirteen thousand nine hundred twenty-five. We’d be short seventy-five
+dollars. We’d still give the refund.”
+
+Ruth looked over at the delivery schedule. “What happens if there are sixty?”
+
+Maya had figured thirty, forty and fifty. She did sixty on the back of the
+quote. Four thousand five hundred returned. Twelve thousand two hundred left.
+Ruth walked to the wall and took the schedule down. She didn’t look at the
+total at the bottom. She looked down the weeks, one by one.
+
+“If I need to save eighteen hundred, I can combine some of the Friday runs
+after New Year’s. That puts people on a different day.” She pulled the
+schedule closer. “I have to ask the drivers while they can still say yes. And
+I have to tell the building coordinators before they make their own
+schedules.”
+
+“We could wait and see how the calls go,” Maya said.
+
+“Is your man going to hold the crew while we do that?”
+
+“Till noon.”
+
+Ruth tapped the paper. “The dinner leaves us short even if nobody asks for
+their money. This gives us a chance to keep the runs. If people say no, we
+give the money back and I call the board with the number we’ve got.”
+
+Maya had expected to feel relief when Ruth chose. She felt it for about as
+long as it took Ruth to fold the delivery schedule in half.
+
+“The hosts,” Ruth said. “Call the ones who bought tables. Don’t have Denise’s
+people read them a note from us.”
+
+“I’ll start with Maren.”
+
+“She’s bringing the night shift from the clinic. They’ve been trading hours to
+come.”
+
+Maya looked at the photograph. There was no angle she could hold it at that
+would make it look like a dinner. She picked up the phone and called Sergio.
+
+He could hold the food price up to a hundred and sixty guests per reception.
+By Friday at noon he wanted the guaranteed maximum and the dietary orders. The
+pantry would pay the quoted price even if fewer people came; at check-in they
+could still keep an accurate count without buying or canceling another plate.
+Maya gave him five and seven for doors. He asked if he should tell the bakery
+to cut the cake small or big.
+
+“Big,” she said.
+
+When she hung up, Ruth was putting the route schedule back on the wall. She
+used the old holes so she didn’t make two new ones.
+
+“Now you can tell people what you have,” Ruth said.
+
+* What Maya has just learned
 
 Ruth writes =$14,000= on a scrap of tape and sticks it beside the quote. The
 dinner as sold would leave the pantry short even if every guest came.

@@ -4,18 +4,17 @@
 
 /Three Hundred Seats/ is a novella in which Maya Torres loses a sold-out
 benefit's hall ten days before the event and learns, one promise at a time,
-the practice David Allen calls Getting Things Done. These pages are the
-exercises that go with it: one step after each chapter. By chapter 17 you have
-a working system of your own, built from your own commitments.
-
-The story is not reproduced here. Each page opens with a two-line reminder of
-the chapter and gives away nothing from later chapters.
+the practice David Allen calls Getting Things Done. The whole novella is here,
+one chapter to a page, and each chapter is followed by an exercise. By chapter
+17 you have a working system of your own, built from your own commitments.
 
 * How each page works
 
-Every page has the same four parts.
+Every page has the same five parts.
 
-- *In the story* :: what Maya has just learned.
+- *The chapter* :: the story itself.
+- *What Maya has just learned* :: the chapter's lesson in a few lines. It gives
+  away nothing from later chapters.
 - *Your trusted system — Step N* :: the exercise in general terms. It works
   with paper, a notes app, or anything else. This is the part printed at the end
   of the chapter.
@@ -26,7 +25,11 @@ Every page has the same four parts.
 Each step uses what the earlier steps produced, so do them in order. Most take
 five minutes. Step 2 and step 11 take fifteen.
 
-* The seventeen steps
+The story is in four parts: Losing the Hall (chapters 1–4), Saving the Seats
+(5–9), Changing the Promise (10–13) and Keeping the Promise (14–17). The
+[[file:appendix.org][appendix]] shows how the story was built and sums up the method. Read it last.
+
+* The seventeen chapters and steps
 
 | After chapter              | Step                                    | What you build                         | Page                                    |
 |----------------------------+-----------------------------------------+----------------------------------------+-----------------------------------------|

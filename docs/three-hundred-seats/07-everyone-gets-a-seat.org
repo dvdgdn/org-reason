@@ -1,11 +1,127 @@
-#+title: Step 7: Keep the calendar for what is dated
-#+subtitle: After chapter 7, Everyone Gets a Seat
+#+title: 7. Everyone Gets a Seat
+#+subtitle: Three Hundred Seats · Part Two: Saving the Seats
 #+startup: showall
 #+options: toc:nil num:nil
 
-Previous: [[file:06-two-hundred-twenty.org][Step 6]] · [[file:README.org][All steps]] · Next: [[file:08-the-phone-on-the-table.org][Step 8]]
+Previous: [[file:06-two-hundred-twenty.org][6. Two Hundred Twenty]] · [[file:README.org][Contents]] · Next: [[file:08-the-phone-on-the-table.org][8. The Phone on the Table]]
 
-* In the story
+* The chapter
+
+Eli came back in from calling the caterer with his hands in his pockets. It
+was cold in the lot and he’d gone out without his coat.
+
+“Sergio says he can feed them in two groups,” he said.
+
+Maya looked at Ruth. Ruth was reading a fire notice on the wall, close enough
+to the glass that her breath showed on it.
+
+“He can feed them how far apart?” Ruth asked.
+
+“He needs to talk to the people who’d work it. I asked for a price. He says
+Monday.”
+
+“We need the room before Monday,” Maya said.
+
+Jo looked up from her booking sheet. “I can move you to nine thirty for the
+same price if you don’t need my bar staff. Your caterer does drinks, you stack
+the chairs, you hand me an empty room at nine thirty.”
+
+“Same as Merritt?” Ruth said to Maya.
+
+Maya showed her the line for the room in the budget. Jo’s price was the same
+down to the dollar. Maya had told her what they could spend, and Jo had quoted
+that amount.
+
+Jo went to get the contract. Ruth folded up her glasses.
+
+“How much is it to walk away from this room?” she asked.
+
+“Half to book. We lose the half if we walk.”
+
+“And from Merritt?”
+
+“Nothing. We never put money down.”
+
+Ruth laid her glasses on the table. “So when you say we’ll serve them twice,
+the thing you can buy before noon is the room.”
+
+“Yes.”
+
+“You can tell the board that.”
+
+Maya drew the two circles on the back of the plan a second time, in the
+margins of her notebook. The first time she had drawn them it had felt like
+solving a puzzle. In the notebook they looked like two cups she had to fill.
+She put the pencil across the page.
+
+“What if we just tell them we’ve moved and we’ll send the times Monday?” she
+said.
+
+“They’ve already got the address. Tell them what you actually need from them.”
+
+At eleven twenty-eight Maya called Doris. She described the ramp, starting
+with which end of the parking lot to use. Doris asked whether her brother
+could wait there while she went in.
+
+Maya looked out the window. A white van stood beside the ramp with its
+flashers on. Jo told her they’d mark one place for drop-offs and keep the rest
+clear. Maya told Doris where her brother could stop and where he could park.
+Doris asked her to hold on while she found something to write with. Maya
+listened to two drawers open and close.
+
+“You still need me at six?” Doris asked when she came back.
+
+“We’re looking at an early and a late dinner. I don’t have your time yet.”
+
+“Ask me for the early one, will you? Lenny’s up at four for work.”
+
+Maya wrote /Doris — early if possible/ in the margin. Jo set the contract down
+in front of her and slid it around so Maya could read it. The end time was in
+a box by itself. Maya asked Jo to initial the line where she’d changed eight
+thirty to nine thirty. Jo did. At eleven forty-six Maya signed. She waited
+beside the table while Ruth called Alan with the news, listening for which
+parts Ruth chose to tell him. Ruth used the word /booked/. When Alan asked
+about dinner she said they were pricing a second service.
+
+In the old bank email there was a link for lost tickets. Denise changed it to
+a form where a guest could tell the team how many people were coming with them
+and which of two dinner times would work. Maya wanted the subject line to say
+/Everyone gets a seat/. Denise suggested /Please tell us which time you can
+come/. They used Denise’s. The proposed times were five and seven. The form
+said a reply was a preference, and that the team would confirm each party’s
+time. By two, somebody had forwarded the email to the pantry with /Five for
+me/ typed above it. The woman at the pantry desk called to ask whether that
+meant five people or five o’clock.
+
+Eli set up one guest list and put Doris on it. There was a place for her
+reply, a place for the time she’d actually been given, and a space for a note
+about the door. He left the middle column empty.
+
+“What do you want me to do with the other replies?” he asked.
+
+“Put them there too. I’ll check the email.”
+
+“And Sergio?”
+
+Maya opened the notebook. She had drawn a line through /Find a room/. Under it
+she’d written /Serve both groups dinner/. It seemed like the right name for
+the work she had left. She wrote /Sergio — cost and crew for two dinners,
+Monday/ on the facing page and put the original Saturday load-in drawing
+behind the signed agreement. There was a drawing for the old room, one for the
+new room, and a sheet with two circles where a dinner ought to go.
+
+On her calendar she held half an hour before pickup to look through the pages
+she’d started that week. Her phone lit up two minutes before the half hour
+began. A table host wanted to know whether she should get her party to fill
+out the form separately. Maya typed a quick answer. Before she sent it, she
+realized that if ten people filled it out separately, Eli would have to put
+the table together again by name.
+
+She called the host and sorted it out. When she hung up there was time to
+review the notes or get to the side door at three thirty. She closed the
+notebook, put it in her bag and drove to the school.
+
+* What Maya has just learned
 
 Before noon Maya can buy one thing, the room, so she signs for it and leaves
 the price of a second service open until Monday. She draws a line through

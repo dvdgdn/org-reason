@@ -1,11 +1,108 @@
-#+title: Step 9: Act on the answer
-#+subtitle: After chapter 9, Dinner Twice
+#+title: 9. Dinner Twice
+#+subtitle: Three Hundred Seats · Part Two: Saving the Seats
 #+startup: showall
 #+options: toc:nil num:nil
 
-Previous: [[file:08-the-phone-on-the-table.org][Step 8]] · [[file:README.org][All steps]] · Next: [[file:10-the-bank.org][Step 10]]
+Previous: [[file:08-the-phone-on-the-table.org][8. The Phone on the Table]] · [[file:README.org][Contents]] · Next: [[file:10-the-bank.org][10. The Bank]]
 
-* In the story
+* The chapter
+
+The quote from Sergio came while Maya and Eli were on the floor of Weller with
+a roll of butcher paper. They were trying to find out how many minutes it took
+to put down a tablecloth, clear a place and put down another. Jo had let them
+use one table. Eli had brought two stacks of plates. Maya spread the paper
+over the first stack and called it a meal.
+
+Sergio’s attachment was one page. On the bottom right, under /Added cost/, it
+said $4,800.
+
+She rang him. He was in the kitchen. Something that sounded like pebbles was
+pouring into a pan.
+
+“Is that for the same number of dinners?” she asked.
+
+“Three hundred plates.”
+
+“I thought we were paying by the plate.”
+
+“For food, yes. The schedule is on the second tab.”
+
+“I have a PDF.”
+
+Sergio put the pan down. “You’re asking the same people to serve one party,
+clear the room, set it for another party, serve that one, and clear it again.
+If you give me till eleven I can use the first crew for more of it. At nine
+thirty I need another set of hands.”
+
+Maya held up a plate. Eli held out his hand for it. Maya gave it to him, then
+took the phone away from her ear.
+
+“How long was that table?” she asked him.
+
+“Four minutes,” Eli said. “Two people. No glasses, no dirty forks, no spills.”
+
+“How many tables?”
+
+“Fifteen, each time.”
+
+Sergio was still on the line. Maya asked him to send the second tab. He said
+he would. Before he hung up, he asked if he should hold the extra crew. She
+looked at the total again and said to hold off on booking them. She would give
+him a decision when she had talked to Ruth.
+
+On the drive back to the pantry, she thought of the menu. There was the
+chicken, which could be made cheaper by taking off the sauce, and the beans,
+which wouldn’t save much if they gave people fewer. They could print nothing,
+use the back of the original tickets for name tags, fill the water glasses
+from jugs. She could find a hundred dollars in the next hour. She tried to
+think of where the other forty-seven hundreds were.
+
+Ruth listened from the packing room doorway. Maya showed her the dining room
+split, with the two circles for the parties. Then she showed her the line in
+the quote for the extra crew.
+
+“Same tickets sold?” Ruth asked.
+
+“Same.”
+
+“Same money from the bank?”
+
+“Yes.”
+
+Ruth pulled the adding machine tape out from under the stapler. “What stays
+with us?”
+
+Maya took out her phone. Fifteen thousand five hundred minus forty-eight
+hundred. She showed Ruth the result.
+
+“Say it to me,” Ruth said.
+
+“Ten thousand seven hundred.”
+
+They could serve every meal. They could take all the chairs out by nine
+thirty. At the end of the evening Ruth would have thirty-three hundred dollars
+less than she needed for winter deliveries.
+
+“Suppose we find the thirty-three hundred,” Maya said.
+
+“Where?”
+
+“The bank. They put in five. They’ve been asking if we have a sponsor for the
+next one.”
+
+“Ask them, then,” Ruth said. “And if they say no?”
+
+Maya could hear the freezer fan. She remembered that she still hadn’t written
+to the building manager about the switch. It was a clear, lovely little job.
+She could put it on the list and do it while she waited for Denise. She even
+had a photograph of the switch. She drew the notebook out of her bag. Next to
+/Sergio — cost and crew for two dinners/, she had the date of his answer and a
+line that ended in a check mark.
+
+Ruth took the drawing. “When you know what happens if they say no, bring me
+that too.”
+
+* What Maya has just learned
 
 The caterer's answer arrives, and it is $4,800 more than the plan can carry.
 In her notebook the waiting-for line ends in a neat check mark, though the

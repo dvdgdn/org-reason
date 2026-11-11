@@ -1,11 +1,92 @@
-#+title: Step 15: Verify before you cross off
-#+subtitle: After chapter 15, Thirty One
+#+title: 15. Thirty One
+#+subtitle: Three Hundred Seats · Part Four: Keeping the Promise
 #+startup: showall
 #+options: toc:nil num:nil
 
-Previous: [[file:14-the-walkthrough.org][Step 14]] · [[file:README.org][All steps]] · Next: [[file:16-doors-open.org][Step 16]]
+Previous: [[file:14-the-walkthrough.org][14. The Walkthrough]] · [[file:README.org][Contents]] · Next: [[file:16-doors-open.org][16. Doors Open]]
 
-* In the story
+* The chapter
+
+By Friday afternoon the four callers knew whose dog would bark when the phone
+rang and whose machine cut them off at thirty seconds. Denise was putting
+names to the voices on her sheet. At the desk next to hers, a man from the
+bank read the words /light food/ slowly to someone. He asked if they wanted to
+know what it was. Then he listened for a while and said a refund was fine.
+
+Maya had already given Sergio the guaranteed count and the dietary requests.
+On the shared sheet she could see the group at five and the group at seven
+growing by ones and twos. Sometimes the number for a group went down. Each
+change left a name behind. At twenty to three the list showed twenty-seven
+refunds. There were six seats still open under Maren’s name. Four of her ten
+guests had accepted seven o’clock.
+
+Maya had written /27 + 6/ at the edge of her pad. She knew they could cover
+six more. She had written it there before she knew whether there were other
+calls still out. Now that Denise said they’d heard from everyone else, she put
+a line through the sum. It was a number about the pantry. It couldn’t tell
+Maren what to do with six seats.
+
+At three Maya called. Maren picked up outside. A crossing signal counted down
+behind her.
+
+“I have two more who can come at seven,” she said. “The rest are going out
+after their shift. Can you give their money back to them?”
+
+“You paid us for the whole table,” Maya said. “I can send three hundred back
+to your card. Then you can pay the four of them, if that works for you.”
+
+“Did you say three hundred?”
+
+“Four tickets at seventy-five.”
+
+Maren was quiet for a few seconds. “I only took money from three. The other
+woman’s the one who’s leaving. We were treating her.”
+
+“Do you want me to go through the names with you?”
+
+“Yes,” Maren said. “Please.”
+
+They went through them. One woman had been down as /M. Hall/ and another as
+/Marie H./ They turned out to be sisters with almost the same name. Both were
+coming. Maya changed the initials on the list so the crew at the door could
+tell them apart. Maren said she’d come a few minutes early; she had a card for
+the woman who was leaving and wanted the others to sign it before they went
+out.
+
+“Can I bring it in?” she asked.
+
+“Of course. There’s room at your table.”
+
+The crossing signal started again. Maren said goodbye. Maya sent the
+confirmation and checked that the refund had gone to the card Maren used. When
+the receipt appeared she looked at the two numbers it gave her: the amount
+returned and the amount still paid. She remembered how she used to look only
+for the word /successful/.
+
+At five, Denise called out the door counts. A hundred and forty-three at five.
+A hundred and twenty-six at seven. Maya added them, then added thirty-one. The
+list came back to three hundred.
+
+Ruth was on the floor marking boxes with tape. Maya took her the pad instead
+of calling across the room.
+
+“Fourteen thousand three hundred seventy-five, if we come in on the quoted
+costs,” Maya said.
+
+“Say the number of tickets first.”
+
+“Thirty-one refunds. We’ve sent them all.”
+
+Ruth let the end of the tape curl around her finger. “Anybody we didn’t call?”
+
+“Everybody had an answer.”
+
+Ruth pressed the tape down with her thumbnail. “Good.” She had written two
+versions of the notes for her board call. One was folded inside the other. She
+took the inner one out and put it in the drawer where she kept the route
+schedule. Then she took the other into the office and shut the door.
+
+* What Maya has just learned
 
 A table of ten turns out to be six arrivals and four refunds, and one of the
 four was being treated by the others, so the money goes back to three people.

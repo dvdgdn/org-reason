@@ -1,0 +1,150 @@
+#+title: How the story was built
+#+subtitle: Three Hundred Seats · Appendix
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:17-a-time-for-an-answer.org][17. A Time for an Answer]] · [[file:README.org][Contents]]
+
+* How the Story Was Built
+
+** The seed
+
+After losing a sold-out benefit’s venue, a producer has ten days to make good
+on three hundred tickets.
+
+** The five sentence story
+
+Maya Torres sells three hundred tickets to a supper that will fund the Maple
+Street Pantry’s winter deliveries. She misses a confirmation she made on the
+phone and loses the hall ten days before the event. She announces a
+replacement and learns the next morning that it seats eighty fewer people than
+she promised. She finds room by splitting the dinner into two sittings, then
+learns that serving twice would leave the pantry short of its delivery money.
+Reviewing her promises together gives her time to change what she offers
+guests, return their money if they want it, and give her deputy a decision he
+can make while she keeps a promise to her daughter.
+
+** The characters under pressure
+
+Maya treats a quick answer as proof that she cares. Losing the hall teaches
+her that an empty inbox can hide a promise; losing the crew’s confidence
+teaches her that a promise made privately can take a decision away from
+someone else. Her final test is whether she can say when she will know, and
+then actually be there when she said she would.
+
+Eli wants to lead a crew whose time is treated as real. He can draw a usable
+room and calculate a reset. He can’t do his job if a message from Maya can
+undo a shift he’s already staffed. His turning point comes when she gives him
+a real decision and backs it.
+
+Ruth needs a number she can translate into deliveries. She buys Maya time
+after the first loss and insists on hearing what a second failure would cost.
+Her authority covers the pantry’s spending and its contingency, never the
+guests’ choice.
+
+Denise has a printer deadline, a bank board and a fixed sponsorship. She
+offers a more expensive way to wait and later puts people on phones. Jo
+protects a date she can sell and a room people can move through. Both show
+what happens downstream when Maya says yes.
+
+Nina wants to know whose name to put on a chair. She arranges backup rides
+because she can. She can’t arrange for her mother to hear the first note after
+the rest.
+
+** The scene map
+
+Part One follows a spoken promise that never reached Maya’s system. Chapter 1:
+the vanished reservation gives Ruth a Friday deadline. Chapter 2: a kitchen
+table catches commitments her email missed. Chapter 3: a usable outcome
+narrows the search, and a timed follow-up saves a van. Chapter 4: Ruth puts a
+price on getting the next decision wrong.
+
+Part Two tests the difference between a fact and a guess. Chapter 5: Maya
+sends a drawing and gets a hold, then lets a print deadline turn the hold into
+an announcement. Chapter 6: one chair in an aisle shows why a bigger number on
+a brochure won’t seat more people. Chapter 7: signing the hall secures the
+date while the cost of a second service stays open. Chapter 8: a private favor
+unravels a public staffing decision. Chapter 9: the catering quote breaks the
+budget.
+
+Part Three makes two promises visible at the same time. Chapter 10: the bank’s
+offer puts callers within reach and extra cash out of reach. Chapter 11: the
+review finds the earlier of two deadlines and surfaces the clash with Nina’s
+recital. Chapter 12: Ruth and Maya choose what the pantry can offer, even if
+the guests decline. Chapter 13: each guest gets the choice; a table host asks
+what Maya knew when she pressed send.
+
+Part Four asks whether other people can act on Maya’s word. Chapter 14: Eli
+decides what fits, and Nina plays to the chair she saved. Chapter 15: a table
+host’s reply turns six ambiguous tickets into two arrivals and four refunds.
+Chapter 16: the reset tests the crew’s authority under pressure. Chapter 17:
+two returned calls and a pencil mark show the new shape of a promise.
+
+* Getting Things Done in the Story
+
+The missed date at Merritt and the saved reservation at the rental desk are
+versions of the same problem. Someone else is free to act after a certain
+time. Maya has to remember what she owes them or what she needs from them
+while there’s still a choice. The difference is where the promise goes after
+the call.
+
+** Capture what has your attention
+
+Maya empties her email inbox and still loses the hall. The promise was made on
+the phone. On the back of the envelope, she gathers things from her memory,
+her pockets and her messages. At first she writes /van/. That’s enough to
+catch the thought. She’ll decide what it means when she comes back to it.
+
+** Clarify the outcome and the next action
+
+/Venue/ is the name of a problem. A room for three hundred people at dinner
+tables, with a way in from the street that doesn’t require steps, describes a
+result Maya can check. Sending Jo the drawing is something she can do in the
+minutes she has. An event project may take dozens of steps. The next action is
+the one she can take with what she has now.
+
+** Organize reminders where you will use them
+
+After Maya sends the drawing, she’s waiting for Jo to answer. The drawing
+belongs with her event materials, Jo’s reply belongs on the list she checks
+for things other people owe her, and the noon expiration belongs on the
+calendar. The morning follow-up leaves her time to act before noon. Putting an
+item on a list doesn’t change the state of the world: Weller still has to say
+what fits.
+
+** Reflect while there is time to change course
+
+On Tuesday Maya checks her notes, calendar, projects and outstanding replies
+together. The deadline for committing the crew is two days earlier than the
+one for the headcount. Seeing it now gives her an option she won’t have
+Friday. A regular review keeps a system worth trusting. It lets her remove
+stale reminders, check promises, and catch collisions while she can do
+something about them.
+
+** Engage with the time and authority you have
+
+At the start of the second reception, Maya can help move the photograph or
+open check-in. Eli has the information and authority to move the photograph.
+At the door, Maya can match a guest to the right booking and get another
+volunteer set up. She chooses the work that needs her at that moment. The
+lists help her see the choice; she still has to make it.
+
+** Try a different promise
+
+You offered to collect a key for a family visit. The landlord needs the name
+of the person collecting it before she’ll confirm pickup. Your train leaves at
+six. The draft message with your name is open. What can you do now? What
+answer are you waiting for, and what is the last time you could check and
+still make another plan? What can you safely tell your family before the
+landlord replies?
+
+** Sources
+
+[[https://www.advancedfictionwriting.com/articles/snowflake-method/][Randy
+Ingermanson’s Snowflake Method]]
+
+[[https://gettingthingsdone.com/what-is-gtd/][David Allen’s Getting Things
+Done]]
+
+[[https://stephanjoppich.com/sense-of-style-summary/][Stephan Joppich’s guide
+to Steven Pinker’s The Sense of Style]]

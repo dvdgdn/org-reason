@@ -1,11 +1,138 @@
-#+title: Step 3: Clarify — outcome and next action
-#+subtitle: After chapter 3, A Room with Tables
+#+title: 3. A Room with Tables
+#+subtitle: Three Hundred Seats · Part One: Losing the Hall
 #+startup: showall
 #+options: toc:nil num:nil
 
-Previous: [[file:02-eleven-things.org][Step 2]] · [[file:README.org][All steps]] · Next: [[file:04-the-price-of-waiting.org][Step 4]]
+Previous: [[file:02-eleven-things.org][2. Eleven Things]] · [[file:README.org][Contents]] · Next: [[file:04-the-price-of-waiting.org][4. The Price of Waiting]]
 
-* In the story
+* The chapter
+
+At eight the next morning, Maya got into a gym with four hundred bleacher
+seats and nowhere to put a pot of soup.
+
+The woman whose husband had answered the phone stood beside a trophy case with
+her arms tucked into her sweatshirt. Her name was Pearl. She pointed out a
+door beside the basketball hoops.
+
+“You could bring it in hot,” she said. “They did that at the wrestling
+banquet.”
+
+“How far is it from where we can plug in the warmers?”
+
+“Oh, you can’t use those. We had a little fire in March.”
+
+Eli walked in wearing a black knit cap and carrying a cardboard tube. He
+listened to Pearl explain the fire. Then he walked from the door to the place
+where the farthest table would go and back again. His shoes squeaked on the
+floor.
+
+“What did they serve at the wrestling banquet?” he asked.
+
+“Pizza.”
+
+In the parking lot Maya opened the notebook to the envelope she’d stuck
+inside. Under /room/ she’d written the names of nine places. She put a line
+through Pearl’s.
+
+“How many of those can give us three hundred at tables?” Eli asked.
+
+“The museum says four hundred.”
+
+“Standing in the gallery. They put it on the website right under the picture.”
+
+“They might have another room.”
+
+“Call if you like.” Eli turned the cap of the cardboard tube. “What do you ask
+them?”
+
+“I ask if they have the twenty-first.”
+
+“If they say yes?”
+
+Maya rested the notebook on the roof of the car. A bus came down the street
+with its lights still on. She wrote /300 at dinner tables/. Beside it Eli drew
+a little rectangle for the stage. He asked where the food came out and what a
+guest did if she couldn’t use steps. Maya remembered Mrs. Kline taking the
+pantry stairs sideways. She added /step-free way in/. The space left under
+/room/ was hardly the width of her hand.
+
+Her first call after that lasted forty seconds. The museum could put a hundred
+and forty at tables. Her second place could do two hundred if it moved the bar
+outside. It was the wrong month for an outside bar. For each call she could
+hear the person on the other end pause at a different word.
+
+Eli was sliding the tube into the back of his car when Maya remembered the
+license.
+
+“Did you send it?”
+
+“Monday. I sent it to the address you gave me.”
+
+“Have they said we have the van?”
+
+Eli found the sent message. There was no reply. The rental desk’s original
+offer said they’d hold the van until ten Thursday. Maya looked at the
+dashboard in Eli’s car. Nine twenty-one. On the envelope, /van/ looked just as
+it had the night before. Eli had taken a picture of his license, found the
+number and sent it off. A check mark beside /van/ could have meant he had done
+everything Maya asked. They still couldn’t go anywhere in it.
+
+She called the desk. The clerk put her on hold. A recording told her how easy
+it was to reserve online.
+
+“Why don’t you call me from the pantry when you hear?” Eli said.
+
+Maya nodded, hung up and wrote, /Rental desk: confirm cargo van for Sat. Eli
+sent license Mon. Call again 9:40 if no word./ On her way to the pantry she
+stopped at a red light and remembered that she had to tell the building
+manager about the freezer switch. For once the other thing, the thing she’d
+been afraid of forgetting, didn’t follow it in.
+
+At nine forty she was in the pantry office looking at an old invoice with
+Weller Hall in the address line. She phoned the rental desk again. A different
+clerk looked in the account, found Eli’s license attached to a message nobody
+had opened and said a customer had just come in asking for a van that size.
+
+“Is that our van?” Maya said.
+
+“It is if you want it.”
+
+She asked him to send the confirmation while she was on the line. She watched
+it arrive, opened it, checked the date, and sent the pickup time to Eli. Then
+she drew a line through the entry on the envelope. This time she knew what the
+line meant.
+
+The Weller invoice was for a memorial reception Maya had sent a crew to years
+earlier. She hadn’t seen the room. The family had brought in a hundred and
+twenty folding chairs and a portrait on an easel. Maya looked up the current
+rental page. /Up to 300 guests./ There was no figure for dinner.
+
+“Saturday the twenty-first?” said Jo, who ran the hall. “What happened to the
+place you had?”
+
+Maya looked at the names she’d crossed out. It was the first time someone had
+asked what she’d already had, as if no one went looking for a room ten days
+out unless they’d lost one.
+
+“I missed a deadline.”
+
+“Well. I have a Saturday with a hole in it. How late?”
+
+“The last guest is supposed to leave at eight thirty. We need time to load
+out.”
+
+“Send me what you’re putting in the room. If it fits, we can talk about when
+it comes out.”
+
+Maya asked Eli how soon he could finish the drawing. He emailed it to her by
+eleven. At eleven fifteen she had another hall on the phone that said it might
+be able to move a dance lesson. Then Alan, the pantry board chair, called.
+Maya went into the hall to take that one. When she came back, the drawing was
+open under three other windows. She meant to send it as soon as she could tell
+Jo whether they needed the bar as well as the buffet. At noon she went to find
+Ruth.
+
+* What Maya has just learned
 
 =room= becomes =300 at dinner tables, step-free way in=, and nine candidate
 halls shrink to a few in two phone calls. =van= becomes =Rental desk: confirm
