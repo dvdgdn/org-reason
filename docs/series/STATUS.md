@@ -40,8 +40,14 @@ Record each decision here with its date when made.
   Commit `9f88987` in that repository.
 - [x] **S0** Prepare release 0.2.0 from what the changelog lists as
   unreleased. `OWNER` tags and pushes.
-- [ ] **C4** Other computers install the tagged release. After S0.
-- [ ] **C3** Fix the Org-roam block for a computer with no `~/org`.
+- [ ] **C4** `OWNER` Other computers install the tagged release. The pin is
+  in the configuration (commit `ff75455` there) and installs v0.2.0 on a
+  computer without the package; checked in a fresh profile. What remains is
+  to start Emacs on each other computer. One that already has an install
+  follows the comment above the Org Reason block in `init.el`.
+- [x] **C3** Fix the Org-roam block for a computer with no `~/org`. Commit
+  `b097d0d` in that repository, on the branch
+  `claude/org-reason-novellas-1764a6`; not yet on its `main`.
 - [ ] **P0** `OWNER` Work the seventeen steps of *Three Hundred Seats* on real
   commitments, with this series as one project. The real workspace holds six
   unclarified captures and three projects as of 12 November 2026. Blocks S3.
@@ -125,3 +131,4 @@ One case at a time, in the order of the owner's own practice. For each:
 - 2026-11-12 S0 release files prepared. The owner still needs to tag v0.2.0.
 - 2026-11-12 S0 done. Published Org Reason 0.2.0 as `v0.2.0`.
 - 2026-11-12 C4 pin published in Emacs config commit `ff75455`. Installs on other computers are pending.
+- 2026-11-12 C3 done in Emacs config commit `b097d0d` (unmerged branch). S0 and C4 reviewed: release CI passed on Linux, macOS and Windows; the pin installs v0.2.0 in a fresh profile. C4 now waits only on the owner.
