@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.2.0 — 2026-11-12
 
 - Add `C-c r C` to capture and clarify in one step, and `M-?` at every
   clarification prompt to show help with examples.

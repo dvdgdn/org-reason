@@ -122,3 +122,4 @@ One case at a time, in the order of the owner's own practice. For each:
 ## Log
 
 - 2026-11-12 Plan written. C0 done.
+- 2026-11-12 S0 release files prepared. The owner still needs to tag v0.2.0.

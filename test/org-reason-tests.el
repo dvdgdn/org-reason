@@ -671,6 +671,27 @@
             (should-not (lookup-key org-reason-mode-map (kbd "C-c z")))))
       (org-reason--bind-prefix org-reason-key-prefix))))
 
+;; @UX04
+(ert-deftest org-reason-test-install-snippets-match-release-version ()
+  (let* ((root (file-name-directory (locate-library "org-reason")))
+         (version (with-temp-buffer
+                    (insert-file-contents (expand-file-name "CHANGELOG.md" root))
+                    (should (re-search-forward "^## \\([0-9]+\\.[0-9]+\\.[0-9]+\\) " nil t))
+                    (match-string-no-properties 1))))
+    (with-temp-buffer
+      (insert-file-contents (expand-file-name "org-reason.el" root))
+      (should (re-search-forward
+               (concat "^;; Version: " (regexp-quote version) "$") nil t)))
+    (dolist (guide '("README.md" "docs/install.md"))
+      (with-temp-buffer
+        (insert-file-contents (expand-file-name guide root))
+        (should (search-forward (format ":rev \"v%s\")" version) nil t))
+        (goto-char (point-min))
+        (should (search-forward
+                 (format "(package-vc-install \"https://github.com/dvdgdn/org-reason\" \"v%s\")"
+                         version)
+                 nil t))))))
+
 ;; @RC14
 (ert-deftest org-reason-test-python-setup-configures-only-a-working-environment ()
   (org-reason-test-workspace

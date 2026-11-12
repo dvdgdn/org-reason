@@ -5,7 +5,7 @@
 
 ;; Author: David Joseph
 ;; URL: https://github.com/dvdgdn/org-reason
-;; Version: 0.1.1
+;; Version: 0.2.0
 ;; Package-Requires: ((emacs "29.1") (org "9.6"))
 ;; Keywords: outlines, convenience
 

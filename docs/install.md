@@ -11,7 +11,7 @@ With Emacs 30, in your init:
 
 ```elisp
 (use-package org-reason
-  :vc (:url "https://github.com/dvdgdn/org-reason" :rev "v0.1.1")
+  :vc (:url "https://github.com/dvdgdn/org-reason" :rev "v0.2.0")
   :custom
   (org-reason-directory "~/org/reason/")
   (org-reason-device (system-name))
@@ -20,14 +20,14 @@ With Emacs 30, in your init:
 ```
 
 On Emacs 29, evaluate
-`(package-vc-install "https://github.com/dvdgdn/org-reason" "v0.1.1")` with
-`M-:`, then use the same block without the `:vc` line. These snippets pin
-the latest tagged release. Update the tag when you choose a newer release.
+`(package-vc-install "https://github.com/dvdgdn/org-reason" "v0.2.0")` with
+`M-:`, then use the same block without the `:vc` line. Both snippets pin
+Org Reason 0.2.0. Update the tag when you choose a newer release.
 
 To work on Org Reason itself, clone the repository and run
 `M-x package-vc-install-from-checkout` on the clone. Use the same block
 without the `:vc` line. After editing, use `M-x package-vc-rebuild` to
-recompile it. The new commands below are available from a development checkout.
+recompile it.
 
 The data directory is created the first time the mode is turned on; loading the
 library alone writes nothing. Your records stay there and never belong in this

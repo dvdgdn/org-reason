@@ -27,7 +27,7 @@ Org Reason requires Emacs 29.1 or newer. With Emacs 30, add this to your init.
 
 ```elisp
 (use-package org-reason
-  :vc (:url "https://github.com/dvdgdn/org-reason" :rev "v0.1.1")
+  :vc (:url "https://github.com/dvdgdn/org-reason" :rev "v0.2.0")
   :custom
   (org-reason-directory "~/org/reason/")
   :config
@@ -35,10 +35,8 @@ Org Reason requires Emacs 29.1 or newer. With Emacs 30, add this to your init.
 ```
 
 On Emacs 29, use `M-:` to evaluate
-`(package-vc-install "https://github.com/dvdgdn/org-reason" "v0.1.1")`,
-then omit the `:vc` line above. Both snippets install the latest tagged
-release. To try the dashboard example and the other unreleased features
-shown here, [install from a checkout](docs/install.md#1-the-package).
+`(package-vc-install "https://github.com/dvdgdn/org-reason" "v0.2.0")`,
+then omit the `:vc` line above. Both snippets pin Org Reason 0.2.0.
 
 The Reason Commons commands need Python 3 and PyYAML. In a development
 checkout, `M-x org-reason-setup-python` installs the Python requirements

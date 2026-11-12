@@ -18,3 +18,10 @@ Feature: Explore the workspace in Emacs
     When I set a custom prefix
     Then it opens the command menu with the question mark key
     And I can disable the package's prefix bindings entirely
+
+  @UX04 @automated
+  Scenario: Pin the documented release in Emacs
+    Given the latest release version in the changelog
+    When I consult the README or installation guide
+    Then each Emacs 29 and 30 installation example names that release tag
+    And the package declares the same version

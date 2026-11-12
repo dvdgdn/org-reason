@@ -17,6 +17,7 @@ themselves an executable test suite. Manual checks are explicitly tagged.
 | J8 | I reason with other people or tools | Preserve authorship, dissent, and exact endorsement | Resume from a shared model | reasoning.feature |
 | J9 | My system gets complicated | Inspect its upkeep and remove excess | Keep attention for the actual goal | weekly review's optional learning section |
 | J10 | Someone wants to extend the project | See contracts, code boundaries, examples, and tests | Improve it without a private monolith | architecture.md, README.md |
+| J11 | I install Org Reason | Pin a documented release in Emacs | Use a known version on each computer | workspace.feature, UX04 |
 
 ## Automated traceability
 
