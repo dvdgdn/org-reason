@@ -1,0 +1,80 @@
+#+title: Three Hundred Seats — build your own trusted system
+#+startup: showall
+#+options: toc:nil num:nil
+
+/Three Hundred Seats/ is a novella in which Maya Torres loses a sold-out
+benefit's hall ten days before the event and learns, one promise at a time,
+the practice David Allen calls Getting Things Done. The whole novella is here,
+one chapter to a page, and each chapter is followed by an exercise. By chapter
+17 you have a working system of your own, built from your own commitments.
+
+* How each page works
+
+Every page has the same five parts.
+
+- *The chapter* :: the story itself.
+- *What Maya has just learned* :: the chapter's lesson in a few lines. It gives
+  away nothing from later chapters.
+- *Your trusted system — Step N* :: the exercise in general terms. It works
+  with paper, a notes app, or anything else. This is the part printed at the end
+  of the chapter.
+- *The same step in Org Reason* :: the same exercise with Org Reason's commands,
+  on your real records.
+- *Carry forward* :: what to keep for the next step.
+
+Each step uses what the earlier steps produced, so do them in order. Most take
+five minutes. Step 2 and step 11 take fifteen.
+
+The story is in four parts: Losing the Hall (chapters 1–4), Saving the Seats
+(5–9), Changing the Promise (10–13) and Keeping the Promise (14–17). The
+[[file:appendix.org][appendix]] shows how the story was built and sums up the method. Read it last.
+
+* The seventeen chapters and steps
+
+| After chapter              | Step                                    | What you build                         | Page                                    |
+|----------------------------+-----------------------------------------+----------------------------------------+-----------------------------------------|
+| 1. The Room                | Notice where promises arrive            | One capture place, a list of entrances | [[file:01-the-room.org][01]]                                      |
+| 2. Eleven Things           | Capture everything                      | A full inbox                           | [[file:02-eleven-things.org][02]]                                      |
+| 3. A Room with Tables      | Clarify: outcome and next action        | A Next Actions list                    | [[file:03-a-room-with-tables.org][03]]                                      |
+| 4. The Price of Waiting    | Name your projects                      | A Projects list                        | [[file:04-the-price-of-waiting.org][04]]                                      |
+| 5. The Address             | Track what you are waiting for          | A Waiting For list with check times    | [[file:05-the-address.org][05]]                                      |
+| 6. Two Hundred Twenty      | Say what done means                     | Outcomes you can check                 | [[file:06-two-hundred-twenty.org][06]]                                      |
+| 7. Everyone Gets a Seat    | Keep the calendar for what is dated     | A calendar you can believe             | [[file:07-everyone-gets-a-seat.org][07]]                                      |
+| 8. The Phone on the Table  | Know whose list it is                   | Owners, and a list per person          | [[file:08-the-phone-on-the-table.org][08]]                                      |
+| 9. Dinner Twice            | Act on the answer                       | No project without a live step         | [[file:09-dinner-twice.org][09]]                                      |
+| 10. The Bank               | Park what cannot start yet              | Later steps and a Someday list         | [[file:10-the-bank.org][10]]                                      |
+| 11. The List with Names    | Review the whole system                 | Your first full review                 | [[file:11-the-list-with-names.org][11]]                                      |
+| 12. The Cost of Saying It  | Check each project against its purpose  | A purpose behind every project         | [[file:12-the-cost-of-saying-it.org][12]]                                      |
+| 13. The Correction         | Renegotiate out loud                    | One promise honestly changed           | [[file:13-the-correction.org][13]]                                      |
+| 14. The Walkthrough        | Hand over a decision                    | One real delegation, with limits       | [[file:14-the-walkthrough.org][14]]                                      |
+| 15. Thirty One             | Verify before you cross off             | Lists that match the world             | [[file:15-thirty-one.org][15]]                                      |
+| 16. Doors Open             | Choose what needs you now               | The habit of choosing from the lists   | [[file:16-doors-open.org][16]]                                      |
+| 17. A Time for an Answer   | Keep it running                         | A weekly review and a capture reflex   | [[file:17-a-time-for-an-answer.org][17]]                                      |
+
+* What you have at the end
+
+One system, in five parts that Allen names capture, clarify, organize, reflect
+and engage:
+
+- one inbox that everything goes into (steps 1–2);
+- a Next Actions list, a Projects list, a Waiting For list, a calendar, a list
+  per person and a Someday list (steps 3–10);
+- a review that keeps them true (steps 11–15);
+- and the habit of choosing from them and adding to them as you go (steps 16–17).
+
+* Before you start with Org Reason
+
+You need Org Reason installed and =org-reason-mode= on (see [[file:../install.md][install.md]]). The
+keys below assume the default prefix, ~C-c r~; ~C-c r ?~ shows the menu.
+
+These exercises use your real workspace, because the point is a system that
+holds your real commitments. If you would rather learn the keys on invented
+data first, ~C-c r h~ opens the [[file:../user-guide.org][tutorial]] in a separate Emacs. The decisions
+behind each command are explained in [[file:../gtd.md][gtd.md]].
+
+Org Reason sends no messages and sets no alarms. When a step says to tell
+someone or to be reminded, you send the message yourself, and the reminder is
+an entry you will see in the agenda (~C-c r a~).
+
+Getting Things Done and GTD are registered trademarks of the David Allen
+Company. These exercises are independent and not affiliated with it.

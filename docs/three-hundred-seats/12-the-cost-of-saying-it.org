@@ -1,0 +1,176 @@
+#+title: 12. The Cost of Saying It
+#+subtitle: Three Hundred Seats · Part Three: Changing the Promise
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:11-the-list-with-names.org][11. The List with Names]] · [[file:README.org][Contents]] · Next: [[file:13-the-correction.org][13. The Correction]]
+
+* The chapter
+
+At eight fifty-eight on Wednesday, Sergio sent a photograph of the new menu
+beside his quote. There were little sandwiches with the bread turned so you
+could see what was in them, cups of squash soup and apple cake cut into
+squares. You could eat everything with one spoon and a napkin. The photograph
+came from a job he’d done at a library. On the edge of it, a woman had put her
+book down open to take a sandwich.
+
+Maya brought the photograph and both quotes to Ruth. She found her by the back
+door, seeing the Wednesday driver off. The van they owned had to be started
+with the driver’s door open so you could hear if the starter caught. They
+waited till it did.
+
+“How long do you have?” Maya asked.
+
+“I have until that van comes back or somebody calls about it.”
+
+They spread the papers on the packing table. Maya set down the figure for two
+full dinners first. Ruth read it, then moved it aside to see the photograph.
+
+“What would you call that?” Ruth asked.
+
+“A reception.”
+
+“Would you call it supper?”
+
+“No.”
+
+“What are you telling a woman who paid for supper?”
+
+“That the room we booked won’t serve all three hundred at dinner tables. That
+we can give her a place at one of these two receptions. And if that isn’t what
+she wants, she gets the seventy-five dollars back.”
+
+Ruth looked at the photograph again. “Have you counted the people who’ll want
+it back?”
+
+“I can tell you how many we can afford.”
+
+Maya put down the original budget. The reception menu saved thirty-seven
+hundred dollars against the original dinner. The second crew and reset added
+twenty-five hundred. Sergio had written the two numbers on separate lines.
+Ruth used the edge of the other quote to run a pencil straight down the page
+between them.
+
+“So twelve hundred better than the night we sold,” she said.
+
+“If everybody keeps a ticket. Sixteen thousand seven hundred to the pantry.”
+
+Ruth took a scrap of tape and wrote $14,000 on it. She stuck it on the table
+beside the quote.
+
+“Twenty-seven hundred between us and that,” she said.
+
+“Thirty-six tickets.”
+
+“And the thirty-seventh?”
+
+“Thirteen thousand nine hundred twenty-five. We’d be short seventy-five
+dollars. We’d still give the refund.”
+
+Ruth looked over at the delivery schedule. “What happens if there are sixty?”
+
+Maya had figured thirty, forty and fifty. She did sixty on the back of the
+quote. Four thousand five hundred returned. Twelve thousand two hundred left.
+Ruth walked to the wall and took the schedule down. She didn’t look at the
+total at the bottom. She looked down the weeks, one by one.
+
+“If I need to save eighteen hundred, I can combine some of the Friday runs
+after New Year’s. That puts people on a different day.” She pulled the
+schedule closer. “I have to ask the drivers while they can still say yes. And
+I have to tell the building coordinators before they make their own
+schedules.”
+
+“We could wait and see how the calls go,” Maya said.
+
+“Is your man going to hold the crew while we do that?”
+
+“Till noon.”
+
+Ruth tapped the paper. “The dinner leaves us short even if nobody asks for
+their money. This gives us a chance to keep the runs. If people say no, we
+give the money back and I call the board with the number we’ve got.”
+
+Maya had expected to feel relief when Ruth chose. She felt it for about as
+long as it took Ruth to fold the delivery schedule in half.
+
+“The hosts,” Ruth said. “Call the ones who bought tables. Don’t have Denise’s
+people read them a note from us.”
+
+“I’ll start with Maren.”
+
+“She’s bringing the night shift from the clinic. They’ve been trading hours to
+come.”
+
+Maya looked at the photograph. There was no angle she could hold it at that
+would make it look like a dinner. She picked up the phone and called Sergio.
+
+He could hold the food price up to a hundred and sixty guests per reception.
+By Friday at noon he wanted the guaranteed maximum and the dietary orders. The
+pantry would pay the quoted price even if fewer people came; at check-in they
+could still keep an accurate count without buying or canceling another plate.
+Maya gave him five and seven for doors. He asked if he should tell the bakery
+to cut the cake small or big.
+
+“Big,” she said.
+
+When she hung up, Ruth was putting the route schedule back on the wall. She
+used the old holes so she didn’t make two new ones.
+
+“Now you can tell people what you have,” Ruth said.
+
+* What Maya has just learned
+
+Ruth writes =$14,000= on a scrap of tape and sticks it beside the quote. The
+dinner as sold would leave the pantry short even if every guest came.
+Receptions with refunds on offer might not. Ruth asks what happens at thirty
+refunds, at thirty-seven, at sixty, and what she would do in each case. They
+choose before the caterer's noon deadline. Maya had expected to feel relief.
+It lasts about as long as it takes Ruth to fold a schedule.
+
+* Your trusted system — Step 12: Purpose
+
+/Ten minutes./
+
+A project is a way of getting something that matters more than the project
+itself. When the two come apart, keep the purpose and change the project.
+
+1. On a new page titled *What this is for*, list the few things your projects
+   serve: areas you are responsible for, and goals for this year. Five to ten
+   lines.
+2. Beside each project on your Projects list, write which line it serves. A
+   project that serves none is a candidate for Someday / Maybe, or for
+   stopping.
+3. Pick the project in most trouble. Write its purpose on a slip of paper and
+   put it where you can see it. Ask: is the plan as it stands still the best
+   way to reach this? What else would?
+4. Write the number at which the answer changes: "This works if no more than
+   __." Then write what you will do above that number.
+
+Decide while the people who depend on you can still adjust.
+
+* The same step in Org Reason
+
+1. Open =gtd/horizons.org= in your Org Reason directory (~C-x C-f~). Add a
+   heading for each area of responsibility or goal: ~M-RET~, type it, repeat.
+2. Open each project from ~C-c r a~ and extend the =For:= line from step 4 so
+   it names one of those headings.
+3. A project that serves nothing: ~C-c C-t~ on its heading and choose SOMEDAY to
+   set it aside, or CANCELLED to stop it. Either one asks nothing more of you
+   and keeps the record.
+4. For the threshold in item 4, write it under the project heading:
+   =Works if refunds ≤ 36. Above that: combine the Friday runs.=
+
+*Optional: keep the forecast honest.* A threshold like that is a prediction, and
+Org Reason can hold you to it. ~C-c r p~ drafts an experiment: give it a title,
+the prediction ("No more than 36 of 300 will ask for a refund") and a review
+date. With point on its top heading, ~C-c r f~ freezes the wording so it cannot
+be quietly improved afterwards. Step 15 compares it with what happened. Lesson
+7 of the [[file:../user-guide.org][user guide]] covers this in full.
+
+- [ ] =gtd/horizons.org= has five to ten headings.
+- [ ] Every active project names what it is for, and one has a threshold.
+
+* Carry forward
+
+A purpose behind every project, and one plan you have decided to change. Other
+people were promised the old plan, and they have not been told yet.

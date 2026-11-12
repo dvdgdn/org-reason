@@ -1,0 +1,174 @@
+#+title: 4. The Price of Waiting
+#+subtitle: Three Hundred Seats · Part One: Losing the Hall
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:03-a-room-with-tables.org][3. A Room with Tables]] · [[file:README.org][Contents]] · Next: [[file:05-the-address.org][5. The Address]]
+
+* The chapter
+
+Ruth was at the packing table with a roll of blue tape around her wrist. She
+put a strip across the top of a cardboard box, tore it off with her teeth, and
+wrote /BELL ST/ on it. A boy in an apron took the box off the table and
+replaced it with an empty one.
+
+“Have you got a room?” she asked Maya.
+
+“I have one hall with a free night and one place that’s trying to move
+something.”
+
+The boy set an opened case of beans on the table. Ruth sent him for the cans
+with the ring pulls. The cans he’d brought were the kind you needed an opener
+for. The pantry had learned that some people would take them and give them
+away unopened.
+
+“Did you tell Alan what happened?” Ruth asked.
+
+“He wanted to know whether they should hold the mailing.”
+
+“What’d you say?”
+
+“That there’d be an address by the time it went.”
+
+Ruth took the tape off her wrist. “What time does it go?”
+
+“I’m finding out.”
+
+“Find out before you tell him there’ll be an address.”
+
+The boy came back with the beans and Ruth showed him where to put them. She
+wiped her fingers on her apron and led Maya to the office. From the top drawer
+she took a sheet of paper with a strip of adding machine tape clipped to it.
+The tape curled in on itself when she set it on the desk. She held it down
+with the stapler.
+
+The tickets brought in twenty-two thousand five hundred dollars. The bank had
+committed another five thousand. The hall, the food, and everything it took to
+serve that food came to twelve thousand in the original plan. Ruth moved the
+stapler down the sheet. What stayed with the pantry was fifteen thousand five
+hundred.
+
+“I know the budget,” Maya said.
+
+“Which of these numbers did you tell the halls?”
+
+“I told them the rental allowance.”
+
+“Good. If a room eats the whole allowance, we can still pay the servers. If it
+costs more, I need to know how much more.”
+
+Ruth took the delivery schedule from the wall. It was a grid of weeks. Each
+week had three lines, one for each run. Along the right side she’d penciled
+what the pantry had to pay for drivers, fuel, cold storage and bags. At the
+bottom Maya saw fourteen thousand. She could do the subtraction without
+looking back.
+
+“Fifteen hundred to play with,” she said.
+
+“Fifteen hundred above what the runs cost,” said Ruth. “I’d like to replace
+the freezer latch. There’s a man who fixes these who won’t sell you a new
+freezer. But the latch can wait.”
+
+Maya tried to picture giving Ruth a new latch. At the end of the last supper
+there’d been a moment when Ruth lifted the hem of her apron to wipe her
+glasses. She’d just been told what the night had made. Maya had been at a
+table sorting vouchers and heard a woman who sounded like Ruth laugh from
+somewhere on the other side of the room. She hadn’t known she’d be able to
+recognize that sound again until she thought of it now.
+
+Her phone rang. Denise wanted to talk about an address. The bank was about to
+send its November mailing. It had agreed to tuck a card into the envelopes for
+ticket holders and pay for the ticket email through the same vendor. The
+envelopes were already addressed. The vendor would prepare both from the same
+file.
+
+“Hold it for me,” Maya said.
+
+“Till three twenty-five. Then I have to tell them what’s going in.”
+
+“What if you send the bank mailing without our cards and do those later?”
+
+“We can. You’d be paying for a separate run and postage. I’ll get a number.”
+
+After the call Maya checked the calendar. The appointment at three thirty was
+still called /Pickup/, in the pale green she used for home. She could ask Cal
+to go. She pictured Nina at the glass doors with the cello between her knees,
+taking out her phone to see which one of them was coming. Maya left the
+calendar alone.
+
+She called the place with the dance lesson. The instructor could move it, the
+woman said. But the room couldn’t seat more than two hundred and fifty. Maya
+asked why she’d said three hundred that morning.
+
+“The lesson’s three hundred,” the woman said. “The parents sit on the floor.”
+
+Maya took the name off the list.
+
+At the pantry window, a volunteer in a yellow vest was trying to stack the
+last of the Bell Street boxes in the back of a car. The top box would only fit
+if she took out the parcel shelf. Ruth went outside, showed her how to lift it
+off its pins, and carried it back into the building. She set it upright by the
+office door. It would have to go back in the car when the woman returned. Ruth
+wrote the driver’s name on a piece of tape and stuck it on.
+
+Maya clicked on the drawing. She had an email from Jo, sent while she’d been
+asking about the dance lesson. Before she opened it a proof from the bank’s
+printer appeared at the top of her inbox.
+
+* What Maya has just learned
+
+Ruth holds the adding-machine tape flat with a stapler. The supper has to leave
+fourteen thousand dollars for the winter delivery runs, and there is fifteen
+hundred to spare. Now Maya knows what the room is for and what a wrong
+decision costs. Ruth adds one more thing: find out before you tell someone
+there will be an address.
+
+* Your trusted system — Step 4: Projects
+
+/Ten minutes./
+
+Go back to the lines you marked in step 3 as needing several steps. Each is a
+project: any result that takes more than one action to reach.
+
+Start a list titled *Projects*. For each one write three things.
+
+1. *The outcome*, as a finished state: "Passport renewed", not "passport".
+2. *What it is for, and who is counting on it.* One line. Ruth's version is
+   "winter runs paid for: $14,000".
+3. *The next action*, which goes on your Next Actions list.
+
+The Projects list is short entries only. It reminds you what you have agreed
+to finish. Plans, drawings and budgets are kept elsewhere.
+
+Most people find between ten and forty projects. If one of yours has a real
+deadline set by someone else, write it beside the outcome. Don't invent
+deadlines for the others.
+
+* The same step in Org Reason
+
+In the inbox (~C-c r i~), put point on a several-step item and press ~C-c r x~.
+
+| Prompt                           | Answer                                           |
+|----------------------------------+--------------------------------------------------|
+| Choose where it belongs          | =project=                                        |
+| Desired outcome                  | The finished state                               |
+| First available physical action  | One step you could start now, verb first         |
+| Context, effort                  | As in step 3                                     |
+
+The item moves into its own file under =gtd/projects/= with the action beneath
+it as a NEXT heading. A project cannot be created without a first action.
+
+To record what the project is for, open it from the agenda (~C-c r a~, then
+~RET~ on the project) and add a line under the heading, for example
+=For: winter runs paid for. Ruth needs the number by Friday noon.=
+
+For a deadline someone else has set, press ~C-c C-d~ on the project heading and
+give the date.
+
+- [ ] ~C-c r a~ lists your projects in their own block, and each has a NEXT
+  action somewhere above it in the same view.
+
+* Carry forward
+
+A Projects list where every entry has a reason and a next action. What is left
+in the inbox now is mostly waiting on other people, or tied to a day.

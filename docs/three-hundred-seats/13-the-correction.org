@@ -1,0 +1,173 @@
+#+title: 13. The Correction
+#+subtitle: Three Hundred Seats · Part Three: Changing the Promise
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:12-the-cost-of-saying-it.org][12. The Cost of Saying It]] · [[file:README.org][Contents]] · Next: [[file:14-the-walkthrough.org][14. The Walkthrough]]
+
+* The chapter
+
+Maya typed /An update about the Winter Supper/ and sat for a while with the
+cursor after /Supper/. In the paragraph below it, she’d used the word /change/
+twice without saying what had changed. She read the first sentence aloud. If
+she were reading it in the line at a grocery store, she would have put the
+phone in her pocket before she found the news.
+
+She tried again.
+
+/On Saturday at Weller Hall, we’ll serve light food at two receptions in place
+of the three-course dinner you bought. You can come at five or seven, subject
+to space, or get your full $75 back. Please tell us by Friday at five. We’ll
+call if we haven’t heard from you. We’ll only hold a seat once we’ve confirmed
+your time./
+
+Under that she put the address, the ramp and drop-off directions, and the
+number Denise would staff. She asked Denise to read it and tell her what a
+caller couldn’t answer from it.
+
+“Who needs to ask for the refund?” Denise said.
+
+“Anybody who paid.”
+
+“What if I bought a seat at Maren’s table?”
+
+“Then we need to find out who paid for the table.” Maya opened the ticket
+list. Maren had paid for ten together. Two other hosts had used a group name,
+but each guest had paid on their own. “We should say where the refund goes.
+Back to whoever paid us.”
+
+“What if they don’t pick up?”
+
+“We try again. If we can’t reach them, we send the money back.”
+
+Denise took a copy and marked the line about the door. She asked Maya to leave
+the name /Doris/ off the sample they’d read from. The callers would use the
+names on the guest list. Maya hadn’t noticed that she’d left Doris’s name in.
+She printed one clean copy and took it upstairs where the pantry phone didn’t
+ring.
+
+Maren answered on the fourth ring. Maya knew she was on a break because of the
+rattle in the background. It was the sound the clinic’s ice machine made when
+it filled its tray.
+
+“You have a time for me?” Maren asked.
+
+“I do. There’s something I need to tell you before you choose it.”
+
+She told her the offer. Maren listened without interrupting. When Maya
+finished, there was a clink, as if she’d set a glass down.
+
+“I told them it was a proper dinner,” Maren said.
+
+“That’s what we sold you.”
+
+“One of the women is leaving. We’ve been trying to get her out with us for a
+year. She had to get a sitter for this.”
+
+“If it doesn’t work, I can send the whole table back. Or you can tell me how
+many still want to come and I’ll refund the rest.”
+
+“Was Weller actually booked when you sent the email?”
+
+Maya put her hand on the ticket list. Maren’s name was near the top. She had
+bought on the first day.
+
+“Jo was holding the date for us,” Maya said. “She was checking the drawing. I
+told the bank to send the address before she told me how many the room could
+seat.”
+
+Maya heard the ice machine start another cycle. Maren hadn’t said anything.
+
+“I thought the room would fit,” Maya said. “I should have waited.”
+
+“Would you have told us if you could have made it work?”
+
+Maya looked down at the first sentence she’d tried to write. She had started
+with the pleasure of welcoming everyone to Weller.
+
+“I don’t know,” she said. “I wanted to send one email that made it look as if
+we’d got there without any trouble.”
+
+Maren’s voice changed a little. “Well. I have to tell them what I know now.”
+She asked Maya to send the details in a message she could forward. Four of her
+people would probably come for Ruth, she said. The other six she’d have to
+ask. Could Maya give her till Friday afternoon?
+
+“I can give you till five,” Maya said. “I’ll call you at three if I haven’t
+heard. Will that leave you time to ask anybody you’re missing?”
+
+“Three is good. I’m off at two.”
+
+The next host asked for all ten refunds before Maya got to the times. The one
+after that wanted to know if his daughter could still play piano. When Maya
+said she could, he said they’d come to both if she needed them. Maya gave his
+daughter a time to arrive and wrote down the question about whether Jo had a
+stool that went high enough.
+
+At four, Denise brought in a sheet with four names and the times each person
+could call. The volunteer at the desk showed her where they could sit. Maya
+sent the correction and watched the first replies appear. She didn’t open
+them. She called Doris.
+
+“Is it still the same door?” Doris asked when Maya finished.
+
+“Same door. At five, if you want it.”
+
+“I know what to tell Lenny, then,” Doris said. “Five.”
+
+Maya asked her to say hello to him for her. Then she put five in the column
+where Eli had left a space.
+
+* What Maya has just learned
+
+Maya's first draft uses the word "change" twice without saying what changed.
+Her second says it in the first sentence: light food at two receptions in
+place of the dinner you bought, five or seven, or your $75 back, tell us by
+Friday at five. On the phone a table host asks whether the hall was really
+booked when the first email went out. Maya tells her the truth, and gives her
+a time: "I'll call you at three if I haven't heard."
+
+* Your trusted system — Step 13: Change a promise properly
+
+/Ten minutes, and one message sent./
+
+There are three honest things to do with a commitment: keep it, finish it, or
+renegotiate it. If you let one lapse without saying anything, you have broken
+it.
+
+1. Look through your lists for one promise you can't keep as you made it. There
+   is nearly always one.
+2. Write the message. In the first sentence, say what you promised and what
+   has changed. Then: what you can offer now, what choice the other person
+   has, and the time by which you need their answer.
+3. Read it as someone standing in a queue would. Could they act on the first
+   two lines alone? Ask one other person what the message leaves unanswered.
+4. Send it. If the person will be hurt by it, phone them.
+5. On your Waiting For list write their name, what you asked, and when you
+   will call if you hear nothing. Tell them that time.
+
+If they ask what you knew and when, answer the question.
+
+* The same step in Org Reason
+
+1. Find the promise: ~C-c r a~ and read the NEXT, WAIT and project blocks with
+   one question, "can I still do this as I said?"
+2. Draft the message in any buffer. Org Reason will not send it. Use your mail
+   or your phone.
+3. When it has gone, select the sent text and press ~C-c r C~. Choose
+   =delegate= and give the person's name. The words you actually sent are now
+   stored with the waiting entry.
+4. Open that entry from the agenda and press ~C-c C-s~ to set the time you
+   said you would call.
+5. On the original action or project, record what replaced it: edit the
+   heading to the new promise, or ~C-c C-t~ and choose CANCELLED, which asks
+   for a note. Write why.
+
+- [ ] One renegotiated promise is recorded as WAIT, with a person and a check
+  time that the other person also knows.
+- [ ] The old version of the promise no longer appears as live anywhere.
+
+* Carry forward
+
+One promise honestly changed, and a habit worth keeping: whenever you ask for
+an answer, give a time and say what you will do when it comes.

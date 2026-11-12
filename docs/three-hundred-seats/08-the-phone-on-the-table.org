@@ -1,0 +1,167 @@
+#+title: 8. The Phone on the Table
+#+subtitle: Three Hundred Seats · Part Two: Saving the Seats
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:07-everyone-gets-a-seat.org][7. Everyone Gets a Seat]] · [[file:README.org][Contents]] · Next: [[file:09-dinner-twice.org][9. Dinner Twice]]
+
+* The chapter
+
+On Sunday morning Cal came for the dress in the bag under Maya’s bed. It had
+belonged to his sister before Nina wore it. His sister wanted it for a school
+play. He came upstairs carrying an empty bakery box to put it in, because Nina
+had told him about the beads.
+
+“Did I say I’d bring it?” Maya asked him.
+
+“You said you’d look for it.”
+
+The dress was where it had been the whole time. Maya had left the bag open;
+the cat from upstairs, who came in whenever the front door was left ajar, had
+slept on the tissue. Cal held up the dress by its straps. They picked hairs
+off it together while Nina sat on the sofa with her music.
+
+“I can get you Thursday if the fitting runs late,” Cal said.
+
+“The fitting’s at four. I’m coming.”
+
+“Okay. I’ll do warm-up.” He set the dress in the box. “I’ll tell her once. You
+tell her if it changes.”
+
+Maya had set aside Sunday morning to go through the notes she hadn’t gotten to
+on Friday. She could see the note in the calendar on her phone. Before she
+could turn it to silent, a message from Leila appeared. Leila had carried
+plates for the last two suppers. This year she’d offered to run the side door.
+Could she come in for the second dinner only? Her son’s futsal team had made
+the semifinals. She wrote that she could take somebody’s place at the end and
+help stack.
+
+/Of course/, Maya wrote back. /See you for the late one./
+
+She set the phone on the kitchen table. There was a cup of coffee on one side
+of it and the notebook on the other. She took the rubber band off the
+notebook. The envelope slid halfway out. She had scarcely pulled it free when
+the phone lit up again.
+
+/Are you staffing the ramp?/ Eli wrote.
+
+She called him.
+
+“I sent the shift sheet last night,” he said. “Leila just forwarded your text.
+I had her from four thirty because she knows where the pantry guests get
+dropped off. Now I’ve got nobody till six thirty.”
+
+“Could you ask Ben to switch?”
+
+“Ben’s driving the van. I already asked him.”
+
+“I can stand at the door.”
+
+“Where were you before you stood at the door?”
+
+Maya looked at the cup on the table. She was supposed to be at check-in when
+the first guests arrived. She could picture moving the check-in table close to
+the ramp. Then guests who came to the front would have to walk around the
+building. She’d need somebody there to tell them.
+
+“Did Leila say when she could get there?” Eli asked.
+
+“Just the second sitting.”
+
+“He plays over on Grant, right? She might make six. I could keep Ben on the
+door after he drops the van and give the keys to Luis.” Eli stopped. “Would
+you be all right if I called her and worked this out?”
+
+“Of course.”
+
+“Can I give her a shift? Or do I need to check it with you?”
+
+Maya heard Nina turn a page. “Give her a shift.”
+
+“Last time you moved the load-in, Luis spent an hour at the loading dock
+without anybody to let him in.”
+
+“I remember the loading dock.”
+
+“He was on my call sheet. He went there because it said to go there. I paid
+him out of my pocket.”
+
+Maya had known Luis was early. She hadn’t known what Eli had paid him. “Tell
+me how much,” she said.
+
+“I will. Today I need to know whose sheet it is.”
+
+She was about to tell him the staffing sheet was his. That was what she had
+told him last time. She put her finger on Leila’s name in the notebook, where
+it had stayed since Thursday.
+
+“Can you send me the sheet you gave the crew?” she said.
+
+He sent it. Nina raised her bow and drew a note. The vibration reached the
+kitchen table. Maya pulled the shift sheet up on the laptop. Eli had every
+hand accounted for. Between four and five there were five separate jobs she’d
+thought of as /set up/. She could see the window he was talking about, where
+Ben could move to the ramp and Luis could finish with the van.
+
+“Put the new times in your sheet,” she said. “I’ll tell Leila to get the time
+from you. Anyone else asks me about a shift, I send them to you.”
+
+She wrote to Leila again. It took longer to get the message right than it had
+to give away the hour. When she looked up, Nina was fitting her endpin into
+the hole in the rubber stop. She had been practicing with a pencil tucked
+behind her ear.
+
+“Want me to count?” Maya asked.
+
+“I have the metronome,” Nina said. She tapped the screen of the little black
+machine on her stand. It ticked four times before she put her bow down.
+
+* What Maya has just learned
+
+Maya answers a volunteer's text with "Of course", and a shift Eli had already
+staffed comes apart. Eli asks, "I need to know whose sheet it is." Maya tells
+the volunteer to get her time from Eli. Writing that message takes longer than
+giving the hour away did.
+
+* Your trusted system — Step 8: Owners
+
+/Five minutes./
+
+Every list and every decision has one owner. When you answer a request that
+belongs on someone else's list, they are left to deal with what you promised.
+
+1. Read down your Projects and Waiting For lists. Beside each entry that
+   involves other people, write who decides. If it is you, write "me". If you
+   don't know, finding out is a next action.
+2. Start a page for each person you deal with often, titled with their name.
+   When something comes up that is theirs to decide or that you need to raise
+   with them, write it there. Don't answer it yourself.
+3. Think of the last quick favor you granted. Was it yours to grant? If not,
+   tell the owner today what you said.
+
+From now on, a request that belongs to someone else gets one reply: "Ask
+Eli. That's his sheet."
+
+* The same step in Org Reason
+
+- A point to raise with a person :: ~C-c r C~, type the point starting with
+  their name (=Eli: who takes the van keys?=), choose =agenda=, and give the
+  name again at =Who / meeting=. It is filed in =gtd/agendas.org= with the
+  person recorded. Use a meeting's name in the same way for things to bring to
+  a regular meeting.
+- Finding everything for one person before you talk :: open =gtd/agendas.org=
+  in your Org Reason directory and search for the name (~C-s~). Search
+  =gtd/waiting.org= the same way to see what that person owes you. Starting
+  each line with the name, as Maya does, is what makes this quick.
+- Recording who decides on a project :: open the project from ~C-c r a~ and add
+  a line under the heading, such as =Decides: Eli (staffing sheet)=.
+- When you have handed a decision to someone and need to hear the result ::
+  it is a WAIT entry, as in step 5.
+
+- [ ] Each project that involves other people names who decides.
+- [ ] At least one person has entries waiting for your next conversation.
+
+* Carry forward
+
+An owner on every shared commitment, and a list per person. Before your next
+conversation with any of them, read their list.

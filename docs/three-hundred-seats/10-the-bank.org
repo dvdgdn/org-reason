@@ -1,0 +1,155 @@
+#+title: 10. The Bank
+#+subtitle: Three Hundred Seats · Part Three: Changing the Promise
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:09-dinner-twice.org][9. Dinner Twice]] · [[file:README.org][Contents]] · Next: [[file:11-the-list-with-names.org][11. The List with Names]]
+
+* The chapter
+
+At five forty on Monday, Denise let Maya into the bank through a door with no
+handle on the outside. Half the lobby lights were off. The tellers’ chairs
+were empty, but Maya could smell popcorn. Someone behind a partition was
+listening to a basketball game on a radio.
+
+“You can have some,” Denise said. “They make it when the branch closes.”
+
+She took Maya into a room with a long table and a sink. A row of framed
+photographs faced the table. At the far end was a photograph of last year’s
+supper. The bank president had one arm around Ruth and was holding an
+oversized check. Ruth had kept her apron on.
+
+“I need thirty-three hundred more,” Maya said when they’d sat down. “That’s
+what it takes to keep the dinner and pay for the deliveries.”
+
+Denise pulled a folder toward her. In it was a copy of the bank’s agreement
+with the pantry. Maya knew the first page. She’d put the sponsor logo at the
+bottom of the tickets to match the one on the letter. On the second page she
+saw a place for the bank to say where the money would come from. It came out
+of a line with a number next to it. Denise covered the other lines with a
+sheet of blank paper. There was a total for the year and a total already
+committed. The two numbers were the same.
+
+“If you ask me for another dollar,” Denise said, “I have to take it back to
+the committee. They meet in December.”
+
+“Didn’t Lewis say they wanted to be more involved?”
+
+“He meant he wanted people to come.”
+
+Maya looked at the photograph. She had planned to stand where Ruth was
+standing in it, out of the way of the big check, with just enough time to find
+everybody who belonged in the picture. She’d come to ask Denise for a number
+and had caught herself picturing that moment as proof the number would be
+there.
+
+“Will the committee want to take back the five?” she asked.
+
+“It’s for the winter deliveries. We’re still paying it.” Denise closed the
+folder. “I stopped the envelopes, by the way. We pulled your cards. The bank
+mailing went on time.”
+
+“Who did that?”
+
+“Me and whoever was in the break room when I asked.” Denise went over to the
+sink and filled a glass. “It would have been easier to say the hall wasn’t
+confirmed. I wish I’d had that to tell them.”
+
+“You did,” Maya said. “I told you to send it anyway.”
+
+Denise drank half the water and set the glass down. “Do you know when I first
+saw you work?”
+
+Maya shook her head.
+
+“The library opening. The caterer wanted to load the truck and go. He said the
+check was late and he wasn’t putting one tray down until he had it. You took
+his call while you were on the ladder hanging the sign. You sent me to get
+him. I was working in the library then.”
+
+Maya remembered which ladder it was. An aluminum one with a loose foot. For
+years she had told that story starting with the ring of the phone. By the time
+she’d come down, the caterer was waiting by the ladder with his jacket on.
+
+“You told him exactly where the check was,” Denise said. “I remember that. In
+the librarian’s bottom drawer with the stamps. You got her to open the drawer
+in front of him.”
+
+“She’d had it the whole time,” Maya said.
+
+“He didn’t have it.”
+
+From behind the partition somebody groaned. A ball had hit a rim, twice, and
+come out. Denise looked at the clock.
+
+“I can put people on the phones,” she said. “There are four of us here who
+know how to reach the people who won’t see an email. Some of the older guests
+bought at the branch. I have those numbers with their tickets.”
+
+“For what? Confirming times?”
+
+“For whatever you decide you can offer. Give us one sheet so we all tell them
+the same thing.”
+
+Maya took out her notebook. /Denise — four callers once we have a script./ She
+wrote it in front of Denise so Denise could see it.
+
+“Is that enough?” Denise asked.
+
+“It’s something I can use.”
+
+Denise held the door for her. Outside, a man was trying the cash machine with
+gloves on. He took one glove off with his teeth. Maya dialed Ruth from the
+sidewalk. She’d wanted to make this call with good news. She watched the man
+pull his cash out of the slot and said, when Ruth picked up, “The bank’s five
+is solid. There isn’t more.”
+
+* What Maya has just learned
+
+The bank has no more money this year; its committee meets in December. It
+does have four people who can make phone calls, once there is one sheet
+telling them all what to say. Maya writes =Denise — four callers once we have
+a script= where Denise can see her write it, then phones Ruth with the news
+she had hoped not to give.
+
+* Your trusted system — Step 10: Not yet, and maybe
+
+/Five minutes./
+
+Your Next Actions list should hold only what you could do today. Other things
+need a place too, kept off that list.
+
+1. Read your Next Actions. Mark every line that can't start until something
+   else happens. Move each one off the list and into its project's notes,
+   written with its trigger: "Brief the callers /once the script exists/."
+2. Start a list titled *Someday / Maybe*. Move onto it anything you would like
+   to do but are not committing to now. It is fine for this list to be long.
+3. When someone offers help you can't use yet, write down the offer, who made
+   it and what it is waiting on. Let them see you write it.
+4. If one of your waiting-fors has come back as a no, tell the person who is
+   counting on it today. Say what is solid and what is not.
+
+* The same step in Org Reason
+
+- A project step that can't start yet :: open the project (~C-c r a~, ~RET~),
+  add a heading inside it as in step 6, but with ~C-c C-t~ choose TODO, not
+  NEXT. Put the trigger in the heading: =Brief the four callers (once the
+  script exists)=. TODO steps stay with the project and are not offered as
+  available work. When the trigger happens, ~C-c C-t~ changes it to NEXT.
+- An action already on the list that turns out to be blocked :: open it and
+  change NEXT to TODO the same way, or to WAIT if a person is the block.
+- A someday item :: ~C-c r x~ in the inbox, or ~C-c r C~ for a new one, and
+  choose =someday=. It goes to =gtd/someday.org= and appears in its own block
+  at the bottom of the agenda.
+- Something to reconsider on a date :: choose =tickler= and give the date,
+  for example the day after the committee meets.
+
+- [ ] Every NEXT in ~C-c r a~ is something you could start today.
+- [ ] The SOMEDAY block has at least one thing in it that you are glad not to
+  be doing this month.
+
+* Carry forward
+
+A Next Actions list with nothing blocked on it, later steps parked with their
+triggers, and a Someday / Maybe list. You now have every list the system
+needs. Step 11 looks at them all together.

@@ -1,0 +1,164 @@
+#+title: 5. The Address
+#+subtitle: Three Hundred Seats · Part Two: Saving the Seats
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:04-the-price-of-waiting.org][4. The Price of Waiting]] · [[file:README.org][Contents]] · Next: [[file:06-two-hundred-twenty.org][6. Two Hundred Twenty]]
+
+* The chapter
+
+At three fifteen the printer sent Maya a proof with the address of a building
+she no longer had.
+
+She had looked at that address on invoices, insurance forms and the back of
+three hundred tickets. For a second it was a relief to see it in print. All
+she had to do was check the spelling of Merritt Avenue and click the blue
+button.
+
+Then she saw the note from Denise at the top of the proof. /Need the new
+address by 3:25. Cards and ticket email go from this file./
+
+The office she was borrowing at the pantry shared a wall with the walk-in
+freezer. When the compressor shut off she could hear Ruth in the next room
+counting cases of beans. Ruth counted everything twice. At the end of the
+summer, when Maya had told her they could raise fifteen thousand dollars in
+one night, Ruth had opened the delivery schedule and started naming weeks.
+
+Maya minimized the proof. Behind it was the floor plan Eli had drawn, with
+round tables in staggered rows and a low stage against the back wall. He’d
+marked the buffet tables in yellow because the last crew had mistaken them for
+the bar and spent half an hour moving tubs of ice. He’d left room for Ruth to
+get from the kitchen to the microphone without crossing in front of the
+guests.
+
+Her phone lit up.
+
+/Side door today. I have the cello./
+
+Nina had begun adding the pickup door to her messages after the day Maya had
+waited on the wrong side of the building. By the time they’d found each other,
+Nina had phoned her father and arranged a ride for herself. Maya typed /Side
+door at three thirty/ and set the phone where she could see it.
+
+On the pad beside her laptop she had written VENUE in a box. She had spent
+most of the day making calls she could cross off and returning to a box that
+looked exactly the same. Under the pad was a printout from Weller Hall. The
+photograph showed a room with brick walls, high windows and somebody’s wedding
+cake. /Up to 300 guests/, it said. There was an opening on the right Saturday.
+Jo, who ran the hall, had written back while Maya was on another call.
+
+/Send me the setup you want, including the stage and serving tables. Then I
+can tell you how many fit. I’ve got someone else asking about the date./
+
+Maya looked from the email to the drawing. She had been trying to think of
+another hall so she could call Ruth with a decision. She had the drawing open
+in front of her.
+
+She put her pencil inside the box and wrote /Send Jo the dinner plan/. She
+attached the drawing and asked Jo two things. How many could they seat with
+this setup? Could Jo hold Saturday while she checked?
+
+The email went. Maya drew one line through /Send Jo the dinner plan/. She had
+her pencil halfway across VENUE before she lifted it.
+
+Jo’s reply came while Maya was putting her charger in her bag. /Got the plan.
+I’ll check it first thing. Saturday is yours to take until noon tomorrow./
+
+The hold had a time on it. That felt like something she could tell Ruth. On
+the facing page, below an entry about a van key, she wrote Jo — dinner
+capacity. She put a reminder at nine thirty the next morning to call if Jo’s
+answer hadn’t arrived. With eleven minutes to pickup, she zipped the bag.
+
+Denise called as Maya stood up.
+
+“The printer’s waiting on me. Do you have an address?”
+
+“I have Weller on hold. Jo’s looking at the setup in the morning.”
+
+“We can pull the card. I can get you a second run tomorrow. Six-forty with the
+rush charge and the extra mailing.”
+
+Maya opened the proof again. The bank was paying for the card to go in a
+mailing it was already doing. The second run would come out of the benefit.
+Ruth had shown her the budget earlier, with a finger planted on the difference
+between what the dinner should raise and what the pantry needed for the
+deliveries it had scheduled. Fifteen hundred dollars.
+
+“Can you give me an hour?”
+
+“I have six minutes. I can tell the board we’re waiting if that’s where we
+are.”
+
+Maya could picture the bank’s meeting room. Denise would be standing by the
+screen while somebody asked how the first hall had been lost. Maya had heard
+Ruth field the same question that morning. /We missed the confirmation/, Ruth
+had said, with the /we/ doing a great deal of work.
+
+From the next room came the roll of a pallet jack and the clap of the freezer
+door. Maya looked at the photo again. There were tables in it, with flowers on
+them and enough room between them for a woman in a blue dress to stand with a
+glass in her hand. Maya enlarged the photograph. She could see the back of the
+room and part of a serving table. She had spent a day looking for a room this
+close to the pantry with a Saturday free.
+
+“Use Weller,” she said. “Eighteen Dock Street.”
+
+“For the email too?”
+
+Maya looked at what she’d written on the facing page. Jo’s name was there, in
+pencil. She could call in the morning.
+
+“Yes,” she said. “You can send it.”
+
+* What Maya has just learned
+
+Maya sends Jo the drawing and crosses off the action. She stops her pencil
+halfway across =VENUE=: the outcome now depends on Jo. She writes =Jo — dinner
+capacity= and sets a reminder for nine thirty. Then a printer's deadline
+arrives, and she announces the address before Jo has answered.
+
+* Your trusted system — Step 5: Waiting For
+
+/Five minutes./
+
+Sending something finishes your action. The result is still open until the
+other person answers.
+
+Start a list titled *Waiting For*. Look through your projects, your sent
+messages and what is left of your captured list. Find every result that now
+depends on someone else's reply. For each write:
+
+- the person's name;
+- exactly what you are waiting for;
+- the date you asked;
+- *when you will check* if you have heard nothing, set early enough that you
+  could still do something else.
+
+Then read down the list and ask of each line: have I told anyone this is
+settled? If you have, either tell them it is still open or move your check
+time earlier. A hold with a time on it is not yet a yes.
+
+* The same step in Org Reason
+
+For an inbox item that is in someone else's hands: ~C-c r x~, choose
+=delegate=, and at =Who / meeting= give the person's name. The item moves to
+=gtd/waiting.org= as WAIT, with the person and today's date recorded.
+
+For something not yet captured, ~C-c r C~ captures and clarifies in one go.
+Write the line the way Maya does: =Jo — dinner capacity for our layout=.
+
+To set the check time, open the entry from the agenda (~C-c r a~, ~RET~), press
+~C-c C-s~ on its heading and give a date, or a date and time such as
+=tomorrow 9:30=. It appears in the agenda on that day, still marked WAIT.
+
+Org Reason does not send the request or the follow-up. It records that you are
+waiting.
+
+- [ ] The WAIT block in ~C-c r a~ shows a name on every line.
+- [ ] ~C-c r d~ lists nothing under "Waiting entries missing a person".
+
+* Carry forward
+
+A Waiting For list with a check time on each line. Keep it beside Next
+Actions. Any line you have already reported to someone as settled gets
+checked first.

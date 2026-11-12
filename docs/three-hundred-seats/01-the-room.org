@@ -1,0 +1,178 @@
+#+title: 1. The Room
+#+subtitle: Three Hundred Seats · Part One: Losing the Hall
+#+startup: showall
+#+options: toc:nil num:nil
+
+[[file:README.org][Contents]] · Next: [[file:02-eleven-things.org][2. Eleven Things]]
+
+* The chapter
+
+Ten days before the Winter Supper, Maya Torres found out she had sold three
+hundred tickets to a room she didn’t have.
+
+The email arrived just after eight on Wednesday morning. She had cleared
+everything else out of her inbox. She knew this because she’d been waiting to
+see the little picture the mail app put up when there was nothing left to
+read. She’d got the picture, reached for her coffee and watched it disappear.
+
+/Sorry we couldn’t make it work this year/, Gene at Merritt Hall had written.
+/I released the date this morning./
+
+She called him before she finished reading.
+
+“Tell me released means you put it back on the calendar.”
+
+“I put it back on the calendar.”
+
+“So take it off.”
+
+“I did. The union took it for their retirement dinner.”
+
+Maya held the coffee away from her blouse. The lid had a crack in it and the
+coffee came out warm against her thumb. “Gene. We have tickets.”
+
+“I know. That’s why I gave you till Tuesday.”
+
+“Did you send me that?”
+
+“I told you when you called about the kitchen.”
+
+She could see the kitchen at Merritt, the long steel counter by the back door
+and the pipe that hung down just low enough for a tall man to hit his head.
+She’d called Gene to ask if the new ovens had been installed. Nina had been in
+the car with her, holding a paper bag of peaches in her lap. One had rolled
+out under the seat.
+
+Tuesday, Gene had said. I’ve got a man asking, and I can only keep telling him
+no for so long.
+
+She remembered saying, /I’ll get back to you by Tuesday./ She remembered Nina
+stretching her hand under the seat and coming up with an earring Maya thought
+she’d lost at a wedding.
+
+“Can you ask the union if they’ll move?” she said.
+
+“Their deposit’s in. I’ve given them the keys for a walkthrough.” He waited.
+“I can give you the number of a place that does a good dinner for a hundred.”
+
+After they hung up she searched Gene’s name anyway. There was an insurance
+certificate from last year and a picture of a drain. She could account for
+every email.
+
+The tickets lay in bundles on the pantry office floor. The printer had put a
+strip of blue paper around every twenty-five, a small flag sticking up from
+each stack. Maya picked up a bundle and turned it over. Merritt Hall, 44
+Merritt Avenue. On her way in, she had set a bundle aside for Ruth to give to
+the board. She put it back with the others.
+
+Ruth was outside with the Wednesday driver. They stood behind the van,
+studying something on a clipboard. Maya waited for the driver to leave. He put
+one finger on the sheet, said something, and Ruth moved his finger over one
+line.
+
+“Merritt gave away our Saturday,” Maya said.
+
+Ruth passed the clipboard through the van window. “Go to Chalmers first. Mrs.
+Kline’s ride comes at ten.” She put her hand on the sill and kept it there
+until the van started. Then she turned to Maya. “What happened?”
+
+“I missed the confirmation.”
+
+“Where are we in the booking?”
+
+“There’s no deposit to lose.”
+
+“I’m asking if there’s a room to get back.”
+
+Maya looked at the gate the van had gone through. “No.”
+
+They walked into the packing room. A woman in a wool cap was cutting apart the
+cardboard trays the cans came in. On a folding table lay the white bags Ruth
+had asked the volunteers to pack first. They had numbers on them in marker.
+Maya had assumed the numbers were for inventory. Ruth put a can of tomatoes
+into bag six.
+
+“Will you have to cancel these?” Maya asked.
+
+“Today? No. These are paid for.” Ruth reached for another can. “The supper
+covers the winter runs. Fourteen thousand dollars. If I can’t tell the drivers
+what weeks they’re working, some will take other work. Then we can have a
+freezer full of food and nobody to bring it to Chalmers.”
+
+Maya remembered the night Ruth had asked her to take the event. They had
+walked through Merritt together after a wedding. There was cake on the carpet.
+Ruth had stepped around it and asked how many people they’d need to sell a
+dinner to. Maya had counted the tables and said she could fill the room. Ruth
+had been the only person to ask how she knew. Maya had shown her the list of
+people who’d bought tickets to the smaller dinner the year before. Most of
+those people had bought again.
+
+“Give me today,” Maya said.
+
+“I can give you till noon Friday. That’s my board call. I need to tell them we
+have a room, or I need to tell them what it costs to cancel.” Ruth opened a
+bag that had folded shut. “And Maya? Tell Eli now.”
+
+Maya had planned to tell Eli when she could tell him the new address. She had
+already begun, in her head, the call in which they both got to laugh about how
+close they’d come.
+
+She took the blue band off a bundle. There were still twenty-five tickets
+inside. She opened her notebook and wrote /Friday, noon. Ruth needs a room or
+the cost to cancel/. Then she dialed Eli.
+
+“I need you to stop work on the Merritt drawing,” she said when he picked up.
+
+His end went quiet. She could hear paper moving.
+
+“How much of it?” he asked.
+
+“All the part that’s Merritt.”
+
+She heard him set down what must have been a ruler. “Okay,” he said. “Tell me
+what I can keep.”
+
+* What Maya has just learned
+
+Maya's email inbox is empty and she still loses the hall. The promise that
+mattered, "I'll get back to you by Tuesday", was made on the phone in a car.
+It never reached anything she would look at again.
+
+* Your trusted system — Step 1: Notice where promises arrive
+
+/Five minutes./
+
+An empty inbox only proves that one entrance is clear. Commitments also arrive
+in calls, hallways, texts, voicemail, paper and your own head.
+
+1. List every place a promise can reach you. Include the spoken ones.
+2. Think back over the last week. Find one thing you said yes to out loud that
+   is written down nowhere. Write it down now, in whatever words come.
+3. Choose one place where new commitments will go from today: a notebook, an
+   app, a tray. One. It has to be with you when people ask you for things.
+
+You don't have to do anything about what you wrote. For now it only has to
+be somewhere other than your memory.
+
+* The same step in Org Reason
+
+Your one place is the Org Reason inbox.
+
+1. Press ~C-c r c~. At the prompt, type the spoken promise from step 2 above
+   and press ~RET~. Nothing else is asked: no project, no date, no category.
+2. Press ~C-c r c~ again and type your list of entrances as one line, for
+   example =Promises reach me by: work email, phone calls, texts, the kitchen
+   whiteboard, meetings=.
+3. Press ~C-c r i~ to open the inbox. Both entries are there, each with an ID
+   and the time you captured it.
+
+- [ ] Two captures are in the inbox, and you decided nothing about either.
+
+If you are often away from Emacs when promises are made, decide now how they
+get to the inbox: a pocket notebook you empty each evening, or files dropped
+into =inbox/drop/= and imported with ~C-c r I~.
+
+* Carry forward
+
+Your one capture place, and the list of entrances. Step 2 fills the first and
+uses the second.

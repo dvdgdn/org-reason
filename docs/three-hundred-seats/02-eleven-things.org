@@ -1,0 +1,157 @@
+#+title: 2. Eleven Things
+#+subtitle: Three Hundred Seats · Part One: Losing the Hall
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:01-the-room.org][1. The Room]] · [[file:README.org][Contents]] · Next: [[file:03-a-room-with-tables.org][3. A Room with Tables]]
+
+* The chapter
+
+At six forty, Maya was on her hands and knees in the pantry office, looking
+under the borrowed desk for the name of a woman who rented a gym. She found a
+red pen and an unopened packet of crackers. The name was in a text from a
+florist, six messages above a photograph of someone’s dog.
+
+She called. A man answered and said his wife would be back in the morning.
+Behind him, a game show audience applauded. Maya thanked him and turned off
+the light.
+
+By the time she got to her apartment, Nina had made toast. She stood in socks
+at the counter, scraping the black edge into the sink with a butter knife. Her
+cello was on the floor in its case. Maya stepped over it.
+
+“Dad picked me up,” Nina said.
+
+“From school?”
+
+“Rehearsal. I told you he was going to.”
+
+Maya’s phone showed the message, sent at lunch. She remembered seeing it while
+she waited for the parks office to answer and thinking that she should ask if
+Cal could take Thursday too. She had neither asked him nor put Thursday in the
+calendar.
+
+“Thanks for sorting that out,” she said.
+
+Nina offered her the toast with the most butter. “Are you coming next week?”
+
+“Where?”
+
+“The recital.”
+
+The answer reached Maya’s mouth before she understood the question. She took a
+bite of toast. On the refrigerator, under the magnet shaped like an ear of
+corn, was the recital sheet. Thursday at six. Nina’s group would play first.
+Students were to come at five thirty with music and a stand if they had one.
+
+“Give me a minute to look,” Maya said.
+
+She opened the calendar. There was a fitting at four for a job the following
+month. A reminder to order coffee for the supper sat at six; she couldn’t
+remember why she’d put it there. She took the coffee off the calendar and
+wrote it on the back of an envelope. Then she put in the recital and asked
+Nina if she wanted a ride or if she’d go straight from her father’s.
+
+“Dad’s taking me for the warm-up,” Nina said. “They let us save one chair.”
+
+“Save it for me.”
+
+Nina turned the butter knife in her hand. “I have to put a name on the tape.”
+
+“Put mine.”
+
+Maya went into the living room with the envelope. She made it as far as the
+lamp before she remembered the van. The rental desk had emailed on Monday to
+say they needed a driver’s license number. She’d asked Eli to send his. Had
+he? Then she remembered the switch on the pantry freezer that Ruth wanted her
+to tell the building manager about, which was different from the noise it
+always made. The switch had to be jiggled to shut off the light. There was a
+dress Nina had outgrown that she’d offered to take to Cal’s sister. It was in
+a bag under Maya’s bed. Twice she had driven to Cal’s with the bag still
+there.
+
+She sat on the floor and emptied her coat pockets. A receipt. A piece of paper
+on which she had written /KLINE?/ in the car. A button. The manager at Merritt
+had told her Tuesday, and she had done nothing as small as putting a mark on a
+scrap of paper. She tried to remember how many times she’d thought about it
+since the call. She remembered thinking of the ovens.
+
+Nina came in with her stand and extended it one section at a time. Maya put
+down eleven things, including /room/, /van/, /coffee/, /call Cal/, and
+/freezer/. Then she sat for a while and put down a twelfth: /Ruth thinks I’m
+careless/. There was room for it on the envelope. It didn’t mean she had to
+send it to anyone.
+
+“Can you count for me?” Nina said.
+
+Maya put the envelope on the lamp table. “From where?”
+
+“The top. You say one, two, three, four. Twice. Then I come in.”
+
+Maya counted the first four. At five Nina dropped her bow onto her lap.
+
+“Start at one again.”
+
+“You want eight.”
+
+“I want two bars. If you say five I think I’m late.”
+
+Maya began again. In the second bar she heard the apartment upstairs run water
+into a tub. Then Nina’s first note, thin enough at the start that it seemed to
+come through the wall with the water. She played four more and stopped.
+
+“Was that where I came in before?” she asked.
+
+Maya had been thinking about the van. She could hear the five notes in her
+head and couldn’t say when the first one had happened.
+
+“Do it again?” she said.
+
+This time she turned the envelope over before she counted.
+
+* What Maya has just learned
+
+On the back of an envelope Maya writes eleven things from her memory, her
+pockets and her messages: =room=, =van=, =coffee=. The twelfth is a worry, not
+a task. Writing it down doesn't mean she has to send it to anyone. Only then
+can she hear her daughter's first note.
+
+* Your trusted system — Step 2: Capture everything
+
+/Fifteen minutes. This is one of the two long steps./
+
+Take the list of entrances from step 1 and go through them one at a time:
+messages, pockets, bag, desk, voicemail, then your head. Write down everything
+that has your attention. Tasks, promises, unanswered messages, things to fix,
+decisions, and worries with no action attached.
+
+Three rules:
+
+- One line per thing. A single word is enough if you will know what it means
+  tomorrow.
+- Don't sort, rank or solve. =van= is a complete entry today.
+- Don't stop at the work things. The recital goes on the same list as the venue.
+
+You are finished when you sit for a full minute and nothing new comes. Expect
+thirty to a hundred lines. That number is normal.
+
+* The same step in Org Reason
+
+1. Press ~C-c r c~, type one thing, press ~RET~. Repeat. The prompt takes one
+   line and files it at once, so the rhythm is fast.
+2. For something already on screen in Emacs, select the text and press
+   ~C-c r c~: the selection is captured without retyping.
+3. For paper, a photograph or a voice memo, press ~C-c r m~ and choose the
+   file. Org Reason keeps a copy of the original with an inbox entry pointing
+   to it.
+4. Capture the worries too. Later you may file one as a =feeling= or a
+   =question=, which is not a task and never shows up as one.
+
+Do not press ~C-c r x~ yet, however obvious an item looks.
+
+- [ ] ~C-c r d~ opens the dashboard, and its first line counts your
+  unclarified captures. Note the number.
+
+* Carry forward
+
+A full inbox, unsorted. In step 3 you learn the two questions that empty it.

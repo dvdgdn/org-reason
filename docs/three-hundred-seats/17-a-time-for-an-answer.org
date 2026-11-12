@@ -1,0 +1,164 @@
+#+title: 17. A Time for an Answer
+#+subtitle: Three Hundred Seats · Part Four: Keeping the Promise
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:16-doors-open.org][16. Doors Open]] · [[file:README.org][Contents]] · Next: [[file:appendix.org][How the story was built]]
+
+* The chapter
+
+On Monday Ruth and Maya sat at the borrowed desk with the final invoices. The
+freezer shut off. Maya could hear somebody in the next room counting cans.
+They got to twelve and started over.
+
+The hall and the food had cost what they’d said they would. The bank’s payment
+was in. Denise had sent the settlement for the tickets with a line for each of
+the thirty-one refunds. Ruth ran down the columns with the point of a pencil.
+Maya had two numbers in front of her, one in the file they’d been working from
+and the other on a tape still warm from the adding machine. They both said
+$14,375.
+
+“What’ll you do with the three seventy-five?” Maya asked.
+
+“Put it against fuel. If there’s something left in March I’ll see about the
+latch.”
+
+She took down the route schedule, took a copy and put the original back on the
+wall. Then she took the copy to the phone. The first driver picked up while
+Maya was still gathering the receipts.
+
+“Are you still good for Wednesdays?” Ruth asked. She listened. “Yes. All the
+way through March.”
+
+Maya took the invoices into the hall. She’d printed a label for the envelope,
+with the event and the year, so she could find them next time. She’d also
+written /call Maren/ in the notebook. She looked at it for a while. Maren had
+the refund and her guests had their evening. What Maya wanted was to know
+whether Maren would hire her to do anything again. It wasn’t a question she
+wanted Maren to answer on a Monday morning. She crossed it off. She sent a
+copy of the picture of Maren’s group at their table, which Maren had asked
+for.
+
+As she was leaving, her phone rang. A woman named Anika, who organized the
+spring school auction, had heard they’d used Weller. She wanted to put a place
+on the sponsor letter before the committee sent it around. Could Maya confirm
+they could use the hall?
+
+The lot was full of white lines from the frost that had stayed on the ground
+in the shade. Maya walked to the car and unlocked it. She’d looked at Weller’s
+calendar when she booked the supper. There had been a hole in March. She could
+see the month in her mind, Saturday at the far right. The cell had looked
+empty.
+
+“What are you putting in the room?” she asked.
+
+“Auction tables and maybe a dance floor. Two hundred people?”
+
+“Will they eat at tables?”
+
+“I have to ask. They did last time.”
+
+“Okay. Send me the date and tell me what you want the room to do, even if it’s
+two versions. I’ll ask Jo what she has. I can give you a status by two
+tomorrow. Will that work for your letter?”
+
+“They wanted me to send it this afternoon.”
+
+“Can they send it with the date and leave the place open?”
+
+There was a pause. Maya heard someone speak to Anika where she was.
+
+“Yes,” Anika said. “I’ll tell them to leave that line out.”
+
+Maya stayed in the car until she had put the call in her notebook. Anika would
+send the date by the end of the day. Maya put a check in for ten the next
+morning, early enough to call Anika and still get hold of Jo. She put two in
+the calendar. Then she drove to the school. The side door was locked that day.
+Nina was at the front, her cello case upright beside her. She’d sent a message
+saying so. Maya had seen it before she left the lot.
+
+After dinner, Nina set the music on the stand and pulled a pencil out of the
+pocket of her case. She handed it to Maya.
+
+“Will you listen to the beginning?” she said. “Mark where I come in.”
+
+Maya was sitting close enough to see where Nina’s teacher had erased a
+fingering. The paper was thinner there. She took the pencil and said yes. Nina
+didn’t look back to see if she’d put the phone away. She raised her bow and
+waited through the first four beats. Then four more.
+
+Maya made a small mark beside the note.
+
+* What Maya has just learned
+
+The invoices go into a labelled envelope. Maya crosses off =call Maren=: what
+she wanted from the call was reassurance, and that was never an action. Then a
+stranger phones to ask whether she can confirm the same hall for the spring.
+Maya can see the empty Saturday in her memory, and she doesn't answer from it.
+She asks what the room has to do, says "I can give you a status by two
+tomorrow", and stays in the car until the call is in her notebook and two
+checks are on the calendar.
+
+* Your trusted system — Step 17: Maintain
+
+/Ten minutes, then a little every week./
+
+A system built in a crisis usually stops being used when the crisis ends. Four
+habits keep it going.
+
+1. *Capture at the moment of the promise.* Before you leave the car, the room
+   or the call, write it down. This is step 1 again, as a reflex.
+2. *Answer with a time when you don't have the fact.* Say "I'll tell you by
+   two tomorrow", then put both the check and the reply on your calendar. Don't
+   confirm anything from memory.
+3. *File what is finished.* Label it so you can find it next year, and take it
+   off your lists.
+4. *Review every week.* Take the time you measured in step 11, pick a day and
+   an hour, and put it on the calendar as a repeating appointment.
+
+Last, read your lists once more and cross off anything that is a wish. You
+can only do actions.
+
+You now have one inbox, six lists, a calendar and a review. Read the story's
+first chapter again and count how many of them would have caught Tuesday.
+
+* The same step in Org Reason
+
+- The reflex :: ~C-c r C~ captures and clarifies in one motion. For the call
+  in the story it is used three times: =Anika — date and room requirements=
+  as =delegate=; =Ask Jo what Weller has in March= as =next-action= with
+  =@calls=; and =Give Anika a status= as =calendar= at =tomorrow 14:00=. If
+  there is no time even for that, ~C-c r c~ takes one line and asks nothing.
+- The weekly review :: open =gtd/calendar.org= and add a heading =Weekly
+  review= (~M-RET~). Press ~C-c C-s~ and give the day and time. Then edit the
+  timestamp it inserts so that it ends in =+1w=, for example
+  =<2026-11-13 Fri 16:00 +1w>=. It now appears in the agenda every week. When
+  it comes up, ~C-c r w~ opens that week's checklist, and marking the entry
+  DONE moves it to the following week.
+- Filing :: clarify finished paperwork as =reference= (~C-c r x~), or import
+  the file itself with ~C-c r m~. ~C-c r /~ with =OR_TYPE= and =reference=
+  finds it later.
+- Wishes :: for an entry that was never an action, ~C-c C-t~ and CANCELLED,
+  with a word about what you really wanted.
+
+Then make the dashboard (~C-c r d~) the first thing you open each morning.
+When it shows no unclarified captures, no stalled projects and no nameless
+waits, the system is working.
+
+- [ ] A repeating =Weekly review= entry is in the agenda.
+- [ ] The next promise you make aloud is in the inbox before you stand up.
+
+* What you built
+
+| Part      | General form                              | In Org Reason                                  |
+|-----------+-------------------------------------------+------------------------------------------------|
+| Capture   | One place for everything                  | ~C-c r c~, ~C-c r C~, ~C-c r m~; ~C-c r i~     |
+| Clarify   | Outcome, next action, two-minute rule     | ~C-c r x~                                      |
+| Organize  | Next Actions, Projects, Waiting For       | NEXT, =gtd/projects/=, WAIT                    |
+|           | Calendar, per-person lists, Someday       | =calendar=, =tickler=, =agenda=, =someday=     |
+| Reflect   | Weekly review; purposes                   | ~C-c r w~, ~C-c r d~, =gtd/horizons.org=       |
+| Engage    | Context, time, energy, then priority      | ~C-c r e~                                      |
+
+From here the [[file:../user-guide.org][user guide]] goes on to what Org Reason adds beyond these lists:
+writing down why you expect a change to work, and checking afterwards whether
+it did.
