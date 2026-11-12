@@ -38,7 +38,7 @@ Record each decision here with its date when made.
 
 - [x] **C0** Clean the Org Reason wiring in the owner's configuration.
   Commit `9f88987` in that repository.
-- [ ] **S0** Prepare release 0.2.0 from what the changelog lists as
+- [x] **S0** Prepare release 0.2.0 from what the changelog lists as
   unreleased. `OWNER` tags and pushes.
 - [ ] **C4** Other computers install the tagged release. After S0.
 - [ ] **C3** Fix the Org-roam block for a computer with no `~/org`.
@@ -123,3 +123,4 @@ One case at a time, in the order of the owner's own practice. For each:
 
 - 2026-11-12 Plan written. C0 done.
 - 2026-11-12 S0 release files prepared. The owner still needs to tag v0.2.0.
+- 2026-11-12 S0 done. Published Org Reason 0.2.0 as `v0.2.0`.
