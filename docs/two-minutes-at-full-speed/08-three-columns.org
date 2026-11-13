@@ -1,3 +1,10 @@
+#+title: 8. Three Columns
+#+subtitle: Two Minutes at Full Speed · Part Two: The Score
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:07-the-coach.org][7. The Coach]] · [[file:README.org][Contents]] · Next: [[file:09-three-hundred-cards.org][9. Three Hundred Cards]]
+
 * The chapter
 
 The Plasticity Club had nine hundred members and a rule that every post
@@ -12,7 +19,7 @@ message from the laboratory that said /level 4/, she finally had something
 to put.
 
 /Day 15. Dual memory game: level 2 → 4 in 10 sessions (supervised study).
-Vocabulary deck: 1,300 cards reviewed, 97% correct. First time I've kept
+Vocabulary deck: 1,300 cards reviewed, 97% correct. First time I’ve kept
 anything going past four days./
 
 She pressed the button and felt her face go hot, as if she had stood up in
@@ -20,8 +27,8 @@ a meeting.
 
 The first reply came within a minute.
 
-/WIM_DG: Level 4 in 10!! That's quick, that. Took me five weeks. Well done
-you. Don't let anybody take that streak off you, the streak is what gets
+/WIM_DG: Level 4 in 10!! That’s quick, that. Took me five weeks. Well done
+you. Don’t let anybody take that streak off you, the streak is what gets
 you there./
 
 She knew the name. Wim de Groot posted every morning at about six, one line,
@@ -32,24 +39,24 @@ and it was Sunday, asked what had got him started.
 His answer came as a private message and was longer than anything she had
 seen him write.
 
-/Stroke, last March. I'm 58. Came home from hospital and I couldn't button
-a shirt and I couldn't keep hold of what the wife had said to me two minutes
-before. The physio does the hands. Nobody does the head, they tell you it'll
-come back or it won't. So I found the game. First day I couldn't do level
-1. I'm on 6 now. I don't know what it does, I'm not daft, I've read the
-arguments. But it's a number and it went up today. Most mornings that's the
+/Stroke, last March. I’m 58. Came home from hospital and I couldn’t button
+a shirt and I couldn’t keep hold of what the wife had said to me two minutes
+before. The physio does the hands. Nobody does the head, they tell you it’ll
+come back or it won’t. So I found the game. First day I couldn’t do level
+1. I’m on 6 now. I don’t know what it does, I’m not daft, I’ve read the
+arguments. But it’s a number and it went up today. Most mornings that’s the
 reason I open the laptop at all. So I say keep your streak./
 
 Maren read it twice. She had been about to feel superior to the ring on the
 flashcard program, and now could not.
 
-/That's a better reason than mine,/ she wrote.
+/That’s a better reason than mine,/ she wrote.
 
-/What's yours for?/
+/What’s yours for?/
 
 /German. I have to interpret at an audit in March./
 
-/And how's the German?/
+/And how’s the German?/
 
 It was a perfectly natural question. She opened her notebook to answer it.
 
@@ -63,7 +70,7 @@ The gaps bothered her. She did not remember taking days off; she had done
 her hour every day, she was sure of it, it was the whole point. She went to
 find out where the hours had gone.
 
-The game was easy: the laboratory's messages gave the minutes. The
+The game was easy: the laboratory’s messages gave the minutes. The
 flashcard program kept its own statistics, to the second, with a chart. The
 clips she had to reconstruct from the dates in the notebook. And then there
 was a fourth thing, which no program had recorded and which she arrived at
@@ -80,7 +87,7 @@ She wrote it out for the week just ended.
 
 Seven hours. She had done her hour every day. And of the seven, the only
 one of the four that had anything to do with what happened at Jutta
-Reinholt's table had been given seventy minutes.
+Reinholt’s table had been given seventy minutes.
 
 It was not that she had decided this. Each evening she had sat down
 meaning to start with the clips, and had thought she would just close the
@@ -93,12 +100,12 @@ There was a second thing wrong with the notebook, and it took her longer to
 see because it was an absence. The column told her how she had done. It did
 not tell her what she had done. /Fifty-seven/: on which clips? Missing
 what? And what had she decided, at the end of that session, to do
-differently in the next? Nothing; she had closed the notebook. Each day's
+differently in the next? Nothing; she had closed the notebook. Each day’s
 practice had begun exactly where the last one began, as though the last one
 had never happened. Only the night with the list of thirty had been
 different, and that was the night the number had moved.
 
-She thought of Frau Reinholt's teacher with the red pencil, counting errors
+She thought of Frau Reinholt’s teacher with the red pencil, counting errors
 by kind. And of something else. She went and got the paper.
 
 At the back of /How Interpreters Are Made/ was an appendix she had never
@@ -112,7 +119,7 @@ Attempt. Correction. Next time.
 
 Maren turned to a clean page and ruled it.
 
-She did that night's clips with the three columns open, and it was slower
+She did that night’s clips with the three columns open, and it was slower
 and odder than she expected. Under /Attempt/ she had to write what she was
 actually going to do, which meant deciding: twenty-five clips, interviews,
 not news. Under /Correction/, when she had finished, the number went in as
@@ -127,7 +134,7 @@ time./ She sat with the pen over it.
 /Numbers first, before anything. Fifteen minutes of nothing but sentences
 with two-digit numbers in. Then clips./
 
-It was one line. But it meant that tomorrow's session already existed. It
+It was one line. But it meant that tomorrow’s session already existed. It
 had a first thing in it that followed from today.
 
 She wrote to Wim after midnight.
@@ -138,10 +145,10 @@ me a number I like./
 
 His reply was there in the morning, sent at 6:04.
 
-/Day 302. Level 6. 21 min. — Seventy's still seventy more than nowt, love.
-But I'll tell you what struck me. You've got a thing it's FOR. Audit, March,
-blokes from Germany. I haven't. I just want my head back and I couldn't tell
-you what that'd look like if it walked in. Mind you don't waste yours./
+/Day 302. Level 6. 21 min. — Seventy’s still seventy more than nowt, love.
+But I’ll tell you what struck me. You’ve got a thing it’s FOR. Audit, March,
+blokes from Germany. I haven’t. I just want my head back and I couldn’t tell
+you what that’d look like if it walked in. Mind you don’t waste yours./
 
 She read it on the bus and resolved that from now on the clips would come
 first, every evening, before anything else.

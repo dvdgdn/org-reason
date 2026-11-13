@@ -1,3 +1,10 @@
+#+title: 11. Thirty Percent
+#+subtitle: Two Minutes at Full Speed · Part Three: The Dark
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:10-what-went-up.org][10. What Went Up]] · [[file:README.org][Contents]] · Next: [[file:12-seventy-one.org][12. Seventy-One]]
+
 * The chapter
 
 Jutta Reinholt made an excellent Herr Brandl.
@@ -5,14 +12,14 @@ Jutta Reinholt made an excellent Herr Brandl.
 She had insisted on the back room of the German Society, with the door
 shut, and on sitting at the far end of a table with her hands folded on a
 sheet of notes. Her nephew Matthias, a broad, mild man of forty with a
-toolmaker's forearms, sat to one side with four lists and a pencil. Maren
-had given them the substance of four of the real Herr Brandl's reports on
+toolmaker’s forearms, sat to one side with four lists and a pencil. Maren
+had given them the substance of four of the real Herr Brandl’s reports on
 Monday. She had not seen what they made of them.
 
-"/Also,/" said Frau Reinholt, and leaned back before she began, exactly as
+“/Also,/” said Frau Reinholt, and leaned back before she began, exactly as
 Maren had always imagined he would.
 
-It was two minutes by Matthias's watch. It was about the runout of a
+It was two minutes by Matthias’s watch. It was about the runout of a
 spindle. Maren knew that because the first sentence had /Rundlauf/ in it
 and she caught the first sentence whole, every word. She felt a leap of
 hope and then the second sentence was arriving on top of the first, with a
@@ -24,9 +31,9 @@ plainly explaining a cause and Maren had only its rhythm. Near the end,
 
 Silence. They were both looking at her.
 
-"He says," Maren began in English, "that there is a problem with the
-spindle runout. On the — on the new line." She had nothing. "And that
-something must be done by the end of the month."
+“He says,” Maren began in English, “that there is a problem with the
+spindle runout. On the — on the new line.” She had nothing. “And that
+something must be done by the end of the month.”
 
 Matthias made three small ticks. He did it without expression, which she
 understood later was a kindness.
@@ -34,109 +41,109 @@ understood later was a kindness.
 The second passage was about coolant. The third and fourth she could not
 afterwards have named.
 
-"Eight," Matthias said at the end, having added it twice. "Of forty. Three,
-two, two, one." He turned the lists round so she could see. "You have the
+“Eight,” Matthias said at the end, having added it twice. “Of forty. Three,
+two, two, one.” He turned the lists round so she could see. “You have the
 first thing each time. Always. Then it goes dark. Sometimes you have the
 last thing. The numbers, never. In the middle is where he says what is
-wrong and what he wants, and in the middle you are not there."
+wrong and what he wants, and in the middle you are not there.”
 
-"I know every word you said," Maren told his aunt. "If you gave me that
-sheet I could put it into English as fast as I can type."
+“I know every word you said,” Maren told his aunt. “If you gave me that
+sheet I could put it into English as fast as I can type.”
 
-"Naturally," said Frau Reinholt. "And on the twelfth of March you will ask
-the gentleman from Chemnitz to write it on a napkin." She unfolded her
-hands. "Eight. So. Now you know what eight feels like. Come back when it is
-more."
+“Naturally,” said Frau Reinholt. “And on the twelfth of March you will ask
+the gentleman from Chemnitz to write it on a napkin.” She unfolded her
+hands. “Eight. So. Now you know what eight feels like. Come back when it is
+more.”
 
-*
+-----
 
 The last session of the memory game was on Friday. Maren did it well, as it
 happened: she finished on level five. It gave her no pleasure at all.
 
 Dr. Albrecht had her results on a single sheet.
 
-"Before and after. The game: two to five, which is about the average. The
+“Before and after. The game: two to five, which is about the average. The
 reasoning test: twenty-one of thirty-six before, twenty-two after. One
-point; that's noise. The listening task, where you hold sentences while
-doing sums: the same, to the decimal." She put it down. "So you're one more
+point; that’s noise. The listening task, where you hold sentences while
+doing sums: the same, to the decimal.” She put it down. “So you’re one more
 person who got a great deal better at the game and no better at anything
-else I measured. It doesn't mean much by itself. Forty of you might."
+else I measured. It doesn’t mean much by itself. Forty of you might.”
 
-"I got eight out of forty at the real thing last night."
+“I got eight out of forty at the real thing last night.”
 
-"What real thing?"
+“What real thing?”
 
-Maren showed her. She had the four lists, with Matthias's ticks, and the
+Maren showed her. She had the four lists, with Matthias’s ticks, and the
 page on which she and Keane had worked it out.
 
 Dr. Albrecht read it standing, and then sat down and read it again. Her
 whole manner changed; it was the first time Maren had seen her look at
 something with appetite.
 
-"This is good," she said. "No, this is /good/. Points of meaning fixed in
+“This is good,” she said. “No, this is /good/. Points of meaning fixed in
 advance by someone who knows the subject. Scored by someone other than you.
-Same form both times. Who designed it?"
+Same form both times. Who designed it?”
 
-"I did. He asked questions."
+“I did. He asked questions.”
 
-"He would." It was said with exasperated affection. "In January I asked you
-what the measure was, and you had 'nobody looks at me'. This is a measure. I
-could put this in a paper." She tapped the eight. "So. The fifth of March.
-What do you predict?"
+“He would.” It was said with exasperated affection. “In January I asked you
+what the measure was, and you had ‘nobody looks at me’. This is a measure. I
+could put this in a paper.” She tapped the eight. “So. The fifth of March.
+What do you predict?”
 
-"I hope I'll pass."
+“I hope I’ll pass.”
 
-"What's a pass?"
+“What’s a pass?”
 
-"I don't know. Enough that Pri doesn't have to hire someone."
+“I don’t know. Enough that Pri doesn’t have to hire someone.”
 
-"That's a hope and a consequence. I asked what you predict. Out of forty."
+“That’s a hope and a consequence. I asked what you predict. Out of forty.”
 
 Maren felt the same reluctance she had felt in room 311 when he asked for a
 Tuesday. It was the reluctance of being made to stand somewhere.
 
-"If I write a number down and then I miss it —"
+“If I write a number down and then I miss it —”
 
-"Then you'll have learned something about your German and something about
-your judgment, both at once. That's a bargain." Dr. Albrecht pulled a pad
-toward her. "If you don't write it down, I can tell you exactly what will
-happen, because it happens to me. On the sixth of March you'll get your
-score, and within about an hour you'll remember having expected roughly
-that. Whatever it is. Everybody's a good forecaster afterwards."
+“Then you’ll have learned something about your German and something about
+your judgment, both at once. That’s a bargain.” Dr. Albrecht pulled a pad
+toward her. “If you don’t write it down, I can tell you exactly what will
+happen, because it happens to me. On the sixth of March you’ll get your
+score, and within about an hour you’ll remember having expected roughly
+that. Whatever it is. Everybody’s a good forecaster afterwards.”
 
-"Thirty," Maren said. "Thirty of forty."
+“Thirty,” Maren said. “Thirty of forty.”
 
-"Why thirty?"
+“Why thirty?”
 
-"Because below that I couldn't do the audit. I'd be missing a quarter of
-what they said."
+“Because below that I couldn’t do the audit. I’d be missing a quarter of
+what they said.”
 
-"So thirty is what you need."
+“So thirty is what you need.”
 
-"Yes."
+“Yes.”
 
-"I didn't ask what you need." She waited. "You did eight last night. You
-have two weeks. You've changed your routine since Monday. What do you
-actually think will be on Matthias's sheet?"
+“I didn’t ask what you need.” She waited. “You did eight last night. You
+have two weeks. You’ve changed your routine since Monday. What do you
+actually think will be on Matthias’s sheet?”
 
 It was a different question, and the number that came was a different
 number, and Maren did not like it.
 
-"Twenty-four. Perhaps."
+“Twenty-four. Perhaps.”
 
-"How sure are you of twenty-four or better? If you did this a hundred
-times."
+“How sure are you of twenty-four or better? If you did this a hundred
+times.”
 
-"Not very. A third of the time? Thirty percent."
+“Not very. A third of the time? Thirty percent.”
 
-"So you think you'll probably fall short of your own guess."
+“So you think you’ll probably fall short of your own guess.”
 
-"Yes."
+“Yes.”
 
-"Good. Most people write ninety." She pushed the pad across. "Write it.
+“Good. Most people write ninety.” She pushed the pad across. “Write it.
 All of it. The date, the number, how sure. And one more line: what result
-would tell you the practice isn't working at all. Not a disappointing
-result. One that means stop."
+would tell you the practice isn’t working at all. Not a disappointing
+result. One that means stop.”
 
 Maren thought about eight.
 
@@ -151,19 +158,19 @@ She signed it. Dr. Albrecht read it, wrote /Seen, I. Albrecht, 20 Feb/
 underneath, folded it into an envelope, and put the envelope in her desk
 drawer and locked the drawer.
 
-"Why do you get to keep it?"
+“Why do you get to keep it?”
 
-"Because you'd open it on the fourth and change the twenty-four." She
-dropped the key in her pocket. "Don't be offended. I would."
+“Because you’d open it on the fourth and change the twenty-four.” She
+dropped the key in her pocket. “Don’t be offended. I would.”
 
 Maren was at the door before she thought to ask.
 
-"What did you write? For your study. Before you started it."
+“What did you write? For your study. Before you started it.”
 
-"That the game would transfer to nothing. Seventy percent." Dr. Albrecht
-turned back to her screen. "It's in a registry, with a date on it, where I
-can't get at it. I'd quite like to be wrong, you know. It would be a much
-more interesting career."
+“That the game would transfer to nothing. Seventy percent.” Dr. Albrecht
+turned back to her screen. “It’s in a registry, with a date on it, where I
+can’t get at it. I’d quite like to be wrong, you know. It would be a much
+more interesting career.”
 
 * What Maren has just learned
 

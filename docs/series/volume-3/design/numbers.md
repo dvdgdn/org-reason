@@ -46,7 +46,7 @@ full speed as Herr Brandl. Maren gives each in English. Matthias scores ten
 points of meaning in each: 40 in all.
 
 - Baseline, Thursday 19 February: 8 of 40.
-- Sealed guess, Wednesday 18 February: "On Thursday 5 March I will get at
+- Sealed guess, Friday 20 February, held by Ines: "On Thursday 5 March I will get at
   least 24 of 40. I am 30% sure." What would count against the practice: 12
   or fewer.
 - Result, Thursday 5 March: 23 of 40.
@@ -85,8 +85,8 @@ date. Recorded as untested.
 | Thu 12 Feb | Jutta's table: one in four | 9 |
 | Fri 13 Feb | Katrin's deadline passes; Ines on spacing | 9 |
 | Mon 16 Feb | Keane back; score and ability; the check is set | 10 |
-| Wed 18 Feb | The sealed guess | 11 |
 | Thu 19 Feb | Baseline: 8 of 40 | 11 |
+| Fri 20 Feb | Last session of the study; the sealed guess | 11 |
 | Tue 24 Feb | The plateau; the exercise changes | 12 |
 | Fri 27 Feb | "I am grasping in the dark"; the cards; Ines | 13 |
 | Sat 28 Feb | Pri | 13 |

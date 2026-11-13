@@ -1,3 +1,10 @@
+#+title: 12. Seventy-One
+#+subtitle: Two Minutes at Full Speed · Part Three: The Dark
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:11-thirty-percent.org][11. Thirty Percent]] · [[file:README.org][Contents]] · Next: [[file:13-the-bottom-drawer.org][13. The Bottom Drawer]]
+
 * The chapter
 
 Eight out of forty frightened her, and she did what frightened people do.
@@ -28,48 +35,48 @@ Nair had delivered a Kessler manual a day late, because its translator had
 fallen asleep over the pneumatics chapter at nine in the evening.
 
 Pri had not said anything about that. She had sent the invoice to the
-client herself, with an apology, and put a coffee on Maren's desk.
+client herself, with an apology, and put a coffee on Maren’s desk.
 
-"I need more time," Maren told Keane. She had come straight from work and
-was aware of looking like something left out in the rain. "I've been doing
-two and a half hours and it isn't enough. I'm thinking of taking next week
-as leave. If I could do five or six hours a day until the fifth —"
+“I need more time,” Maren told Keane. She had come straight from work and
+was aware of looking like something left out in the rain. “I’ve been doing
+two and a half hours and it isn’t enough. I’m thinking of taking next week
+as leave. If I could do five or six hours a day until the fifth —”
 
-"May I see the book?"
+“May I see the book?”
 
 She gave him the notebook. He turned back a week and read down the third
 column, the one headed /Next time/, with his finger.
 
-"/More clips./ /More clips, earlier./ /More clips./ /Add a lunch session./
-/More./" He looked up. "What was different about Thursday's attempt, from
-Wednesday's?"
+“/More clips./ /More clips, earlier./ /More clips./ /Add a lunch session./
+/More./” He looked up. “What was different about Thursday’s attempt, from
+Wednesday’s?”
 
-"There were more of them."
+“There were more of them.”
 
-"Besides that."
+“Besides that.”
 
 She took the notebook back and looked. Under /Attempt/, for seven days
 running, in handwriting that grew steadily worse, was the same line.
 /Ten-sec clips, interviews, 3 plays, transcribe./
 
-"Nothing," she said.
+“Nothing,” she said.
 
-"And how many do you get right, of a hundred words?"
+“And how many do you get right, of a hundred words?”
 
-"Seventy-one."
+“Seventy-one.”
 
-"When you started it was fifty-four. Where did I say you wanted to live?"
+“When you started it was fifty-four. Where did I say you wanted to live?”
 
-"Half." She saw it. "It's got too easy. Not easy; I still hate it. But I'm
-not missing enough."
+“Half.” She saw it. “It’s got too easy. Not easy; I still hate it. But I’m
+not missing enough.”
 
-"That's part of it." He put his fingertips together. "The other part. On
-Thursday, with Frau Reinholt. Where did Matthias say you disappear?"
+“That’s part of it.” He put his fingertips together. “The other part. On
+Thursday, with Frau Reinholt. Where did Matthias say you disappear?”
 
-"In the middle. I get the first thing. Then it goes dark, and sometimes I
-get the end. Never the numbers."
+“In the middle. I get the first thing. Then it goes dark, and sometimes I
+get the end. Never the numbers.”
 
-"Does a ten-second clip have a middle?"
+“Does a ten-second clip have a middle?”
 
 Maren opened her mouth and shut it.
 
@@ -80,56 +87,56 @@ been asked to hold on to a first sentence while a second and third came in
 on top of it, or to keep a figure alive for a minute and a half, or to say
 anything in English at all.
 
-"It taught me to hear where the words are," she said slowly. "That was the
-first thing. That's why '/haben wir/' sits. But the check isn't failing
-there any more. It's failing at — keeping it. And at turning it round and
-saying it. And I've never practised either. I've practised the bit I can
-now nearly do, for two and a half hours a day."
+“It taught me to hear where the words are,” she said slowly. “That was the
+first thing. That’s why ‘/haben wir/’ sits. But the check isn’t failing
+there any more. It’s failing at — keeping it. And at turning it round and
+saying it. And I’ve never practised either. I’ve practised the bit I can
+now nearly do, for two and a half hours a day.”
 
-"What did the forty do, when it stopped moving?"
+“What did the forty do, when it stopped moving?”
 
-She knew the paper better than he did by now. "They changed the exercise.
-There's a table. Almost nobody added hours past the third year. They made
-it longer, or faster, or took away the second hearing." She rubbed her eye.
-"I read that. I underlined it. And then I got up at half past five."
+She knew the paper better than he did by now. “They changed the exercise.
+There’s a table. Almost nobody added hours past the third year. They made
+it longer, or faster, or took away the second hearing.” She rubbed her eye.
+“I read that. I underlined it. And then I got up at half past five.”
 
-"Everyone gets up at half past five. It feels like virtue." He said it
-kindly. "What would you change?"
+“Everyone gets up at half past five. It feels like virtue.” He said it
+kindly. “What would you change?”
 
 It came quickly, because the check had already told her.
 
-"Longer. Thirty seconds, not ten, so there's a middle. One hearing, not
-three; Herr Brandl won't say it three times. And I don't write down the
+“Longer. Thirty seconds, not ten, so there’s a middle. One hearing, not
+three; Herr Brandl won’t say it three times. And I don’t write down the
 German. I say it, in English, out loud, what he meant. Into the telephone,
-so I can hear it back."
+so I can hear it back.”
 
-"And how do you know how you did?"
+“And how do you know how you did?”
 
-"The text is still there. But I'm not counting words." She was thinking
-aloud. "Points. Like Matthias. Before I listen I could have the assistant
+“The text is still there. But I’m not counting words.” She was thinking
+aloud. “Points. Like Matthias. Before I listen I could have the assistant
 read the text and list the three or four things in it that matter, and not
 show me. Then afterwards I look at its list and tick what I got. I check
-its list against the text the first few times, in case it's invented one."
+its list against the text the first few times, in case it’s invented one.”
 
-"And the figures?"
+“And the figures?”
 
 That was the one she had no answer for. She had tried, at the baseline, to
 hold a decimal in her head, and it had cost her the whole of the next
 sentence.
 
-"I don't know. I can't keep them."
+“I don’t know. I can’t keep them.”
 
-"What did Frau Reinholt do for thirty-four years, when a witness said a
-number?"
+“What did Frau Reinholt do for thirty-four years, when a witness said a
+number?”
 
-"She wrote it —" Maren stared at him. "She wrote it /down/. Interpreters
-take notes. It's in your paper; there's a whole section. I was trying to do
-it with my hands empty because I thought that was the skill."
+“She wrote it —” Maren stared at him. “She wrote it /down/. Interpreters
+take notes. It’s in your paper; there’s a whole section. I was trying to do
+it with my hands empty because I thought that was the skill.”
 
-"Some of them think that for a year or two."
+“Some of them think that for a year or two.”
 
-"A pad. Figures only. The moment I hear one, it goes on the pad and I stop
-carrying it."
+“A pad. Figures only. The moment I hear one, it goes on the pad and I stop
+carrying it.”
 
 She tried it that evening, at home, for one hour and not a minute more.
 
@@ -138,7 +145,7 @@ One hearing. A woman from a transport ministry, three sentences, two
 figures. Maren got the first figure onto the pad and lost the sentence
 around it. She pressed record and said, in English, to her kitchen, a
 halting and partly invented account of what the woman from the ministry
-thought about rail freight. Then she looked at the assistant's four points.
+thought about rail freight. Then she looked at the assistant’s four points.
 
 One of four.
 

@@ -1,37 +1,44 @@
+#+title: 1. The Box
+#+subtitle: Two Minutes at Full Speed · Part One: The Box
+#+startup: showall
+#+options: toc:nil num:nil
+
+[[file:README.org][Contents]] · Next: [[file:02-a-tuesday.org][2. A Tuesday]]
+
 * The chapter
 
-"You know every word they're going to say," Pri said. "You wrote half of
-them."
+“You know every word they’re going to say,” Pri said. “You wrote half of
+them.”
 
 It was the first Monday of January and the office of Solberg & Nair, two
 desks above a bicycle shop, smelled of radiator dust. Pri had her coat on.
 She had come in only to say this.
 
-"Bernd's retired. Properly, this time; he's moved to his daughter's. Dunmore
+“Bernd’s retired. Properly, this time; he’s moved to his daughter’s. Dunmore
 Tool have their acceptance audit on the tenth of March. Three days. Kessler
 are sending four engineers from Chemnitz to sign off the new line, and
-somebody has to stand between them and Dunmore's people and turn German into
-English." She spread her hands. "Eleven years you've translated Kessler's
-manuals. You know what a /Rundlauftoleranz/ is. Their own sales people don't
-know what a /Rundlauftoleranz/ is."
+somebody has to stand between them and Dunmore’s people and turn German into
+English.” She spread her hands. “Eleven years you’ve translated Kessler’s
+manuals. You know what a /Rundlauftoleranz/ is. Their own sales people don’t
+know what a /Rundlauftoleranz/ is.”
 
-"I can read it," Maren said. "I can't hear it."
+“I can read it,” Maren said. “I can’t hear it.”
 
-"That's the same language."
+“That’s the same language.”
 
-"It isn't. On paper it stays still." She had tried to explain this before.
+“It isn’t. On paper it stays still.” She had tried to explain this before.
 Give her a page and she could work as fast as anyone in the trade. Put her
 in a room with two Germans talking and it was a river going past: she would
 catch a noun, turn it over, and look up to find them four sentences further
-on. "I've never been able to. I'm not quick enough. It's a — processing
-thing."
+on. “I’ve never been able to. I’m not quick enough. It’s a — processing
+thing.”
 
-Pri looked at the shelf above Maren's desk, where a book called /The
+Pri looked at the shelf above Maren’s desk, where a book called /The
 Plastic Mind/ leaned against one called /Faster Thought/.
 
-"You've got ten weeks," she said, "and you are the only person I know who
+“You’ve got ten weeks,” she said, “and you are the only person I know who
 reads about this for fun. Dunmore is sixty thousand dollars a year. Tell me
-by Friday whether I'm ringing round for a freelancer."
+by Friday whether I’m ringing round for a freelancer.”
 
 Maren said that she would need to prepare properly.
 
@@ -82,7 +89,7 @@ it first. A. K./
 
 She read it three times looking for the recommendation.
 
-*
+-----
 
 She did the count on Saturday, on the floor of her spare room, because he
 had asked and because it was easier than deciding anything.
@@ -137,7 +144,7 @@ end of before.
 
 Her telephone buzzed on the carpet. Pri.
 
-/Dunmore just asked who's interpreting in March. I said I'd confirm next
+/Dunmore just asked who’s interpreting in March. I said I’d confirm next
 week. No pressure. (Some pressure.)/
 
 Maren looked at the box. On top of the printed list was the article with

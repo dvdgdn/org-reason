@@ -1,3 +1,10 @@
+#+title: 14. The Floor
+#+subtitle: Two Minutes at Full Speed · Part Four: The Check
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:13-the-bottom-drawer.org][13. The Bottom Drawer]] · [[file:README.org][Contents]] · Next: [[file:15-forty-points.org][15. Forty Points]]
+
 * The chapter
 
 She had carried the banana box home from room 311 on Friday night. It did
@@ -6,7 +13,7 @@ not seem right to leave it there.
 On Sunday morning it was on the floor of the spare room again, where she
 had first counted it, and she was sitting beside it with ten minutes of
 pictures and forty minutes of drill already behind her, trying to decide
-what to do with the rest of her life's reading.
+what to do with the rest of her life’s reading.
 
 She began the old way without noticing. She took things out and made piles
 by how promising they were. The memory palace: very promising. Juggling:
@@ -18,33 +25,33 @@ The doorbell rang.
 
 Dr. Albrecht was on the step in a raincoat, holding a roll of masking tape.
 
-"Your address was on the consent form," she said. "I shouldn't have used
-it. May I come in?"
+“Your address was on the consent form,” she said. “I shouldn’t have used
+it. May I come in?”
 
 Maren stood aside.
 
-"I said on Friday I couldn't be anywhere near it. I meant him and his
-cards. I didn't mean you, and I walked out as though I did." She looked
-tired. "And I lay awake wondering whether you were going to turn up on
-Thursday having spent a week on index cards. So I've come to be rude about
-your methods. It's the only way I know of being useful."
+“I said on Friday I couldn’t be anywhere near it. I meant him and his
+cards. I didn’t mean you, and I walked out as though I did.” She looked
+tired. “And I lay awake wondering whether you were going to turn up on
+Thursday having spent a week on index cards. So I’ve come to be rude about
+your methods. It’s the only way I know of being useful.”
 
-"I did the drill for forty minutes this morning. The cards got ten."
+“I did the drill for forty minutes this morning. The cards got ten.”
 
-"Ten." Dr. Albrecht let out a breath. "All right. Good." She saw the open
-door of the spare room, the box, the six piles. "What's this?"
+“Ten.” Dr. Albrecht let out a breath. “All right. Good.” She saw the open
+door of the spare room, the box, the six piles. “What’s this?”
 
-"Everything I've ever collected. I'm sorting it."
+“Everything I’ve ever collected. I’m sorting it.”
 
-"By what?"
+“By what?”
 
-"By how promising it is."
+“By how promising it is.”
 
-"Promising according to whom?"
+“Promising according to whom?”
 
-Maren looked at the piles. "The people who wrote the articles."
+Maren looked at the piles. “The people who wrote the articles.”
 
-"Mm." Dr. Albrecht got down on the carpet in her raincoat, tore off a long
+“Mm.” Dr. Albrecht got down on the carpet in her raincoat, tore off a long
 strip of masking tape and laid it across the floor, and then a second strip
 across the first. Four squares. She wrote on the tape with a pen from her
 pocket.
@@ -55,65 +62,65 @@ IT/.
 Down the side: /SHOWN TO WORK FOR THE THING PRACTISED/ and /WIDER BENEFIT
 DISPUTED OR UNTESTED/.
 
-"That's not everything one would want to know about a method," she said.
-"It's the two things that decide what it owes you. Pick something up."
+“That’s not everything one would want to know about a method,” she said.
+“It’s the two things that decide what it owes you. Pick something up.”
 
 Maren picked up the book on the memory palace.
 
-"Can it be scored?"
+“Can it be scored?”
 
-"You memorize a list and see how much you get back. Yes."
+“You memorize a list and see how much you get back. Yes.”
 
-"Does it work for the thing practised?"
+“Does it work for the thing practised?”
 
-"For remembering lists, apparently very well. Whether it makes your memory
-better for anything else —"
+“For remembering lists, apparently very well. Whether it makes your memory
+better for anything else —”
 
-"I didn't ask that. Top left." The book went into the first square. "Next."
+“I didn’t ask that. Top left.” The book went into the first square. “Next.”
 
 The juggling balls. Scored: you could count catches. Shown to work: for
-juggling. "And the brain study?" Maren asked.
+juggling. “And the brain study?” Maren asked.
 
-"Says something changed in the brains of people who learned to juggle. It
-doesn't say they got better at anything except juggling. Top left, if what
-you want is to juggle." The balls joined the book.
+“Says something changed in the brains of people who learned to juggle. It
+doesn’t say they got better at anything except juggling. Top left, if what
+you want is to juggle.” The balls joined the book.
 
 The chess-visualization course. Top left, for chess.
 
-Flashcards. Maren hesitated. "The two thousand were useless."
+Flashcards. Maren hesitated. “The two thousand were useless.”
 
-"The two thousand were words you knew. Cards made from your own misses,
-spaced out?"
+“The two thousand were words you knew. Cards made from your own misses,
+spaced out?”
 
-"Top left."
+“Top left.”
 
 Then the card that said /Train Your Working Memory in 20 Days/. Dr.
 Albrecht held out her hand for it and placed it herself, in the lower left
 square.
 
-"Scored, beautifully. A curve, every day. Works for the thing practised.
-And everything it was sold to you for is in that word." She tapped
-/DISPUTED/. "I've spent four years down here. So have a lot of people
-cleverer than me."
+“Scored, beautifully. A curve, every day. Works for the thing practised.
+And everything it was sold to you for is in that word.” She tapped
+/DISPUTED/. “I’ve spent four years down here. So have a lot of people
+cleverer than me.”
 
 A speed-reading course followed it down. So did something about brain
 waves.
 
-"So what does it owe?" said Maren. "You said that's what the squares
-decide."
+“So what does it owe?” said Maren. “You said that’s what the squares
+decide.”
 
-"Top left owes you the least. Do it, and then check you can do the real
-thing: recite the list, play the game of chess, follow the German." She
-moved her hand down. "Bottom left is the dangerous one, because the score
+“Top left owes you the least. Do it, and then check you can do the real
+thing: recite the list, play the game of chess, follow the German.” She
+moved her hand down. “Bottom left is the dangerous one, because the score
 /will/ go up. It always does. So it owes you two things before you start: a
 check in the real world, and your guess, written down beforehand, of what
-the check will show. Otherwise the curve will tell you whatever you'd like
-to hear."
+the check will show. Otherwise the curve will tell you whatever you’d like
+to hear.”
 
-"That's what I didn't have in February."
+“That’s what I didn’t have in February.”
 
-"No. I had it, in a registry, for the study. You weren't the study. You
-were a person with a client." She did not labor it.
+“No. I had it, in a registry, for the study. You weren’t the study. You
+were a person with a client.” She did not labor it.
 
 There were four things left. The three books Maren had put at the bottom of
 the box. A pamphlet, bought secondhand, called /The Multiple Mentality
@@ -121,52 +128,52 @@ Course/, which promised to teach the reader to do several things at once
 with different parts of the mind. And the card for the course whose purpose
 she had not been able to remember in January and now could: a method of
 describing aloud, with the eyes shut, whatever images arose, which was
-supposed to raise one's intelligence.
+supposed to raise one’s intelligence.
 
 She put them in the lower right square without being asked. Then she took
 one of her own twenty scene cards from her pocket and laid it on top.
 
 Dr. Albrecht looked at it for a while.
 
-"No score," she said. "Nobody's shown it works for anything. So it owes the
-most. If you're going to do it at all, it owes a fixed routine, so you
-can't keep changing what 'it' is. The same report every day. And a line,
-written first, saying what would make you admit it had done nothing."
+“No score,” she said. “Nobody’s shown it works for anything. So it owes the
+most. If you’re going to do it at all, it owes a fixed routine, so you
+can’t keep changing what ‘it’ is. The same report every day. And a line,
+written first, saying what would make you admit it had done nothing.”
 
-"He said the same."
+“He said the same.”
 
-"Did he." It was hard to tell what she felt about that.
+“Did he.” It was hard to tell what she felt about that.
 
-"I wrote the line on Friday. Before you came in." Maren told her: the hard
+“I wrote the line on Friday. Before you came in.” Maren told her: the hard
 exercise, four days in seven, six by the twelfth, fifty percent, and what
 she would say if the log did not change.
 
 Dr. Albrecht listened with her chin on her fist.
 
-"It's one person with no comparison," she said at last. "If your number
+“It’s one person with no comparison,” she said at last. “If your number
 goes to six it could be the cards, or the date getting nearer, or me
-turning up at your house. You couldn't tell."
+turning up at your house. You couldn’t tell.”
 
-"I know. That's why it's ten minutes and not the hour."
+“I know. That’s why it’s ten minutes and not the hour.”
 
-"That's —" She stopped. "That's a better answer than I'd have had from most
-of my colleagues, about most things." She looked at the fourth square, the
-upper right, which was empty. "Nothing here."
+“That’s —” She stopped. “That’s a better answer than I’d have had from most
+of my colleagues, about most things.” She looked at the fourth square, the
+upper right, which was empty. “Nothing here.”
 
-"'Shown to work, but only you can tell.' I couldn't think of anything."
+“’Shown to work, but only you can tell.’ I couldn’t think of anything.”
 
-"If only you can tell, I don't see how it would get shown." She left it
+“If only you can tell, I don’t see how it would get shown.” She left it
 empty.
 
 They sat among the squares. It looked very different from the six piles.
 Nothing had been thrown away, and nothing was any longer /promising/. Each
 thing had a place and a debt.
 
-"I have one hour," Maren said. "And ten methods."
+“I have one hour,” Maren said. “And ten methods.”
 
-"Then you can't do them."
+“Then you can’t do them.”
 
-"No." She had known it since she added up the week in February; she had
+“No.” She had known it since she added up the week in February; she had
 needed it laid out on a floor. She took a sheet of paper. /Forty minutes:
 say-it-back, thirty seconds, one hearing. Top left; aimed at where the check
 fails. Ten minutes: cards from my own misses, spaced. Top left. Ten minutes:
@@ -175,31 +182,31 @@ the twenty scenes. Bottom right; routine fixed, line sealed./
 Everything else she put back in the box, and wrote on the lid: /Not
 rubbish. Not now./
 
-"And my game?" said Dr. Albrecht.
+“And my game?” said Dr. Albrecht.
 
-"In the box. Bottom left. I'm sorry."
+“In the box. Bottom left. I’m sorry.”
 
-"Don't be. I'd have said so myself if I'd been allowed."
+“Don’t be. I’d have said so myself if I’d been allowed.”
 
-*
+-----
 
 She wrote to Wim that afternoon. It took four drafts, because he had been
 kind to her and it was his game too.
 
-/I've stopped the memory game. Not because it's bad. I had an hour and a
+/I’ve stopped the memory game. Not because it’s bad. I had an hour and a
 date and it was taking a third of the hour, and nobody can say what it does
-for anything else. You told me you just want your head back and couldn't
-say what that would look like if it walked in. I couldn't either, until
-somebody made me name a Tuesday. What's one Tuesday, for you?/
+for anything else. You told me you just want your head back and couldn’t
+say what that would look like if it walked in. I couldn’t either, until
+somebody made me name a Tuesday. What’s one Tuesday, for you?/
 
 His answer came at 6:04 on Monday.
 
-/Day 323. Level 7. 20 min. — I'm keeping mine, it gets me up. But I thought
+/Day 323. Level 7. 20 min. — I’m keeping mine, it gets me up. But I thought
 on it all night. Tuesday. Kitchen. The wife says eggs, milk, the blue
 cheese and stamps, and I walk to the shop with no list and come back with
-all four. Haven't managed more than two since March./
+all four. Haven’t managed more than two since March./
 
-/That's a check, Wim. Who scores it?/
+/That’s a check, Wim. Who scores it?/
 
 /She does. Believe me./
 

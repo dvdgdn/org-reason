@@ -1,0 +1,293 @@
+#+title: 16. Two Minutes
+#+subtitle: Two Minutes at Full Speed · Part Four: The Check
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:15-forty-points.org][15. Forty Points]] · [[file:README.org][Contents]] · Next: [[file:appendix.org][How the story was built]]
+
+* The chapter
+
+Herr Brandl did not lean back before he spoke. That was the first thing she
+had got wrong about him.
+
+He was a small, exact man of fifty in a grey pullover, who talked quickly
+and quietly with his eyes on his own papers, and who had answered her
+letter within the hour. /Selbstverständlich,/ he had written. Of course he
+would pause. On Tuesday, on the walk round the new line, he had paused
+after every second sentence and looked at her like a man waiting at a
+crossing. By Wednesday afternoon, among the measuring benches, he had begun
+to forget.
+
+It was now ten past ten on Thursday the twelfth of March, in the mezzanine
+room at Dunmore Tool, with the window onto the shop floor, and he had
+forgotten entirely.
+
+Four engineers from Kessler on one side of the table. On the other, Dale
+Purcell, Dunmore’s plant manager, a heavy patient man, with his quality
+lead and a woman from purchasing. Maren at the end, between them, with a
+pad.
+
+She had interrupted people perhaps two hundred times in two days. She had
+stopped apologizing for it on Tuesday afternoon. It was, as she had told
+Pri on the pavement, how the thing was done, and in pieces she was a great
+deal better than twenty-three. But there was a kind of German engineer who,
+once he reached the matter he had come about, could no more be stopped than
+a lathe.
+
+“/Die Spindel,/” said Herr Brandl, and turned a page.
+
+He spoke for a little under two minutes. She knew, because the clock was on
+the wall behind him and some part of her noted the second hand at the start
+and at the end, the way one notes the time of an accident.
+
+The first sentence she had whole. A figure, /0,004/, went onto the pad
+without her looking. He was explaining how the runout had been measured,
+at three positions, cold and then at temperature, and she was not turning
+words over. She was listening to a man explain how he had measured a
+spindle. It was there again, the transparency, and this time when she
+noticed it she did not grab at it. She let it be there, as you let a
+skittish animal stay in the room by not looking straight at it.
+
+It went and came back. A second figure. The pad.
+
+And then, in the middle of a long sentence, a small unstressed syllable
+that might or might not have been there.
+
+She knew this syllable. She had lost it on the fifth of March, in a back
+room, in front of her partner. /Liegt innerhalb/, lies within. Or /liegt
+nicht innerhalb/. He had already gone on. He was saying what Kessler
+proposed.
+
+He stopped. He looked up. Everyone looked at her.
+
+It was exactly as she had dreaded it for eleven years: a ring of faces, and
+a silence, and herself in the middle of it not knowing.
+
+/Next time: when I am not sure of a “not”, I ask. Out loud. In the room./
+
+“/Entschuldigung, Herr Brandl,/” Maren said. “/Eine Rückfrage. Der
+Rundlauf: liegt er innerhalb der Toleranz, oder liegt er nicht innerhalb?/”
+
+“/Nicht,/” said Herr Brandl at once, with a slight nod, as to a sensible
+question. “/Vier My. Zulässig sind drei./”
+
+She turned to Dale Purcell.
+
+“Herr Brandl says the spindle runout was measured at three positions, cold
+and at operating temperature. At temperature it’s four microns. That is
+/not/ within tolerance: Kessler’s limit is three. The five microns on your
+acceptance sheet is not a figure Kessler ever agreed to; he thinks it came
+from the specification for the older line. He’s proposing two things.
+Kessler re-seat the spindle bearings at their own cost, here, next week.
+And your sheet is corrected to three before anybody signs it this
+afternoon.”
+
+She had the pad in front of her with two figures on it and had not needed
+to look.
+
+“Five was in the tender,” said the woman from purchasing.
+
+“It was in /our/ tender,” said Dale Purcell. “Did we ever get it back from
+them countersigned?” He was already pulling a folder toward him. His
+quality lead was saying something about the older line. One of the Kessler
+engineers had turned to Herr Brandl and was asking him, in German, low,
+whether next week was really possible.
+
+They were arguing about the spindle.
+
+Maren sat with her pencil over the pad and waited to be needed. It was
+some seconds before she understood what had just happened, and by then the
+woman from purchasing was asking her to put a question to Herr Brandl about
+the tender, and she put it.
+
+Nobody was looking at her.
+
+-----
+
+In the afternoon a woman named Sabine Kraus sat down on her left, shook
+hands all round, and for three hours did Maren’s job in front of her.
+
+It was like watching someone walk who has never thought about walking. Frau
+Kraus did not appear to be doing anything. She listened with her head a
+little tilted and made marks on a narrow pad, not words, small signs with
+arrows, and when a speaker stopped she gave it back in the other language
+entire, in order, at once, with the figures. She took four minutes at a
+stretch without visible effort. Twice she asked a speaker to repeat a
+number, in exactly the tone Maren had used that morning.
+
+Maren had expected to mind. She found she was fascinated. For years /good
+at it/ had been a fog on the far side of a river. Now it was a woman in a
+navy jacket, three feet away, and Maren could see how far off she was, and
+roughly in which direction.
+
+“You did the morning?” Frau Kraus said afterwards, capping her pen. “The
+spindle? Mr. Purcell told me. You asked about the /nicht/.”
+
+“I wasn’t sure of it.”
+
+“Good. The bad ones don’t ask.”
+
+-----
+
+On Sunday she did what she now did on Sundays.
+
+The notebook, the three columns, the week added up. Seven hours: four and a
+half on say-it-back, an hour on cards, an hour and ten minutes on the
+twenty scenes, and nothing at all on reading about methods, which she noted
+with a surprise that was becoming familiar.
+
+She took each of the three in turn and wrote one word beside it.
+
+/Say-it-back. CHANGE. Forty-five seconds now, not thirty; I am getting
+two-thirds, which is too many. And workshop talk, not the radio. Ask
+Matthias if he would record his aunt./
+
+/Cards from my own misses. CONTINUE. Fifteen new a week is enough./
+
+/The twenty scenes./
+
+She opened the envelope herself; there was nobody to hold this one.
+/By 12 March the days a week on which I do the hard exercise will rise from
+4 to 6. I am 50% sure. If nothing in my log differs from the three weeks
+before, I will say it did nothing I can see./
+
+She counted. Thirteen days of the hard exercise in the last fourteen. Six
+and a half a week.
+
+So the line was met. She looked at it without triumph. In those same two
+weeks the date had been bearing down on her, and Pri had sat on a folding
+chair with her handbag on her knee, and a researcher had turned up at her
+house with masking tape. Any of those would have got a person to her desk.
+She could not take them out and see what was left.
+
+/Met: 6.5 a week. I cannot separate it from the date getting nearer. Still
+untested. CONTINUE to the end of April, ten minutes, no more. New line:
+with no date pressing, do the days hold at six? If they fall back to four I
+write that it did nothing I can see./
+
+She sealed that one too, and wrote the date across the flap.
+
+Then the cards themselves. One of the twenty was no longer something she
+wanted; it had happened, on Thursday, at about twelve minutes past ten. She
+took the mezzanine room out of the deck and stood it against the lamp. In
+its place she wrote a new one, and it took her a while.
+
+She rang Keane, because she had said that she would tell him.
+
+“Six and a half,” he said. “And you can’t tell.”
+
+“I can’t tell.”
+
+“No. Well. I’ve something to tell you.” He sounded like a man who has
+agreed to go up in a balloon. “Ines came into my office on Monday and put
+a protocol on my desk. Forty people. Half with scene cards every morning,
+half with ten minutes of something dull and matched. One outcome, countable,
+fixed beforehand, in a registry. She says she would like to stop being
+embarrassed in either direction. She wants it run before my review, and she
+wants my name second.”
+
+“Will you?”
+
+“I’m terrified. I’ve had nineteen years of not knowing, and it turns out
+I’d grown rather fond of it.” A pause. “Yes.”
+
+There was a message from Wim, sent at 6:04 that morning. /Day 336. Level 7.
+21 min. Shop: three of four. Forgot the stamps. She says that’s a pass. I
+say it isn’t./
+
+And one from Pri, which had been sitting there since Friday night, and
+which Maren had been leaving for when she had the quiet to think about it.
+
+/Dunmore have renewed. Purcell says you saved him forty thousand dollars
+with one question. ALSO: Kessler want an interpreter in Chemnitz in June,
+second line, three days. They asked for you by name. Do you want it?/
+
+She did not answer at once.
+
+She laid the nineteen cards and the new one out on the carpet, in no order.
+Five of them had needed her to follow speech. One of those was propped
+against the lamp, done. She could half do the thing now, and she knew how
+to get the other half: what to practise, how to tell whether it was
+working, how to be wrong about it in a small way on a Thursday and not in a
+large one on the day. She could do that, she thought, for almost anything
+on this floor. The letters from Bestemor. The chessboard behind her back.
+
+It had taken her four years and a banana box to find out how.
+
+What it had not told her was which. Chemnitz, or her mother’s kitchen. The
+third desk, or the lake. She had an hour a day and knew, at last, what an
+hour could do, and the cards lay on the carpet in no order, exactly as the
+rules said they should, not one of them more important than another.
+
+She picked up the telephone to answer Pri, and put it down again, and went
+on looking.
+
+* What Maren has just learned
+
+The scene on Maren's first card happens, and it happens a few seconds after
+the thing she feared most: she is not sure, everyone looks at her, and she
+asks. On Sunday she decides each practice separately, change, continue,
+continue, and records honestly that the one she could not score met its
+line for reasons she cannot separate. She knows how to become able to do a
+thing. She does not yet know which thing she wants the hour for.
+
+* Your practice — Step 16: Decide, weekly
+
+/Twenty minutes, once a week, from now on./
+
+1. Add up the week's hours by practice, as in step 8.
+2. Take each practice in turn. Look at its numbers and at the last check.
+   Write one word beside it:
+   - *Continue*, if you are failing about half the time and the check is
+     moving.
+   - *Change*, if the number has stalled or you are getting most right. Say
+     what changes.
+   - *Stop*, if it met its stop line, or if it has no connection you can
+     state to your scene and you need the time.
+3. For any practice that cannot be scored, open its sealed line. Write the
+   result. Then write, honestly, what else could have produced it. If you
+   continue, seal a new line that would tell you more.
+4. Look at your twenty scenes. Take out any that has happened, or that you
+   no longer want. Write a new one in its place.
+5. Set the date of your next check.
+6. Tell whoever is relying on you what has changed.
+
+Then one question the method cannot answer for you. You now know how to
+become able to do a particular thing, and you have a limited number of
+hours. Look along your scenes and ask which one the hours are for. Nothing
+in these sixteen steps will tell you. It is the right question to be left
+with.
+
+* The same step in Org Reason
+
+1. Press ~C-c r w~ to open this week's review. It keeps earlier weeks'
+   answers. In its notes write each practice with its one word and what
+   changes.
+2. Press ~C-c r d~ and record the outcome of any prediction that is due.
+   For a self-reported practice, write in the outcome what else could
+   explain the result.
+3. For each practice you are continuing with a new sealed line, press
+   ~C-c r p~ and ~C-c r f~ again. A stopped practice goes to =someday= with
+   ~C-c r C~.
+4. Open your reference note of twenty scenes and edit it: remove what has
+   happened, add what you now want.
+5. Clarify the next check as =calendar= with its date.
+
+- [ ] This week's review names each practice with a decision, no due
+  prediction is left unrecorded, and the next check has a date.
+
+*If you keep a trusted system:* this is one more section of your weekly
+review, and it belongs there. If you have a project whose outcome was the
+scene that has now happened, mark it done. Do not let it quietly become a
+different project.
+
+*If you have worked out what limits you:* the question of which scene the
+hours are for is the question of what you are trying to achieve and what
+most holds it back. That is a different kind of thinking from practice, and
+it is where to go next.
+
+* Carry forward
+
+A weekly decision for each practice, a current list of scenes, and the date
+of your next check. And the question this work leaves open: of everything
+you could now become able to do, which do you want?

@@ -1,0 +1,172 @@
+#+title: How the story was built
+#+subtitle: Two Minutes at Full Speed · Appendix
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:16-two-minutes.org][16. Two Minutes]] · [[file:README.org][Contents]]
+
+* How the Story Was Built
+
+** The seed
+
+A translator who has collected every method for a sharper mind and practised
+none has ten weeks to follow two minutes of spoken German she can already
+read.
+
+** The five sentence story
+
+Maren Solberg, with a box of unused methods, agrees to interpret at an audit
+and asks an expert on practice which method has the best evidence. He makes
+her name one scene and try it, and at a conversation table she follows one
+word in five, after her firm has told the client she will do the job. While
+he is away she fills her hour with a memory game and flashcards whose scores
+climb, tells her partner not to book a professional, and three weeks later
+follows no more than before. He returns; she learns to tell score from
+ability, seals a guess, changes the exercise, and for her second complaint
+he shows her a practice with no evidence that he has kept secret for
+nineteen years. She sorts everything she owns by the proof it owes, misses
+her own guess by one, does the job in the form she can actually do, and is
+left knowing how to become able and not yet what for.
+
+** The characters under pressure
+
+Maren does everything a careful person does before beginning, and never
+reaches the end of before. Her weakness is a number that goes up. Her test
+is whether she will write down a guess she expects to miss, and say what she
+cannot do before someone has to find out.
+
+Keane has spent a career asking experts to account for their practice hour
+by hour, and has kept one practice of his own in a drawer for nineteen
+years. He will not claim more for it than "I think". Showing it costs him.
+
+Ines wants claims that survive. She is right about the memory game, right
+that a feeling of progress is the cheapest result there is, and right that
+nineteen years was long enough to find out. Jutta will not slow down. Pri
+has an hour, ten weeks and a client. Wim opens the laptop because a number
+went up today, and nobody in the story tells him he is wrong.
+
+** The scene map
+
+Part One, /The Box/: a count, one scene, twenty scenes, and four minutes at
+a real table. Part Two, /The Score/: an exercise, a source of correction, an
+assistant, a log, and then five weeks spent on the two things that give a
+pleasant number. Part Three, /The Dark/: what each number was a number of, a
+sealed guess, a changed exercise, and the bottom drawer. Part Four, /The
+Check/: four squares of masking tape, forty points, and two minutes.
+
+* The Method in the Story
+
+** Its usual names
+
+| Steps | The usual name | In the story |
+|-------+----------------+--------------|
+| 5–6, 12 | Deliberate practice: a well-defined task at the edge of ability, with immediate feedback and repetition | Ten seconds, then thirty, at about half right |
+| 6 | Deliberate against purposeful practice | The two piles on Keane's table |
+| 8 | A practice log | Attempt, correction, next time |
+| 9 | Spaced repetition and retrieval practice | Ines's three curves |
+| 10 | Transfer: near and far | "What went up?" |
+| 11, 15 | A prediction registered in advance; calibration | The envelope in Ines's drawer |
+| 12 | A plateau | Seventy-one |
+| 13 | Image cycling | The bottom drawer |
+
+Anders Ericsson, whose work Keane's is modeled on, kept the term
+/deliberate practice/ for fields that have established training methods and
+teachers who can assign the next exercise, and used /purposeful practice/
+for focused work with feedback where no such field exists. Chapter 6 turns
+on that distinction.
+
+** The two complaints, as conflicts
+
+Maren makes two complaints. Each is a conflict between two things she
+needs, held in place by an assumption.
+
+/"Real practice needs a teacher."/ (chapter 6)
+
+- To become able in fact, I must practise at the edge of what I can do,
+  with informed and prompt correction.
+- To become able in fact, I must begin now with the means I have.
+- For the first, I must wait until I find someone who knows.
+- For the second, I must practise alone.
+- /Because/ only a human expert can choose the exercise and correct the
+  attempt.
+
+What gives way: the material can correct in seconds, an assistant can find
+the pattern across attempts, and a real setting once a week says whether
+either is telling the truth. And where no field exists there is no teacher
+to wait for; the only correction is a guess written down first.
+
+/"I am grasping in the dark."/ (chapter 13)
+
+- To become much more capable, I must aim my practice at a definite target.
+- To become much more capable, I must be honest about what I can now
+  understand.
+- For the first, I must specify the ability before I practise.
+- For the second, I must leave it unspecified, and drift.
+- /Because/ to aim at an ability one must be able to describe it from where
+  one stands.
+
+What gives way: a scene can be pictured without being understood. Maren's
+first card describes the room from outside because she cannot see it from
+inside, and it serves anyway, twice: as one of the pictures she runs each
+morning, and as the thing her check looks for.
+
+If you keep these in a commons, enter each in the /conflict/ tree: the aim
+as =objective=, the two needs as =need=, the two actions as =prerequisite=,
+and the "because" as an assumption on the relationship it sits under.
+
+** What is known, and what is not
+
+The story sorts methods into four squares. Where each sits in the story:
+
+| | A tool or a count can score it | Only you can report it |
+|---+---+---|
+| Shown to work for the thing practised | Spaced, self-testing review; practising the skill itself with feedback; memory techniques for the material memorized; chess study for chess; juggling for juggling | — |
+| Wider benefit disputed or untested | Working-memory games such as dual n-back; relational-skills training; speed reading | Image cycling; image streaming; "multiple mentality" exercises |
+
+These placements were written from general knowledge of the research. They
+have not been checked against each source for this novella, and you should
+read before relying on them.
+
+- *Spacing and self-testing* are among the most replicated findings in the
+  study of learning. See Dunlosky and colleagues (2013) and Cepeda and
+  colleagues (2006).
+- *Working-memory training* reliably improves performance on the trained
+  task. Whether it improves anything else has been disputed since Jaeggi and
+  colleagues (2008) reported that it did; later reviews, among them
+  Melby-Lervåg and Hulme (2013) and Simons and colleagues (2016), found
+  little or no benefit beyond tasks like the trained one.
+- *Image cycling* comes from William Bengston and Bennett Mayrick, who used
+  it as part of a method of hands-on healing, described in Bengston's book
+  /The Energy Cure/. Bengston has published experiments on healing in mice.
+  Nothing published tests whether image cycling affects thinking, learning or
+  performance. Bengston himself says the list of wishes was made as a tool
+  for cycling and not as a way of bringing wishes about. The story does not
+  claim that it helped Maren, and you should not read it as saying so.
+  Nothing in this novella is advice about health.
+
+** Try a different story
+
+Take one thing you have wanted to be able to do for years. Count what you
+have collected about it and the longest run of days you practised. Then
+name a Tuesday.
+
+** Sources
+
+- K. Anders Ericsson and Robert Pool, /Peak: Secrets from the New Science of
+  Expertise/ (2016).
+- John Dunlosky and others, "Improving Students' Learning With Effective
+  Learning Techniques", /Psychological Science in the Public Interest/ 14
+  (2013).
+- Nicholas Cepeda and others, "Distributed Practice in Verbal Recall Tasks",
+  /Psychological Bulletin/ 132 (2006).
+- Susanne Jaeggi and others, "Improving Fluid Intelligence with Training on
+  Working Memory", /PNAS/ 105 (2008).
+- Monica Melby-Lervåg and Charles Hulme, "Is Working Memory Training
+  Effective? A Meta-Analytic Review", /Developmental Psychology/ 49 (2013).
+- Daniel Simons and others, "Do 'Brain-Training' Programs Work?",
+  /Psychological Science in the Public Interest/ 17 (2016).
+- William Bengston with Sylvia Fraser, /The Energy Cure/ (2010).
+
+The people and the laboratory in the story are invented, as is the paper
+/How Interpreters Are Made/. This novella is independent and is not
+affiliated with or endorsed by any of the authors above.

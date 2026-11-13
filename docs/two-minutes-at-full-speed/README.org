@@ -1,0 +1,96 @@
+#+title: Two Minutes at Full Speed — become able to do it
+#+startup: showall
+#+options: toc:nil num:nil
+
+/Two Minutes at Full Speed/ is a novella in which Maren Solberg, a
+translator with a banana box full of methods for improving her mind and a
+record of four days' practice, agrees to interpret at an audit ten weeks
+away. She can read every word the engineers will say and cannot follow one
+sentence in five when it is spoken. She learns how to choose a skill,
+practise it with correction, tell a rising score from a growing ability, and
+find out whether the practice changed anything outside itself. The whole
+novella is here, one chapter to a page, and each chapter is followed by an
+exercise. By chapter 16 you have a practice of your own, a check you can
+fail, and a way to sort any method you meet by the proof it owes you.
+
+You need nothing but this and a notebook. If you have read /Three Hundred
+Seats/ or /The Fourth Visit/, or keep the practices they teach, each page
+says where they meet this one.
+
+* How each page works
+
+- *The chapter* :: the story itself.
+- *What Maren has just learned* :: the chapter's lesson in a few lines. It
+  gives away nothing from later chapters.
+- *Your practice — Step N* :: the exercise in general terms, for a notebook
+  and a clock. It is complete in itself.
+- *The same step in Org Reason* :: the same exercise with Org Reason's
+  commands, on your real records. Paragraphs marked /If you keep a trusted
+  system/ and /If you have worked out what limits you/ are for readers of
+  the other two novellas. Skip them otherwise.
+- *The same step in Reason Commons* :: on steps 11 and 14 only, where the
+  step involves claims other people might share or dispute.
+- *Carry forward* :: what to keep for the next step.
+
+Do the steps in order, on one skill. Step 4 has to happen out in the world.
+Steps 10 and 15 need another person to judge.
+
+The story is in four parts: The Box (chapters 1–4), The Score (5–9), The
+Dark (10–13) and The Check (14–16). The [[file:appendix.org][appendix]] shows how the story was
+built, sets out its two central complaints as conflicts, and says what is
+and is not known about the methods in it. Read it last.
+
+* The sixteen chapters and steps
+
+| After chapter              | Step                                   | What you have                                  | Page |
+|----------------------------+----------------------------------------+------------------------------------------------+------|
+| 1. The Box                 | Count what you have collected          | Two numbers on a card                          | [[file:01-the-box.org][01]]   |
+| 2. A Tuesday               | Write one scene                        | One card with one scene                        | [[file:02-a-tuesday.org][02]]   |
+| 3. Nineteen More           | Write the wider list                   | Twenty scenes, in no order                     | [[file:03-nineteen-more.org][03]]   |
+| 4. Jutta's Table           | Try it today                           | The particular things that stop you            | [[file:04-juttas-table.org][04]]   |
+| 5. Ten Seconds             | Shrink it to one exercise              | An exercise you fail half the time             | [[file:05-ten-seconds.org][05]]   |
+| 6. Half of What I Wrote    | Name where correction comes from       | Sources of correction, and how soon            | [[file:06-half-of-what-i-wrote.org][06]]   |
+| 7. The Coach               | Use an assistant as coach              | The pattern in your misses                     | [[file:07-the-coach.org][07]]   |
+| 8. Three Columns           | Record the attempt                     | A log that sets up tomorrow                    | [[file:08-three-columns.org][08]]   |
+| 9. Three Hundred Cards     | Space the repetitions                  | A few cards a day from your own misses         | [[file:09-three-hundred-cards.org][09]]   |
+| 10. What Went Up           | Set the real-world check               | A check with a judge, a count and a date       | [[file:10-what-went-up.org][10]]   |
+| 11. Thirty Percent         | Seal a guess                           | An expectation someone else is holding         | [[file:11-thirty-percent.org][11]]   |
+| 12. Seventy-One            | Change the exercise                    | A harder exercise, the same hours              | [[file:12-seventy-one.org][12]]   |
+| 13. The Bottom Drawer      | Give the unscorable a routine          | A routine, a report and a stop line            | [[file:13-the-bottom-drawer.org][13]]   |
+| 14. The Floor              | Sort by the proof owed                 | Four squares, and your hours divided           | [[file:14-the-floor.org][14]]   |
+| 15. Forty Points           | Run the check                          | A result beside a guess                        | [[file:15-forty-points.org][15]]   |
+| 16. Two Minutes            | Decide, weekly                         | A practice that corrects itself                | [[file:16-two-minutes.org][16]]   |
+
+* What you have at the end
+
+- *A target you can stand in* (steps 1–4): one scene in place of a wish to
+  be better, a wider list of what you want, and the particular things that
+  stop you, found by trying.
+- *A practice* (steps 5–9): one short exercise at the edge of what you can
+  do, correction that reaches you in seconds, an assistant or a teacher for
+  the pattern, a log, and spacing for what must be kept.
+- *A way of not fooling yourself* (steps 10–13): a check in real conditions,
+  a guess sealed beforehand, the habit of changing the exercise when the
+  number stalls, and a way to try something unproven without pretending it
+  is proven.
+- *A decision* (steps 14–16): every method you own sorted by what it owes
+  you, your hours divided, a result, and a weekly review.
+
+* Before you start with Org Reason
+
+You need Org Reason 0.2.0 or later with =org-reason-mode= on (see [[file:../install.md][install.md]]).
+The keys assume the default prefix, ~C-c r~; ~C-c r ?~ shows the menu.
+
+Org Reason records practice entries, freezes predictions before their
+outcome and keeps your weekly review. It does not schedule flashcards, play
+training games or talk to an assistant; you use your own tools for those and
+carry the results across. It makes no claim that any practice improves
+anything. It keeps what you expected beside what happened.
+
+* A note on evidence
+
+The story takes positions on what is known. They are stated carefully in the
+[[file:appendix.org][appendix]], with sources, and they were written from general knowledge of the
+research, not from a fresh reading of each paper. One practice in the story,
+image cycling, has no evidence for any effect on thinking; the story says so
+and does not decide whether it works. Nothing here is medical advice.

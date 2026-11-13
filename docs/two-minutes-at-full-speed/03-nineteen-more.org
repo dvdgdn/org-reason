@@ -1,3 +1,10 @@
+#+title: 3. Nineteen More
+#+subtitle: Two Minutes at Full Speed · Part One: The Box
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:02-a-tuesday.org][2. A Tuesday]] · [[file:README.org][Contents]] · Next: [[file:04-juttas-table.org][4. Jutta's Table]]
+
 * The chapter
 
 He had given her a second card with the rules on it, four lines in the same
@@ -22,16 +29,16 @@ Then she looked at the rules again, and at the card from Thursday with the
 mezzanine room on it, and saw that she had written three faculties. She
 could not stand anywhere in /a reliable memory for names/.
 
-It took her until ten o'clock to get one that would do, and it came from
+It took her until ten o’clock to get one that would do, and it came from
 nowhere near the box.
 
-/The kitchen at my mother's. The blue airmail letters from Bestemor are on
+/The kitchen at my mother’s. The blue airmail letters from Bestemor are on
 the table. I am reading one aloud, in Norwegian, and my mother is laughing
 at the part about the goat./
 
 She had not known she wanted that. The letters were in a shoebox at her
-mother's house; her grandmother had been dead eleven years; Maren's
-Norwegian was a child's, forty words and a lullaby. She looked at the card
+mother’s house; her grandmother had been dead eleven years; Maren’s
+Norwegian was a child’s, forty words and a lullaby. She looked at the card
 for some time.
 
 After that they came unevenly, some of them faster than she liked.
@@ -39,10 +46,10 @@ After that they came unevenly, some of them faster than she liked.
 /A table outside a café in Lisbon. I have been here six days alone. I have
 a book and there is nowhere I am supposed to be./
 
-/My nephew's kitchen table. He has the chessboard; I have my back to it. I
-say "knight takes e5" and he says a word his mother doesn't allow./
+/My nephew’s kitchen table. He has the chessboard; I have my back to it. I
+say “knight takes e5” and he says a word his mother doesn’t allow./
 
-/The lake at my mother's, the far side. I am standing in the shallows
+/The lake at my mother’s, the far side. I am standing in the shallows
 getting my breath and the dock I swam from is very small./
 
 /The red wool coat in the window on Garnet Street. I am wearing it. It is
@@ -96,7 +103,7 @@ probably meant her to. She went along the row with the box beside her.
 Five of the twenty needed her to follow speech: the mezzanine, the dinner,
 a telephone call she had written about, a film without the words along the
 bottom, an argument with Jutta from the German Society, whom she had never
-met and had invented on the strength of a notice on the Society's door.
+met and had invented on the strength of a notice on the Society’s door.
 Three needed a different skill each. Three needed money and nothing else.
 Seven needed nothing she had ever collected or read about. They needed a
 week off, or a train ticket, or for her to ask her mother where the shoebox
@@ -106,7 +113,7 @@ And /sharper/ was not on the carpet at all. Not one scene required a better
 working memory. Several required that she be able to do some definite,
 ordinary thing she could not do yet.
 
-*
+-----
 
 She took them to room 311 on Monday morning before work, in an envelope,
 meaning to leave them in his pigeonhole. The door was ajar. She knocked on
@@ -126,39 +133,39 @@ The kettle clicked. He saw her in the glass, and his thumb stopped. He
 squared the stack without hurry, opened the bottom drawer of the filing
 cabinet, and put it in.
 
-"Ms. Solberg. You're early by three days."
+“Ms. Solberg. You’re early by three days.”
 
-"I brought the nineteen." She held out the envelope. She did not ask. It
+“I brought the nineteen.” She held out the envelope. She did not ask. It
 was plainly not her business, and she was fairly sure she had seen
-something private. "I didn't want to lose my nerve about one or two of
-them."
+something private. “I didn’t want to lose my nerve about one or two of
+them.”
 
-He did not take the envelope. "They're not for me."
+He did not take the envelope. “They’re not for me.”
 
-"You asked me to bring them."
+“You asked me to bring them.”
 
-"I asked you to write them. I wanted to know whether you could." He poured
-water into a mug. "And I wanted you to see how much of what you want needs
-anything in that box. Did you look?"
+“I asked you to write them. I wanted to know whether you could.” He poured
+water into a mug. “And I wanted you to see how much of what you want needs
+anything in that box. Did you look?”
 
-"Seven don't need any of it. Five need the same one thing." She hesitated.
-"Being cleverer isn't on any of them."
+“Seven don’t need any of it. Five need the same one thing.” She hesitated.
+“Being cleverer isn’t on any of them.”
 
-"No. It rarely is." He sounded neither pleased nor surprised. "Keep them.
-Not in the box; somewhere of their own. And don't let them turn into a
-schedule. You'll have had a go at that already."
+“No. It rarely is.” He sounded neither pleased nor surprised. “Keep them.
+Not in the box; somewhere of their own. And don’t let them turn into a
+schedule. You’ll have had a go at that already.”
 
-"On Sunday. In pencil."
+“On Sunday. In pencil.”
 
-"Good. You rubbed it out." He dipped the teabag twice. "They may be useful
-again later, for something else. I'm not sure yet whether I'll suggest it."
+“Good. You rubbed it out.” He dipped the teabag twice. “They may be useful
+again later, for something else. I’m not sure yet whether I’ll suggest it.”
 
-"What sort of something?"
+“What sort of something?”
 
 He seemed to consider several answers.
 
-"Thursday," he said. "Six o'clock, the German Society on Aldine Street.
-There's a table. Bring your first card and nothing to write with."
+“Thursday,” he said. “Six o’clock, the German Society on Aldine Street.
+There’s a table. Bring your first card and nothing to write with.”
 
 * What Maren has just learned
 

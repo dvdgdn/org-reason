@@ -1,28 +1,35 @@
+#+title: 9. Three Hundred Cards
+#+subtitle: Two Minutes at Full Speed · Part Two: The Score
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:08-three-columns.org][8. Three Columns]] · [[file:README.org][Contents]] · Next: [[file:10-what-went-up.org][10. What Went Up]]
+
 * The chapter
 
-"Katrin needs a yes or a no by Friday," Pri said on Wednesday, with her
-hand over the telephone. "She's got another offer for that week. Are we on
-track?"
+“Katrin needs a yes or a no by Friday,” Pri said on Wednesday, with her
+hand over the telephone. “She’s got another offer for that week. Are we on
+track?”
 
 Maren had the numbers ready. She had, she realized afterwards, been waiting
 to be asked.
 
-"Level four on the memory training, from two. Fifteen hundred cards at
-ninety-seven percent. The dictation's gone from fifty-four to sixty-one."
+“Level four on the memory training, from two. Fifteen hundred cards at
+ninety-seven percent. The dictation’s gone from fifty-four to sixty-one.”
 She turned the laptop so that Pri could see the curve from the laboratory,
-which rose from left to right like a good year's sales. "Everything's going
-up."
+which rose from left to right like a good year’s sales. “Everything’s going
+up.”
 
-"That's the German? All of that?"
+“That’s the German? All of that?”
 
-"It's all part of it."
+“It’s all part of it.”
 
 Pri looked at the curve. She had run the business side of Solberg & Nair
 for nine years on the principle that Maren did not say things she had not
 checked.
 
-"Four thousand two hundred dollars I would love not to spend," she said.
-"I'd still rather spend it than lose Dunmore. You're sure."
+“Four thousand two hundred dollars I would love not to spend,” she said.
+“I’d still rather spend it than lose Dunmore. You’re sure.”
 
 There was a moment, quite distinct, in which Maren could have said /I added
 up my week and seventy minutes of it was German/. It was true and she had
@@ -30,12 +37,12 @@ written it to a stranger. But the curve was on the screen, and the ring had
 been closed for seventeen days, and tomorrow was Thursday, when she would
 do better at the table, and then it would be true enough.
 
-"I'm sure."
+“I’m sure.”
 
-"Then I'll tell her no on Friday morning." Pri took her hand off the
-telephone. "Unless I hear from you."
+“Then I’ll tell her no on Friday morning.” Pri took her hand off the
+telephone. “Unless I hear from you.”
 
-*
+-----
 
 She meant to be ready for Thursday. That was why she did what she did on
 Wednesday night.
@@ -43,9 +50,9 @@ Wednesday night.
 The assistant had by now helped her build something useful: a list of the
 things her ears kept missing. The run-together pairs. Numbers from
 twenty-one to ninety-nine, spoken. Forty workshop words she had heard at
-Frau Reinholt's table and failed to catch. Three hundred items in all. It
+Frau Reinholt’s table and failed to catch. Three hundred items in all. It
 occurred to her that if she could simply /have/ all three hundred by six
-o'clock tomorrow, she would walk in a different person.
+o’clock tomorrow, she would walk in a different person.
 
 She made them into cards and began at eight.
 
@@ -58,14 +65,14 @@ with eleven mistakes.
 Two hundred and eighty-nine of three hundred. She had never learned so much
 in an evening. She went to bed with her head ringing.
 
-*
+-----
 
-"/Zweiundsiebzig/," said the man on Frau Reinholt's left, in the middle of
+“/Zweiundsiebzig/,” said the man on Frau Reinholt’s left, in the middle of
 a sentence about his pension.
 
 Maren knew that she knew it. She could see the card. She could see where on
 the card the word had been, upper left, and that she had got it right three
-times running at about eleven o'clock. What she could not do was hear it
+times running at about eleven o’clock. What she could not do was hear it
 and have it mean a number. By the time /seventy-two/ arrived he had finished
 with the pension and was on to his knee.
 
@@ -78,31 +85,31 @@ same sick little jolt: /I had that last night./
 
 /Haben wir/ she caught every time. It no longer cost her anything.
 
-"You are tired," Frau Reinholt said afterwards, in English, cutting the
+“You are tired,” Frau Reinholt said afterwards, in English, cutting the
 cake. It was poppy seed.
 
-"I was up late. I learned three hundred things."
+“I was up late. I learned three hundred things.”
 
-"In one night?"
+“In one night?”
 
-"I thought, if I had them all for today —"
+“I thought, if I had them all for today —”
 
-"And do you have them?"
+“And do you have them?”
 
 Maren shook her head.
 
-"No." Frau Reinholt did not seem surprised. "But '/haben wir/' you have.
+“No.” Frau Reinholt did not seem surprised. “But ‘/haben wir/’ you have.
 I watched you. Three weeks ago it was a hammer. Since when do you practise
-that one?"
+that one?”
 
-"Since the first Saturday. A few minutes, most days. It's on a list I read
-before I start."
+“Since the first Saturday. A few minutes, most days. It’s on a list I read
+before I start.”
 
-"A few minutes, most days, three weeks. And it sits." She tapped the table.
-"Three hundred, one night, four hours. And they are gone before the cake.
+“A few minutes, most days, three weeks. And it sits.” She tapped the table.
+“Three hundred, one night, four hours. And they are gone before the cake.
 My teacher in the stenography school said: what goes in in one night goes
 out in one night. She was a horrible woman. She was right about
-everything."
+everything.”
 
 Maren went home and did not open the flashcard program. It was the first
 evening in eighteen days that the ring stayed open, and she noticed that
@@ -110,94 +117,94 @@ she minded.
 
 On Friday at five past nine there was a voicemail.
 
-/Hi, it's me. I've told Katrin no. She was very nice about it, she's taking
-the Frankfurt job. So that's that! Fingers crossed, partner. Not that we
+/Hi, it’s me. I’ve told Katrin no. She was very nice about it, she’s taking
+the Frankfurt job. So that’s that! Fingers crossed, partner. Not that we
 need them./
 
-*
+-----
 
 She went to the laboratory at five because the session was booked, and did
 her twenty minutes badly, and when Dr. Albrecht came to read the screen
-Maren said, "It's not working," and to her own horror her voice cracked.
+Maren said, “It’s not working,” and to her own horror her voice cracked.
 
-Dr. Albrecht looked at her, then at the corridor, then pulled the booth's
+Dr. Albrecht looked at her, then at the corridor, then pulled the booth’s
 second stool across with her foot and sat down.
 
-"The game? You're at four point two. It's working fine."
+“The game? You’re at four point two. It’s working fine.”
 
-"The German. I went back to the table yesterday. One word in four. It was
+“The German. I went back to the table yesterday. One word in four. It was
 one in five three weeks ago. And I told my partner on Wednesday not to book
-the professional, because of this." She pointed at the curve. "And she
-didn't."
+the professional, because of this.” She pointed at the curve. “And she
+didn’t.”
 
-"Ah," said Dr. Albrecht.
+“Ah,” said Dr. Albrecht.
 
 She did not say /I told you/. She had told her, in room 311, in so many
 words, and they both knew it.
 
-"Show me what else you've been doing. All of it."
+“Show me what else you’ve been doing. All of it.”
 
-Maren showed her. Dr. Albrecht went through the flashcard program's
+Maren showed her. Dr. Albrecht went through the flashcard program’s
 statistics the way a doctor reads a chart: quickly, stopping twice.
 
-"This deck. Two thousand common words. Ninety-seven percent on the first
-day."
+“This deck. Two thousand common words. Ninety-seven percent on the first
+day.”
 
-"Yes."
+“Yes.”
 
-"So you knew them before you started."
+“So you knew them before you started.”
 
-"I — yes. I'm a translator."
+“I — yes. I’m a translator.”
 
-"Then for three weeks you've been testing yourself on what you already
-know. That's why it's pleasant." She scrolled. "And this one, from
-Wednesday. Three hundred new. Four passes in one evening, then nothing." She
-looked up. "How many did you have at the table?"
+“Then for three weeks you’ve been testing yourself on what you already
+know. That’s why it’s pleasant.” She scrolled. “And this one, from
+Wednesday. Three hundred new. Four passes in one evening, then nothing.” She
+looked up. “How many did you have at the table?”
 
-"Hardly any."
+“Hardly any.”
 
-"No. You wouldn't." She took a marker from her lanyard and turned to the
+“No. You wouldn’t.” She took a marker from her lanyard and turned to the
 small whiteboard on the booth wall, where someone had left a shopping list.
-She drew a line that fell away steeply from left to right. "You learn
-something. You start losing it at once, fast, then slower." She drew a
+She drew a line that fell away steeply from left to right. “You learn
+something. You start losing it at once, fast, then slower.” She drew a
 second line beginning partway down the first: it rose back to the top and
-fell again, less steeply. Then a third, shallower still. "If you get it
-back just as it's slipping, by making yourself recall it, not by reading it
+fell again, less steeply. Then a third, shallower still. “If you get it
+back just as it’s slipping, by making yourself recall it, not by reading it
 again, it comes back and it goes more slowly the next time. Then you can
-wait longer: a day, three days, a week."
+wait longer: a day, three days, a week.”
 
-"And if I go through it four times in one night."
+“And if I go through it four times in one night.”
 
-"Then you've climbed back up this first bit four times while it had hardly
-dropped. It feels marvellous. Nothing's been fetched from anywhere." She
-capped the marker. "I'll say this for it: it's about the best-supported
-thing I know of in the whole business of learning. It's been found over and
-over for a hundred years. It's also no fun at all, because the moment that
-does you good is the moment you nearly can't remember."
+“Then you’ve climbed back up this first bit four times while it had hardly
+dropped. It feels marvellous. Nothing’s been fetched from anywhere.” She
+capped the marker. “I’ll say this for it: it’s about the best-supported
+thing I know of in the whole business of learning. It’s been found over and
+over for a hundred years. It’s also no fun at all, because the moment that
+does you good is the moment you nearly can’t remember.”
 
-"That program was built to do that. The spacing."
+“That program was built to do that. The spacing.”
 
-"It was doing it, for words you didn't need. And for the three hundred you
-did need, you went round it." She said it without edge. "Put the three
-hundred in. Let it give you fifteen a day. When it shows you one you'll hate
-it, because it'll have waited until you've almost forgotten."
+“It was doing it, for words you didn’t need. And for the three hundred you
+did need, you went round it.” She said it without edge. “Put the three
+hundred in. Let it give you fifteen a day. When it shows you one you’ll hate
+it, because it’ll have waited until you’ve almost forgotten.”
 
 Maren looked at the three curves.
 
-"And your game?"
+“And your game?”
 
 Dr. Albrecht was silent for a moment.
 
-"My game isn't doing your German any harm. I don't think it's doing it any
-good; that's my bet, and I'll know more in April. What it's doing is taking
-twenty minutes of your sixty." She stood up. "I can't tell you to drop out
-of my own study. I'd lose a participant. But I told you what I expected.
-When's Ambrose back?"
+“My game isn’t doing your German any harm. I don’t think it’s doing it any
+good; that’s my bet, and I’ll know more in April. What it’s doing is taking
+twenty minutes of your sixty.” She stood up. “I can’t tell you to drop out
+of my own study. I’d lose a participant. But I told you what I expected.
+When’s Ambrose back?”
 
-"Monday."
+“Monday.”
 
-"Then on Monday tell him what you told me." She paused at the curtain. "And
-ring your partner tonight. Don't leave her till Monday."
+“Then on Monday tell him what you told me.” She paused at the curtain. “And
+ring your partner tonight. Don’t leave her till Monday.”
 
 * What Maren has just learned
 

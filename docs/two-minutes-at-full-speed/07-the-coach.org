@@ -1,3 +1,10 @@
+#+title: 7. The Coach
+#+subtitle: Two Minutes at Full Speed · Part Two: The Score
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:06-half-of-what-i-wrote.org][6. Half of What I Wrote]] · [[file:README.org][Contents]] · Next: [[file:08-three-columns.org][8. Three Columns]]
+
 * The chapter
 
 The first thing the assistant told her was that she was doing wonderfully.
@@ -17,7 +24,7 @@ There were five encouraging things. She read them with a small glow, and
 at the end of the fifth found that she knew nothing she had not known
 before.
 
-/It will say you're doing wonderfully unless you ask it straight out./
+/It will say you’re doing wonderfully unless you ask it straight out./
 
 She tried again, and this time wrote it the way she would have briefed a
 freelancer.
@@ -31,14 +38,14 @@ The answer took a few seconds and had no exclamation marks in it.
 /Of 268 words missed or wrong across the 40 clips:/
 
 /1. Short words run together (98). Verb + pronoun, preposition + article,
-and similar pairs spoken as one unit. Examples: "haben wir" heard as
-"hammer" (clips 1, 9, 22); "ist es" missed (4, 31); "in dem" / "im" (12)./
+and similar pairs spoken as one unit. Examples: “haben wir” heard as
+“hammer” (clips 1, 9, 22); “ist es” missed (4, 31); “in dem” / “im” (12)./
 
 /2. Numbers (53). Especially two-digit numbers and decimals. Examples:
-"dreiundvierzig" missed (1); "siebenundachtzig Komma zwei" missed (15)./
+“dreiundvierzig” missed (1); “siebenundachtzig Komma zwei” missed (15)./
 
 /3. Sentence-final verbs and separable prefixes after long clauses (47).
-Examples: "…vorgelegt worden ist" missed (7); final "an" of "anfangen" missed
+Examples: “…vorgelegt worden ist” missed (7); final “an” of “anfangen” missed
 (28)./
 
 /4. Proper names (38)./
@@ -72,23 +79,23 @@ She printed the list of thirty and did forty minutes with it that night.
 Something had shifted. When /haben wir/ went by, she caught it. Not every
 time. But it had stopped being a hammer.
 
-*
+-----
 
 It was on Wednesday that she found out the other thing about it.
 
 She was going back through the sorted misses, pleased with them, checking a
-few against her document out of a translator's habit of checking
-everything. Group three, example two: /final "an" of "anfangen" missed
+few against her document out of a translator’s habit of checking
+everything. Group three, example two: /final “an” of “anfangen” missed
 (28)./
 
 Clip twenty-eight did not contain the word /anfangen/. She read the text
 twice. It was about a rail strike. There was a separable verb in it, and
 she had missed the end of it, but it was a different verb entirely.
 
-She asked. /In clip 28 you say I missed the "an" of "anfangen". That word
+She asked. /In clip 28 you say I missed the “an” of “anfangen”. That word
 is not in clip 28./
 
-/You're right, and I apologize for the error,/ it said at once, and
+/You’re right, and I apologize for the error,/ it said at once, and
 supplied the correct verb, and the count for group three did not change.
 
 It was a small thing. The pattern was real; she had checked a dozen more by
@@ -99,14 +106,14 @@ voice had given it away.
 So she tried something. She had a question she actually cared about, and
 she asked it twice, an hour apart, in two different ways.
 
-/I've started working-memory training alongside my listening practice.
-What's the evidence that it will help my comprehension?/
+/I’ve started working-memory training alongside my listening practice.
+What’s the evidence that it will help my comprehension?/
 
 It was a warm, well-organized answer. Listening placed heavy demands on
 working memory. Several studies had reported improvements after training.
 Many learners found it beneficial as part of a balanced routine.
 
-/I'm wondering whether to drop working-memory training and spend the time on
+/I’m wondering whether to drop working-memory training and spend the time on
 listening practice instead. Is there good evidence the training transfers to
 real-world skills?/
 
@@ -128,10 +135,10 @@ She wrote three lines on a card and propped it against the lamp.
 /It can propose the next exercise. I decide./
 /It cannot tell me whether I am getting nearer the room. Jutta can./
 
-*
+-----
 
-"The Saxons," she said to Frau Reinholt on Thursday, in German, with care,
-"drop the last /t/ of a word in every position. Is that right?"
+“The Saxons,” she said to Frau Reinholt on Thursday, in German, with care,
+“drop the last /t/ of a word in every position. Is that right?”
 
 She had lasted eleven minutes at the table before falling out, and had
 caught /haben wir/ twice, with a private thrill each time. She was now
@@ -139,29 +146,29 @@ attempting conversation over the cake, which was a kind of plum slab.
 
 Frau Reinholt put down her fork.
 
-"Who has told you this?"
+“Who has told you this?”
 
-"A — program. I asked it about your accent."
+“A — program. I asked it about your accent.”
 
-"In every position." She said it to the man on her left, who pursed his
-lips. Then to Maren, in English, with relish: "/Nicht/ we say /nich/. This
+“In every position.” She said it to the man on her left, who pursed his
+lips. Then to Maren, in English, with relish: “/Nicht/ we say /nich/. This
 is true. /Ist/ we say /is/. This is true of half of Germany. In every
-position, no. Your machine has not been to Dresden."
+position, no. Your machine has not been to Dresden.”
 
-"It sounded very sure."
+“It sounded very sure.”
 
-"Naturally. So did the prosecutor." She pushed the cake toward her. "What
-else does it tell you?"
+“Naturally. So did the prosecutor.” She pushed the cake toward her. “What
+else does it tell you?”
 
 Maren explained about the forty clips and the ninety-eight.
 
-Frau Reinholt listened with her head on one side. "That is good," she said.
-"That is what my teacher did, in the stenography school, with a red pencil.
-She counted my errors by kind. I hated her." She cut another slice. "So the
+Frau Reinholt listened with her head on one side. “That is good,” she said.
+“That is what my teacher did, in the stenography school, with a red pencil.
+She counted my errors by kind. I hated her.” She cut another slice. “So the
 machine can count. And it can lie. Like a clerk. You keep it, and you check
-its work, and you do not let it tell you how the judge speaks."
+its work, and you do not let it tell you how the judge speaks.”
 
-On the bus Maren's telephone showed her the ring on the flashcard program,
+On the bus Maren’s telephone showed her the ring on the flashcard program,
 closed for the eleventh day running, and a message from the Performance
 Laboratory: /Session 9 complete. You have reached level 3./
 
