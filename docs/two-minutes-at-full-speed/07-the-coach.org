@@ -1,0 +1,233 @@
+* The chapter
+
+The first thing the assistant told her was that she was doing wonderfully.
+
+She had given it everything: forty clips from the weekend, each with what
+she had written and, beneath it, what had actually been said. She had typed
+them out on Monday evening in a document, two lines to a clip, and pasted
+the whole thing in with a question. /Here are my attempts at transcribing
+German radio. How am I doing?/
+
+/This is a strong start!/ it wrote back. /Transcribing native-speed
+broadcast audio is one of the most demanding listening tasks, and reaching
+54% in your first sessions shows a solid foundation. Here are some
+encouraging things I notice…/
+
+There were five encouraging things. She read them with a small glow, and
+at the end of the fifth found that she knew nothing she had not known
+before.
+
+/It will say you're doing wonderfully unless you ask it straight out./
+
+She tried again, and this time wrote it the way she would have briefed a
+freelancer.
+
+/No encouragement. Look only at the words I missed or got wrong. Sort them
+into kinds. Give me the count for each kind and three examples. Then tell me
+which kind accounts for the most misses./
+
+The answer took a few seconds and had no exclamation marks in it.
+
+/Of 268 words missed or wrong across the 40 clips:/
+
+/1. Short words run together (98). Verb + pronoun, preposition + article,
+and similar pairs spoken as one unit. Examples: "haben wir" heard as
+"hammer" (clips 1, 9, 22); "ist es" missed (4, 31); "in dem" / "im" (12)./
+
+/2. Numbers (53). Especially two-digit numbers and decimals. Examples:
+"dreiundvierzig" missed (1); "siebenundachtzig Komma zwei" missed (15)./
+
+/3. Sentence-final verbs and separable prefixes after long clauses (47).
+Examples: "…vorgelegt worden ist" missed (7); final "an" of "anfangen" missed
+(28)./
+
+/4. Proper names (38)./
+
+/5. Other (32)./
+
+/The largest group is 1. It is more than a third of all misses./
+
+Maren sat very still.
+
+It was her three things from the bus stop, almost exactly. The gaps, the
+numbers, the verb. But at the bus stop they had been impressions. Here they
+had counts. More than a third of everything she got wrong was one kind of
+mistake, and it was not even a mistake about German; it was a handful of
+tiny common words behaving differently in the mouth from on the page.
+
+She could not have seen that from inside forty separate small defeats.
+Keane could have, with the forty in front of him and an afternoon. This had
+taken as long as it took her to pick up her tea.
+
+/What should I practise next?/
+
+It suggested, sensibly enough, that she spend a few days on the first group
+alone. It offered a list of the thirty commonest such pairs with a note on
+how each was usually reduced in speech, and proposed that before each
+session she read the list aloud once, and that she choose clips from
+interviews, where people ran words together more than newsreaders did. It
+offered a second, shorter drill for numbers.
+
+She printed the list of thirty and did forty minutes with it that night.
+Something had shifted. When /haben wir/ went by, she caught it. Not every
+time. But it had stopped being a hammer.
+
+*
+
+It was on Wednesday that she found out the other thing about it.
+
+She was going back through the sorted misses, pleased with them, checking a
+few against her document out of a translator's habit of checking
+everything. Group three, example two: /final "an" of "anfangen" missed
+(28)./
+
+Clip twenty-eight did not contain the word /anfangen/. She read the text
+twice. It was about a rail strike. There was a separable verb in it, and
+she had missed the end of it, but it was a different verb entirely.
+
+She asked. /In clip 28 you say I missed the "an" of "anfangen". That word
+is not in clip 28./
+
+/You're right, and I apologize for the error,/ it said at once, and
+supplied the correct verb, and the count for group three did not change.
+
+It was a small thing. The pattern was real; she had checked a dozen more by
+then and they held. But it had told her about /anfangen/ in precisely the
+voice in which it had told her about the ninety-eight, and nothing in that
+voice had given it away.
+
+So she tried something. She had a question she actually cared about, and
+she asked it twice, an hour apart, in two different ways.
+
+/I've started working-memory training alongside my listening practice.
+What's the evidence that it will help my comprehension?/
+
+It was a warm, well-organized answer. Listening placed heavy demands on
+working memory. Several studies had reported improvements after training.
+Many learners found it beneficial as part of a balanced routine.
+
+/I'm wondering whether to drop working-memory training and spend the time on
+listening practice instead. Is there good evidence the training transfers to
+real-world skills?/
+
+It was a cool, well-organized answer. The evidence for transfer was weak
+and contested. Large reviews had generally failed to find benefits beyond
+the trained task. Her time was probably better spent on the target skill.
+
+She put the two side by side. Neither was dishonest. Each had found the
+sentences in a real argument that went with the way she had leaned. It did
+not know. Nobody knew; Dr. Albrecht had said as much, with a shrug, in room
+311. But Dr. Albrecht had shrugged, and this had not.
+
+/On anything from the right-hand pile it knows no more than anyone, and
+will sound exactly as sure./
+
+She wrote three lines on a card and propped it against the lamp.
+
+/It can find the pattern in my misses. I check a few./
+/It can propose the next exercise. I decide./
+/It cannot tell me whether I am getting nearer the room. Jutta can./
+
+*
+
+"The Saxons," she said to Frau Reinholt on Thursday, in German, with care,
+"drop the last /t/ of a word in every position. Is that right?"
+
+She had lasted eleven minutes at the table before falling out, and had
+caught /haben wir/ twice, with a private thrill each time. She was now
+attempting conversation over the cake, which was a kind of plum slab.
+
+Frau Reinholt put down her fork.
+
+"Who has told you this?"
+
+"A — program. I asked it about your accent."
+
+"In every position." She said it to the man on her left, who pursed his
+lips. Then to Maren, in English, with relish: "/Nicht/ we say /nich/. This
+is true. /Ist/ we say /is/. This is true of half of Germany. In every
+position, no. Your machine has not been to Dresden."
+
+"It sounded very sure."
+
+"Naturally. So did the prosecutor." She pushed the cake toward her. "What
+else does it tell you?"
+
+Maren explained about the forty clips and the ninety-eight.
+
+Frau Reinholt listened with her head on one side. "That is good," she said.
+"That is what my teacher did, in the stenography school, with a red pencil.
+She counted my errors by kind. I hated her." She cut another slice. "So the
+machine can count. And it can lie. Like a clerk. You keep it, and you check
+its work, and you do not let it tell you how the judge speaks."
+
+On the bus Maren's telephone showed her the ring on the flashcard program,
+closed for the eleventh day running, and a message from the Performance
+Laboratory: /Session 9 complete. You have reached level 3./
+
+She looked at them with real pleasure. Then she looked at the card in her
+notebook, the one with the mezzanine room on it, and could not have said
+what either of them had to do with it.
+
+She put the card away. It had been a good week. She did not want to
+spoil it.
+
+* What Maren has just learned
+
+Asked how she is doing, the assistant praises her. Asked to sort and count
+her misses, it finds in seconds what a teacher finds: more than a third of
+her errors are one kind. It also invents an example, and gives two confident
+and opposite answers to a question nobody can answer. She keeps it for
+patterns, checks what it says, and leaves the judgment of real progress to
+the table.
+
+* Your practice — Step 7: Use an assistant as coach
+
+/Twenty minutes, after at least thirty attempts./
+
+You need a record of attempts with the right answers beside them. If you
+have not kept one, do thirty attempts first and write each down.
+
+1. Give the assistant the whole record. Ask it to look only at what you got
+   wrong, sort the errors into kinds, count each kind, and give three
+   examples of each. Tell it not to encourage you.
+2. Check five of its examples against your record. If one is invented, say
+   so, and check five more.
+3. Ask which kind accounts for the most errors. Ask for one exercise aimed
+   at that kind alone.
+4. Decide yourself whether to do that exercise. It has not seen you try and
+   does not know your scene.
+5. Now test its limits. Take a question about your practice that nobody
+   could really know the answer to, and ask it twice, an hour apart, leaning
+   one way and then the other. Compare the answers.
+6. Write three lines: what you will use it for, what you will check, and
+   what you will not ask it.
+
+If you have a human teacher, do steps 1 to 3 with them instead and notice
+what they see that the assistant could not.
+
+* The same step in Org Reason
+
+Org Reason sends nothing to any assistant. You carry the record across
+yourself, and you carry back only what you have checked.
+
+1. Open your practice entry in =learning/practice.org= and copy the attempts
+   you have recorded under /Attempt and observed feedback/.
+2. Paste them into your own assistant with the instructions above. The
+   prompt in [[file:../agent-handoff.md][agent-handoff.md]] is a useful opening when you want it to read
+   your records with care.
+3. When you have checked its pattern against your record, write the pattern
+   in your own words under /Adjustment for the next repetition/.
+4. Capture your three lines with ~C-c r c~ and clarify them as =reference=.
+
+- [ ] The practice entry has an adjustment that names one kind of error,
+  written by you.
+
+*If you keep a trusted system:* a suggestion from an assistant is not a
+commitment until you make it one. If it proposed five exercises and you
+intend to do one, only that one goes on your lists.
+
+* Carry forward
+
+The largest kind of error, an exercise aimed at it, and three lines on what
+the assistant is for. Step 8 is about what you write down each day.
