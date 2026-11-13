@@ -1,0 +1,247 @@
+#+title: 13. Bram's Arithmetic
+#+subtitle: The Fourth Visit · Part Three: The Conflict
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:12-six-minutes.org][12. Six Minutes]] · [[file:README.org][Contents]] · Next: [[file:14-nine-people.org][14. Nine People]]
+
+* The chapter
+
+“Three,” said Bram. “You want three.”
+
+“Eventually. For the whole estate. To begin with, one.”
+
+“Three technicians at five point two a day is seventy-eight visits a week.”
+He had worked it out before she finished the sentence. “You’re short thirty
+repairs a week, by your own count, and your answer is to take seventy-eight
+visits off my wall.”
+
+It was Tuesday, six days before the hearing. Corinne had come to the yard
+with the napkin, now transferred to a clean page, and a speech. She had
+practiced the speech. It began with Samira Haddad’s ceiling and ended with
+the phrase /the right van, once/, and she was two sentences into it when
+Bram held up a hand.
+
+“Don’t sell it to me.”
+
+“I’m not —”
+
+“You are. You’re good at it. You sold the board on tenants and you nearly
+sold Gloria on Wendell’s cage, and I sat there both times and thought, that
+sounds right.” He said it without malice. “I don’t want it to sound right. I
+want to see what happens. You’ve got your yellow wall, where everything goes
+down to one thing. Do me one that goes up. Start with Mags on a telephone and
+show me where it ends.”
+
+She had not prepared that. She looked at the bare patch of wall beside her
+earlier notes, and at the pad of stickies, and felt the speech go out of her
+like air.
+
+“All right. You do it with me. Stop me whenever the next one doesn’t
+follow.”
+
+At the bottom she put the change, on one note. /A technician takes the first
+call and sees or hears the fault./
+
+“Then the job is understood before it’s booked.” She wrote it and put it
+above.
+
+“Not every job,” said Bram. “Some you’ve got to open up.”
+
+“Most.”
+
+“Mags says most. I’d say most.” He nodded. “Go on.”
+
+“Then the right trade is sent, with the right part.”
+
+“/If/ the part’s in the cage. If it’s on a truck from the supplier you’ve
+understood the job very nicely and you still can’t do it.”
+
+That was fair. She wrote a second note and put it beside the first, joined
+with a loop, as at the yard: /and the part is in the cage or is waited for
+before booking./
+
+“Then the visit finishes the repair.”
+
+“If the tenant’s in.”
+
+“The technician on the phone agrees the time with them. That’s part of the
+call.”
+
+“Put it on, then. Don’t just say it.”
+
+She put it on. The chain was growing sideways as well as up. Each time she
+reached for the next effect, Bram found the thing that also had to be true
+for it to follow, and each time, once it was written, the step was firmer.
+She noticed that she had stopped wanting to argue with him.
+
+/Then a repair takes fewer visits./
+
+“How many?”
+
+“I don’t know. Mags thinks about one point four. There’ll always be some
+that need a second.”
+
+“One point four.” Bram went to his own desk and came back with a calculator
+the size of a paperback. “So. Whole estate, three off the tools. Twenty-one
+technicians. And don’t give me five point two, because a visit where you
+actually fit the thing is longer than a visit where you look at it and go
+away. Call it four a day.”
+
+“Four.”
+
+“Twenty-one fours are eighty-four, times five days, four hundred and twenty
+visits a week. At one point four.” He pressed the keys with one finger.
+“Three hundred repairs.”
+
+“Against two hundred and ninety coming in,” Corinne said, and for a second
+was simply glad that it was more.
+
+“Ten a week.” He turned the calculator round so she could see it. “There are
+two thousand and fifteen jobs in that queue. At ten a week that’s four years.
+That’s your answer for the hearing. ‘Give us till 2029.’”
+
+She looked at the little grey figure. Three hundred.
+
+It was the moment to say that it would surely be better than one point four.
+That at one point two it would be three hundred and fifty. That repeat calls
+would drop, that morale would lift, that — the speech was right there. She
+could feel exactly how to make this number sound like a triumph.
+
+“That’s thin,” she said instead. “You’re right. If Mags is wrong by a
+little, it’s nothing.”
+
+Bram looked almost disappointed.
+
+“I haven’t got one point two,” she went on. “I’d like it to be one point
+two. I’ve got one afternoon, one ceiling, and Mags’s guess. I’m not going to
+tell you it’s more than that.”
+
+He grunted. He stood looking at the upward chain with the calculator hanging
+in his hand, and then, slowly, he went on with it himself.
+
+“Mind you.” He took the pad from her. “A third of what comes into that call
+center is people ringing back about a job that’s not been done. Lu said that
+once, thirty-five percent. If the job’s done first time they don’t ring
+back.” He wrote /Fewer repeat calls/ and stuck it up to one side. “And if my
+lads are on four jobs that they can finish, they’re not on six that they
+can’t. Nobody’s driving back here for a valve at two in the afternoon.” He
+wrote that too. “And I’ll tell you something else that’s not on anybody’s
+wall. Dev’s asked for a transfer to grounds. Twenty-nine years old. Good
+hands. He said he’s sick of knocking on doors to tell people he can’t help
+them.”
+
+He stuck the notes up crookedly, beside her straight ones.
+
+The chain now ran from a telephone at the bottom to four notes at the top,
+and the four at the top were, she saw, her first troubles turned inside out.
+/A repair takes about one visit. Open orders fall. Tenants wait days, not
+weeks. Tenants do not ring twice./ She had not planned that. It was simply
+where the arrows went.
+
+“It’s still ten a week,” Bram said.
+
+“Yes.”
+
+“And it’s still three of my best not turning a wrench.”
+
+“Yes.”
+
+“I think it’s daft.” He put the calculator down. “I thought the stickers were
+daft and they found two point four, so I’m not as sure of myself as I was.
+Here’s what I’ll do. Garnet Street. The three buildings, one-sixteen to
+one-twenty. From tomorrow, calls from those go to Mags, and I cover her row.
+Jobs from there don’t go on my wall till she says they’re ready. One month.
+If visits per repair in those three buildings is under two, I’ll eat my
+board. If it isn’t, you take your stickers down and we never speak of it.”
+
+“I haven’t got a month. The hearing’s Monday.”
+
+“Then you’ll go to the hearing with four days of it,” Bram said, “same as
+I’d have to.”
+
+She emailed Lu from the yard to ask that calls from the three Garnet Street
+buildings be put through to a desk in dispatch from eight the next morning.
+The answer was one word, /Fine/, with no name under it.
+
+On the bus she sent Odile a photograph of the upward chain. It was not a
+request for approval; she told herself that.
+
+/Your superintendent did half of this,/ Odile wrote back. /I can see two
+kinds of handwriting. Good./ Then, a minute later: /Everyone on this wall
+gets something they wanted. Who isn’t on it?/
+
+Corinne looked at the photograph. The technician on the telephone. The right
+trade, the right part. The tenant, who did not ring twice.
+
+And a note she had not written, for nine people in a horseshoe on the second
+floor of Tolland Avenue, who took the first call now and whose supervisor
+had answered her with one word.
+
+* What Corinne has just learned
+
+Corinne is asked to show what follows from the change, and to stop selling.
+With Bram supplying what else must be true at every step, the chain reaches
+the opposite of each of her troubles, and his arithmetic gives a margin of
+ten repairs a week. She says it is thin. He then adds three effects of his
+own.
+
+* Your thinking — Step 13: Reason forward
+
+/Fifteen minutes. Better with your sternest critic./
+
+1. Write your change from step 12 at the bottom of a clean sheet.
+2. Ask: /if this is in place, what happens next?/ Write the effect above it
+   with an arrow.
+3. For each arrow ask the question from step 6: is the change enough on its
+   own to produce this? Add whatever else must be true beside it, and join
+   the two with a loop.
+4. Keep going up. You are finished when you reach the opposite of each
+   trouble you listed in step 4. If a trouble's opposite cannot be reached,
+   say so on the sheet.
+5. Put numbers on the chain wherever you can, even rough ones. Work out the
+   size of the result. If it is small, write that it is small.
+6. Mark every arrow that rests on a guess.
+
+The pull in this step is to protect the idea: to round the numbers up and
+talk past the thin places. Give the pencil to someone who doubts you and ask
+them to add what is missing. An idea your critic has added to is worth more
+than one they have merely stopped attacking.
+
+* The same step in Org Reason
+
+1. Press ~C-c r t n~ in the =future_reality= tree for each step of the chain.
+   Use the role =predicted_effect= for the steps in between and
+   =desirable_effect= for the results at the top.
+2. Enter each "what else must be true" with the role =existing_condition=.
+3. Press ~C-c r t l~, tree =future_reality=. Select the injection, or a
+   predicted effect, together with any existing conditions as joint sources,
+   the next effect as the target, and =causes= as the relation.
+4. Where an arrow rests on a guess, press ~C-c r t ?~, choose =assumption=,
+   and say so.
+
+- [ ] The injection is joined by relationships to at least one
+  =desirable_effect=, and the guessed steps are marked.
+
+*If you keep a trusted system:* each "existing condition" that is not yet
+true is work for someone. Do not make projects yet. List them on your sheet;
+step 15 puts them in order.
+
+* The same step in Reason Commons
+
+The value of a second person here is the "what else must be true" that you
+could not see from your side.
+
+1. Ask the person most doubtful of the change to propose the conditions
+   under each step.
+2. Each condition and each predicted effect keeps its proposer. A chain with
+   two people's contributions in it should show both.
+3. Ask each person which results at the top they accept as following. Record
+   doubt as a challenge on the specific arrow.
+
+- [ ] Predicted effects and conditions show more than one proposer.
+
+* Carry forward
+
+A chain from your change to the results you want, with its guesses marked
+and its size worked out. Step 14 asks who is missing from it.

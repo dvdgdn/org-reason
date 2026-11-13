@@ -1,0 +1,235 @@
+#+title: 6. The Missing And
+#+subtitle: The Fourth Visit · Part Two: Two Explanations
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:05-apartment-4c.org][5. Apartment 4C]] · [[file:README.org][Contents]] · Next: [[file:07-wendells-pencil.org][7. Wendell's Pencil]]
+
+* The chapter
+
+Corinne went to the yard on Friday wanting a culprit, and she knew it, and
+went anyway.
+
+She had slept badly. Every time she closed her eyes she was standing in the
+boardroom saying /even 4C/. By morning the feeling had hardened into
+something easier to carry: a wish to find the person who had taken the valve
+off the van.
+
+Mags had told her to bring a coat. She brought one. At a quarter to eight the
+yard was full of exhaust and reversing alarms, and among the white Harbor Row
+vans were four grey ones she had not seen before, with /Tri-County
+Mechanical/ on the doors. Her contractor. Ninety-six thousand dollars of
+grey vans, on their fifth day.
+
+Mags had her rear doors open. “Look, then.”
+
+The racking ran down both sides: plastic bins on rails, each with a printed
+label. Perhaps a third of the rails held a label and no bin.
+
+“That one was gas valves. That one was pump heads, two sizes. Thermocouples.
+Angle valves, three-quarter and one-inch.” Mags touched each empty rail as
+though counting teeth. “June. They gave us a new list. A hundred and forty
+lines down to eighty-five. Anything that hadn’t moved off a van in ninety
+days went back to the cage, and half of what went back to the cage went back
+to the supplier.”
+
+“Whose list?”
+
+Mags nodded across the yard.
+
+The stockroom was a steel cage inside the main shed, and beside its counter,
+in a raincoat, with a clipboard, stood Wendell Price. The stockroom had
+reported to the controller for as long as anyone could remember, on the
+theory that stock was money. He was doing the month’s count himself, as he
+did every month. He was sixty-one and had the look of a man perpetually
+adding something up.
+
+“Ms. Vance.” He initialed a line. “I hear Mr. Marchetti is out of danger. I
+was glad.”
+
+“He was visited four times before it was fixed,” Corinne said. “On the
+second, the technician knew exactly what was wrong and didn’t have the part.
+A one-inch angle valve. It used to be on every heating van.”
+
+“It did.”
+
+“You took it off.”
+
+“I took two hundred and twelve thousand dollars off these shelves and those
+vans.” He said it without heat. “May I show you why? It’s quicker.”
+
+He walked her down the cage. At the far end was a bay of dusty cartons.
+“Burner assemblies for the boilers at Ostrander Avenue. We replaced those
+boilers in 2021. Circulator pumps for a model nobody has made in nine years;
+we had thirty. Every van carried three of this and four of that because
+somebody, once, had been caught without one. The auditors asked me how much
+of it had been touched in a year. Under half.” He turned. “That is rent,
+sitting in a bin. I’m not sorry I asked the question.”
+
+It was, she had to admit, the kind of thing she would have praised in a
+newsletter.
+
+“But the valve —”
+
+“The valve hadn’t moved in ninety days on most vans. That was the rule. I
+didn’t choose the items. The movement did.”
+
+Mags had followed them in. “Rule doesn’t know it’s a winter part and you
+counted in June.”
+
+“No,” Wendell agreed. “It doesn’t.” He made a note on the clipboard, which
+surprised Corinne. Then he looked at Mags. “Yesterday you fitted that same
+valve at Garnet Street. It isn’t on your list today either. How did you come
+to have it?”
+
+“Took it from the cage before I went.”
+
+“Why?”
+
+“Because I knew what the job was. It was on the order from the second visit.
+Seized one-inch angle.” Mags shrugged. “If I know what I’m going to, I can
+carry anything. It’s when I’m sent to ‘radiator cold, plumbing’ that I need
+the whole shop on my back.”
+
+Wendell turned to Corinne with his eyebrows slightly raised and said nothing
+further, which was worse than if he had.
+
+She had written it in the notebook on the bus, ready: /If the van does not
+carry the part, then the visit ends with no repair./ She had been pleased
+with it. It was clean, and there was a man at the end of it.
+
+Now she read it over and saw that it was not enough. Mags’s van had not
+carried the part yesterday. The visit had ended with a hot radiator.
+
+“It needs something else,” she said, mostly to herself.
+
+“Say it, then,” said Mags.
+
+“If the van doesn’t carry the part — /and/ nobody knew before setting out
+which part the job would need — then the visit ends with no repair.”
+
+“Better.”
+
+“Is that everything?” Wendell asked. It was a real question; his pencil was
+waiting.
+
+Corinne thought of Dev on the twenty-seventh, kneeling at the radiator,
+knowing what he needed, with the cage four miles away.
+
+“He could have driven back for it.”
+
+Mags laughed, once. “On a six-job row? He’d have lost two jobs and Bram would
+have had him in the office. You don’t go back. You close it and you move.”
+
+“And there’s no time in the day to fetch one,” Corinne said. Three things,
+then, and it took all three. A shorter van list did no harm to a technician
+who knew the job. A job nobody understood did no harm to a van that carried
+everything. And either could be mended by an hour’s drive, if the day had an
+hour in it.
+
+She drew it the way it now had to be drawn: three boxes side by side at the
+bottom, their three arrows tied together with a loop before they reached the
+box above. Mags, watching, said that was how you drew a three-way valve.
+
+“So it’s all three of us,” Mags said. “Him, and Bram, and whoever books ’em.”
+
+“That’s what it says.”
+
+But it was not, if Corinne was honest, what she heard. A grey Tri-County van
+had backed up to the counter while they talked, and a young man in a
+Tri-County jacket was signing for a carton. She read the label upside down.
+Gas valves. Two.
+
+“Are those the last two?” Mags said sharply.
+
+The storekeeper checked his screen. “Till Wednesday.”
+
+“I’ve got a boiler at Pell Court waiting on one of those since the fifth.”
+
+“He’s got a docket,” the storekeeper said, helplessly. “They’re on the
+contract. They draw from us.”
+
+Mags looked at Corinne, and Corinne looked at the empty rails, and at
+Wendell, who had gone back to his count. There were three boxes on her page.
+Only one of them had a signature on it, and a dollar figure, and a date in
+June after which, as everybody at the yard would tell you, things had gone
+wrong.
+
+“You’ve drawn three legs,” Mags said quietly as they walked back to the van.
+“And you’re only looking at the one.”
+
+“It’s the one somebody decided.”
+
+“They were all decided.”
+
+Corinne got into the passenger seat. The leadership meeting was on Tuesday.
+She had four days, a diagram, and an empty chair on Garnet Street, and she
+was going to make someone answer for it.
+
+* What Corinne has just learned
+
+A van without the part is no obstacle to a technician who knows the job. The
+arrow Corinne wanted needs two more causes beside it before it holds: the job
+is unknown, and the day leaves no time to fetch anything. She draws all three
+and goes on looking at the one with a name on it.
+
+* Your thinking — Step 6: Find the missing "and"
+
+/Ten minutes./
+
+Take the arrows from step 5 one at a time.
+
+1. Cover the effect with your hand. Read only the cause. Ask: /is this, by
+   itself, always enough to produce that?/
+2. Look for one occasion when the cause was present and the effect did not
+   happen. If you can find one, something else must also be there when it
+   does happen.
+3. Name the something else. Write it as its own box beside the first, and
+   join their two arrows with a small loop before they reach the effect. Read
+   it aloud: /If A, and B, then C./
+4. Ask once more whether A and B together are enough. Some arrows need
+   three.
+5. Stop adding when taking away any one of the causes would stop the effect.
+
+Then look at your joined causes and notice which one you find yourself
+staring at. It is usually the one that a person decided, on a date. The
+others were decided too.
+
+* The same step in Org Reason
+
+1. Add each extra cause with ~C-c r t n~ (=current_reality=, =cause=).
+2. Press ~C-c r t l~ and choose =current_reality=. At =Source conditions=
+   select all the causes that are only enough together, separated by commas.
+   Select the effect as the target and =causes= as the relation. Selecting
+   several sources records them as one joint cause.
+3. Your earlier single arrow is still there as a proposal. Do not accept it.
+   Accept the joint relationship instead when you are satisfied, with
+   ~C-c r t a~.
+
+- [ ] ~C-c r t v~ shows at least one relationship with two or more sources
+  joined by AND.
+
+*If you keep a trusted system:* each cause in a joint arrow may be looked
+after by a different person. Add a line to each person's =agenda= list so
+that you raise your own cause with them, and not only theirs.
+
+* The same step in Reason Commons
+
+A joint cause is where a group most easily divides, because each person can
+see the others' boxes.
+
+1. Ask each person to state the cause that sits in their own area, and to
+   propose it themselves.
+2. Propose the joint relationship as one claim about all of them together.
+3. If someone accepts "A and B and C together" but not "mainly A", the record
+   should show exactly that. Do not let a joint cause be summarized under
+   one name.
+
+- [ ] The joint relationship is one item with several sources, and each
+  source statement has its own proposer.
+
+* Carry forward
+
+Arrows that each hold only with their "and", and a note of which cause you
+keep looking at. Step 7 hands the whole sheet to someone who will try to
+break it.

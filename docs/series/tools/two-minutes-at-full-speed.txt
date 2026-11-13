@@ -1,0 +1,16 @@
+01-the-box.org|The Box|Part One: The Box
+02-a-tuesday.org|A Tuesday|Part One: The Box
+03-nineteen-more.org|Nineteen More|Part One: The Box
+04-juttas-table.org|Jutta's Table|Part One: The Box
+05-ten-seconds.org|Ten Seconds|Part Two: The Score
+06-half-of-what-i-wrote.org|Half of What I Wrote|Part Two: The Score
+07-the-coach.org|The Coach|Part Two: The Score
+08-three-columns.org|Three Columns|Part Two: The Score
+09-three-hundred-cards.org|Three Hundred Cards|Part Two: The Score
+10-what-went-up.org|What Went Up|Part Three: The Dark
+11-thirty-percent.org|Thirty Percent|Part Three: The Dark
+12-seventy-one.org|Seventy-One|Part Three: The Dark
+13-the-bottom-drawer.org|The Bottom Drawer|Part Three: The Dark
+14-the-floor.org|The Floor|Part Four: The Check
+15-forty-points.org|Forty Points|Part Four: The Check
+16-two-minutes.org|Two Minutes|Part Four: The Check

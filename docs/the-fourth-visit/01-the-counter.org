@@ -1,0 +1,240 @@
+#+title: 1. The Counter
+#+subtitle: The Fourth Visit · Part One: Busy
+#+startup: showall
+#+options: toc:nil num:nil
+
+[[file:README.org][Contents]] · Next: [[file:02-what-the-vans-are-for.org][2. What the Vans Are For]]
+
+* The chapter
+
+The woman at the front counter had not raised her voice, and that was why the
+receptionist had called upstairs.
+
+“She has a folder,” the receptionist said. “She asked for whoever is
+responsible for repairs. I didn’t know who to say.”
+
+Until Friday nobody would have known. On Friday afternoon Gloria Ferreira had
+closed her office door, told Corinne Vance that the board met on Thursday the
+thirteenth, and said, “I need someone to tell them why. You’re good at telling
+people things.” Corinne had been resident services manager at Harbor Row
+Housing for four years and in its communications office for seven before
+that. She had never held a wrench. As of Friday she held the repair backlog.
+
+She went down.
+
+The woman was about fifty, in a port authority jacket, with reading glasses
+pushed up into grey hair. The folder was on the counter, squared to its edge.
+
+“Odile Marchetti. My father is Aldo Marchetti, apartment 4C at 118 Garnet
+Street. On October fifteenth he reported that the radiator in his living room
+was cold. Your people have been to him three times. It is still cold.”
+
+Corinne had brought her laptop for exactly this. She found 4C. Three visits:
+the twentieth, the twenty-seventh, the thirty-first. Beside each one the
+system showed a small green tick.
+
+“I can see we’ve attended each time within our five-day standard,” she said,
+and heard how it sounded.
+
+“Yes. I’m not disputing that you came.” Ms. Marchetti did not open the folder.
+“May I ask you something? When a tenant reports a fault, how many times do
+you usually go to the apartment before it is fixed?”
+
+“It depends on the repair.”
+
+“On average. Roughly.”
+
+Corinne looked at the screen as if the number might be on it. There was a
+number for nearly everything. Open work orders: 1,912. A year ago: 1,240. Days
+from report to completion: 34. Attended within five working days: 91 percent.
+She scrolled. Calls answered within twenty seconds: 94 percent.
+
+“I’d have to ask.”
+
+“Please.”
+
+She rang Bram Kowalczyk at the yard. Bram ran the twenty-four technicians and
+answered on the second ring, as he always did.
+
+“Visits per repair?” he said. “I can give you visits per tech per day. Five
+point two. It was four point one before the board.” He meant his routing
+board, not Gloria’s. “Why?”
+
+“Someone’s asking how many visits it takes to finish a job.”
+
+“As many as it takes. Tell them five point two.”
+
+She rang Lu Tran in the call center. Lu had the answer rate, the average call
+at three minutes ten seconds, and the share of reports given an appointment
+inside five days. She did not have that one either.
+
+Corinne put the phone down. “We don’t measure it.”
+
+Ms. Marchetti nodded slowly, as though a gauge had read what she expected.
+“At the port I plan berths. Which ship goes to which crane, and when. I have
+twenty minutes before I’m due back.” She took a pen from her jacket and laid
+it on the counter beside the folder. “You’ve been given this, I think. You
+came down with the look of someone who has been given something. Would you
+write down for me what keeps going wrong? Not what you’d tell a board. What
+keeps going wrong.”
+
+It was not a reasonable request from a stranger and Corinne did it anyway,
+partly because nobody else in the building had asked. She turned a
+repair-request form over and wrote fast. She had been composing it in her
+head all weekend.
+
+/Tenants are never home for appointments./
+/Technicians rush jobs and cut corners because of the routing board./
+/Stores never has anything in stock since the cuts./
+/The call center books whatever slot is free without thinking./
+/Backlog is out of control./
+/People wait too long./
+/Nobody talks to each other./
+
+She turned it round. Ms. Marchetti read it without touching it.
+
+“Which of these have you seen?”
+
+“All of them. Everyone knows these.”
+
+“Have you seen a technician cut a corner?”
+
+“I’ve been told —”
+
+“I see a word here twice. ‘Because.’ And here it’s hiding: ‘since the cuts.’
+Could you cross those parts out and leave what’s left?”
+
+Corinne crossed them out. /Technicians rush jobs/ looked thinner without its
+reason.
+
+“Is that one something that happened, or something somebody is?”
+
+“I don’t follow.”
+
+“’Tenants are never home.’ Never? My father has not left that apartment since
+the first week of October. He has a bad hip and one working ear.” She said it
+evenly. “What is the thing you could count?”
+
+Corinne looked at the laptop. “Thirty-one percent of visits are closed as ‘no
+access’.”
+
+“Write that. It’s longer, but you could be wrong about it, and then you’d
+find out.”
+
+It took most of the twenty minutes. /Nobody talks to each other/ would not
+turn into anything she could count and Ms. Marchetti said, mildly, that
+perhaps it was a feeling, and that feelings were allowed but should go on a
+different sheet. /Stores never has anything/ became, after a second call to
+Bram, /Technicians arrive without the part the job needs/. Bram said it
+happened “all the time,” and when asked how often said he’d never had a reason
+to count. So that went on the form as well, the thing she had learned at the
+counter: /Nobody knows how many visits a repair takes./
+
+Seven lines. She read them back and felt oddly robbed. Her first list had
+sounded like someone who understood the problem. This one sounded like a
+meter reading.
+
+/Tenants wait 34 days for a repair./
+/Open work orders have gone from 1,240 to 1,912 in a year./
+/31 percent of visits are closed as “no access.”/
+/Technicians arrive without the part the job needs./
+/The wrong kind of technician is sent./
+/Tenants ring again about the same fault./
+/Nobody knows how many visits a repair takes./
+
+“There’s nobody to blame in it,” Corinne said.
+
+“No.” Ms. Marchetti looked at her watch and picked up the folder, which she
+had never opened. “Is that a loss?”
+
+“The board will want to know why.”
+
+“I expect they will. So do I.” She put her pen away. “I fly to Halifax on the
+fifteenth, for three weeks. A berth study; there’s a penalty if I’m not there.
+I mention it so that you know I am not going to stand at this counter every
+morning.” She paused. “And I am not asking you to move my father up your
+list. I’d like that to be clear. If you do that, the next person’s father
+moves down, and I schedule for a living. I’m asking how many visits.”
+
+She left a card. Corinne stood at the counter with the form.
+
+Then she went upstairs and did the thing she had just been asked not to do.
+It took one email to the dispatcher at the yard: /4C, 118 Garnet — red tag,
+first available, please. Daughter came in. Elderly, no heat in living room./
+The reply came inside a minute. /Will squeeze it in./
+
+It was the first useful thing she had done since Friday, and it felt like it.
+She pinned the form with its seven lines to the wall above her desk, where
+she would see it while she wrote something better for the board.
+
+* What Corinne has just learned
+
+Corinne's first list explains everything and can't be checked. Each line names
+a culprit or carries a "because". When she strips those out she has seven
+things that could each turn out to be false, and one of them is a number
+nobody has. She would rather have the first list.
+
+* Your thinking — Step 1: List what keeps going wrong
+
+/Ten minutes./
+
+Choose one situation that has resisted effort: at work, at home, in a group
+you belong to. Something that people have already tried to fix. You will work
+on this one situation through all eighteen steps, so pick one you care about
+and know from the inside.
+
+1. On one sheet, write what keeps going wrong. Ten lines or fewer.
+2. Go down the list and cross out every "because", "since" and "due to",
+   together with what follows it.
+3. Cross out every line that says what somebody /is/ (lazy, careless, never
+   there). Ask what happened that you could count or point to, and write that
+   in its place.
+4. For each line that is left, ask: could I be wrong about this, and would I
+   find out? If not, move it to a second sheet headed /Feelings/. They are
+   real, and they are not for this sheet.
+
+The list should now feel flatter and less clever than the one you started
+with. That is the uncomfortable part, and it is the point: you have set down
+what you know before saying why.
+
+* The same step in Org Reason
+
+The list becomes the start of a commons, which is Org Reason's record of one
+problem. The tree commands need Python 3 with PyYAML; ~C-c r t P~ sets that up
+if a command says it is missing.
+
+1. Press ~C-c r t c~. Give a short directory name such as =repairs=, then a
+   plain name for the situation at =Goal / system= (you will state the aim
+   properly in step 2), then your participant ID and display name.
+2. For each line on your sheet press ~C-c r t n~. At =Tree question= choose
+   =current_reality=. At =Role in this tree= choose =undesirable_effect=. Type
+   the line as the statement.
+3. Press ~C-c r t v~ to see them all.
+
+- [ ] The view lists your troubles under /current reality/, each marked as
+  proposed.
+
+*If you keep a trusted system:* some lines on your first sheet were really
+things you have promised to do about the situation. Those are not troubles.
+Capture each with ~C-c r c~ and clarify it later, so it stops posing as part
+of the problem.
+
+* The same step in Reason Commons
+
+A commons is a shared record. What changes when other people are in it is
+that each line has an author.
+
+1. Open the same commons with the Reason Commons skill, or sit down with one
+   person who lives with the situation too.
+2. Have each person add what keeps going wrong in their own words. Do not
+   merge two people's lines into one tidy sentence.
+3. Look at whose lines are whose. A trouble only one person reports is still
+   a trouble; it tells you where they stand.
+
+- [ ] Every statement shows who proposed it, and none is yet marked as
+  agreed.
+
+* Carry forward
+
+Your sheet of plain troubles, and the second sheet of feelings. Step 2 asks
+what the whole effort is for.

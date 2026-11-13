@@ -1,0 +1,266 @@
+#+title: 8. The Notebook
+#+subtitle: The Fourth Visit · Part Two: Two Explanations
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:07-wendells-pencil.org][7. Wendell's Pencil]] · [[file:README.org][Contents]] · Next: [[file:09-the-wall.org][9. The Wall]]
+
+* The chapter
+
+“No,” said Samira Haddad, and began to close the door of 2B.
+
+“Ms. Haddad, I only need five minutes.”
+
+“You’ve had my neighbours’ five minutes. A hundred and thirty-eight times.”
+But the door stopped, because a child behind her had started to cough, a
+tight dry bark that went on too long, and she turned to it. “Karim. Puffer.
+Then come and say hello.”
+
+Corinne waited on the mat. She had learned at the yard that 118 Garnet had a
+tenants’ council, that 2B chaired it, and that since October its floor
+captains had been writing down every Harbor Row van that pulled up outside.
+/Who would know?/ she had written in Wendell’s office. The answer was
+standing in front of her in a nurse’s-aide tunic, not letting her in.
+
+The boy appeared, seven or so, solemn, holding an inhaler like a toy
+telephone. He looked at Corinne’s lanyard. “Are you the ceiling lady?”
+
+“The ceiling?”
+
+Samira breathed out through her nose and opened the door.
+
+The bathroom was off the hall. Above the bath the ceiling had come through
+in a patch the size of a tray, and around the patch the paint had gone the
+soft speckled black that no tenant handbook has a kind word for. A bucket
+stood in the tub.
+
+“Reported October ninth. Upstairs’ waste pipe. You’ve been three times.”
+Samira said it without looking at the ceiling. “First one was a decorator.
+He said he couldn’t paint over it till the leak was fixed, which, thank you,
+I knew. Second was a plumber who needed a part. Third knocked while I was at
+work, when I’d told your girl on the phone I’m home after three. So I’ve had
+a letter. My son has asthma and there’s mould over his bath and I’ve had a
+letter about my attendance.”
+
+“I wrote the paper that led to the letters,” Corinne said.
+
+She had decided on the bus that she would say it first, before anything
+else could be said. It did not feel brave. It felt like putting down
+something heavy on the wrong person’s floor.
+
+Samira looked at her properly for the first time. “Did you.”
+
+“I told the board that a third of our visits fail because tenants aren’t
+home. I believed it. I now think I was wrong, or mostly wrong, and I can’t
+show it either way, because the only record I have is ours. I’m told you
+have another.”
+
+“So you want my notebook to prove you were wrong.”
+
+“I want to find out.”
+
+“That’s what the last one said. Man from your office, two years ago, about
+the lifts. Read our log, found the three days that suited him, put them in a
+report.” She went into the kitchen, and Corinne followed, uninvited. A
+hardback exercise book lay on top of the refrigerator. Samira took it down
+and held it against her chest. “We’re filing with the city on Friday. Two
+hundred and twelve households have signed. This goes with it. I’m not
+handing it to Harbor Row first so you can get your story straight.”
+
+“Then don’t hand it to me. Keep it shut.” Corinne took out her own notebook.
+She had not planned this either; it came from Wendell’s third question, asked
+three times. “I’ll write down what I think it says. Before you open it. If
+tenants really weren’t home, your log shows empty apartments. If I’m right
+now, it shows people in, and vans that didn’t stay. I’ll write both down,
+with numbers, and sign it, and you can have the page.”
+
+“Why would you do that?”
+
+“Because last time I looked at one of these, I saw what I’d come for.”
+
+Karim had climbed onto a chair to watch. Samira considered her for a long
+moment, then pulled out another chair with her foot.
+
+“Write.”
+
+Corinne wrote it at the kitchen table, in ink.
+
+/Wednesday 26 November. Before seeing the Garnet Street log./
+/Harbor Row’s system: 41 visits to 118 Garnet coded “no access,” 1 October to
+date./
+/If tenants were out, the log will show nobody home for most of them./
+/I expect instead: someone home for more than half. And for those, the van
+gone again in under ten minutes./
+/If someone was home for fewer than ten of the 41, I am wrong again./
+
+She signed it and turned it round. Samira read it twice, tore the page out
+along the stitching and put it in the drawer with the takeout menus.
+
+Then she opened the exercise book.
+
+It was ruled in columns by hand. Date. Apartment. Van arrived. Van left. Who
+was in. Initials of the floor captain. The fourth-floor entries were in a
+round, careful script that turned out to belong to a retired bus driver in
+4A.
+
+They went through it together, Corinne reading out the visit from her
+laptop, Samira finding the line. It took an hour and a pot of tea, and Karim
+kept the tally in crayon on the back of an envelope, which Samira checked.
+
+Forty-one visits coded /no access/.
+
+Someone home for twenty-nine.
+
+Of those twenty-nine, the van had stayed less than five minutes for
+twenty-two.
+
+Corinne found the line for the thirty-first of October without being asked.
+/4C. Van 9:10. Left 9:14. Mr M at window. — R.D./
+
+“He was at the window,” she said.
+
+“He’s always at the window.” Samira’s voice had lost some of its edge, not
+all. “And the other twelve were out. I’m not going to tell you they weren’t.
+Mrs. Okafor in 3D has dialysis three mornings and you book her for mornings.
+People work.”
+
+“Twelve out of forty-one.”
+
+“That’s still twelve wasted trips. Whose fault are those?”
+
+Corinne nearly answered. /The call center books the next free slot without
+asking./ It was in her diagram; it had even survived Wendell. But it had a
+question mark on it.
+
+“I don’t know yet,” she said. “I think I know. I’m trying not to say things
+I think I know.”
+
+Samira closed the book. “Friday we file. This doesn’t change that.”
+
+“It shouldn’t.”
+
+“And those letters.”
+
+“I can’t withdraw them. I don’t have the authority.” It was true and it
+sounded like every other thing Harbor Row had ever told this woman. “I’m
+going to try.”
+
+-----
+
+Mags was waiting in the dispatch office at six with two hundred closed work
+orders printed and stacked, because Corinne had asked her that morning and
+Mags had said that if anyone was finally going to count she wanted to be in
+the room.
+
+They did the other two lines of /Go and look/ at Bram’s desk, under his wall
+of colored blocks, after he had gone home.
+
+Sixty visits coded /no access/, pulled at random from the whole estate. For
+each, Mags read the order. A part outstanding, or a trade that could not
+have done the job, on thirty-eight.
+
+Then the stack. Two hundred repairs completed in October. For each one, the
+number of times a van had gone to that address for that fault. Mags called
+them out and Corinne made five-bar gates down a sheet of paper. One. Three.
+Two. Two. Four. One. Five, for a boiler at Pell Court. It was eight o’clock
+before the last sheet turned.
+
+Four hundred and eighty visits.
+
+“Two point four,” Corinne said.
+
+It did not look like much, written down. She worked the rest on the same
+sheet because she could not wait. Twenty-four technicians at five point two
+visits a day was six hundred and twenty-four visits a week. At two point four
+visits to a repair, that came to two hundred and sixty repairs.
+
+Two hundred and ninety new reports came in every week.
+
+“Thirty short,” said Mags, reading upside down. “Every week.”
+
+“Is there an old stack? From before the board went in?”
+
+There was, in a box file: two hundred orders from the spring of last year
+that someone had pulled for an audit. They counted those too, faster now.
+Three hundred and twenty visits. One point six. And at four point one visits
+a day, four hundred and ninety-two visits a week —
+
+“Three hundred and seven repairs,” Corinne said. “With fewer visits. We did
+more repairs when everyone was doing less.”
+
+Mags looked up at the wall, where her own row would light tomorrow with six
+blocks. “Don’t tell him tonight,” she said. “Let him have his supper.”
+
+On the bus Corinne typed three characters to a number in Halifax, /2.4/, and
+looked at them, and sent them. No answer came. She had not expected one.
+
+* What Corinne has just learned
+
+Corinne wrote down what a record would show before she was allowed to open
+it, and said what would prove her wrong. The tenants' log shows people home
+for twenty-nine of forty-one "no access" visits, and out for twelve. Then she
+counts the number nobody had: 2.4 visits to a repair, where it used to be
+1.6.
+
+* Your thinking — Step 8: Ask what else would be true, and look
+
+/Ten minutes to prepare; the looking takes as long as it takes./
+
+Take the arrows you lean on most, the ones your whole diagram would fall
+without.
+
+1. For each, complete this sentence: /If this is really how it works, then I
+   should also be able to see …/ Name something you have not looked at yet,
+   that somebody could go and count or read.
+2. Write the opposite as well: /If I am wrong, I will see …/
+3. Put a number on it where you can, and write the result that would make you
+   give the arrow up.
+4. Sign and date it. Give the page to someone, or put it where you cannot
+   edit it.
+5. Only then look. Use a record you did not make if one exists.
+6. Write down what you found beside what you expected, including the part
+   that did not fit.
+
+The discomfort here is writing your expectation where another person can
+hold you to it. Do it anyway. A check you only run when you are sure of the
+answer is not a check.
+
+* The same step in Org Reason
+
+Org Reason can fix an expectation in place before the result is known.
+
+1. Press ~C-c r p~. Give the check a title, type your prediction (what you
+   expect to see, and what would show you are wrong), and give the date you
+   will look.
+2. Press ~C-c r f~ to freeze it, and answer its prompts honestly, including
+   whether you already know the outcome. From then on Org Reason will not
+   overwrite the original.
+3. Go and look. Then press ~C-c r o~, choose the experiment, and record what
+   you saw and what you will do next.
+4. Add what you found to the commons with ~C-c r t n~, tree
+   =current_reality=, role =observation=.
+
+- [ ] ~C-c r v~ shows your original wording unchanged beside the outcome.
+
+*If you keep a trusted system:* if the record you need belongs to someone
+else, clarify the request as =delegate= with their name. A check you mean to
+do yourself on a certain day is a =calendar= entry. The dashboard
+(~C-c r d~) lists predictions whose date has come.
+
+* The same step in Reason Commons
+
+What a person saw is a different kind of statement from what a person
+thinks, and a shared record keeps them apart.
+
+1. Record each finding as an observation, with who observed it and where.
+2. If the finding came from someone else's record, they add it under their
+   own name. Do not enter it for them.
+3. Let an observation answer a challenge only if the challenger agrees that
+   it does.
+
+- [ ] Observations are distinct from causes and each names its observer.
+
+* Carry forward
+
+Your signed expectations with what you found beside them, and at least one
+arrow that is now either firmer or gone. Step 9 follows the arrows down.

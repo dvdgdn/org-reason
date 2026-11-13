@@ -1,0 +1,257 @@
+#+title: 18. Where the Queue Went
+#+subtitle: The Fourth Visit · Part Four: The Test
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:17-the-envelope.org][17. The Envelope]] · [[file:README.org][Contents]] · Next: [[file:appendix.org][How the story was built]]
+
+* The chapter
+
+At half past two on a Monday afternoon in late January there were seven
+white vans parked in the yard on Quarry Road with nobody in them.
+
+Bram Kowalczyk stood at the dispatch office window looking at them the way a
+man looks at a crack in a wall.
+
+“Finished,” he said, as Corinne came in. “Every one of them. Four jobs, four
+repairs, back here by two, restocked, and now Dev’s in the mess room doing a
+crossword.” He turned round. “You know what a man with a clipboard would do
+with that car park? He’d have a field day. I’d be ‘underutilized’ again by
+Friday.”
+
+“What did they finish?”
+
+“Twenty-eight jobs between the seven of them. Twenty-seven done first
+visit.” It came out grudgingly and precisely; he had the figure ready. “I’m
+not saying it’s not good. I’m saying it’s half past two.”
+
+On the wall the six trial buildings’ rows showed four blocks each, all gone
+grey for /complete/. Below them the rows for the other twenty-five buildings
+ran on as before, six colors to a row.
+
+And in the corner, at the desk with two screens, Mags and the technician who
+had joined her after New Year both had headsets on and did not look up. A
+whiteboard beside them said /WAITING FOR FIRST CALL: 31. OLDEST: FRI
+AFTERNOON./
+
+Corinne had come to the yard for exactly that number. Eighty-one percent,
+Wendell had said at the hearing, and it had not moved in ten days.
+
+“So here’s what I want,” Bram said. “There’s seventeen hundred jobs in the
+queue from the other buildings that nobody’s rung anybody about. I’ve got
+seven lads and three hours. I put two of those jobs on the end of each row.
+That’s fourteen more visits a day and nobody’s sat in a van.”
+
+It was sensible. It was what she would have said yes to in October without
+drawing breath.
+
+“Which jobs?”
+
+“Whatever’s oldest.”
+
+“Has anyone who could fix them looked at them?”
+
+Bram opened his mouth.
+
+“They’re booked the old way,” Corinne said. “Trade off a list. No parts
+picked. If Dev goes to one at three o’clock —”
+
+“— he gets there and it’s the wrong part, or he’s the wrong trade, and he
+comes away again.” Bram said it heavily, like a man reciting his own
+sentence. “And that’s two point four. I know. I know.” He sat down on the
+edge of his desk. “I’ve had four months of you. I can do it in my sleep. /If/
+I put unlooked-at jobs on the row, /then/.” He waved a hand at the rest.
+
+“I wasn’t going to say it.”
+
+“You were going to ask me a question so I’d say it. You’ve got that off
+her.” He meant Odile, whom he had met once, at the hearing, and regarded
+with deep suspicion. “So what, then? They do crosswords?”
+
+Corinne looked at the car park, and then at the whiteboard in the corner.
+Thirty-one tenants waiting for a call. Seven technicians who knew what a
+cracked trap looked like, with three hours.
+
+She did not say it. She had learned something about that.
+
+“Where’s the wait now?” she said. “Not in October. Today. If you’re a tenant
+at Pell Court with no hot water, what are you waiting for?”
+
+Bram followed her eyes to the corner. He was quiet for a while.
+
+“Her,” he said. “You’re waiting for Mags to ring you.” Another pause. “And
+she’s waiting for there to be two more of her.”
+
+“Mm,” said Corinne, and heard herself, and nearly laughed.
+
+“Dev’s good on the phone,” Bram said slowly. “He’s patient. He’s the one the
+old ladies ask for.” He got up and went to the window again, but he was not
+looking at the vans as he had before. “If the afternoon lot did first calls.
+From here. Two or three of them, two till five. Then tomorrow morning’s jobs
+are already looked at, and they’re on a row with the parts.” He was working
+it out on the glass with a finger. “So the reason they’re back at two is the
+reason they can — hang on.”
+
+He stopped.
+
+“I’m going to have to stand up in front of the board,” he said, “and tell
+them my technicians finish at two so that the telephone works.”
+
+“You could tell them thirteen days. It was thirty-four.”
+
+“They’ll still want to know why there’s vans parked.”
+
+“Yes,” said Corinne. “They will.”
+
+It would be a real argument, and not hers to have for him. She wrote the
+thirty-one on her hand, said goodbye to Mags, who lifted one finger from a
+keyboard, and went for the bus.
+
+-----
+
+The living room of 4C was warm enough that Aldo Marchetti had taken off his
+cardigan.
+
+He did it as a demonstration when she came in, and hung it on the back of
+the chair, and stood beside the radiator in his shirtsleeves with one hand
+on the walking frame and the other held out, palm down, a few inches above
+the iron.
+
+“You see,” he said.
+
+She put her own hand there. Then on the valve, new brass among sixty years
+of paint.
+
+“Twenty-five minutes,” she said. “Mags told me. It was always twenty-five
+minutes.”
+
+“And five visits to do it in. I have been telling them at the physiotherapy.
+They think I exaggerate.” He lowered himself into the chair. On the table by
+the window, under the block of type, there were now two letters. He tapped
+the upper one. “This one I read three times. From your director. No errors.
+I looked.”
+
+Odile came out of the kitchen with soup. It was Monday. She set a bowl in
+front of her father and one in front of Corinne, and sat down with her own.
+
+“How many visits does it take now?” she said. “To fix a repair. On average.”
+
+“One point four in the six buildings. It’s on Lu’s wallboard. She put it up
+herself, next to the twenty seconds.” Corinne broke bread. “It’s two point
+three everywhere else. We start the next eight buildings in March.”
+
+“And where’s the ship waiting?”
+
+Corinne showed her the number on the back of her hand.
+
+“At the desk. Thirty-one people waiting for someone who knows what they’re
+looking at to ring them. In November the wait was at the door. We’ve moved
+it to the telephone.” She thought of Bram’s finger on the glass. “I think
+he’s found what to do about that. He found it himself; I only asked where
+the queue was.”
+
+“And after the telephone?”
+
+It was the same patient question as the first one, at the counter, and
+Corinne found that she had been carrying the answer about for a week
+without setting it down.
+
+“After that it’s what people know. Lu’s agents can do twelve faults from
+Farah’s cards. To take the calls for every building they’d need to do
+thirty, forty. Farah can do a radiator better than I’d have believed. But
+that’s one person, and she got there because Mags sat beside her for a
+month.” She put her spoon down. “I can draw you why the vans were going out
+blind. I can’t draw you how nine people get good at something nobody has
+ever taught them. I don’t know how that works at all.”
+
+“No,” Odile said. “Nor do I.”
+
+She did not make it sound like a failing.
+
+When the bowls were cleared Corinne took a repair-request form out of her
+bag, because she still had a stack of them and had grown attached, and
+turned it over on the tablecloth. Mr. Marchetti put on his second glasses to
+watch.
+
+She wrote the date. Under it:
+
+/Tenants in the six buildings wait up to two days for a first call./
+
+She looked at it. It was true and she could count it. She did not write why.
+
+“That is a short galley,” said Mr. Marchetti.
+
+“It’s the first line.”
+
+“Then you will need a better pen,” he said, and gave her his.
+
+* What Corinne has just learned
+
+The wait has not gone; it has moved, from the tenant's door to the
+first-call desk. What was the answer in December is now the place where
+things queue. The old instinct to keep every technician busy would undo the
+gain. Corinne asks where the wait is and lets Bram find the rest, and then
+starts a new list with one line that has no "because" in it.
+
+* Your thinking — Step 18: Begin again
+
+/Ten minutes, and then every few weeks./
+
+When your change has been in place long enough to have done something, look
+again.
+
+1. Ask: /where is the waiting now?/ Follow one case through from start to
+   finish and note where it sits longest.
+2. It will usually not be where it was. Write down the new place.
+3. Look at what people now want to do with the slack that has appeared
+   somewhere else. Ask what it would do to the place where things are
+   waiting.
+4. Take a clean sheet. Write today's date and one line: what keeps going
+   wrong now. A fact, countable, with no "because".
+5. Check your aim from step 2 and your conditions from step 3. They are
+   probably unchanged. If they have changed, say so.
+6. Put a date in your calendar to do this step again.
+
+You may find the next limit is one you do not know how to reason about: a
+skill nobody has, something no arrangement of the work will supply. Write it
+down as plainly as the rest. Not knowing how is also a fact.
+
+* The same step in Org Reason
+
+1. Press ~C-c r !~ and record what you expected the change to leave behind
+   and what you observe instead. It asks for nothing else.
+2. Press ~C-c r t n~, tree =current_reality=, role =undesirable_effect=, and
+   enter your new first line. It sits in the same commons as the old ones, so
+   the history of the problem stays in one place.
+3. On your old shared cause, press ~C-c r t ?~, choose =assumption=, and note
+   the date on which it stopped being what most troubles shared.
+4. Press ~C-c r w~ to open this week's review and, in its notes, write where
+   the waiting is now.
+
+- [ ] The commons shows a new trouble dated after your change, and the old
+  shared cause carries a note that it has moved.
+
+*If you keep a trusted system:* look at the project you made in step 15. If
+its outcome is met, mark it done; do not let it grow a second purpose. The
+new first line is an inbox item (~C-c r c~), not yet a project. And add to
+your weekly review a standing question: /where is the waiting now?/
+
+* The same step in Reason Commons
+
+A group that fixed one thing together tends to defend the fix.
+
+1. Ask each person where they now see things waiting. Record each as their
+   own observation.
+2. Do not delete the old accepted reasoning. Its history is what lets a
+   newcomer see why the present arrangement exists.
+3. Propose the new trouble as the first statement of the next round, and
+   ask who will work on it.
+
+- [ ] The record shows the earlier accepted view, the date it changed, and
+  a new proposed trouble with its author.
+
+* Carry forward
+
+One new line, dated, and a day in your calendar to look again. And the
+question this work leaves open: when the limit is something people cannot
+yet do, how do they become able to do it?

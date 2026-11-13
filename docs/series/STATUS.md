@@ -25,8 +25,8 @@ story package and a code package usually can.
 
 | # | Decision | The plan assumes | Blocks |
 |---|---|---|---|
-| D1 | Volume 3 as one novella plus a casebook | Yes | V3.2 onward |
-| D2 | A shared world: one character carried into each later volume | Yes, lightly | V2.4 |
+| D1 | Volume 3 as one novella plus a casebook | Yes. Acted on 13 Nov 2026 without the owner choosing; reversible | V3.2 onward |
+| D2 | A shared world: one character carried into each later volume | Yes, lightly. Acted on 13 Nov 2026: Ruth of the Maple Street Pantry appears once in volume 2; volume 3 mentions Garnet Street | V2.4 |
 | D3 | Which flashcard reviewer | Undecided; existing cards are in org-drill format | C2, S8 |
 | D4 | Whether design directories, which contain spoilers, are pushed to this public repository | Not pushed until decided | Pushing any `design/` |
 | D5 | Supplying the image cycling primer and deciding whether it may be committed | Supplied privately, not committed | V3 rungs 2, 3, 13 |
@@ -54,33 +54,29 @@ Record each decision here with its date when made.
 
 ## Phase 1: volume 2
 
-Story track. Files in `docs/series/volume-2/design/`.
+*The Fourth Visit* was written in one pass on 13 November 2026, after the
+owner said "finish the novellas". The gates were not held: the writing agent
+made each choice and recorded it in `docs/series/volume-2/design/story.md`.
+See "What was skipped" below before treating any of this as finished.
 
-- [ ] **V2.0** `OWNER`, an agent may assist. Work one real problem through all
-  six trees with the existing commands. Output `friction.md`: every point
-  where the tool or the method got in the way. Decides S4.
-- [ ] **V2.1** Step 0: lesson ladder, tension ledger, empty numbers file.
-  Needs D6.
-- [ ] **V2.2** Step 1: three candidate sentences. **Gate `OWNER`.**
-- [ ] **V2.3** Step 2: three candidate paragraphs for the chosen sentence.
-  **Gate `OWNER`.**
-- [ ] **V2.4** Step 3: characters; tension ledger completed. Needs D2.
-  **Gate `OWNER`.**
-- [ ] **V2.5** Step 4: one page, with every rung placed.
-- [ ] **V2.6** Step 5: character synopses; fair-opponent test.
-- [ ] **V2.7** Step 6: four pages; bruises marked; numbers file started.
-- [ ] **V2.8** Step 7: character charts.
-- [ ] **V2.9** Step 7a: the story commons, validated, with the wrong first
-  versions included.
-- [ ] **V2.10** Step 8: scene list; all tests for felt tension run on it.
-  **Gate `OWNER`.**
-- [ ] **V2.11** Step 9: scene briefs.
-- [ ] **V2.12** Step 10: draft two chapters. **Gate `OWNER`** on voice. Then
-  the rest.
-- [ ] **V2.13** Passes 1 to 4: logic, numbers, tension, lesson.
-- [ ] **V2.14** Pass 5: exercises. Needs S1 to S3 released, and S4 if built.
-- [ ] **V2.15** Cold reader. Record findings in `cold-reader.md` and fix them.
-- [ ] **V2.16** Appendix, README, sources. **Gate `OWNER`** before release.
+Story track. Design files in `docs/series/volume-2/design/`; the novella in
+`docs/the-fourth-visit/`.
+
+- [ ] **V2.0** `OWNER` Work one real problem through all six trees with the
+  existing commands. Not done. Decides S4.
+- [x] **V2.1 – V2.8** Steps 0 to 7, folded into `story.md` and `numbers.md`.
+  Gates at steps 1, 2 and 3 decided by the agent.
+- [ ] **V2.9** Step 7a. The story's reasoning is in `reasoning.md`, written
+  by hand. It has not been entered as a commons or validated.
+- [x] **V2.10** Step 8: `scenes.md`, with the tests for felt tension run on
+  the list. Gate decided by the agent.
+- [x] **V2.11 – V2.12** Briefs and draft, done together. No voice gate.
+- [x] **V2.13** Passes 1 to 4, by the writing agent only.
+- [x] **V2.14** Pass 5: exercises, written against release 0.2.0. They use
+  only commands that exist. Revise the Org Reason sections when S1 to S3
+  ship: steps 9, 15 and 16 will change most.
+- [ ] **V2.15** Cold reader. Not done.
+- [x] **V2.16** Appendix and README. **Gate `OWNER`** before release: read it.
 
 Code track. See [software.md](software.md).
 
@@ -93,13 +89,24 @@ Volume 2 is finished when V2.16 and S3 are released together.
 
 ## Phase 2: volume 3
 
-- [ ] **V3.0** `OWNER` Practise one skill from each cell of the table in
-  [volume-3.md](volume-3.md) for four weeks with the existing commands.
-  Output `friction.md`.
-- [ ] **V3.1** Evidence ledger, every source read. Needs D6.
-- [ ] **V3.2 – V3.11** Snowflake steps 0 to 9, as V2.1 to V2.11, with the same
-  gates. Step 7a builds fictional skill records, sessions and frozen guesses.
-  Needs D1 and D5.
+*Two Minutes at Full Speed* was written the same way on 13 November 2026.
+Design files in `docs/series/volume-3/design/`; the novella in
+`docs/two-minutes-at-full-speed/`.
+
+- [ ] **V3.0** `OWNER` Practise one skill from each cell for four weeks. Not
+  done.
+- [ ] **V3.1** Evidence ledger. Not done. The novella's appendix states what
+  it takes to be known, from general knowledge, with sources named and not
+  re-read. The SMART figures are still unverified and are not used.
+- [x] **V3.2 – V3.11** Snowflake steps, folded into `story.md`, `numbers.md`
+  and `scenes.md`. Gates decided by the agent. The fictional records of step
+  7a are in `numbers.md`.
+- [x] **V3.12 – V3.13** Draft and passes, by the writing agent only.
+  Exercises use only commands in release 0.2.0; revise when S5 to S10 ship.
+- [ ] **V3.14** Cold reader. Not done.
+- [ ] **V3.15** Release. **Gate `OWNER`**: read it, and decide D5. The
+  image cycling chapters were written from the plan's summary of the
+  owner's primer; the primer itself is not in the repository.
 - [ ] **S5** Skill records.
 - [ ] **S6** Session logging. After S5.
 - [ ] **S7** Source registry.
@@ -125,6 +132,26 @@ One case at a time, in the order of the owner's own practice. For each:
   panels on fictional data.
 - [ ] Release 1.0. `OWNER`.
 
+## What was skipped when the novellas were written
+
+Both novellas exist in full. These things the plan required were not done,
+and each is a reason not to call a volume released.
+
+| Skipped | Consequence | To put right |
+|---|---|---|
+| Owner gates at Snowflake steps 1, 2, 3, 8 and the voice gate | Setting, characters and plot are the agent's choices | Owner reads `design/story.md` for each volume and the first two chapters; anything rejected is rewritten from that step down |
+| D6: the source books were not read | The method is taught from general knowledge. Terms and emphasis may differ from Goldratt, Dettmer and Ericsson | Read them; correct the appendices and any step that misstates the method |
+| V2.0 and V3.0: the owner's own practice | No friction log, so the Org Reason sections describe the commands as documented, not as lived | Owner works the steps; revise pages where the tool gets in the way |
+| Step 7a for volume 2 | The story's trees are not a validated commons | Enter `reasoning.md` as a commons under `docs/series/volume-2/commons/` and validate |
+| Evidence ledger (V3.1) | Claims in volume 3's appendix are unverified | Read each source listed there |
+| Cold readers | Nobody new to either method has done the steps | One reader per volume |
+| S1 to S10 | Exercises cannot use the constraint, skill and session records | Build them; revise the pages |
+| Casebook | Not started | Phase 3, after the owner's own practice |
+
+Checked by script (`docs/series/tools/check_volume.py`): no software or key
+names in any chapter; every Org Reason key in the exercises exists in 0.2.0;
+links resolve; chapters are between 1,100 and 1,900 words.
+
 ## Log
 
 - 2026-11-12 Plan written. C0 done.
@@ -132,3 +159,4 @@ One case at a time, in the order of the owner's own practice. For each:
 - 2026-11-12 S0 done. Published Org Reason 0.2.0 as `v0.2.0`.
 - 2026-11-12 C4 pin published in Emacs config commit `ff75455`. Installs on other computers are pending.
 - 2026-11-12 C3 done in Emacs config commit `b097d0d` (unmerged branch). S0 and C4 reviewed: release CI passed on Linux, macOS and Windows; the pin installs v0.2.0 in a fresh profile. C4 now waits only on the owner.
+- 2026-11-13 *The Fourth Visit* (18 chapters) and *Two Minutes at Full Speed* (16 chapters) written with their steps, on the branch `series/novellas`. Gates not held; see "What was skipped".

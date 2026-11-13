@@ -1,0 +1,154 @@
+#+title: How the story was built
+#+subtitle: The Fourth Visit · Appendix
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:18-where-the-queue-went.org][18. Where the Queue Went]] · [[file:README.org][Contents]]
+
+* How the Story Was Built
+
+** The seed
+
+A housing manager with a growing repair backlog and no authority over the
+people who do the repairs has six weeks to find out why every improvement
+has made tenants wait longer.
+
+** The five sentence story
+
+Corinne Vance is handed the repair backlog at Harbor Row Housing, where
+every team is hitting its targets and tenants wait thirty-four days. She
+gives the board a convincing explanation, that tenants are not home, and the
+notices sent on the strength of it reach an old man her own staff failed
+four times, who is found cold and taken to hospital. She sets out to prove
+the real cause is a stock cut, is taken apart in front of the director, and
+learns that the contractor hired on her first explanation has cost
+forty-eight thousand dollars while the tenants go to the city. She finds the
+conflict that keeps the real cause in place and a way to dissolve it, but
+the trial breaks the one number the city watches and the director stops it.
+With the people who must change now holding the reasoning, she offers the
+hearing a sealed expectation instead of a defense, is partly wrong, and
+finds that the difficulty has moved.
+
+** The characters under pressure
+
+Corinne's talent is being believed. Twice it lets her carry a wrong answer
+into a room. Her test is whether she can hand her reasoning to someone who
+wants to break it, and at the end whether she can say "I expect" where she
+used to say "because".
+
+Odile plans berths at the port and wants her father warm. She will not ask
+for a favor, because she knows what a favor does to a queue. She asks
+questions, is away when Corinne most wants telling, and never gives an
+answer about a business she does not know.
+
+Bram ended a humiliation by proving his technicians work all day. Lu ended
+a year when tenants got an answering machine. Wendell freed two hundred
+thousand dollars that was sitting in bins. Gloria needs something true
+enough to act on by Thursday. Each of them is right, and each one's success
+is part of the cause.
+
+Mags can do five visits or two repairs. Samira wants a fast answer and a
+finished job and refuses to be told she must choose. Between them they find
+the change.
+
+** The scene map
+
+Part One, /Busy/, gives Corinne a list, an aim and four conditions, and
+ends with her taking the largest trouble to the board as its own cause.
+Part Two, /Two Explanations/, puts a man in hospital, teaches her to join
+troubles with "if" and "then", lets her misuse that to convict a colleague,
+and ends at a wall of yellow notes with one statement under five of her
+seven troubles. Part Three, /The Conflict/, finds why that statement has
+lasted, lets her split the difference, makes her say her own assumption from
+six years before, and then shows what the change costs the call center.
+Part Four, /The Test/, is about order, a first action that costs her
+something, and an envelope.
+
+* The Thinking Processes in the Story
+
+The chapters avoid the method's vocabulary on purpose. Here it is.
+
+Goldratt posed three questions: /what to change?/, /what to change to?/ and
+/how to cause the change?/ The diagrams that answer them are known as the
+thinking processes; Dettmer's /Logical Thinking Process/ adds a first one for
+the aim.
+
+| Steps  | The usual name                         | In the story                                                      |
+|--------+----------------------------------------+-------------------------------------------------------------------|
+| 1, 4   | Undesirable effects                    | Seven plain lines on the back of a repair form                    |
+| 2–3    | Goal tree: goal and necessary conditions | "Fixed soon and stays fixed", and four things a repair cannot do without |
+| 5–9    | Current reality tree                   | The yellow wall                                                   |
+| 6      | Sufficiency, and the "and" connector   | Three causes tied with a loop                                     |
+| 7      | Categories of legitimate reservation   | Wendell's questions                                               |
+| 8      | Predicted effect                       | The page Samira put in the drawer                                 |
+| 9      | Core problem, or critical root cause   | The note in capitals                                              |
+| 10–12  | Evaporating cloud, or conflict resolution diagram | Five boxes on Lu's whiteboard; three becauses on a napkin |
+| 12     | Injection                              | "The first conversation is with someone who can fix it"           |
+| 13     | Future reality tree                    | The chain Bram half built                                         |
+| 14     | Negative branch                        | Lu's chain to "2018", and her alteration                          |
+| 15     | Prerequisite tree: obstacles and intermediate objectives | Mr. Dufresne's lining paper                    |
+| 16     | Transition tree                        | One page, each line in two halves                                 |
+| 17–18  | The process of ongoing improvement     | The envelope; the thirty-one on Corinne's hand                    |
+
+** The questions Wendell asks
+
+The categories of legitimate reservation are the fair ways to doubt a
+causal diagram. In order of appearance: clarity (what does this box mean?),
+entity existence (is it a fact?), causality existence (does this really
+produce that?), cause insufficiency (is it enough on its own?), additional
+cause (what else could produce it?), cause-effect reversal (which came
+first?) and predicted effect existence (if this were so, what else would we
+see?). An eighth, tautology, guards against using the effect as the only
+evidence for its cause; Corinne commits it in chapter 4, when "no access"
+is both the trouble and the proof that tenants are out.
+
+** The story's reasoning
+
+- *Aim.* A fault a tenant reports is fixed soon and stays fixed.
+- *Conditions.* We know what the repair needs before we go. The person and
+  the parts that can finish it arrive together. The tenant can let us in at
+  a time they agreed. The money lasts the year.
+- *Shared cause.* The job is booked and sent before anyone who could fix it
+  knows what it needs. With a van that carries less and a day with no time to
+  fetch anything, the visit ends without a repair, and is closed with the one
+  code that asks no questions.
+- *Conflict.* To repair homes soon, every tenant must know quickly that they
+  are being dealt with, so book the next free slot at once. To repair homes
+  soon, every visit must finish the repair, so hold the booking until the job
+  is understood.
+- *Assumptions given up.* That a tenant feels heard only when a van arrives;
+  that a repair cannot be understood except in the room; that understanding
+  takes days.
+- *Change.* The first conversation is with someone who can fix it. As
+  altered by Lu: agents take that conversation themselves for the twelve
+  commonest faults, from cards written with a technician, and own the promise
+  of a call back within one working day.
+- *What it cost.* A number the city watched fell from 91 to 66 percent in
+  six buildings, and was replaced by one that counted what tenants had rung
+  about.
+- *What moved.* The wait went from the door to the first-call desk, and the
+  next limit is what people know.
+
+** Try a different story
+
+Take a situation of your own in which everyone is working hard and the
+result is getting worse. Write the one number each group is proud of. Then
+write the number nobody has. Start at step 1.
+
+** Sources
+
+Read these before relying on this novella for anything it does not cover.
+The story was written from general knowledge of the method; it has not been
+checked against them page by page.
+
+- Eliyahu M. Goldratt, /It's Not Luck/ (1994), the novel that introduces the
+  thinking processes, and /The Goal/ (1984).
+- H. William Dettmer, /The Logical Thinking Process: A Systems Approach to
+  Complex Problem Solving/ (2007).
+- Lisa J. Scheinkopf, /Thinking for a Change: Putting the TOC Thinking
+  Processes to Use/ (1999).
+- Reason Commons, [[https://reasoncommons.com/ltp][the six tree families]].
+
+The terms Theory of Constraints, thinking processes, evaporating cloud and
+their relatives come from Goldratt's work and that of his colleagues. This
+novella is independent and is not affiliated with or endorsed by them.

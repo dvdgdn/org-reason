@@ -1,0 +1,244 @@
+#+title: 3. Four Things
+#+subtitle: The Fourth Visit · Part One: Busy
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:02-what-the-vans-are-for.org][2. What the Vans Are For]] · [[file:README.org][Contents]] · Next: [[file:04-thirty-one-percent.org][4. Thirty-One Percent]]
+
+* The chapter
+
+The control room was on the sixth floor of a concrete tower at the end of the
+container terminal, and at six on Thursday morning it was the only lit window
+on the waterfront.
+
+/If you want to see what I do, come before the day shift,/ Odile’s message had
+said. /I can’t leave the desk but you can stand behind it./
+
+So Corinne stood behind it, holding coffee from a machine in the lobby, and
+looked down at four berths. Three of them had ships alongside, lit like
+stadiums, with cranes swinging boxes off their decks in a rhythm that was
+almost restful. The fourth berth was empty. Its crane stood with its boom
+raised, dark.
+
+And out past the breakwater, riding lights showing, a ship was waiting.
+
+Odile had two screens and a paper chart, and spoke for some minutes to a
+radio in a language of numbers. When she put the handset down Corinne said
+what anyone would have said.
+
+“There’s a ship out there and an empty berth in here.”
+
+“Yes.”
+
+“Why isn’t it on the berth?”
+
+“What would it do there?”
+
+Corinne looked again. “Unload.”
+
+“With what?”
+
+The dark crane. “It’s broken?”
+
+“A cable is being replaced. Until noon.” Odile wrote something on the chart.
+“So tell me what that ship needs. Not what it wants. What it can’t be
+unloaded without.”
+
+“A berth. A working crane.”
+
+“Go on.”
+
+“People to work it.”
+
+“A gang, yes. Twelve, for that ship.”
+
+“Somewhere for the boxes to go?”
+
+“Trucks, and room in the yard behind. Four things.” Odile glanced at her.
+“The berth has been free since two this morning. If I had put the ship on
+it, my berth would have looked busy. Is the ship any nearer to being
+unloaded?”
+
+“No.”
+
+“No.” She turned back to the screens. “Three years ago this terminal paid a
+bonus on crane moves per hour. The cranes had never been busier. Ships waited
+longer than they had in ten years. I’ll let you work out how; I have a pilot
+to call.”
+
+She made her call. Corinne watched a box the size of a room travel through
+the air and settle on a truck as lightly as a cup on a saucer, and thought
+about Bram’s wall with its six colored blocks a row.
+
+When Odile was free again she said, without turning, “You sent me a sentence
+last night. Soon, and stays fixed. What can’t that happen without?”
+
+Corinne had her notebook. She had, in fact, already made a list on the bus,
+and it had eleven items on it, beginning with /adequate staffing/ and ending
+with /a culture of ownership/. She read it out. It took a while.
+
+Odile waited until she had finished. “How many of those did the ship have?”
+
+“Four.”
+
+“Could you run your service if I took ‘a culture of ownership’ away from
+you?”
+
+“Not well.”
+
+“Could you fix my father’s radiator?”
+
+Corinne thought about a seized valve and somebody with the right part
+turning up to replace it. “Yes.”
+
+“Then perhaps it isn’t one of them. I’m not saying it doesn’t matter.” She
+reached for the radio again. “Try each one that way. Take it away and see if
+the radiator can still be fixed.”
+
+It was a curious twenty minutes, standing in the dark above the cranes
+crossing things out. /Adequate staffing/ went, to her surprise; twenty-four
+technicians had fixed more repairs a week two years ago than they did now, so
+whatever was missing was not simply people. /Good communication/ went the
+same way as the culture. /Modern systems/ went. What was left when she had
+taken away everything the radiator could do without was short.
+
+Somebody had to know what the job needed before going. A plumber had been
+sent to 4C first, and the fault was in the heating.
+
+The person who could do it, and the part, had to arrive at the same time. The
+second visitor had known exactly what was wrong and had not had the valve.
+
+Mr. Marchetti had to be able to let them in. She did not think that had been
+the difficulty in his case, since he never went out, but it was plainly
+something a repair could not happen without.
+
+And the money had to last. She added that one last and reluctantly. It was
+the only condition Gloria would have thought of first.
+
+/We know what the repair needs before we go./
+/The person and the parts that can finish it arrive together./
+/The tenant can let us in at a time they agreed./
+/The money lasts the year./
+
+“Four,” she said.
+
+“Read them to me.”
+
+She did. Odile listened with her eyes on the anchored ship.
+
+“If you had all four for a given repair, would it get done?”
+
+“Yes. I think so. Yes.”
+
+“And if you had three?”
+
+Corinne ran them. Knowing, and the tenant home, and the money, but no part:
+that was the second visit to 4C. The part and the tenant and the money, but
+the wrong idea of the job: that was the first. “No. Any one missing and it’s
+a wasted trip.”
+
+“Then you have something like my four.” Odile’s desk phone lit and she let it
+ring once. “I’d keep the list where the people who gave you your other
+answers yesterday can see it. They each look after a piece of one of those.
+I doubt anybody looks after all four.”
+
+“That would be me, as of Friday.”
+
+“Would it?” It was the first thing she had said that sounded like doubt, and
+she softened it at once. “I mean: do you control any of them?”
+
+Corinne considered the call center, which reported to the customer services
+director; the yard, which was Bram’s; the stockroom, which for reasons of
+history belonged to the controller, Wendell Price; and the money, which was
+Gloria’s and the board’s.
+
+“I can ask people for things,” she said. “That’s about the extent of it.”
+
+“Mm.” Odile picked up the phone.
+
+Corinne’s own phone buzzed while she waited: the dispatcher at the yard.
+/4C Garnet is in for Tue 11th, first job. Dev’s got the valve now./
+
+She showed it to Odile when the call ended, pleased to have something
+finished to offer. “Tuesday. First thing. With the part.”
+
+Odile read it and for a moment said nothing. Down on berth two a crane had
+stopped with a box hanging.
+
+“Has anyone told my father what time?”
+
+“It’s the first job of the day. He’ll be glad to get it over with.”
+
+“He takes the hearing aid out at night,” Odile said. “It charges on the
+kitchen counter. He’s not quick in the mornings.” She handed the phone back.
+“It’s kind of you. Truly. I’d only say that you have just read me four things
+a repair can’t happen without, and you have arranged two of them.”
+
+The day shift was coming in behind them, hanging up coats. Corinne made a
+note, /4C: what time is “first job”?/, and on the bus back to Tolland Avenue
+began drafting what she would say to the board.
+
+* What Corinne has just learned
+
+A ship on a berth with no crane is not being unloaded, however busy the berth
+looks. Corinne's eleven requirements shrink to four when she tests each by
+taking it away. A repair needs all four at once, each belongs to a different
+department, and she has just arranged two of them for 4C.
+
+* Your thinking — Step 3: Name the few conditions
+
+/Ten minutes./
+
+1. Under your aim from step 2, write everything you think it depends on. Let
+   the list run long.
+2. Take each item in turn and remove it in your mind. Ask: /with this gone,
+   could the result still happen, at least once?/ If it could, cross the item
+   out. It may help; it is not a condition.
+3. Rewrite each survivor as a state of affairs, not an activity: /the part is
+   there/, not /improve purchasing/.
+4. You should have three to five. Read them aloud and ask two questions. If
+   all of them held, would the result follow? If any one failed, would it be
+   lost?
+5. Beside each condition write who looks after it today. Notice whether
+   anyone looks after all of them.
+
+Expect to cross out things you believe in. A condition is something the
+result cannot happen without, which is a much smaller set than the things
+that are good.
+
+* The same step in Org Reason
+
+1. For each condition press ~C-c r t n~, choose the =goal= tree and the role
+   =critical_success_factor=, and enter it as a state of affairs.
+2. Press ~C-c r t l~ and choose the =goal= tree. Select one condition as the
+   source, your aim as the target, and the relation =necessary_for=. Repeat
+   for each condition, one at a time: they are each necessary, not jointly a
+   cause.
+3. If a condition has its own smaller requirement, add it with the role
+   =necessary_condition= and link it the same way to its parent.
+
+- [ ] ~C-c r t v~ shows your aim with three to five conditions beneath it.
+
+*If you keep a trusted system:* you wrote who looks after each condition. If
+one of them is you and nothing on your lists serves it, capture that with
+~C-c r c~ now. If one is another person, add a line to that person's agenda
+list so you raise it when you next speak.
+
+* The same step in Reason Commons
+
+Each person in a shared effort tends to see the condition they look after.
+
+1. Ask each person to propose the conditions they think the aim cannot be
+   met without.
+2. Where two people have proposed the same condition in different words,
+   leave both and say so. Let the group accept one wording.
+3. Notice any condition that nobody proposed until someone outside the group
+   asked.
+
+- [ ] Each condition shows its proposer, and you can see which ones everyone
+  has accepted as necessary.
+
+* Carry forward
+
+Three to five conditions and who looks after each. Step 4 sets your troubles
+beside them.

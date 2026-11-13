@@ -1,0 +1,265 @@
+#+title: 17. The Envelope
+#+subtitle: The Fourth Visit · Part Four: The Test
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:16-one-page.org][16. One Page]] · [[file:README.org][Contents]] · Next: [[file:18-where-the-queue-went.org][18. Where the Queue Went]]
+
+* The chapter
+
+The Office of Housing Standards held its hearings in a room with a low
+ceiling and a flag, and Ms. Petrakis, the hearing officer, ran them like a
+woman with eleven more before Christmas.
+
+Monday the fifteenth, ten o’clock. On one side of the table Samira Haddad,
+Mr. Dufresne and the exercise book. On the other Gloria Ferreira, the
+bundle, and Corinne. Behind them, on the public chairs, Wendell, Lu, Bram in
+a tie, and a woman in a port authority jacket.
+
+Gloria spoke first and did not read. Harbor Row had issued
+missed-appointment notices to one hundred and thirty-eight households on the
+basis of an analysis that had not been tested and had proved wrong. She had
+suspended them last night. Each household would have a letter by Wednesday.
+The author of the analysis had asked to put a statement on the record.
+
+Corinne read her four paragraphs. It took under a minute. Nobody nodded,
+which was a new experience for her in a meeting, and she found she did not
+need them to.
+
+Ms. Petrakis made a note. “Thank you. That’s unusual. Ms. Haddad?”
+
+Samira had it written on a card and did not look at it. The council
+maintained its complaint about delay. Tenants on Garnet Street had waited,
+on the landlord’s own figure, thirty-four days. But the council had taken
+part last week in a different way of handling repairs in three buildings and
+wished it to continue, in six, for four weeks. And it asked that for those
+six buildings the city set aside the count of vans attending within five
+days and count instead the days from a tenant’s report to the repair being
+finished.
+
+“You’re asking me to stop measuring the landlord on the standard,” Ms.
+Petrakis said.
+
+“I’m asking you to measure what we rang up about.”
+
+The hearing officer turned to the other side of the table. “And what does
+Harbor Row commit to, in return? I’ll need a figure. Days to completion, by
+a date.”
+
+Gloria looked at Corinne. It was the look from the boardroom in November:
+/tell them something./ Corinne took the envelope out of her bag.
+
+“I can’t give you a commitment, in the sense of a thing I know we’ll
+achieve. I’ve given two of those since November and I’ve just read you what
+came of one. I can give you what we expect. It’s in here. There are three
+copies: one for you, one for the council, one the director has already
+read.” She slid them across. “I’d like them opened on the last day of the
+four weeks. Friday the sixteenth of January.”
+
+“What’s in it?”
+
+“Five numbers for the six buildings. How many visits a repair will take.
+How many days from report to fixed. How many orders will still be open. How
+many tenants will hear what’s wrong, with a date, inside one working day.
+And what the five-day attendance figure will be.” She breathed. “That last
+one will fall. I expect about seventy percent. I’d rather tell you now than
+have you find it.”
+
+“You are telling me in advance that the number I regulate will get worse.”
+
+“In six buildings, yes. And beside the first number I’ve written how sure I
+am, which is about seventy percent, and at the bottom I’ve written what
+result would mean the idea is wrong and we should stop.”
+
+Ms. Petrakis held the envelope by its edges. She had, Corinne guessed, been
+handed a great many action plans across that table, with a great many green
+arrows in them.
+
+“If I open this in January and you’ve missed all five?”
+
+“Then you’ll know it on the same day I do, and you’ll know I didn’t change
+them afterwards.”
+
+A pause. Ms. Petrakis wrote the date across the flap, signed it, and had
+Samira sign hers.
+
+“Adjourned to the sixteenth of January, ten o’clock. No monitor is appointed
+in the interim. I’ll count what Ms. Haddad has asked me to count.” She
+capped her pen. “Bring the envelopes.”
+
+-----
+
+Four weeks.
+
+A desk appeared in the corner of the dispatch office with two screens and a
+headset, and Mags sat at it looking like a bear at a piano, and by Thursday
+had stopped complaining. A second technician joined her after the new year.
+Farah’s cards went through three printings; the one for radiators acquired a
+line in red, /ASK THE TENANT WHAT THEY THINK IT IS/, at Mags’s insistence.
+Farah did not mention her notice again and nobody asked.
+
+Mr. Dufresne, with a telephone lent by his granddaughter, climbed to
+apartments on four floors of 118 Garnet and held it up to stopcocks and fuse
+boxes at the direction of a voice he came to address as /my dear/. Wendell’s
+parts went onto the vans in labeled crates. Bram’s wall showed four blocks a
+row for the technicians on the six buildings, and for the first week he
+could hardly bear to look at it.
+
+There was Christmas. There was a burst pipe at 40 Ostrander on the
+twenty-seventh that took three visits whatever anybody did. There was a
+Tuesday when the first-call desk had fourteen tenants waiting to be rung
+back and Lu came down to the yard herself.
+
+Corinne counted every Friday. She did not send the counts to anyone.
+
+-----
+
+On the sixteenth of January Ms. Petrakis slit the first envelope with a
+letter opener and read the sheet aloud, and after each line looked to
+Wendell, whom both sides had agreed should bring the figures, since he
+trusted nobody’s.
+
+“’Visits per completed repair: one point five or fewer. I am about seventy
+percent sure.’”
+
+“One point four,” said Wendell.
+
+“’Days from report to fixed, for new reports: twelve or fewer.’”
+
+“Thirteen.”
+
+“’Open orders in the six buildings: below two hundred and fifty, from three
+hundred and eighty-eight.’”
+
+“Two hundred and forty-one.”
+
+“’Tenants told what is wrong and given a date within one working day:
+ninety-five percent.’”
+
+“Eighty-one.”
+
+“’Attended within five working days will fall to about seventy percent.’”
+
+“Sixty-six.”
+
+“And at the foot: ‘If visits per repair are still above two, the idea is
+wrong and the trial should stop.’” Ms. Petrakis laid the sheet down. “Two of
+your four targets met. Two missed.”
+
+“Yes,” Corinne said. She had known for a week, and it was still not pleasant
+to hear it in that room. “The days are one over. I thought twelve and it
+was thirteen. The call back is a long way under. I said ninety-five and I
+had no good reason for ninety-five; I think I wrote it because it sounded
+like a promise. Tenants are waiting up to two days for the first call. I
+know where that’s coming from and I don’t yet know what to do about it.”
+
+“Ms. Haddad?”
+
+Samira had her own page. “Thirteen days. It was thirty-four.” She let that
+stand a moment. “And my ceiling’s been painted. Our log has nineteen visits
+to 118 Garnet since the sixteenth of December and seventeen of them finished
+the job. The council would like it to carry on.” She glanced across the
+table. “We’d also like the call back to be what she said it would be.”
+
+“So would I,” said Lu, from the public chairs, and then apologized to the
+hearing officer.
+
+Ms. Petrakis looked from one side to the other. “I don’t often get told
+what went wrong by the party it went wrong for,” she said. “The complaint
+stays open. No monitor. Harbor Row will report days-to-fixed monthly, for
+every building as this is extended, with its expectations for the following
+month filed in advance. In an envelope, if you like.” She almost smiled.
+“Ms. Ferreira, is that acceptable?”
+
+Gloria said that it was. Then she added something that had not been
+rehearsed. “It’s a harder thing to bring to my board than a plan. I’ve
+discovered they read it more carefully.”
+
+On the steps outside, Odile was buttoning her jacket against the wind off
+the harbor.
+
+“Thirteen,” she said.
+
+“And eighty-one.”
+
+“Were you surprised?”
+
+“By thirteen, a little. By eighty-one —” Corinne thought. “No. I wrote
+ninety-five because I wanted it. I knew when I wrote it.”
+
+“That’s worth more than the two you got right.” Odile pulled on her gloves.
+“He comes home properly on Tuesday. He’s been home since before Christmas
+but they’ve been coming in. Tuesday he’s on his own. He’d like you to see
+the radiator.”
+
+* What Corinne has just learned
+
+Asked for a promise, Corinne gives what she expects, with a date, her degree
+of confidence, the number that will get worse, and the result that would
+prove her wrong. A month later two of four are met and two missed. Because
+it was written first and sealed, the misses tell her something: one figure
+was a wish, and there is a new delay she had not foreseen.
+
+* Your thinking — Step 17: Say what you expect by when
+
+/Ten minutes now; ten on the date./
+
+Before your change has had time to do anything, write down what you expect.
+
+1. Choose three to five things you could count or see. Take them from the
+   top of your chain in step 13.
+2. For each, write a number and a date. /By [date], [measure] will be
+   [value]./
+3. Write at least one thing you expect to get /worse/. Every real change
+   has one. Say it before someone else finds it.
+4. Beside your main prediction write how sure you are, as a percentage.
+5. At the bottom write: /If [this] happens, the idea is wrong and I will
+   stop./
+6. Seal it, sign it, date it, and give a copy to someone who is not on your
+   side.
+7. On the date, open it with them. Read each line and the result. For every
+   miss, say whether you were unlucky, or wrong about how things work, or
+   had written down a wish.
+
+Check your numbers before sealing. If one of them is there because it sounds
+like a promise, change it to what you actually expect.
+
+* The same step in Org Reason
+
+1. Press ~C-c r p~ once for each prediction. Give it a title, the prediction
+   in full, and the date you will look.
+2. Press ~C-c r f~ on each. Where the prediction is a yes-or-no event ("visits
+   per repair will be 1.5 or fewer"), give your probability when asked. Org
+   Reason stores the original and will not let a command overwrite it.
+3. On the date, the dashboard (~C-c r d~) lists each one under predictions
+   due, with a link to record the outcome. Or press ~C-c r o~.
+4. Record what you observed, whether the event happened, and what you will
+   do now.
+
+- [ ] ~C-c r v~ shows each original exactly as you froze it, and the
+  dashboard counts it under prediction feedback.
+
+*If you keep a trusted system:* the date goes in your =calendar= list, and
+the person who holds your copy goes on your =agenda=. When you record an
+outcome from the dashboard you can turn your decision into a next action.
+Do; a result that changes nothing on your lists was not worth sealing.
+
+* The same step in Reason Commons
+
+A prediction shared before the result is something a group can be held to
+together.
+
+1. Each person who accepted the change states what they expect, separately.
+   Do not average them.
+2. Fix all of them before anyone sees a result.
+3. On the date, record what was observed as an observation, and let each
+   person say what they now accept. The accepted view has a history; anyone
+   can see what the group believed before and after.
+
+- [ ] Each person's expectation is recorded under their name with the date
+  it was fixed.
+
+* Carry forward
+
+Your sealed expectations and, on the date, the results beside them. Step 18
+asks where the difficulty has gone.

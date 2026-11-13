@@ -1,0 +1,240 @@
+#+title: 4. Thirty-One Percent
+#+subtitle: The Fourth Visit · Part One: Busy
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:03-four-things.org][3. Four Things]] · [[file:README.org][Contents]] · Next: [[file:05-apartment-4c.org][5. Apartment 4C]]
+
+* The chapter
+
+Aldo Marchetti’s living room had a bay window, a wall of books in two
+languages, a television with a blanket folded on top of it, and a cast-iron
+radiator under the window that was as cold as a railing.
+
+Corinne laid her palm on it because it seemed rude not to.
+
+“You see,” Mr. Marchetti said from his chair, with satisfaction. He was
+eighty-one and narrow, wearing a cardigan over a sweater over a shirt, and
+had been a typesetter for forty years at a printer’s that no longer existed.
+“The bedroom one is good. The kitchen one is good. This one has a
+disagreement with the building.”
+
+Odile had invited her. /I take him supper on Mondays. If you have tagged his
+radiator you should at least meet it./ She was in the kitchen now, visible
+through the doorway, decanting soup. On the counter beside her a hearing aid
+sat in a small lit cradle, and its twin was in her father’s left ear.
+
+“Tomorrow,” Corinne told him, turning that way so he could see her mouth.
+“Tuesday. First job of the day, with the right part this time.”
+
+“What o’clock is first?”
+
+“In the morning. I’m finding out exactly.” She had the note in her bag and
+had emailed the dispatcher from the bus. There was no reply yet.
+
+“I will be here,” Mr. Marchetti said, as a man might who had been asked
+whether he would be attending his own birthday.
+
+They ate at a table by the cold window, in coats. Afterwards Odile washed up
+and Corinne, because the board met in three days and she could not help it,
+took out the form with the seven lines and a second sheet with her four
+conditions and put them side by side on the cloth.
+
+The list had grown since the counter. She had spent Friday asking people at
+the yard and in the call center what kept going wrong, and they had told her.
+
+/The new uniform order is two months late./
+/The tenant app is an ugly green and nobody uses it./
+/There is nowhere to park at the yard after 7:30./
+
+Mr. Marchetti put on a second pair of glasses and leaned over. “That is a
+galley,” he said. “Ten lines. And these?” He tapped the conditions. “Four
+heads. Each line goes under a head or it goes on the floor.”
+
+Odile, drying a bowl, did not correct him.
+
+So Corinne did it his way. She took the first of her four, /We know what the
+repair needs before we go/, and asked each trouble whether it was damage to
+that. /The wrong kind of technician is sent./ Obviously. /Nobody knows how
+many visits a repair takes./ Yes, in its way: it was a thing not known.
+
+/The person and the parts arrive together./ Under that went /Technicians
+arrive without the part./
+
+/The tenant can let us in at a time they agreed./ Under that went /31 percent
+of visits are closed as “no access.”/
+
+Three lines belonged under no condition because they were the aim itself
+going unmet: thirty-four days, the rising count of open orders, the tenants
+who rang again. She wrote them across the top.
+
+That left the uniforms, the green app and the car park.
+
+“Which head?” said Mr. Marchetti.
+
+“None of them. But people are really annoyed about the parking.”
+
+“I was annoyed for forty years about the coffee at Delacroix and Sons. We
+still got the paper out.” He drew a neat line through all three with her pen
+and handed it back. “Floor.”
+
+She looked at what remained and saw it at once. It was the only place on the
+sheet where a number sat squarely on top of a condition. Nearly a third of
+all visits. Six hundred and twenty-four visits a week, and close to two
+hundred of them ended at a closed door. If those two hundred had been
+repairs —
+
+“That’s it,” she said. “That’s the backlog. It’s access.”
+
+Odile hung up the dish towel and came to look. She read the sheet for some
+time.
+
+“It’s a trouble sitting next to the thing it damages,” she said. “You’ve done
+that well. I don’t see a cause on this page.”
+
+“The cause is that tenants aren’t there when we come.”
+
+“Is that written here?”
+
+“It’s what ‘no access’ means.”
+
+“Is it?” Odile looked, briefly, at her father, who was folding his glasses.
+“He’s had three visits. Was he a ‘no access’?”
+
+Corinne had the laptop. Visit three, the thirty-first: /No access. 09:14./
+
+“On the thirty-first, yes.”
+
+“Papa. Did anyone come on Halloween? The Friday.”
+
+Mr. Marchetti considered. “Someone came on a Friday. Or it was the Thursday.
+I heard the buzzer late, I think. I was in the chair.” He lifted one shoulder.
+“I am not always quick.”
+
+It was not nothing, and Corinne felt for him. But it was also exactly what
+the number said: a technician, a door, a tenant who did not get to it in
+time. Multiplied by two hundred a week.
+
+“I have to tell the board something on Thursday,” she said. “This is the
+biggest number on the page and it’s the only one that explains the others.”
+
+“Does it explain them? Or is it one of them?”
+
+“Odile, I have three days.”
+
+“Yes.” Odile did not argue further. She put the lid on the soup container.
+“You do.”
+
+-----
+
+On Tuesday at 8:15 the dispatcher’s answer arrived, to a question that no
+longer mattered. /Dev was at 4C 7:40, first job like you asked. Knocked, no
+answer. Coded NA. He’s got five more today, can’t go back./
+
+Corinne read it standing up. She thought of the hearing aid in its cradle on
+the kitchen counter, and then, to her lasting shame, she thought: /even 4C./
+A red tag, the right technician, the right valve, and still nobody at the
+door.
+
+She put it in the paper.
+
+The board met on Thursday the thirteenth and it was the best hour she had had
+in that room. The paper was called /Why the Backlog Grows/ and it had one
+chart. She told them about a repair she had personally expedited, with the
+part in the technician’s hand, that had ended on a doormat. Heads nodded
+around the table. It was a relief to everyone, including Corinne, that the
+answer was so plain.
+
+They voted on two measures. Households with two or more missed appointments
+since the first of September would get a written notice, and a third would
+cost thirty-five dollars. And since the backlog would not clear itself, a
+contractor, Tri-County Mechanical, would be brought in for eight weeks from
+Monday at a cost of ninety-six thousand dollars.
+
+Wendell Price, the controller, voted against the second. “We are buying more
+visits,” he said in his dry way, “before anyone has shown me that visits are
+what we’re short of.” Nobody took it up. Gloria squeezed Corinne’s arm on the
+way out and said, “That’s what I needed.”
+
+The notices went to one hundred and thirty-eight households. Building staff
+delivered them by hand on Friday so that nobody could say they had been lost.
+
+On Saturday morning Corinne was in a supermarket queue when her phone lit.
+
+/I’m at the gate. My father has just read me a letter over the phone. It says
+he has missed two appointments and that a third will cost him $35. He has not
+left the apartment since the first week of October./
+
+A second message followed before she could think.
+
+/I’m not asking for anything. Boarding now./
+
+* What Corinne has just learned
+
+Setting each trouble under the condition it damages clears away three real
+annoyances and leaves seven lines that matter. But a trouble beside its
+condition is still a trouble. Corinne takes the largest one for a cause, the
+board agrees with her, and a letter is on Aldo's table.
+
+* Your thinking — Step 4: Set each trouble beside its condition
+
+/Ten minutes./
+
+Put your troubles from step 1 next to your conditions from step 3.
+
+1. Write each condition as a heading.
+2. Take each trouble and ask which condition it is damage to. Write it under
+   that heading.
+3. A trouble that is the aim itself going unmet (the result is late, or
+   missing, or has to be done again) goes across the top.
+4. A trouble that fits under no heading and is not the aim going unmet is an
+   irritation. Draw a line through it. It may be worth fixing one day. It is
+   not what this work is about.
+5. Keep between five and eight.
+
+Now the uncomfortable part. Look at the sheet and notice which trouble you
+want to call the reason for the rest. Write under it: /this is a trouble, not
+yet a cause./ You have not shown what produces anything. The next five steps
+do that.
+
+* The same step in Org Reason
+
+A statement in a commons cannot be reworded from Emacs, so restating is done
+by proposing the better wording and accepting only what you keep.
+
+1. For each trouble you reworded, press ~C-c r t n~ (=current_reality=,
+   =undesirable_effect=) and enter the new wording.
+2. Press ~C-c r t a~ and accept each trouble you are keeping. Read the exact
+   wording shown before you confirm.
+3. Leave the irritations and the old wordings as proposals. They stay visible
+   in ~C-c r t v~ as things that were said and not taken up.
+4. Keep your paper sheet with its headings. The commons holds the troubles
+   and the conditions in two separate trees; the sheet is where you see which
+   trouble sits under which condition.
+
+- [ ] Five to eight troubles are accepted; the rest remain proposed.
+
+*If you keep a trusted system:* an irritation you crossed out may still be
+something you want done. Capture it with ~C-c r c~ and clarify it as
+=someday= or a =next-action=. It leaves this problem and goes where small
+jobs belong.
+
+* The same step in Reason Commons
+
+Dropping a line is easy alone and delicate in a group, because every
+irritation belongs to someone.
+
+1. Go through the troubles together and ask of each: which condition does
+   this damage?
+2. Where the group cannot name one, do not delete the statement. Leave it
+   proposed, unaccepted, with its author.
+3. Record any disagreement about whether something is an irritation as an
+   open objection on that statement.
+
+- [ ] Accepted troubles each name a condition; unaccepted ones are still
+  there, with their authors.
+
+* Carry forward
+
+Five to eight troubles, each under a condition or across the top, and a note
+on the one you are tempted to call the cause. Step 5 begins joining them.
