@@ -1,45 +1,52 @@
+#+title: 14. Nine People
+#+subtitle: The Fourth Visit · Part Three: The Conflict
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:13-brams-arithmetic.org][13. Bram's Arithmetic]] · [[file:README.org][Contents]] · Next: [[file:15-the-community-room.org][15. The Community Room]]
+
 * The chapter
 
-Farah had put her notice on Lu's desk at nine o'clock on Thursday, typed, in
+Farah had put her notice on Lu’s desk at nine o’clock on Thursday, typed, in
 an envelope, and by the time Corinne came down at ten the whole horseshoe
 knew.
 
-"Two weeks," Lu said. She was in the glass room with the door shut and she
-did not ask Corinne to sit. "Six years. She trained five of the others. Do
-you want to know what she said?"
+“Two weeks,” Lu said. She was in the glass room with the door shut and she
+did not ask Corinne to sit. “Six years. She trained five of the others. Do
+you want to know what she said?”
 
-"Yes."
+“Yes.”
 
-"She said: 'Yesterday I took eleven calls from Garnet Street. Eleven times I
-said, I'll put you through to someone who can help you. So what was I doing
-before?'" Lu's voice was quite steady. "I didn't have an answer for her. Do
-you?"
+“She said: ‘Yesterday I took eleven calls from Garnet Street. Eleven times I
+said, I’ll put you through to someone who can help you. So what was I doing
+before?’” Lu’s voice was quite steady. “I didn’t have an answer for her. Do
+you?”
 
-Corinne had come down with an answer. It was a good one, about how nobody's
-job was at risk and how the agents' role would /evolve/. She had got as far
+Corinne had come down with an answer. It was a good one, about how nobody’s
+job was at risk and how the agents’ role would /evolve/. She had got as far
 as the stairs with it. She thought of Bram holding up his hand.
 
-"No," she said. "I should have been down here on Monday, before I asked you
+“No,” she said. “I should have been down here on Monday, before I asked you
 to route a single call. I started it in three buildings and told you by
-email. I'm sorry. That's not an answer either."
+email. I’m sorry. That’s not an answer either.”
 
 Lu looked at her for a moment and then away, through the glass, at her nine.
 
-"Mags was in the yard yesterday on a telephone," she said. "I hear it went
-well. I hear a woman on Garnet Street had her leak found in six minutes. I'm
-not stupid, Corinne. I can see it's better for the tenant. I can also see
-what it does in here, and you can't, because it isn't on your wall."
+“Mags was in the yard yesterday on a telephone,” she said. “I hear it went
+well. I hear a woman on Garnet Street had her leak found in six minutes. I’m
+not stupid, Corinne. I can see it’s better for the tenant. I can also see
+what it does in here, and you can’t, because it isn’t on your wall.”
 
-"Then put it on."
+“Then put it on.”
 
-"What?"
+“What?”
 
-The whiteboard still had Tuesday's five boxes on it, a little smeared. The
+The whiteboard still had Tuesday’s five boxes on it, a little smeared. The
 marker was on the ledge. Corinne picked it up and held it out, cap first.
 
-"I've got a chain that runs from Mags on a phone up to everything I want.
-Bram built half of it. There's nothing on it that goes wrong. That can't be
-right. You know what goes wrong. I'd like it in your handwriting, not mine."
+“I’ve got a chain that runs from Mags on a phone up to everything I want.
+Bram built half of it. There’s nothing on it that goes wrong. That can’t be
+right. You know what goes wrong. I’d like it in your handwriting, not mine.”
 
 For a second she thought Lu would refuse. Then Lu took the marker, wiped a
 space with the side of her fist, and wrote fast, in block capitals, from the
@@ -51,9 +58,9 @@ bottom.
 
 /THE JOB IS A SWITCHBOARD. THE GOOD ONES LEAVE./
 
-"That's Farah. That's today. Keep going?"
+“That’s Farah. That’s today. Keep going?”
 
-"Keep going."
+“Keep going.”
 
 /NEW STARTERS, NO ONE TO TRAIN THEM. CALLS NOT ANSWERED IN 20 SECONDS./
 
@@ -61,92 +68,92 @@ bottom.
 
 And at the top, underlined twice: /2018./
 
-She stepped back. "There. Every arrow. You can check them like you checked
-Wendell's."
+She stepped back. “There. Every arrow. You can check them like you checked
+Wendell’s.”
 
 Corinne read it from the bottom, aloud, with /if/ and /then/, because she
 had promised herself she would always do that now. Each one went. It was the
 same chain as her own, the same first note, and it climbed just as steadily
 to the place Lu had spent six years climbing out of.
 
-"It's right," she said.
+“It’s right,” she said.
 
-"I know it's right."
+“I know it’s right.”
 
-"I don't know what to do about it."
+“I don’t know what to do about it.”
 
-"No." Something in Lu's shoulders came down a little. She capped the marker
-and uncapped it again. "That's the first time you've said that in this
-room."
+“No.” Something in Lu’s shoulders came down a little. She capped the marker
+and uncapped it again. “That’s the first time you’ve said that in this
+room.”
 
 She stood looking at her own second line. /AGENTS STOP DIAGNOSING./ Then
 she said, not to Corinne exactly:
 
-"They don't diagnose now. That's the thing. Farah asks if it's hot or cold
-and picks off a list. She's good at people. Nobody ever gave her anything to
-be good at about a tap." She tapped the board. "What did Mags ask that woman?
-Exactly."
+“They don’t diagnose now. That’s the thing. Farah asks if it’s hot or cold
+and picks off a list. She’s good at people. Nobody ever gave her anything to
+be good at about a tap.” She tapped the board. “What did Mags ask that woman?
+Exactly.”
 
-Corinne had it in her notebook. "Where's the wet. Does it drip all the time
-or when someone upstairs lets a bath out. Can you show me."
+Corinne had it in her notebook. “Where’s the wet. Does it drip all the time
+or when someone upstairs lets a bath out. Can you show me.”
 
-"Three questions."
+“Three questions.”
 
-"And then she knew where to point the camera."
+“And then she knew where to point the camera.”
 
-"Farah could ask those three questions." Lu was speaking faster. "She
-couldn't have made them up. But if someone gave them to her. How many
+“Farah could ask those three questions.” Lu was speaking faster. “She
+couldn’t have made them up. But if someone gave them to her. How many
 different faults are there, really? Not the strange ones. The ones we take
-all day."
+all day.”
 
-"Bram would know."
+“Bram would know.”
 
 They rang him. He put Mags on. Mags thought about it for some time and said
 a dozen. Dripping tap, blocked sink, blocked toilet, no hot water, radiator
 cold, radiator leaking, bath or shower leak, extractor fan, door lock,
-window won't shut, lights out in one room, damp patch. Between them, about
+window won’t shut, lights out in one room, damp patch. Between them, about
 six calls in ten. For most of those she could say on one side of a card what
 to ask, what to look at, and which answers meant which part.
 
-"And the other four in ten come to you," Lu said into the speaker.
+“And the other four in ten come to you,” Lu said into the speaker.
 
-"The other four come to me."
+“The other four come to me.”
 
 Lu rubbed out her second line with two fingers and wrote under it.
 
-/AGENTS TAKE THE FIRST CALL FOR THE TWELVE COMMON FAULTS, FROM MAGS'S CARDS.
-THE REST GO TO THE TECHNICIAN'S DESK./
+/AGENTS TAKE THE FIRST CALL FOR THE TWELVE COMMON FAULTS, FROM MAGS’S CARDS.
+THE REST GO TO THE TECHNICIAN’S DESK./
 
 She considered it. Then, lower down, squeezed in:
 
-/AGENTS OWN THE CALL BACK. "YOU WILL HEAR FROM US WITHIN ONE WORKING DAY WITH
-WHAT IS WRONG AND A DATE."/
+/AGENTS OWN THE CALL BACK. “YOU WILL HEAR FROM US WITHIN ONE WORKING DAY WITH
+WHAT IS WRONG AND A DATE.”/
 
-"That's a promise," she said. "It's a different one from yours. It's one I
-can keep with nine people, and it's about something. And nobody in here is a
-switchboard." She drew a line from it that went up past /THE GOOD ONES LEAVE/
-and did not touch it. "If you'd come to me with that on Monday I'd have said
-yes."
+“That’s a promise,” she said. “It’s a different one from yours. It’s one I
+can keep with nine people, and it’s about something. And nobody in here is a
+switchboard.” She drew a line from it that went up past /THE GOOD ONES LEAVE/
+and did not touch it. “If you’d come to me with that on Monday I’d have said
+yes.”
 
-"I didn't have it on Monday. I couldn't have had it. It's yours."
+“I didn’t have it on Monday. I couldn’t have had it. It’s yours.”
 
 Lu opened the door and called Farah in, and showed her the board, and Farah
 read it standing with her arms crossed.
 
-"Who writes the cards?"
+“Who writes the cards?”
 
-"You and Mags," said Lu.
+“You and Mags,” said Lu.
 
-"I've handed my notice in."
+“I’ve handed my notice in.”
 
-"I know you have."
+“I know you have.”
 
 Farah looked at the twelve faults, which Corinne had scribbled down the
-margin. "The fan one's wrong. Nobody says 'extractor fan'. They say the
-bathroom's steamy." She uncrossed her arms. "I'll write the cards. I'm not
-saying I'm staying."
+margin. “The fan one’s wrong. Nobody says ‘extractor fan’. They say the
+bathroom’s steamy.” She uncrossed her arms. “I’ll write the cards. I’m not
+saying I’m staying.”
 
-*
+-----
 
 At half past three Mags fitted a seven-dollar trap under a bath in 3B, and
 sent Corinne a photograph of Karim Haddad holding the old one.
@@ -157,29 +164,29 @@ The director had a single sheet on her desk: the weekly return that went to
 the city. One line was highlighted. /Attended within five working days —
 116, 118, 120 Garnet Street — 58%./
 
-"Three days," Gloria said. "It was ninety-one."
+“Three days,” Gloria said. “It was ninety-one.”
 
-"Twenty-six jobs are being held until the parts are in. They'll each be done
-in one visit. The measure counts them as late because nobody's knocked on
-the door."
+“Twenty-six jobs are being held until the parts are in. They’ll each be done
+in one visit. The measure counts them as late because nobody’s knocked on
+the door.”
 
-"I understand what it counts." Gloria turned the sheet to face her. "On
+“I understand what it counts.” Gloria turned the sheet to face her. “On
 Monday I sit in front of a hearing officer on a complaint about delays. I
 have one number that says Harbor Row does not leave people waiting. One.
-You've put a hole in it, in the three buildings that filed."
+You’ve put a hole in it, in the three buildings that filed.”
 
-"Because it was measuring the wrong —"
+“Because it was measuring the wrong —”
 
-"Corinne." It was said gently. "I think you may be right this time. I
-thought so the last two times. I can't take 'I think she's right' into that
+“Corinne.” It was said gently. “I think you may be right this time. I
+thought so the last two times. I can’t take ‘I think she’s right’ into that
 room with a figure of fifty-eight percent on the table and a monitor waiting
-to be appointed." She laid her hand flat on the sheet. "Stop it today. Garnet
-Street goes back to normal booking this afternoon. After the hearing, we'll
-see."
+to be appointed.” She laid her hand flat on the sheet. “Stop it today. Garnet
+Street goes back to normal booking this afternoon. After the hearing, we’ll
+see.”
 
-"If it goes back, those twenty-six get a van on Monday with no parts."
+“If it goes back, those twenty-six get a van on Monday with no parts.”
 
-"Then they get a van on Monday."
+“Then they get a van on Monday.”
 
 Corinne went down one floor. Through the glass she could see Lu and Farah at
 the whiteboard with a stack of index cards, arguing happily about a toilet.
@@ -220,8 +227,8 @@ now. It costs more every day you leave it.
 * The same step in Org Reason
 
 1. Press ~C-c r t n~, tree =future_reality=, role =undesirable_effect=, for
-   each step of the harm. Join them from the injection upward with ~C-c r t
-   l~ and the relation =causes=.
+   each step of the harm. Join them from the injection upward with
+   ~C-c r t l~ and the relation =causes=.
 2. Enter the altered change as a second =injection=.
 3. Link the altered injection to the first harmful effect it prevents with
    the relation =overcomes=.

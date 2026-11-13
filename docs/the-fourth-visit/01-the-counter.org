@@ -1,15 +1,22 @@
+#+title: 1. The Counter
+#+subtitle: The Fourth Visit · Part One: Busy
+#+startup: showall
+#+options: toc:nil num:nil
+
+[[file:README.org][Contents]] · Next: [[file:02-what-the-vans-are-for.org][2. What the Vans Are For]]
+
 * The chapter
 
 The woman at the front counter had not raised her voice, and that was why the
 receptionist had called upstairs.
 
-"She has a folder," the receptionist said. "She asked for whoever is
-responsible for repairs. I didn't know who to say."
+“She has a folder,” the receptionist said. “She asked for whoever is
+responsible for repairs. I didn’t know who to say.”
 
 Until Friday nobody would have known. On Friday afternoon Gloria Ferreira had
 closed her office door, told Corinne Vance that the board met on Thursday the
-thirteenth, and said, "I need someone to tell them why. You're good at telling
-people things." Corinne had been resident services manager at Harbor Row
+thirteenth, and said, “I need someone to tell them why. You’re good at telling
+people things.” Corinne had been resident services manager at Harbor Row
 Housing for four years and in its communications office for seven before
 that. She had never held a wrench. As of Friday she held the repair backlog.
 
@@ -18,58 +25,58 @@ She went down.
 The woman was about fifty, in a port authority jacket, with reading glasses
 pushed up into grey hair. The folder was on the counter, squared to its edge.
 
-"Odile Marchetti. My father is Aldo Marchetti, apartment 4C at 118 Garnet
+“Odile Marchetti. My father is Aldo Marchetti, apartment 4C at 118 Garnet
 Street. On October fifteenth he reported that the radiator in his living room
-was cold. Your people have been to him three times. It is still cold."
+was cold. Your people have been to him three times. It is still cold.”
 
 Corinne had brought her laptop for exactly this. She found 4C. Three visits:
 the twentieth, the twenty-seventh, the thirty-first. Beside each one the
 system showed a small green tick.
 
-"I can see we've attended each time within our five-day standard," she said,
+“I can see we’ve attended each time within our five-day standard,” she said,
 and heard how it sounded.
 
-"Yes. I'm not disputing that you came." Ms. Marchetti did not open the folder.
-"May I ask you something? When a tenant reports a fault, how many times do
-you usually go to the apartment before it is fixed?"
+“Yes. I’m not disputing that you came.” Ms. Marchetti did not open the folder.
+“May I ask you something? When a tenant reports a fault, how many times do
+you usually go to the apartment before it is fixed?”
 
-"It depends on the repair."
+“It depends on the repair.”
 
-"On average. Roughly."
+“On average. Roughly.”
 
 Corinne looked at the screen as if the number might be on it. There was a
 number for nearly everything. Open work orders: 1,912. A year ago: 1,240. Days
 from report to completion: 34. Attended within five working days: 91 percent.
 She scrolled. Calls answered within twenty seconds: 94 percent.
 
-"I'd have to ask."
+“I’d have to ask.”
 
-"Please."
+“Please.”
 
 She rang Bram Kowalczyk at the yard. Bram ran the twenty-four technicians and
 answered on the second ring, as he always did.
 
-"Visits per repair?" he said. "I can give you visits per tech per day. Five
-point two. It was four point one before the board." He meant his routing
-board, not Gloria's. "Why?"
+“Visits per repair?” he said. “I can give you visits per tech per day. Five
+point two. It was four point one before the board.” He meant his routing
+board, not Gloria’s. “Why?”
 
-"Someone's asking how many visits it takes to finish a job."
+“Someone’s asking how many visits it takes to finish a job.”
 
-"As many as it takes. Tell them five point two."
+“As many as it takes. Tell them five point two.”
 
 She rang Lu Tran in the call center. Lu had the answer rate, the average call
 at three minutes ten seconds, and the share of reports given an appointment
 inside five days. She did not have that one either.
 
-Corinne put the phone down. "We don't measure it."
+Corinne put the phone down. “We don’t measure it.”
 
 Ms. Marchetti nodded slowly, as though a gauge had read what she expected.
-"At the port I plan berths. Which ship goes to which crane, and when. I have
-twenty minutes before I'm due back." She took a pen from her jacket and laid
-it on the counter beside the folder. "You've been given this, I think. You
+“At the port I plan berths. Which ship goes to which crane, and when. I have
+twenty minutes before I’m due back.” She took a pen from her jacket and laid
+it on the counter beside the folder. “You’ve been given this, I think. You
 came down with the look of someone who has been given something. Would you
-write down for me what keeps going wrong? Not what you'd tell a board. What
-keeps going wrong."
+write down for me what keeps going wrong? Not what you’d tell a board. What
+keeps going wrong.”
 
 It was not a reasonable request from a stranger and Corinne did it anyway,
 partly because nobody else in the building had asked. She turned a
@@ -86,40 +93,40 @@ head all weekend.
 
 She turned it round. Ms. Marchetti read it without touching it.
 
-"Which of these have you seen?"
+“Which of these have you seen?”
 
-"All of them. Everyone knows these."
+“All of them. Everyone knows these.”
 
-"Have you seen a technician cut a corner?"
+“Have you seen a technician cut a corner?”
 
-"I've been told —"
+“I’ve been told —”
 
-"I see a word here twice. 'Because.' And here it's hiding: 'since the cuts.'
-Could you cross those parts out and leave what's left?"
+“I see a word here twice. ‘Because.’ And here it’s hiding: ‘since the cuts.’
+Could you cross those parts out and leave what’s left?”
 
 Corinne crossed them out. /Technicians rush jobs/ looked thinner without its
 reason.
 
-"Is that one something that happened, or something somebody is?"
+“Is that one something that happened, or something somebody is?”
 
-"I don't follow."
+“I don’t follow.”
 
-"'Tenants are never home.' Never? My father has not left that apartment since
-the first week of October. He has a bad hip and one working ear." She said it
-evenly. "What is the thing you could count?"
+“’Tenants are never home.’ Never? My father has not left that apartment since
+the first week of October. He has a bad hip and one working ear.” She said it
+evenly. “What is the thing you could count?”
 
-Corinne looked at the laptop. "Thirty-one percent of visits are closed as 'no
-access'."
+Corinne looked at the laptop. “Thirty-one percent of visits are closed as ‘no
+access’.”
 
-"Write that. It's longer, but you could be wrong about it, and then you'd
-find out."
+“Write that. It’s longer, but you could be wrong about it, and then you’d
+find out.”
 
 It took most of the twenty minutes. /Nobody talks to each other/ would not
 turn into anything she could count and Ms. Marchetti said, mildly, that
 perhaps it was a feeling, and that feelings were allowed but should go on a
 different sheet. /Stores never has anything/ became, after a second call to
 Bram, /Technicians arrive without the part the job needs/. Bram said it
-happened "all the time," and when asked how often said he'd never had a reason
+happened “all the time,” and when asked how often said he’d never had a reason
 to count. So that went on the form as well, the thing she had learned at the
 counter: /Nobody knows how many visits a repair takes./
 
@@ -129,25 +136,25 @@ meter reading.
 
 /Tenants wait 34 days for a repair./
 /Open work orders have gone from 1,240 to 1,912 in a year./
-/31 percent of visits are closed as "no access."/
+/31 percent of visits are closed as “no access.”/
 /Technicians arrive without the part the job needs./
 /The wrong kind of technician is sent./
 /Tenants ring again about the same fault./
 /Nobody knows how many visits a repair takes./
 
-"There's nobody to blame in it," Corinne said.
+“There’s nobody to blame in it,” Corinne said.
 
-"No." Ms. Marchetti looked at her watch and picked up the folder, which she
-had never opened. "Is that a loss?"
+“No.” Ms. Marchetti looked at her watch and picked up the folder, which she
+had never opened. “Is that a loss?”
 
-"The board will want to know why."
+“The board will want to know why.”
 
-"I expect they will. So do I." She put her pen away. "I fly to Halifax on the
-fifteenth, for three weeks. A berth study; there's a penalty if I'm not there.
+“I expect they will. So do I.” She put her pen away. “I fly to Halifax on the
+fifteenth, for three weeks. A berth study; there’s a penalty if I’m not there.
 I mention it so that you know I am not going to stand at this counter every
-morning." She paused. "And I am not asking you to move my father up your
-list. I'd like that to be clear. If you do that, the next person's father
-moves down, and I schedule for a living. I'm asking how many visits."
+morning.” She paused. “And I am not asking you to move my father up your
+list. I’d like that to be clear. If you do that, the next person’s father
+moves down, and I schedule for a living. I’m asking how many visits.”
 
 She left a card. Corinne stood at the counter with the form.
 

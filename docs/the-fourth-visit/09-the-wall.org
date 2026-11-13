@@ -1,3 +1,10 @@
+#+title: 9. The Wall
+#+subtitle: The Fourth Visit · Part Two: Two Explanations
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:08-the-notebook.org][8. The Notebook]] · [[file:README.org][Contents]] · Next: [[file:10-five-days.org][10. Five Days]]
+
 * The chapter
 
 Bram Kowalczyk counted the stack himself.
@@ -7,33 +14,33 @@ with his reading glasses on, and he did all two hundred. Corinne and Mags
 waited. Outside, the vans were leaving in a line. When he got to the bottom
 he squared the pages and laid them down.
 
-"Four eighty."
+“Four eighty.”
 
-"And the old box?" said Mags.
+“And the old box?” said Mags.
 
-"I'll take your word for the old box." He took his glasses off. "So. More
-visits, fewer repairs. Since my board."
+“I’ll take your word for the old box.” He took his glasses off. “So. More
+visits, fewer repairs. Since my board.”
 
-"Since March," Corinne said. "I'm not saying because of the board. I said
-'because' too early twice already and it has cost a great deal."
+“Since March,” Corinne said. “I’m not saying because of the board. I said
+‘because’ too early twice already and it has cost a great deal.”
 
-"You're not saying it. It's sat there on the paper saying it." He looked at
-the wall of colored blocks, twenty-four rows, six to a row. "You know what
-they called my lads, before? In the report? 'Underutilized.' I've got a man
-who went out on Christmas night to a burst main and he was 'underutilized'.
-I put that wall up and nobody's used the word since." His jaw worked. "What
+“You’re not saying it. It’s sat there on the paper saying it.” He looked at
+the wall of colored blocks, twenty-four rows, six to a row. “You know what
+they called my lads, before? In the report? ‘Underutilized.’ I’ve got a man
+who went out on Christmas night to a burst main and he was ‘underutilized’.
+I put that wall up and nobody’s used the word since.” His jaw worked. “What
 do you want me to do, take it down? Have them sat in vans again with
-somebody photographing them?"
+somebody photographing them?”
 
-"I don't know what I want you to do. I want to find what's underneath it
-first."
+“I don’t know what I want you to do. I want to find what’s underneath it
+first.”
 
-"Underneath what?"
+“Underneath what?”
 
-"All of it."
+“All of it.”
 
 She had brought a pad of yellow sticky notes and she had the diagram from
-Wendell's office, question marks and all, with two of the question marks now
+Wendell’s office, question marks and all, with two of the question marks now
 answered. The only bare wall in the dispatch office faced the routing board.
 She began putting the boxes up there, one note to a statement, effects at
 the top.
@@ -41,16 +48,16 @@ the top.
 /Tenants wait 34 days./ /Open orders 1,912 and rising./ /Tenants ring again./
 Below those: /A repair takes 2.4 visits./ Below that, side by side, the ways
 a visit ended with nothing mended: /wrong trade/, /no part/, /tenant not
-told a time/. And the code that had hidden two-thirds of it: /closed as "no
-access"/.
+told a time/. And the code that had hidden two-thirds of it: /closed as “no
+access”/.
 
 Bram watched with his arms folded. After a while he unfolded them and moved
-a note. "That one goes under that one. If he's got the wrong trade he never
-gets as far as finding out he's got no part."
+a note. “That one goes under that one. If he’s got the wrong trade he never
+gets as far as finding out he’s got no part.”
 
-"Thank you."
+“Thank you.”
 
-"I'm not helping. I'm correcting."
+“I’m not helping. I’m correcting.”
 
 When every statement was up, Corinne did what she had not known to do in
 either of her earlier attempts. She stopped looking at the top and started
@@ -77,29 +84,29 @@ capitals and put it at the bottom, by itself.
 /THE JOB IS BOOKED AND SENT BEFORE ANYONE WHO COULD FIX IT KNOWS WHAT IT
 NEEDS./
 
-"Well, yes," said Bram.
+“Well, yes,” said Bram.
 
 Corinne turned.
 
-"Everybody knows that. You're sent out blind. It's always been like that.
-You find out when you get there." He shrugged. "That's the job."
+“Everybody knows that. You’re sent out blind. It’s always been like that.
+You find out when you get there.” He shrugged. “That’s the job.”
 
-"It's the reason a van with eighty-five lines isn't enough," Mags said. "And
-the reason six in a day doesn't leave time. If I knew what I was going to,
-your board'd be fine. I could do six."
+“It’s the reason a van with eighty-five lines isn’t enough,” Mags said. “And
+the reason six in a day doesn’t leave time. If I knew what I was going to,
+your board’d be fine. I could do six.”
 
 Bram opened his mouth and shut it again. He was looking at the three notes
 with the loop, where his own was the middle one.
 
-"Is it ours?" Corinne asked. "Could anyone in this room change it?"
+“Is it ours?” Corinne asked. “Could anyone in this room change it?”
 
-"Booking's the call center. That's Lu Tran's, and she's Customer Services,
-she's not even Gloria's direct." Bram shook his head. "I can't change it and
-you can't."
+“Booking’s the call center. That’s Lu Tran’s, and she’s Customer Services,
+she’s not even Gloria’s direct.” Bram shook his head. “I can’t change it and
+you can’t.”
 
-"But we could ask her."
+“But we could ask her.”
 
-"You could ask her."
+“You could ask her.”
 
 So: not within her control, and within her reach. She wrote /Lu/ on the
 corner of the note. Two troubles on the wall did not pass through it at all,
@@ -109,7 +116,7 @@ Her phone had been buzzing in her bag for some minutes. She took it out and
 it was all there at once, the way bad news arrives once you have stopped
 watching for it.
 
-From Wendell, forwarded without comment: Tri-County Mechanical's first
+From Wendell, forwarded without comment: Tri-County Mechanical’s first
 fortnightly return. Three hundred and ten visits. One hundred and seven
 repairs completed. She did the division before she could stop herself. Two
 point nine. Worse than her own technicians, at twenty-four thousand dollars
@@ -121,44 +128,44 @@ Four hundred and thirty repairs by Harbor Row, a hundred and seven by the
 contractor. The backlog had been 1,972 when the grey vans arrived and was
 2,015 now.
 
-From the front desk at Tolland Avenue: a courier envelope from the city's
+From the front desk at Tolland Avenue: a courier envelope from the city’s
 Office of Housing Standards. /Shall I open it?/ She rang, and the
 receptionist read it to her. A complaint lodged by the Garnet Street
-Tenants' Council on behalf of two hundred and twelve households, concerning
+Tenants’ Council on behalf of two hundred and twelve households, concerning
 repair delays and the issue of missed-appointment notices. Hearing: Monday
-the fifteenth of December, ten o'clock.
+the fifteenth of December, ten o’clock.
 
 And a voicemail from Gloria, forty seconds long, which Corinne played with
 the phone against her ear and her back to the room.
 
-/I've seen the contractor's return. I've given them two weeks' notice, so
-that is forty-eight thousand dollars by the time they're gone, for a backlog
-that went up. I've had sixty-one written disputes of those notices. And I've
+/I’ve seen the contractor’s return. I’ve given them two weeks’ notice, so
+that is forty-eight thousand dollars by the time they’re gone, for a backlog
+that went up. I’ve had sixty-one written disputes of those notices. And I’ve
 got a hearing in a fortnight. Corinne, I told the board it was access because
 you told me. If the city puts a monitor in here, the monitor decides how we
 run repairs, not me and not you. You have until the hearing to give me
 something I can stand on./
 
-She put the phone face down on Bram's desk.
+She put the phone face down on Bram’s desk.
 
-"Bad?" said Mags.
+“Bad?” said Mags.
 
-"Fourteen days."
+“Fourteen days.”
 
 Bram was still in front of the yellow wall. He had his hands in his fleece
 pockets and was reading it from the top down, the way she had first drawn
 it, and then, she saw, from the bottom up.
 
-"If everybody's always known that," Corinne said, pointing at the capitals,
-"why is it still there?"
+“If everybody’s always known that,” Corinne said, pointing at the capitals,
+“why is it still there?”
 
-"Because you've got to send somebody."
+“Because you’ve got to send somebody.”
 
-"Why?"
+“Why?”
 
-"Because —" He stopped. He looked genuinely stuck, as a man does when he has
-been asked why water is wet. "You'd have to ask her. She'll have her
-reasons. She always does."
+“Because —” He stopped. He looked genuinely stuck, as a man does when he has
+been asked why water is wet. “You’d have to ask her. She’ll have her
+reasons. She always does.”
 
 * What Corinne has just learned
 

@@ -1,7 +1,14 @@
+#+title: 10. Five Days
+#+subtitle: The Fourth Visit · Part Three: The Conflict
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:09-the-wall.org][9. The Wall]] · [[file:README.org][Contents]] · Next: [[file:11-because.org][11. Because]]
+
 * The chapter
 
 Lu Tran heard her out standing up, with one eye on the wallboard, and when
-Corinne had finished she said, "Come and listen to one."
+Corinne had finished she said, “Come and listen to one.”
 
 She plugged a second headset into the desk of an agent called Farah, who had
 been at Harbor Row six years and whose calls, Lu said, were the ones she
@@ -9,11 +16,11 @@ played to new starters. Corinne put the headset on.
 
 /Harbor Row repairs, Farah speaking./
 
-A man's voice, older, on a bad line. His kitchen tap was dripping. No, not
+A man’s voice, older, on a bad line. His kitchen tap was dripping. No, not
 dripping, running. He had a bowl under it.
 
 Farah was kind and she was quick. Was the water hot or cold? Was it the tap
-or under the sink? He wasn't sure. She typed while he talked. A list dropped
+or under the sink? He wasn’t sure. She typed while he talked. A list dropped
 down on her screen, /Trade/, with eleven choices, and she hovered a second
 between /Plumbing/ and /General/ and clicked /Plumbing/. A calendar opened.
 The first white square was Thursday morning.
@@ -25,63 +32,63 @@ It was all right. He thanked her twice. The timer in the corner of her
 screen stopped at two minutes fifty-one, and on the wallboard above them a
 number went from ninety-three to ninety-four.
 
-Farah slid one earpiece back. "That's a good one," she said to Corinne.
-"He's happy."
+Farah slid one earpiece back. “That’s a good one,” she said to Corinne.
+“He’s happy.”
 
-"Is it the tap or the valve under the sink?"
+“Is it the tap or the valve under the sink?”
 
-"I don't know. I'm not a plumber." She said it without offense. "He doesn't
-know either. Someone'll look on Thursday."
+“I don’t know. I’m not a plumber.” She said it without offense. “He doesn’t
+know either. Someone’ll look on Thursday.”
 
-"What if it needs a part?"
+“What if it needs a part?”
 
-"Then they'll order it." The next call was already flashing. "I've got
-forty seconds, sorry."
+“Then they’ll order it.” The next call was already flashing. “I’ve got
+forty seconds, sorry.”
 
 Lu took Corinne into the glass-walled room at the end of the floor and shut
 the door.
 
-"So you've seen what you came to see. She picks a trade off a list and takes
-the first slot. And at the yard they say we send them out blind." Lu's voice
-was level. "I know what they say at the yard."
+“So you’ve seen what you came to see. She picks a trade off a list and takes
+the first slot. And at the yard they say we send them out blind.” Lu’s voice
+was level. “I know what they say at the yard.”
 
-"I'm not here to say it."
+“I’m not here to say it.”
 
-"You've got it on a wall. Bram rang me." She sat down at last, on the edge of
-the table. "Let me tell you what you're asking for when you ask me to stop.
-You want me to hold that man's job until somebody understands it. Fine. Who?
-Farah can't. I can't. So it waits for a technician to ring him back, and
-they're all out on six jobs, so that's tomorrow, or Friday. And meanwhile
-what has he got? He rang, a nice girl said 'we'll be in touch,' and his tap's
-still running."
+“You’ve got it on a wall. Bram rang me.” She sat down at last, on the edge of
+the table. “Let me tell you what you’re asking for when you ask me to stop.
+You want me to hold that man’s job until somebody understands it. Fine. Who?
+Farah can’t. I can’t. So it waits for a technician to ring him back, and
+they’re all out on six jobs, so that’s tomorrow, or Friday. And meanwhile
+what has he got? He rang, a nice girl said ‘we’ll be in touch,’ and his tap’s
+still running.”
 
-"I know."
+“I know.”
 
-"You don't. You weren't on the phones." She reached behind her and took a
+“You don’t. You weren’t on the phones.” She reached behind her and took a
 booklet off the windowsill, soft with handling. The tenant handbook, 2019.
 She opened it to a page with the corner turned down and read aloud.
-"'When you report a repair, you will not be left wondering. We will give you
+“’When you report a repair, you will not be left wondering. We will give you
 an appointment before you put the phone down, and someone will be at your
-door within five working days.'" She looked up. "I've got that on the wall by
-the coffee machine. It's the only thing this organization ever wrote down
-that I could make true with nine people. Who wrote it?"
+door within five working days.’” She looked up. “I’ve got that on the wall by
+the coffee machine. It’s the only thing this organization ever wrote down
+that I could make true with nine people. Who wrote it?”
 
-"I did."
+“I did.”
 
-"You did. And it was right. So don't come down here six years later and
-tell me it's the problem."
+“You did. And it was right. So don’t come down here six years later and
+tell me it’s the problem.”
 
 Corinne had been composing an answer and let it go. There was a whiteboard
 in the room. She got up and uncapped a marker.
 
-"Can I try something? Tell me if any of it is wrong."
+“Can I try something? Tell me if any of it is wrong.”
 
-She wrote at the left-hand edge, in a box: /Tenants' homes are repaired soon
+She wrote at the left-hand edge, in a box: /Tenants’ homes are repaired soon
 and stay repaired./
 
-"That's what it's all for. Yes?"
+“That’s what it’s all for. Yes?”
 
-"Obviously."
+“Obviously.”
 
 To the right of it, two boxes, one above the other, each with an arrow back
 to the first.
@@ -89,18 +96,18 @@ to the first.
 Top: /Every tenant who reports a fault knows quickly that it is being dealt
 with./
 
-"That's yours. Is that fair?"
+“That’s yours. Is that fair?”
 
-Lu read it. "That's it exactly."
+Lu read it. “That’s it exactly.”
 
 Bottom: /Every visit finishes the repair./
 
-"That's Mags's. And Bram's, though he doesn't put it that way."
+“That’s Mags’s. And Bram’s, though he doesn’t put it that way.”
 
-"All right."
+“All right.”
 
-"And you can't have homes repaired soon without both. If people don't know
-we've heard them, it's 2018. If visits don't finish, it's thirty-four days."
+“And you can’t have homes repaired soon without both. If people don’t know
+we’ve heard them, it’s 2018. If visits don’t finish, it’s thirty-four days.”
 
 Further right, one more box on each line.
 
@@ -114,42 +121,42 @@ Between those two she drew a jagged line.
 Lu was quiet for long enough that Corinne began to think she had made
 things worse.
 
-"That's the first time," Lu said, "that anybody from upstairs has put my
-side on a board without the word 'but' after it."
+“That’s the first time,” Lu said, “that anybody from upstairs has put my
+side on a board without the word ‘but’ after it.”
 
-"I don't think there's a 'but'. I think you're both right. That's why it's
-still here. Bram can't give up his without thirty-four days getting worse and
-you can't give up yours without going back to the answering machine. So
-everybody shouts across that line" — she tapped the jagged one — "and
-nothing moves."
+“I don’t think there’s a ‘but’. I think you’re both right. That’s why it’s
+still here. Bram can’t give up his without thirty-four days getting worse and
+you can’t give up yours without going back to the answering machine. So
+everybody shouts across that line” — she tapped the jagged one — “and
+nothing moves.”
 
-"So what do we do about it?"
+“So what do we do about it?”
 
 And here Corinne, who had thirteen days, and who had just for the first time
 in a month had someone on the other side of a table nod at her, did the
 thing she was best at.
 
-"We find the middle," she said.
+“We find the middle,” she said.
 
 She got Bram on the speakerphone. It took forty minutes and it was, she
 thought at the time, the best piece of work she had done since she was given
-the backlog. Lu's side would give a little: the promise would stretch from
+the backlog. Lu’s side would give a little: the promise would stretch from
 five working days to seven, so that the yard had room to get a part in
-before the visit. Bram's side would give a little: he would live with five
+before the visit. Bram’s side would give a little: he would live with five
 jobs on a row instead of six in the buildings where they tried it. And calls
 could run to five minutes instead of three, so that agents could ask two or
 three more questions and write the answers on the order.
 
-"My number goes down," Lu said.
+“My number goes down,” Lu said.
 
-"So does mine," said Bram's voice, tinnily, "and it doesn't finish any more
-jobs that I can see."
+“So does mine,” said Bram’s voice, tinnily, “and it doesn’t finish any more
+jobs that I can see.”
 
-"It's a week," said Corinne. "Two buildings. 118 Garnet and 9 Pell Court,
+“It’s a week,” said Corinne. “Two buildings. 118 Garnet and 9 Pell Court,
 starting tomorrow. If it helps we widen it, and I have something to take to
-the hearing that both of you signed up to."
+the hearing that both of you signed up to.”
 
-There was a pause on the line. "Go on, then," Bram said.
+There was a pause on the line. “Go on, then,” Bram said.
 
 Lu shrugged, which was a yes.
 
@@ -158,18 +165,18 @@ line still between the last two; she had not rubbed it out, only stopped
 looking at it. She photographed the board for her notes and went out past
 the horseshoe of desks feeling lighter than she had in weeks.
 
-Farah caught her eye and pulled an earpiece aside. "Lu says I'm to ask more
-questions."
+Farah caught her eye and pulled an earpiece aside. “Lu says I’m to ask more
+questions.”
 
-"If you would. On Garnet and Pell Court."
+“If you would. On Garnet and Pell Court.”
 
-"What questions?"
+“What questions?”
 
-"About the fault. Whatever would help the technician."
+“About the fault. Whatever would help the technician.”
 
 Farah nodded slowly. She was too polite to say it, so it came out as a
-question. "Right. So I ask two more things I won't understand the answers
-to, and I write them down?"
+question. “Right. So I ask two more things I won’t understand the answers
+to, and I write them down?”
 
 The next call was flashing. Corinne said they would sort the details out as
 they went, and took the stairs.
@@ -218,8 +225,8 @@ is.
   =necessary_for= relationships and one =conflicts_with=.
 
 *If you keep a trusted system:* the two sides of a lasting conflict often
-show up in your own lists as two projects that undo each other. Open ~C-c r
-a~ and look for a pair. Do not resolve them yet; write the pair on your
+show up in your own lists as two projects that undo each other. Open
+~C-c r a~ and look for a pair. Do not resolve them yet; write the pair on your
 sheet beside the boxes.
 
 * The same step in Reason Commons

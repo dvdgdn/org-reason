@@ -1,0 +1,238 @@
+#+title: 16. One Page
+#+subtitle: The Fourth Visit · Part Four: The Test
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:15-the-community-room.org][15. The Community Room]] · [[file:README.org][Contents]] · Next: [[file:17-the-envelope.org][17. The Envelope]]
+
+* The chapter
+
+On Sunday morning Corinne wrote a list of things to do, and by noon she had
+thrown it away.
+
+It had been a perfectly good list. /Email Gloria. Draft withdrawal. Confirm
+stock with Wendell. Chase cards. Brief all staff. Prepare hearing notes./
+Eleven items, each beginning with a verb, the kind of list she had been
+making all her working life and ticking with real pleasure.
+
+What stopped her was the fifth line. /Brief all staff./ She had typed it
+without thinking and then, with Mr. Dufresne’s lining paper photographed on
+the phone beside her, asked herself which of the numbered things on that
+wall it would make true. None of them. It would produce an email. She had
+written it because a plan without it looked unfinished.
+
+So she started again, and this time each line had two halves, and she did
+not let herself write the first half until she could write the second.
+
+/If Wendell releases $38,000 on Monday afternoon, then six buildings’ parts
+are on the vans by Tuesday./
+
+/If Farah and Mags finish five more cards today, then agents can take first
+calls on twelve faults from Tuesday./
+
+/If Bram moves Mags’s row to the two technicians he named, then the first-call
+desk opens Tuesday at eight./
+
+Each of those belonged to someone else, and each of them was waiting, by Mr.
+Dufresne’s numbering, on things above it. She worked upward.
+
+/If the hearing agrees to count days-to-fixed in six buildings for four
+weeks, then fifty-eight percent is no longer the figure Harbor Row is judged
+on there./
+
+/If the tenants’ council asks for that count, then the hearing is being
+asked by the people who complained, not by the landlord./
+
+/If the notices are withdrawn in writing before ten tomorrow, then the
+council will ask./
+
+And there she was again, at number one, the line with no name.
+
+She could not withdraw the notices. That was simply so; the board had voted
+and only the board, or the director acting for it, could suspend what it had
+decided. What could she do, herself, today, with nobody’s leave?
+
+She looked at the question for a long time. Then she opened a blank page and
+wrote, without any of her usual care for how it would land:
+
+/To the Board of Harbor Row Housing, the Garnet Street Tenants’ Council, and
+the Office of Housing Standards./
+
+/On 13 November I presented a paper to the Board stating that the repair
+backlog was growing because tenants were not at home for appointments. The
+missed-appointment notices sent to 138 households were issued on the strength
+of that paper./
+
+/The paper was wrong. I did not test it. Of 41 visits to 118 Garnet Street
+recorded by us as “no access,” the tenants’ own log shows someone at home
+for 29. Of 60 such visits sampled across all buildings, 38 could not have
+been completed because of a missing part or the wrong trade. One of the
+visits I cited to the Board as an example failed because of an instruction I
+gave./
+
+/I ask that the notices be withdrawn./
+
+She signed it with her name and her job, and printed two copies, and read
+one aloud to the kitchen. It went.
+
+Then she wrote its other half, as she had for the rest.
+
+/If I give this to the council tonight, then number one has a name on it,
+whatever the director decides./
+
+That was the first action. It was the only one on the page that needed
+nobody else. It was also the only one that could cost her the job.
+
+-----
+
+Gloria Ferreira was in her office at five on a Sunday with the hearing
+bundle spread over the conference table and her shoes off. She read
+Corinne’s one page standing up. Then she read the signed statement, and sat
+down.
+
+“You want me to walk into a hearing about our failings,” she said, “and open
+by handing them an admission.”
+
+“I’m going to hand them that one in any case. It’s mine. I’m not asking you
+about it; I’m telling you before I do it.” Corinne’s mouth was dry. “The
+rest I am asking.”
+
+“That’s very clear of you.”
+
+“I’ve been unclear for a month.”
+
+Gloria turned the page of actions to the light. She read down the right-hand
+halves, the /then/s, more slowly than the /if/s.
+
+“Every time you’ve come into this room you’ve told me why,” she said. “This
+doesn’t say why anywhere.”
+
+“It says what I think will happen if we do each thing. That’s all I’ve got.
+I gave you two reasons and you acted on both, and you were right to, because
+I sounded sure.” She made herself go on. “I can’t give you something to rely
+on in the way you mean. I can give you what I expect to see by a date, in
+numbers, written down before it happens, and sealed, and I can tell you
+tonight what would show I’m wrong again. And what it costs if I am. Six
+buildings, four weeks, and thirty-eight thousand dollars of parts that we’d
+fit sooner or later anyway.”
+
+“And fifty-eight percent.”
+
+“It’ll get worse than fifty-eight in those buildings. I’d rather say that
+tomorrow, out loud, before it happens, than explain it afterwards. If the
+tenants ask to be counted by days-till-it’s-fixed, it isn’t your number that
+broke. It’s a number they’ve asked you to stop using.”
+
+Gloria was silent. Outside the window the street lights had come on along
+Tolland Avenue.
+
+“A board likes a promise,” she said at last. “So does a hearing officer. So
+do I. I have run this place for nine years on being able to say: this is
+what we will do, and then doing it. You’re asking me to go in and say: this
+is what we think will happen, and we may be wrong, and here is how you’ll
+know.” She rubbed her eyes. “Do you know what it costs me to stand up and
+say Harbor Row sent a fee notice to an old man it had left without heat?”
+
+“Yes.”
+
+“Less than a monitor. Marginally.” She pulled a pad toward her. “I can’t
+withdraw a board decision. I can suspend it tonight on my own authority and
+ask them to ratify on Thursday, and if they won’t, that’s my job and not
+yours. Write me the letter to the households. Short. No ‘regret any
+inconvenience’. I’ll sign a hundred and thirty-eight of them if I have to do
+it with a rubber stamp.”
+
+“And the six buildings?”
+
+“Four weeks. From Tuesday. And I want the envelope you mentioned on my desk
+at nine tomorrow, before we walk over, so that I’ve seen what’s in it before
+the city has.” She looked up. “You understand that if the numbers in it are
+wrong, I’ll have told a hearing they would be right.”
+
+“You’ll have told them what we expected. That’s a different sentence.”
+
+“It’s a much less comfortable one.”
+
+“Yes,” said Corinne. “It’s been a less comfortable month.”
+
+Gloria almost smiled, and reached for her shoes.
+
+At ten to nine that night Corinne climbed the stairs at 118 Garnet, because
+the elevator was slow, and put two sheets of paper into Samira Haddad’s
+hand: the director’s suspension of the notices, signed, and her own
+statement, signed.
+
+Samira read both on the doorstep. From inside came the sound of a bath
+running out, and no drip.
+
+“Council’s at eight,” she said. “We’ll say it.”
+
+* What Corinne has just learned
+
+A list of tasks let Corinne write down things that produced nothing. When
+each action has to be written with the effect it should cause, one line
+falls away and another turns out to be hers alone. She does that one first,
+at a cost. She offers the director an expectation with a date where she used
+to offer a reason, and the director takes it, uncomfortably.
+
+* Your thinking — Step 16: Write each action with its effect
+
+/Fifteen minutes./
+
+Take your ordered list from step 15.
+
+1. For each thing to achieve, write the action that would bring it about.
+   One action, one doer.
+2. Write every action as two halves: /If [who] does [what], then [what
+   becomes true]./ Do not write the first half until you can write the
+   second.
+3. Cross out any action whose second half you cannot write. You put it there
+   because plans usually have one.
+4. For each remaining line ask the old question: is that action enough on
+   its own? Add what else must already be true.
+5. Find the action that is yours, that nobody has to permit, and that the
+   earliest item on the list depends on. That is the first action. Write it
+   on a separate line.
+6. Say what the first action will cost you. If it costs nothing, look again
+   for the one you are avoiding.
+
+Then do it, today if it can be done today.
+
+* The same step in Org Reason
+
+1. Press ~C-c r t n~ and choose the =transition= tree. Enter each action
+   with the role =action= and each second half with the role
+   =expected_effect=. Use =existing_condition= for what must already be true.
+2. Press ~C-c r t l~, tree =transition=. Select the action and any existing
+   conditions together as sources, the expected effect as the target, and
+   =produces= as the relation.
+3. Press ~C-c r t x~, choose your first action and a context. Org Reason
+   creates one next action linked to that statement. Pressing it again later
+   opens the same reminder instead of making a second.
+
+- [ ] ~C-c r a~ shows one new NEXT action, and opening it shows the link back
+  to the commons.
+
+*If you keep a trusted system:* only the first action becomes a next action.
+The others stay in the transition tree until their turn; use ~C-c r t x~ on
+each as the one before it is done. Actions that belong to other people are
+waiting-for entries (~C-c r x~, =delegate=) with the date you will ask.
+
+* The same step in Reason Commons
+
+In a shared record an action is a claim about what will follow, made by the
+person who will act.
+
+1. Each person proposes their own actions, with the effect they expect.
+2. Others may challenge the expected effect without challenging the action.
+3. An action in the commons is not a reminder in anyone's list. Each person
+   takes their own into whatever they use to remember things; the commons
+   keeps the link.
+
+- [ ] Each action shows the person who will take it and the effect they
+  expect from it.
+
+* Carry forward
+
+A page of actions, each with its expected effect, and a first action done or
+dated. Step 17 writes down what you expect to see.

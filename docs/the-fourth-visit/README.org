@@ -1,0 +1,117 @@
+#+title: The Fourth Visit — find what to change
+#+startup: showall
+#+options: toc:nil num:nil
+
+/The Fourth Visit/ is a novella in which Corinne Vance is handed a housing
+landlord's repair backlog. Every team is hitting its targets, tenants wait
+thirty-four days, and each sensible improvement has made the wait longer. She
+learns, by getting it wrong twice, the way of reasoning that Eliyahu Goldratt
+called the thinking processes: how to find what to change, what to change it
+to, and how to cause the change. The whole novella is here, one chapter to a
+page, and each chapter is followed by an exercise. By chapter 18 you have
+worked one stubborn problem of your own from a list of troubles to a tested
+change.
+
+You need nothing but this and a pen. If you have read /Three Hundred Seats/
+or keep a trusted system of your own, each page says where the two meet.
+
+* How each page works
+
+Every page has the same six parts.
+
+- *The chapter* :: the story itself.
+- *What Corinne has just learned* :: the chapter's lesson in a few lines. It
+  gives away nothing from later chapters.
+- *Your thinking — Step N* :: the exercise in general terms, for pen and
+  paper. It is complete in itself.
+- *The same step in Org Reason* :: the same exercise with Org Reason's
+  commands, on your real records. One paragraph in it, marked /If you keep a
+  trusted system/, says what to do with the step's result in your lists.
+  Skip it if you keep none.
+- *The same step in Reason Commons* :: what changes when you do the step with
+  other people, or with an assistant, in a shared record.
+- *Carry forward* :: what to keep for the next step.
+
+Each step uses what the earlier steps produced, so do them in order, on one
+problem. Most take ten or fifteen minutes. Steps 7, 14 and 15 need another
+person.
+
+The story is in four parts: Busy (chapters 1–4), Two Explanations (5–9), The
+Conflict (10–14) and The Test (15–18). The [[file:appendix.org][appendix]] shows how the story was
+built and sums up the method with its usual names. Read it last.
+
+* The eighteen chapters and steps
+
+| After chapter               | Step                                    | What you have                              | Page |
+|-----------------------------+-----------------------------------------+--------------------------------------------+------|
+| 1. The Counter              | List what keeps going wrong             | Plain troubles, no "because"               | [[file:01-the-counter.org][01]]   |
+| 2. What the Vans Are For    | Say what it is for                      | One aim, and how you would know            | [[file:02-what-the-vans-are-for.org][02]]   |
+| 3. Four Things              | Name the few conditions                 | Three to five conditions                   | [[file:03-four-things.org][03]]   |
+| 4. Thirty-One Percent       | Set each trouble beside its condition   | Five to eight troubles that matter         | [[file:04-thirty-one-percent.org][04]]   |
+| 5. Apartment 4C             | Join two troubles                       | Your first arrows                          | [[file:05-apartment-4c.org][05]]   |
+| 6. The Missing And          | Find the missing "and"                  | Arrows that are enough                     | [[file:06-the-missing-and.org][06]]   |
+| 7. Wendell's Pencil         | Invite a challenge                      | A diagram someone tried to break           | [[file:07-wendells-pencil.org][07]]   |
+| 8. The Notebook             | Ask what else would be true, and look   | An expectation checked                     | [[file:08-the-notebook.org][08]]   |
+| 9. The Wall                 | Follow the arrows down                  | The cause most troubles share              | [[file:09-the-wall.org][09]]   |
+| 10. Five Days               | Draw the conflict                       | Five boxes both sides accept               | [[file:10-five-days.org][10]]   |
+| 11. Because                 | Say the "because"                       | The assumptions under each arrow           | [[file:11-because.org][11]]   |
+| 12. Six Minutes             | Find the change                         | A change that meets both needs             | [[file:12-six-minutes.org][12]]   |
+| 13. Bram's Arithmetic       | Reason forward                          | A chain from the change to the results     | [[file:13-brams-arithmetic.org][13]]   |
+| 14. Nine People             | Ask who it hurts                        | A change altered by the person it hurt     | [[file:14-nine-people.org][14]]   |
+| 15. The Community Room      | Put the obstacles in order              | Things to achieve, in order, with names    | [[file:15-the-community-room.org][15]]   |
+| 16. One Page                | Write each action with its effect       | A first action, done                       | [[file:16-one-page.org][16]]   |
+| 17. The Envelope            | Say what you expect by when             | A sealed expectation and its result        | [[file:17-the-envelope.org][17]]   |
+| 18. Where the Queue Went    | Begin again                             | A new first line                           | [[file:18-where-the-queue-went.org][18]]   |
+
+* What you have at the end
+
+One problem, reasoned through in three movements.
+
+- *What to change* (steps 1–9): an aim and its conditions, the troubles that
+  damage them, a diagram of causes that someone else has tried to break, and
+  the one cause most troubles share.
+- *What to change it to* (steps 10–14): the conflict that has kept that cause
+  in place, the assumption under it that can be given up, a change that meets
+  both sides' needs, and the same change altered by the person it would have
+  hurt.
+- *How to cause the change* (steps 15–18): the obstacles in order, a first
+  action, an expectation written before the result, and the habit of asking
+  where the difficulty has gone.
+
+* Before you start with Org Reason
+
+You need Org Reason 0.2.0 or later with =org-reason-mode= on (see [[file:../install.md][install.md]]).
+The keys below assume the default prefix, ~C-c r~; ~C-c r ?~ shows the menu.
+The tree commands under ~C-c r t~ need Python 3 with PyYAML, which ~C-c r t P~
+sets up.
+
+A statement in a commons cannot be reworded or deleted from Emacs. To change
+your mind you propose the better wording and accept that one; the earlier
+wording stays visible as something that was said. The steps are written with
+that in mind. [[file:../reasoncommons.md][reasoncommons.md]] explains how to edit the file directly when
+you must.
+
+These exercises use your real workspace. If you would rather learn the keys
+on invented data first, ~C-c r h~ opens the [[file:../user-guide.org][tutorial]] in a separate Emacs.
+
+* Before you start with Reason Commons
+
+[[https://reasoncommons.com/][Reason Commons]] is a method and a shared record for reasoning with other
+people. A commons made with ~C-c r t c~ is an ordinary Reason Commons file:
+the same record can be opened with the Reason Commons skill and an assistant,
+or by a colleague, in turn. The sections on each page describe what to do
+there in general terms, because the wording of its commands changes between
+versions. They were written against the upstream revision pinned in
+=vendor/reasoncommons/UPSTREAM.json=.
+
+You can do every step without it. It earns its place from step 7 onward,
+when the reasoning has to survive other people.
+
+* A note on sources
+
+The method taught here is Eliyahu M. Goldratt's, as developed by others,
+notably H. William Dettmer. The story, its characters and its examples are
+original. This novella was written from general knowledge of the method and
+has not been checked line by line against the books; the [[file:appendix.org][appendix]] lists
+them. It is independent and not affiliated with any of the authors or their
+organizations.

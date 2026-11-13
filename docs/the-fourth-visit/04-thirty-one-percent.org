@@ -1,31 +1,38 @@
+#+title: 4. Thirty-One Percent
+#+subtitle: The Fourth Visit · Part One: Busy
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:03-four-things.org][3. Four Things]] · [[file:README.org][Contents]] · Next: [[file:05-apartment-4c.org][5. Apartment 4C]]
+
 * The chapter
 
-Aldo Marchetti's living room had a bay window, a wall of books in two
+Aldo Marchetti’s living room had a bay window, a wall of books in two
 languages, a television with a blanket folded on top of it, and a cast-iron
 radiator under the window that was as cold as a railing.
 
 Corinne laid her palm on it because it seemed rude not to.
 
-"You see," Mr. Marchetti said from his chair, with satisfaction. He was
+“You see,” Mr. Marchetti said from his chair, with satisfaction. He was
 eighty-one and narrow, wearing a cardigan over a sweater over a shirt, and
-had been a typesetter for forty years at a printer's that no longer existed.
-"The bedroom one is good. The kitchen one is good. This one has a
-disagreement with the building."
+had been a typesetter for forty years at a printer’s that no longer existed.
+“The bedroom one is good. The kitchen one is good. This one has a
+disagreement with the building.”
 
 Odile had invited her. /I take him supper on Mondays. If you have tagged his
 radiator you should at least meet it./ She was in the kitchen now, visible
 through the doorway, decanting soup. On the counter beside her a hearing aid
-sat in a small lit cradle, and its twin was in her father's left ear.
+sat in a small lit cradle, and its twin was in her father’s left ear.
 
-"Tomorrow," Corinne told him, turning that way so he could see her mouth.
-"Tuesday. First job of the day, with the right part this time."
+“Tomorrow,” Corinne told him, turning that way so he could see her mouth.
+“Tuesday. First job of the day, with the right part this time.”
 
-"What o'clock is first?"
+“What o’clock is first?”
 
-"In the morning. I'm finding out exactly." She had the note in her bag and
+“In the morning. I’m finding out exactly.” She had the note in her bag and
 had emailed the dispatcher from the bus. There was no reply yet.
 
-"I will be here," Mr. Marchetti said, as a man might who had been asked
+“I will be here,” Mr. Marchetti said, as a man might who had been asked
 whether he would be attending his own birthday.
 
 They ate at a table by the cold window, in coats. Afterwards Odile washed up
@@ -40,9 +47,9 @@ the yard and in the call center what kept going wrong, and they had told her.
 /The tenant app is an ugly green and nobody uses it./
 /There is nowhere to park at the yard after 7:30./
 
-Mr. Marchetti put on a second pair of glasses and leaned over. "That is a
-galley," he said. "Ten lines. And these?" He tapped the conditions. "Four
-heads. Each line goes under a head or it goes on the floor."
+Mr. Marchetti put on a second pair of glasses and leaned over. “That is a
+galley,” he said. “Ten lines. And these?” He tapped the conditions. “Four
+heads. Each line goes under a head or it goes on the floor.”
 
 Odile, drying a bowl, did not correct him.
 
@@ -55,7 +62,7 @@ many visits a repair takes./ Yes, in its way: it was a thing not known.
 arrive without the part./
 
 /The tenant can let us in at a time they agreed./ Under that went /31 percent
-of visits are closed as "no access."/
+of visits are closed as “no access.”/
 
 Three lines belonged under no condition because they were the aim itself
 going unmet: thirty-four days, the rising count of open orders, the tenants
@@ -63,13 +70,13 @@ who rang again. She wrote them across the top.
 
 That left the uniforms, the green app and the car park.
 
-"Which head?" said Mr. Marchetti.
+“Which head?” said Mr. Marchetti.
 
-"None of them. But people are really annoyed about the parking."
+“None of them. But people are really annoyed about the parking.”
 
-"I was annoyed for forty years about the coffee at Delacroix and Sons. We
-still got the paper out." He drew a neat line through all three with her pen
-and handed it back. "Floor."
+“I was annoyed for forty years about the coffee at Delacroix and Sons. We
+still got the paper out.” He drew a neat line through all three with her pen
+and handed it back. “Floor.”
 
 She looked at what remained and saw it at once. It was the only place on the
 sheet where a number sat squarely on top of a condition. Nearly a third of
@@ -77,52 +84,52 @@ all visits. Six hundred and twenty-four visits a week, and close to two
 hundred of them ended at a closed door. If those two hundred had been
 repairs —
 
-"That's it," she said. "That's the backlog. It's access."
+“That’s it,” she said. “That’s the backlog. It’s access.”
 
 Odile hung up the dish towel and came to look. She read the sheet for some
 time.
 
-"It's a trouble sitting next to the thing it damages," she said. "You've done
-that well. I don't see a cause on this page."
+“It’s a trouble sitting next to the thing it damages,” she said. “You’ve done
+that well. I don’t see a cause on this page.”
 
-"The cause is that tenants aren't there when we come."
+“The cause is that tenants aren’t there when we come.”
 
-"Is that written here?"
+“Is that written here?”
 
-"It's what 'no access' means."
+“It’s what ‘no access’ means.”
 
-"Is it?" Odile looked, briefly, at her father, who was folding his glasses.
-"He's had three visits. Was he a 'no access'?"
+“Is it?” Odile looked, briefly, at her father, who was folding his glasses.
+“He’s had three visits. Was he a ‘no access’?”
 
 Corinne had the laptop. Visit three, the thirty-first: /No access. 09:14./
 
-"On the thirty-first, yes."
+“On the thirty-first, yes.”
 
-"Papa. Did anyone come on Halloween? The Friday."
+“Papa. Did anyone come on Halloween? The Friday.”
 
-Mr. Marchetti considered. "Someone came on a Friday. Or it was the Thursday.
-I heard the buzzer late, I think. I was in the chair." He lifted one shoulder.
-"I am not always quick."
+Mr. Marchetti considered. “Someone came on a Friday. Or it was the Thursday.
+I heard the buzzer late, I think. I was in the chair.” He lifted one shoulder.
+“I am not always quick.”
 
 It was not nothing, and Corinne felt for him. But it was also exactly what
 the number said: a technician, a door, a tenant who did not get to it in
 time. Multiplied by two hundred a week.
 
-"I have to tell the board something on Thursday," she said. "This is the
-biggest number on the page and it's the only one that explains the others."
+“I have to tell the board something on Thursday,” she said. “This is the
+biggest number on the page and it’s the only one that explains the others.”
 
-"Does it explain them? Or is it one of them?"
+“Does it explain them? Or is it one of them?”
 
-"Odile, I have three days."
+“Odile, I have three days.”
 
-"Yes." Odile did not argue further. She put the lid on the soup container.
-"You do."
+“Yes.” Odile did not argue further. She put the lid on the soup container.
+“You do.”
 
-*
+-----
 
-On Tuesday at 8:15 the dispatcher's answer arrived, to a question that no
+On Tuesday at 8:15 the dispatcher’s answer arrived, to a question that no
 longer mattered. /Dev was at 4C 7:40, first job like you asked. Knocked, no
-answer. Coded NA. He's got five more today, can't go back./
+answer. Coded NA. He’s got five more today, can’t go back./
 
 Corinne read it standing up. She thought of the hearing aid in its cradle on
 the kitchen counter, and then, to her lasting shame, she thought: /even 4C./
@@ -134,7 +141,7 @@ She put it in the paper.
 The board met on Thursday the thirteenth and it was the best hour she had had
 in that room. The paper was called /Why the Backlog Grows/ and it had one
 chart. She told them about a repair she had personally expedited, with the
-part in the technician's hand, that had ended on a doormat. Heads nodded
+part in the technician’s hand, that had ended on a doormat. Heads nodded
 around the table. It was a relief to everyone, including Corinne, that the
 answer was so plain.
 
@@ -144,23 +151,23 @@ cost thirty-five dollars. And since the backlog would not clear itself, a
 contractor, Tri-County Mechanical, would be brought in for eight weeks from
 Monday at a cost of ninety-six thousand dollars.
 
-Wendell Price, the controller, voted against the second. "We are buying more
-visits," he said in his dry way, "before anyone has shown me that visits are
-what we're short of." Nobody took it up. Gloria squeezed Corinne's arm on the
-way out and said, "That's what I needed."
+Wendell Price, the controller, voted against the second. “We are buying more
+visits,” he said in his dry way, “before anyone has shown me that visits are
+what we’re short of.” Nobody took it up. Gloria squeezed Corinne’s arm on the
+way out and said, “That’s what I needed.”
 
 The notices went to one hundred and thirty-eight households. Building staff
 delivered them by hand on Friday so that nobody could say they had been lost.
 
 On Saturday morning Corinne was in a supermarket queue when her phone lit.
 
-/I'm at the gate. My father has just read me a letter over the phone. It says
+/I’m at the gate. My father has just read me a letter over the phone. It says
 he has missed two appointments and that a third will cost him $35. He has not
 left the apartment since the first week of October./
 
 A second message followed before she could think.
 
-/I'm not asking for anything. Boarding now./
+/I’m not asking for anything. Boarding now./
 
 * What Corinne has just learned
 

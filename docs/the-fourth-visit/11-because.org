@@ -1,40 +1,47 @@
+#+title: 11. Because
+#+subtitle: The Fourth Visit · Part Three: The Conflict
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:10-five-days.org][10. Five Days]] · [[file:README.org][Contents]] · Next: [[file:12-six-minutes.org][12. Six Minutes]]
+
 * The chapter
 
-The rehabilitation wing at St. Brendan's had a day room with a view of the
+The rehabilitation wing at St. Brendan’s had a day room with a view of the
 car park and a row of high-backed chairs, and on Saturday afternoon Aldo
 Marchetti was in one of them with a walking frame parked beside him like a
 bicycle.
 
-"They make me go up and down the corridor," he told Corinne. "Twenty meters.
-Then they write it in a book. I said, in my day we were paid for piecework."
+“They make me go up and down the corridor,” he told Corinne. “Twenty meters.
+Then they write it in a book. I said, in my day we were paid for piecework.”
 
 He was thinner. His voice was the same. Both hearing aids were in.
 
 Odile had landed that morning. She brought three coffees from the machine
-and sat down on her father's other side, and for a minute nobody said
+and sat down on her father’s other side, and for a minute nobody said
 anything.
 
-"I got your message," Odile said. "Two point four. I didn't answer."
+“I got your message,” Odile said. “Two point four. I didn’t answer.”
 
-"I didn't expect you to."
+“I didn’t expect you to.”
 
-"I was angry with you for about three weeks. I'm telling you so that you
-know it's finished, not so that you'll apologize again." She turned her cup
-a quarter turn on the arm of the chair. "What have you done with it?"
+“I was angry with you for about three weeks. I’m telling you so that you
+know it’s finished, not so that you’ll apologize again.” She turned her cup
+a quarter turn on the arm of the chair. “What have you done with it?”
 
-So Corinne told them: Wendell's pencil, the notebook on the refrigerator,
+So Corinne told them: Wendell’s pencil, the notebook on the refrigerator,
 the count, the yellow wall and the note in capitals at the bottom of it. Mr.
 Marchetti listened with his eyes half closed, as to a radio play. Then she
-took out her phone and showed Odile the photograph of Lu's whiteboard, the
+took out her phone and showed Odile the photograph of Lu’s whiteboard, the
 five boxes, and explained the arrangement she had made on Tuesday. Seven
 days in place of five. Five jobs in place of six. Five-minute calls.
 
-"And both of them agreed?"
+“And both of them agreed?”
 
-"Both of them."
+“Both of them.”
 
-"That's not a small thing, in your building." Odile enlarged the photograph
-with two fingers. "How is it going?"
+“That’s not a small thing, in your building.” Odile enlarged the photograph
+with two fingers. “How is it going?”
 
 Lu had sent the figures on Friday night. Corinne knew them by heart and
 wished she did not. In the two buildings, over three days: attended within
@@ -42,85 +49,85 @@ the promise, seventy-eight percent, because the promise was now seven days
 and tenants who had been told five were ringing to ask where the van was.
 Visits per repair, on the few jobs closed so far: two point three.
 
-"From two point four," Odile said.
+“From two point four,” Odile said.
 
-"It's only three days."
+“It’s only three days.”
 
-"What did Ms. Tran give up?"
+“What did Ms. Tran give up?”
 
-"Two days of her promise. And her call time."
+“Two days of her promise. And her call time.”
 
-"And the superintendent?"
+“And the superintendent?”
 
-"One job a day per technician."
+“One job a day per technician.”
 
-"So each of them has a little less of what they told you they couldn't do
-without." Odile handed the phone back. "And the note in capitals. The job is
+“So each of them has a little less of what they told you they couldn’t do
+without.” Odile handed the phone back. “And the note in capitals. The job is
 sent before anyone knows what it needs. Is it still sent before anyone knows
-what it needs?"
+what it needs?”
 
-Corinne thought of Farah. /I ask two more things I won't understand the
+Corinne thought of Farah. /I ask two more things I won’t understand the
 answers to./
 
-"Yes."
+“Yes.”
 
-"Mm."
+“Mm.”
 
 It was the same sound she had made in the control tower. Corinne waited for
 the question that usually followed it, and for once got in first.
 
-"You're going to ask me something and I'm not going to have the answer."
+“You’re going to ask me something and I’m not going to have the answer.”
 
-"Probably. May I have the picture again?" Odile laid the phone flat on the
+“Probably. May I have the picture again?” Odile laid the phone flat on the
 arm of the chair between them, where her father could see it too. She put
-her finger on the arrow between Lu's need and Lu's action. "To let every
-tenant know quickly that they're being dealt with, you must book a visit at
-once. Because?"
+her finger on the arrow between Lu’s need and Lu’s action. “To let every
+tenant know quickly that they’re being dealt with, you must book a visit at
+once. Because?”
 
-"Because that's how they know."
+“Because that’s how they know.”
 
-"That's the arrow again in different words. Because what? What would have to
-be true about tenants, for a booking to be the only way?"
+“That’s the arrow again in different words. Because what? What would have to
+be true about tenants, for a booking to be the only way?”
 
 Corinne started to answer and found the answer was a sentence she had
 written. Not the one in the handbook. The one behind it, from a meeting in
 2019 that she could suddenly see: herself at a flipchart, pleased, saying
 that people needed something they could /picture/.
 
-"Because a tenant only believes they've been heard when there's a van at the
-door," she said. "I said that. More or less in those words. It's why the
-promise is about someone at your door and not about anything else."
+“Because a tenant only believes they’ve been heard when there’s a van at the
+door,” she said. “I said that. More or less in those words. It’s why the
+promise is about someone at your door and not about anything else.”
 
-"Is it true?"
+“Is it true?”
 
-"I don't know. I thought it was obvious."
+“I don’t know. I thought it was obvious.”
 
-Mr. Marchetti opened his eyes. "The young woman who answered me was very
-nice," he said. "Very quick. She did not ask me one thing about the
-radiator." He lifted a finger. "I have lived with that radiator thirty-one
+Mr. Marchetti opened his eyes. “The young woman who answered me was very
+nice,” he said. “Very quick. She did not ask me one thing about the
+radiator.” He lifted a finger. “I have lived with that radiator thirty-one
 years. I could have told her it was the valve. I told the first man it was
-the valve and he said he was a plumber. Nobody asked."
+the valve and he said he was a plumber. Nobody asked.”
 
 Odile did not look at Corinne. She moved her finger to the lower arrow.
 
-"To finish the repair at the visit, you must hold the job until it's
+“To finish the repair at the visit, you must hold the job until it’s
 understood. That one seems reasonable. But the superintendent told you it
-can't be done. Because?"
+can’t be done. Because?”
 
-"Because you find out when you get there. 'That's the job.'" Corinne heard
-Bram say it. "Because nobody can tell what a repair needs until a technician
-is standing in the room."
+“Because you find out when you get there. ‘That’s the job.’” Corinne heard
+Bram say it. “Because nobody can tell what a repair needs until a technician
+is standing in the room.”
 
-"Is that true?"
+“Is that true?”
 
 Corinne looked at the old man who had known it was the valve.
 
-"And the jagged line," Odile said. "Book at once, or hold. Why can't you do
-both? Because?"
+“And the jagged line,” Odile said. “Book at once, or hold. Why can’t you do
+both? Because?”
 
-"Because understanding a job takes days. A technician has to go and look. So
-if you hold it until it's understood, the tenant hears nothing for days.
-Which is Lu's 2018."
+“Because understanding a job takes days. A technician has to go and look. So
+if you hold it until it’s understood, the tenant hears nothing for days.
+Which is Lu’s 2018.”
 
 She had the photograph and no pen. Odile passed her one, and a paper napkin
 from under the coffee, and Corinne wrote the three of them out because she
@@ -137,37 +144,37 @@ in the room./
 They did not look like much. They looked like the kind of thing nobody would
 bother to say.
 
-"That's why nobody says them," Odile said, when Corinne remarked on it. "How
-many of the three did your arrangement on Tuesday touch?"
+“That’s why nobody says them,” Odile said, when Corinne remarked on it. “How
+many of the three did your arrangement on Tuesday touch?”
 
 Corinne went down the napkin. Seven days in place of five: still a van at
 the door, only later. Five jobs in place of six: still a technician finding
 out in the room. Longer calls: Farah, asking questions she could not use.
 
-"None."
+“None.”
 
-"So you moved the line between the two boxes. A little toward one side." Odile
-finished her coffee. "It's what I'd have done at your age. It gets everybody
-out of the room."
+“So you moved the line between the two boxes. A little toward one side.” Odile
+finished her coffee. “It’s what I’d have done at your age. It gets everybody
+out of the room.”
 
-"It took me forty minutes and I was proud of it."
+“It took me forty minutes and I was proud of it.”
 
-"I'm sure it was well done."
+“I’m sure it was well done.”
 
 Mr. Marchetti had been studying the napkin through the lower half of his
 glasses. He tapped the middle line.
 
-"At Delacroix we pulled a proof before the run. One sheet. You read it, you
+“At Delacroix we pulled a proof before the run. One sheet. You read it, you
 mark it, /then/ you print ten thousand. Nobody said, you cannot know what is
-wrong with a page until you have printed ten thousand of it." He sat back,
-tired by the speech. "Somebody could look first. I am only a tenant."
+wrong with a page until you have printed ten thousand of it.” He sat back,
+tired by the speech. “Somebody could look first. I am only a tenant.”
 
 A physiotherapist had appeared in the doorway with a clipboard. It was time
 for the twenty meters.
 
-Odile got up to walk beside the frame. Over her shoulder she said, "I don't
-know which of those three is the weak one. I don't know your work. But I'd be
-surprised if all three could stand being looked at. Who would know?"
+Odile got up to walk beside the frame. Over her shoulder she said, “I don’t
+know which of those three is the weak one. I don’t know your work. But I’d be
+surprised if all three could stand being looked at. Who would know?”
 
 Corinne put the napkin in her notebook. She knew a woman with a grey plait
 who had fitted a valve in twenty-five minutes and said that anyone who had

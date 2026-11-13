@@ -1,3 +1,10 @@
+#+title: 7. Wendell's Pencil
+#+subtitle: The Fourth Visit · Part Two: Two Explanations
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:06-the-missing-and.org][6. The Missing And]] · [[file:README.org][Contents]] · Next: [[file:08-the-notebook.org][8. The Notebook]]
+
 * The chapter
 
 For the leadership meeting Corinne redrew the diagram, and in redrawing it
@@ -10,88 +17,88 @@ box at the bottom. /June: van stock cut by $212,000./ An arrow up to
 arrow up to /Backlog: 1,912 and rising/. It was clean. Each arrow, read aloud
 in her kitchen the night before, had gone.
 
-Tuesday the twenty-fifth, nine o'clock, the small conference room. Gloria at
+Tuesday the twenty-fifth, nine o’clock, the small conference room. Gloria at
 the head. Bram with his arms folded. Lu with a tablet. Wendell Price with a
 legal pad and a sharpened pencil laid parallel to its edge.
 
 Corinne told them about 4C. She told it well; she could hear the room
-listening. She told them about the empty rails in Mags's van and the valve
+listening. She told them about the empty rails in Mags’s van and the valve
 that used to be there, and then she put up the slide and walked them from the
 bottom to the top.
 
-"So when we ask why the backlog is growing," she finished, "I think we have
-to look at a decision that was taken in June."
+“So when we ask why the backlog is growing,” she finished, “I think we have
+to look at a decision that was taken in June.”
 
 Nobody spoke. Bram had unfolded his arms. It was not his board on the slide,
 and he looked like a man who has been let off.
 
-Wendell picked up the pencil. "May I?"
+Wendell picked up the pencil. “May I?”
 
-"Of course."
+“Of course.”
 
-"Thank you. When did open orders begin to rise?"
+“Thank you. When did open orders begin to rise?”
 
-She had the year-on-year figure by heart. "They were 1,240 last November."
+She had the year-on-year figure by heart. “They were 1,240 last November.”
 
-"Month by month."
+“Month by month.”
 
-"I don't have that with me."
+“I don’t have that with me.”
 
-"I do. I get it for the accruals." He turned the legal pad a quarter turn; he
-had written the months down the margin. "Flat through February. Up sixty in
+“I do. I get it for the accruals.” He turned the legal pad a quarter turn; he
+had written the months down the margin. “Flat through February. Up sixty in
 March. Up again in April and in May. The stock came off the vans in the
-third week of June." He looked up. "Your arrow has the cause arriving three
-months after the effect."
+third week of June.” He looked up. “Your arrow has the cause arriving three
+months after the effect.”
 
 Corinne felt her face change.
 
-"Second. After we spoke on Friday I had the storekeeper pull a hundred and
+“Second. After we spoke on Friday I had the storekeeper pull a hundred and
 fifty repeat visits from the last four weeks. Jobs where a technician went
 back to the same fault. I wanted to know how many had waited on a part that
-would have been on the van before June." He turned a page. "Thirty-three.
-Twenty-two percent. That's real; I'm not pretending it away. I've already
+would have been on the van before June.” He turned a page. “Thirty-three.
+Twenty-two percent. That’s real; I’m not pretending it away. I’ve already
 asked for the ninety-day rule to be run again on a full year, because Ms.
-Olsen is right that it can't see winter. But it leaves a hundred and
-seventeen that waited on something else."
+Olsen is right that it can’t see winter. But it leaves a hundred and
+seventeen that waited on something else.”
 
-"That's one sample."
+“That’s one sample.”
 
-"It is. It's one more than is on the slide."
+“It is. It’s one more than is on the slide.”
 
 Gloria had not moved.
 
-"Third. On Friday you stood in my cage and said, yourself, that a van
+“Third. On Friday you stood in my cage and said, yourself, that a van
 without the part is no trouble to a technician who knows the job. You added
 two more causes beside mine. I wrote them down, because I thought it was a
-good piece of thinking." He tapped the single box at the bottom of her slide
-with the pencil's eraser end. "Where did they go?"
+good piece of thinking.” He tapped the single box at the bottom of her slide
+with the pencil’s eraser end. “Where did they go?”
 
-"I simplified it for the room."
+“I simplified it for the room.”
 
-"Yes."
+“Yes.”
 
 There was a fourth, and he offered it almost apologetically. Had she
 considered that it might run the other way? His rule had flagged any part
 that had not left a van in ninety days. If, since March, technicians had been
 finishing fewer jobs, then fewer parts would have left the vans, and more
-lines would have looked idle in June than truly were. "In which case the cut
-is partly a result of your problem. I don't know that. But I can't rule it
-out, and neither can that arrow."
+lines would have looked idle in June than truly were. “In which case the cut
+is partly a result of your problem. I don’t know that. But I can’t rule it
+out, and neither can that arrow.”
 
 Corinne had nothing. She stood beside a slide she had been proud of at eight
-o'clock.
+o’clock.
 
 Gloria spoke at last, and quietly, which was how she did it when she meant
-it most. "Two weeks ago it was the tenants. I took that to the board. I sent
+it most. “Two weeks ago it was the tenants. I took that to the board. I sent
 a hundred and thirty-eight letters and I have a contractor in the yard at
 twelve thousand dollars a week, on the tenants. One of those letters went to
-a man who is now in St. Brendan's." She closed her folder. "This morning it's
-Wendell. Corinne, I can't go back in there with a third one. Come to me when
-somebody other than you has tried to knock it down and couldn't."
+a man who is now in St. Brendan’s.” She closed her folder. “This morning it’s
+Wendell. Corinne, I can’t go back in there with a third one. Come to me when
+somebody other than you has tried to knock it down and couldn’t.”
 
 That was the meeting.
 
-*
+-----
 
 She sat for some time on the back stairs between the second and third
 floors, where nobody went.
@@ -102,70 +109,70 @@ whole time, in her own hand, and she had left it out because it did not say
 what she wanted said. She had used the method the way she used a chart: to
 carry a conclusion into a room.
 
-At eleven she knocked on the controller's door with the notebook open at the
+At eleven she knocked on the controller’s door with the notebook open at the
 drawing from the yard.
 
-Wendell looked at it, and then at her. "People don't usually come back."
+Wendell looked at it, and then at her. “People don’t usually come back.”
 
-"You had four objections and I'd have had none. I want the rest. All of it,
-every arrow. Including the ones that aren't about your cage."
+“You had four objections and I’d have had none. I want the rest. All of it,
+every arrow. Including the ones that aren’t about your cage.”
 
-"I should say that I dislike this diagram a great deal. It has my signature
-at the bottom of it."
+“I should say that I dislike this diagram a great deal. It has my signature
+at the bottom of it.”
 
-"I know."
+“I know.”
 
-"I mention it because disliking it is not one of my objections, and I'd want
-you to be able to tell the two apart. If I'm only disliking, say so." He
-cleared a space on the desk. "Sit down. What does this box mean?"
+“I mention it because disliking it is not one of my objections, and I’d want
+you to be able to tell the two apart. If I’m only disliking, say so.” He
+cleared a space on the desk. “Sit down. What does this box mean?”
 
 It was the box that read /Technicians rush jobs./
 
-"That they hurry. They don't finish properly."
+“That they hurry. They don’t finish properly.”
 
-"I don't know what I'd count. Six jobs planned per day is a thing. 'Rush' is
-a view." He waited while she rewrote it. /Each technician's day is planned
-with six jobs./ "Now. This one. 'The wrong trade is sent.' Is that so? How do
-you know?"
+“I don’t know what I’d count. Six jobs planned per day is a thing. ‘Rush’ is
+a view.” He waited while she rewrote it. /Each technician’s day is planned
+with six jobs./ “Now. This one. ‘The wrong trade is sent.’ Is that so? How do
+you know?”
 
-"It happened at 4C."
+“It happened at 4C.”
 
-"Once. How often?"
+“Once. How often?”
 
 She wrote a question mark beside it.
 
 They went up the page like that. He did not have a list; he had the habits of
 thirty years of people bringing him numbers they wanted signed. Does this
 really lead to that, or do they merely happen together? Is it enough by
-itself? What else could produce the same thing? /A visit is closed as "no
-access"/, he pointed out, could also come about because the tenant was in
+itself? What else could produce the same thing? /A visit is closed as “no
+access”/, he pointed out, could also come about because the tenant was in
 fact out, and some certainly were; she could not draw it as though there were
 only one road to that box. Which came first? And, three times, at the three
 arrows she leaned on hardest, the same question in almost the same words.
 
-"If this is true, what else would have to be true? Something you could go
-and look at."
+“If this is true, what else would have to be true? Something you could go
+and look at.”
 
 By half past twelve the drawing was a mess. Two boxes were reworded. Four
 arrows had question marks. One arrow he had struck through, and when she
 objected he heard her out and then put it back with a note. Down the margin,
 in her writing, were three lines headed /Go and look/.
 
-/Were tenants home when visits were coded "no access"? Who would know?/
-/When a van leaves a "no access", how long was it there?/
+/Were tenants home when visits were coded “no access”? Who would know?/
+/When a van leaves a “no access”, how long was it there?/
 /How many visits does a repair take? (Count closed orders.)/
 
-"It's worse than it was this morning," Corinne said.
+“It’s worse than it was this morning,” Corinne said.
 
-"It's uglier." Wendell capped his pencil. "This morning you had something
-nobody had tried to break. I'd sooner sign this one, and I don't like it any
-better."
+“It’s uglier.” Wendell capped his pencil. “This morning you had something
+nobody had tried to break. I’d sooner sign this one, and I don’t like it any
+better.”
 
-At the door she stopped. "Why did you vote against the contractor?"
+At the door she stopped. “Why did you vote against the contractor?”
 
-"Because nobody could tell me what we were short of." He had already turned
-back to his screen. "They still can't. But you've now got three things to go
-and look at, which is three more than the board had."
+“Because nobody could tell me what we were short of.” He had already turned
+back to his screen. “They still can’t. But you’ve now got three things to go
+and look at, which is three more than the board had.”
 
 * What Corinne has just learned
 

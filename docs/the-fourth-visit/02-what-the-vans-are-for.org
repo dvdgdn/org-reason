@@ -1,3 +1,10 @@
+#+title: 2. What the Vans Are For
+#+subtitle: The Fourth Visit · Part One: Busy
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:01-the-counter.org][1. The Counter]] · [[file:README.org][Contents]] · Next: [[file:03-four-things.org][3. Four Things]]
+
 * The chapter
 
 On Wednesday Corinne asked three people what the repair service was for, and
@@ -6,7 +13,7 @@ little insulting.
 
 She had not planned to ask. She had planned to ask Gloria what the board
 wanted to hear. But on Tuesday night she had sent Odile Marchetti a short
-message, /Thank you for yesterday. I've escalated your father's repair/, and
+message, /Thank you for yesterday. I’ve escalated your father’s repair/, and
 the reply had come at 5:40 the next morning, from someone evidently already at
 work.
 
@@ -15,13 +22,13 @@ one: what are the vans for?/
 
 Gloria first, at eight.
 
-"For?" Gloria did not look up from the board pack. "Corinne. We are a
+“For?” Gloria did not look up from the board pack. “Corinne. We are a
 landlord. We keep two thousand one hundred and forty homes fit to live in and
-we do it on rents that haven't kept up with a single thing we buy. The city
+we do it on rents that haven’t kept up with a single thing we buy. The city
 measures us on attending within five working days. We are at ninety-one
 percent and the standard is ninety. That is what I can stand up and say on
-Thursday week. What I can't say is why the backlog has grown by half while
-we're meeting the standard." Now she looked up. "That's your part."
+Thursday week. What I can’t say is why the backlog has grown by half while
+we’re meeting the standard.” Now she looked up. “That’s your part.”
 
 /Gloria: to meet the five-day standard./ Corinne wrote it in her notebook
 outside the door, and under it, because it had been said with more feeling,
@@ -36,19 +43,19 @@ The routing board filled a wall of the dispatch office: a screen as wide as a
 door, twenty-four rows, each row a technician, each row a string of colored
 blocks. Six blocks a row.
 
-"Eighteen months ago," Bram said, "a consultant sat in that car park for a
+“Eighteen months ago,” Bram said, “a consultant sat in that car park for a
 week with a clipboard. You know what his report said? It said my people spent
-forty percent of the day in their vans. Parked. He had photographs." He let
-that sit. "I have men here who've done this for thirty years and a stranger
-photographed them eating a sandwich. So. March. This." He tapped the screen.
-"Every tech, six jobs planned, shortest drive between them. They average five
+forty percent of the day in their vans. Parked. He had photographs.” He let
+that sit. “I have men here who’ve done this for thirty years and a stranger
+photographed them eating a sandwich. So. March. This.” He tapped the screen.
+“Every tech, six jobs planned, shortest drive between them. They average five
 point two because some overrun. It was four point one. Nobody has sent a man
-with a clipboard since."
+with a clipboard since.”
 
-"It's impressive," Corinne said, and it was.
+“It’s impressive,” Corinne said, and it was.
 
-"What's it for, you asked on the phone. It's for that. Every one of them
-working, all day, and me able to prove it."
+“What’s it for, you asked on the phone. It’s for that. Every one of them
+working, all day, and me able to prove it.”
 
 /Bram: every technician working all day, and proof./
 
@@ -57,29 +64,29 @@ small frown. The woman who got out was in her fifties, short, with a grey
 plait down the back of her jacket. She opened the rear doors and stood
 looking into the racking with her hands on her hips.
 
-"Mags," Bram called. "You're on Pell Court till eleven."
+“Mags,” Bram called. “You’re on Pell Court till eleven.”
 
-"I was on Pell Court." She did not turn round. "Boiler's got a failed gas
-valve. I know which one. I haven't got it. I used to have two." She pulled
-out a plastic bin, looked into it and put it back. "So that's a visit. I'll
-book it back in for when the part comes and that'll be another visit, and you
-can put both of them on your wall."
+“I was on Pell Court.” She did not turn round. “Boiler’s got a failed gas
+valve. I know which one. I haven’t got it. I used to have two.” She pulled
+out a plastic bin, looked into it and put it back. “So that’s a visit. I’ll
+book it back in for when the part comes and that’ll be another visit, and you
+can put both of them on your wall.”
 
-"Mags Olsen," Bram said to Corinne. "Twenty-six years. Best heating tech
-I've got."
+“Mags Olsen,” Bram said to Corinne. “Twenty-six years. Best heating tech
+I’ve got.”
 
-"And?"
+“And?”
 
-"And she thinks the board is a personal insult."
+“And she thinks the board is a personal insult.”
 
-Mags had heard. She came over, wiping her hands. "I think I can do five
+Mags had heard. She came over, wiping her hands. “I think I can do five
 visits a day or I can do two repairs. Ask the tenant which one she rang up
-about." She looked at Corinne's office shoes without unkindness. "You're the
-one who's been given it."
+about.” She looked at Corinne’s office shoes without unkindness. “You’re the
+one who’s been given it.”
 
-"Apparently it shows."
+“Apparently it shows.”
 
-"Come out with me one day. Bring a coat."
+“Come out with me one day. Bring a coat.”
 
 /Mags: to finish the repair./ Corinne underlined it without knowing why.
 
@@ -87,22 +94,22 @@ The call center at two, back on Tolland Avenue, on the floor below her own.
 Nine desks in a horseshoe and a screen above them that changed every few
 seconds. Lu Tran stood where she could see all nine.
 
-"What's it for." Lu said it flatly, the way Gloria had. "Sit down a minute."
+“What’s it for.” Lu said it flatly, the way Gloria had. “Sit down a minute.”
 
 She pulled up a chair for Corinne and stayed standing.
 
-"I started here in 2017 as an agent. In 2018 there were four of us. A tenant
+“I started here in 2017 as an agent. In 2018 there were four of us. A tenant
 would ring about a leak and get a recording, and leave a message, and nobody
 rang back, because nobody had time to listen to the messages. People waited
-three and four weeks to find out if we'd even heard them. I had a woman cry
-on the phone because she thought we'd lost her name." She nodded at the
-screen. "Ninety-four percent inside twenty seconds. Every single caller
-leaves with an appointment inside five working days. You wrote that, didn't
-you? In the handbook. 'Someone at your door within five working days.'"
+three and four weeks to find out if we’d even heard them. I had a woman cry
+on the phone because she thought we’d lost her name.” She nodded at the
+screen. “Ninety-four percent inside twenty seconds. Every single caller
+leaves with an appointment inside five working days. You wrote that, didn’t
+you? In the handbook. ‘Someone at your door within five working days.’”
 
-"I did."
+“I did.”
 
-"Well. We made it true. That's what it's for."
+“Well. We made it true. That’s what it’s for.”
 
 /Lu: nobody waits to be heard./
 
@@ -110,8 +117,8 @@ Corinne took the notebook up to her desk and laid it open under the form with
 the seven lines. Four people, four purposes. Meet the standard. Keep everyone
 working. Finish the repair. Answer at once.
 
-None of them was foolish. Gloria's kept the city off their backs. Bram's had
-ended a humiliation. Lu's had ended something worse. And each of them could
+None of them was foolish. Gloria’s kept the city off their backs. Bram’s had
+ended a humiliation. Lu’s had ended something worse. And each of them could
 be met in full, was being met, was up on a screen in green, on the same
 morning that a man on Garnet Street sat in his coat beside a radiator that
 three technicians had come and looked at.
@@ -120,7 +127,7 @@ She tried the question the other way round. Not what each department was
 for. What would Aldo Marchetti say the vans were for?
 
 That was not difficult at all. /To fix it./ And then, because she had read
-enough complaint letters to know the second half: /so that I don't have to
+enough complaint letters to know the second half: /so that I don’t have to
 ring you again./
 
 She wrote it out in a sentence she could have put in a handbook.
@@ -130,7 +137,7 @@ She wrote it out in a sentence she could have put in a handbook.
 Then the part she would once have skipped. How would she know? Not by
 attendance; they had attended 4C three times. By the number of days between
 the report and the repair. Thirty-four, on average. And by whether the tenant
-had to ring again about the same thing, which Lu's screens could probably be
+had to ring again about the same thing, which Lu’s screens could probably be
 made to show and currently did not.
 
 She looked at the sentence for a while. It was plainer than any of the four.
@@ -138,13 +145,13 @@ It also made no mention of five days, or of five point two, or of twenty
 seconds, and on Thursday week she was going to have to say it in a room where
 those three numbers were the only good news anyone had.
 
-She texted Odile. /To fix what's reported, soon, so it stays fixed. Is that
+She texted Odile. /To fix what’s reported, soon, so it stays fixed. Is that
 too simple?/
 
-The answer came that evening. /I don't know your business. Would your
+The answer came that evening. /I don’t know your business. Would your
 superintendent agree with it? Would the woman in the call center?/
 
-Corinne thought about it honestly. /Yes. All of them. That's what's strange./
+Corinne thought about it honestly. /Yes. All of them. That’s what’s strange./
 
 /Why strange?/
 

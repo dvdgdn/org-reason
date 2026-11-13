@@ -1,24 +1,31 @@
+#+title: 8. The Notebook
+#+subtitle: The Fourth Visit · Part Two: Two Explanations
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:07-wendells-pencil.org][7. Wendell's Pencil]] · [[file:README.org][Contents]] · Next: [[file:09-the-wall.org][9. The Wall]]
+
 * The chapter
 
-"No," said Samira Haddad, and began to close the door of 2B.
+“No,” said Samira Haddad, and began to close the door of 2B.
 
-"Ms. Haddad, I only need five minutes."
+“Ms. Haddad, I only need five minutes.”
 
-"You've had my neighbours' five minutes. A hundred and thirty-eight times."
+“You’ve had my neighbours’ five minutes. A hundred and thirty-eight times.”
 But the door stopped, because a child behind her had started to cough, a
-tight dry bark that went on too long, and she turned to it. "Karim. Puffer.
-Then come and say hello."
+tight dry bark that went on too long, and she turned to it. “Karim. Puffer.
+Then come and say hello.”
 
 Corinne waited on the mat. She had learned at the yard that 118 Garnet had a
-tenants' council, that 2B chaired it, and that since October its floor
+tenants’ council, that 2B chaired it, and that since October its floor
 captains had been writing down every Harbor Row van that pulled up outside.
-/Who would know?/ she had written in Wendell's office. The answer was
-standing in front of her in a nurse's-aide tunic, not letting her in.
+/Who would know?/ she had written in Wendell’s office. The answer was
+standing in front of her in a nurse’s-aide tunic, not letting her in.
 
 The boy appeared, seven or so, solemn, holding an inhaler like a toy
-telephone. He looked at Corinne's lanyard. "Are you the ceiling lady?"
+telephone. He looked at Corinne’s lanyard. “Are you the ceiling lady?”
 
-"The ceiling?"
+“The ceiling?”
 
 Samira breathed out through her nose and opened the door.
 
@@ -27,59 +34,59 @@ in a patch the size of a tray, and around the patch the paint had gone the
 soft speckled black that no tenant handbook has a kind word for. A bucket
 stood in the tub.
 
-"Reported October ninth. Upstairs' waste pipe. You've been three times."
-Samira said it without looking at the ceiling. "First one was a decorator.
-He said he couldn't paint over it till the leak was fixed, which, thank you,
+“Reported October ninth. Upstairs’ waste pipe. You’ve been three times.”
+Samira said it without looking at the ceiling. “First one was a decorator.
+He said he couldn’t paint over it till the leak was fixed, which, thank you,
 I knew. Second was a plumber who needed a part. Third knocked while I was at
-work, when I'd told your girl on the phone I'm home after three. So I've had
-a letter. My son has asthma and there's mould over his bath and I've had a
-letter about my attendance."
+work, when I’d told your girl on the phone I’m home after three. So I’ve had
+a letter. My son has asthma and there’s mould over his bath and I’ve had a
+letter about my attendance.”
 
-"I wrote the paper that led to the letters," Corinne said.
+“I wrote the paper that led to the letters,” Corinne said.
 
 She had decided on the bus that she would say it first, before anything
 else could be said. It did not feel brave. It felt like putting down
-something heavy on the wrong person's floor.
+something heavy on the wrong person’s floor.
 
-Samira looked at her properly for the first time. "Did you."
+Samira looked at her properly for the first time. “Did you.”
 
-"I told the board that a third of our visits fail because tenants aren't
-home. I believed it. I now think I was wrong, or mostly wrong, and I can't
-show it either way, because the only record I have is ours. I'm told you
-have another."
+“I told the board that a third of our visits fail because tenants aren’t
+home. I believed it. I now think I was wrong, or mostly wrong, and I can’t
+show it either way, because the only record I have is ours. I’m told you
+have another.”
 
-"So you want my notebook to prove you were wrong."
+“So you want my notebook to prove you were wrong.”
 
-"I want to find out."
+“I want to find out.”
 
-"That's what the last one said. Man from your office, two years ago, about
+“That’s what the last one said. Man from your office, two years ago, about
 the lifts. Read our log, found the three days that suited him, put them in a
-report." She went into the kitchen, and Corinne followed, uninvited. A
+report.” She went into the kitchen, and Corinne followed, uninvited. A
 hardback exercise book lay on top of the refrigerator. Samira took it down
-and held it against her chest. "We're filing with the city on Friday. Two
-hundred and twelve households have signed. This goes with it. I'm not
-handing it to Harbor Row first so you can get your story straight."
+and held it against her chest. “We’re filing with the city on Friday. Two
+hundred and twelve households have signed. This goes with it. I’m not
+handing it to Harbor Row first so you can get your story straight.”
 
-"Then don't hand it to me. Keep it shut." Corinne took out her own notebook.
-She had not planned this either; it came from Wendell's third question, asked
-three times. "I'll write down what I think it says. Before you open it. If
-tenants really weren't home, your log shows empty apartments. If I'm right
-now, it shows people in, and vans that didn't stay. I'll write both down,
-with numbers, and sign it, and you can have the page."
+“Then don’t hand it to me. Keep it shut.” Corinne took out her own notebook.
+She had not planned this either; it came from Wendell’s third question, asked
+three times. “I’ll write down what I think it says. Before you open it. If
+tenants really weren’t home, your log shows empty apartments. If I’m right
+now, it shows people in, and vans that didn’t stay. I’ll write both down,
+with numbers, and sign it, and you can have the page.”
 
-"Why would you do that?"
+“Why would you do that?”
 
-"Because last time I looked at one of these, I saw what I'd come for."
+“Because last time I looked at one of these, I saw what I’d come for.”
 
 Karim had climbed onto a chair to watch. Samira considered her for a long
 moment, then pulled out another chair with her foot.
 
-"Write."
+“Write.”
 
 Corinne wrote it at the kitchen table, in ink.
 
 /Wednesday 26 November. Before seeing the Garnet Street log./
-/Harbor Row's system: 41 visits to 118 Garnet coded "no access," 1 October to
+/Harbor Row’s system: 41 visits to 118 Garnet coded “no access,” 1 October to
 date./
 /If tenants were out, the log will show nobody home for most of them./
 /I expect instead: someone home for more than half. And for those, the van
@@ -110,42 +117,42 @@ twenty-two.
 Corinne found the line for the thirty-first of October without being asked.
 /4C. Van 9:10. Left 9:14. Mr M at window. — R.D./
 
-"He was at the window," she said.
+“He was at the window,” she said.
 
-"He's always at the window." Samira's voice had lost some of its edge, not
-all. "And the other twelve were out. I'm not going to tell you they weren't.
+“He’s always at the window.” Samira’s voice had lost some of its edge, not
+all. “And the other twelve were out. I’m not going to tell you they weren’t.
 Mrs. Okafor in 3D has dialysis three mornings and you book her for mornings.
-People work."
+People work.”
 
-"Twelve out of forty-one."
+“Twelve out of forty-one.”
 
-"That's still twelve wasted trips. Whose fault are those?"
+“That’s still twelve wasted trips. Whose fault are those?”
 
 Corinne nearly answered. /The call center books the next free slot without
 asking./ It was in her diagram; it had even survived Wendell. But it had a
 question mark on it.
 
-"I don't know yet," she said. "I think I know. I'm trying not to say things
-I think I know."
+“I don’t know yet,” she said. “I think I know. I’m trying not to say things
+I think I know.”
 
-Samira closed the book. "Friday we file. This doesn't change that."
+Samira closed the book. “Friday we file. This doesn’t change that.”
 
-"It shouldn't."
+“It shouldn’t.”
 
-"And those letters."
+“And those letters.”
 
-"I can't withdraw them. I don't have the authority." It was true and it
-sounded like every other thing Harbor Row had ever told this woman. "I'm
-going to try."
+“I can’t withdraw them. I don’t have the authority.” It was true and it
+sounded like every other thing Harbor Row had ever told this woman. “I’m
+going to try.”
 
-*
+-----
 
 Mags was waiting in the dispatch office at six with two hundred closed work
 orders printed and stacked, because Corinne had asked her that morning and
 Mags had said that if anyone was finally going to count she wanted to be in
 the room.
 
-They did the other two lines of /Go and look/ at Bram's desk, under his wall
+They did the other two lines of /Go and look/ at Bram’s desk, under his wall
 of colored blocks, after he had gone home.
 
 Sixty visits coded /no access/, pulled at random from the whole estate. For
@@ -155,12 +162,12 @@ have done the job, on thirty-eight.
 Then the stack. Two hundred repairs completed in October. For each one, the
 number of times a van had gone to that address for that fault. Mags called
 them out and Corinne made five-bar gates down a sheet of paper. One. Three.
-Two. Two. Four. One. Five, for a boiler at Pell Court. It was eight o'clock
+Two. Two. Four. One. Five, for a boiler at Pell Court. It was eight o’clock
 before the last sheet turned.
 
 Four hundred and eighty visits.
 
-"Two point four," Corinne said.
+“Two point four,” Corinne said.
 
 It did not look like much, written down. She worked the rest on the same
 sheet because she could not wait. Twenty-four technicians at five point two
@@ -169,20 +176,20 @@ visits to a repair, that came to two hundred and sixty repairs.
 
 Two hundred and ninety new reports came in every week.
 
-"Thirty short," said Mags, reading upside down. "Every week."
+“Thirty short,” said Mags, reading upside down. “Every week.”
 
-"Is there an old stack? From before the board went in?"
+“Is there an old stack? From before the board went in?”
 
 There was, in a box file: two hundred orders from the spring of last year
 that someone had pulled for an audit. They counted those too, faster now.
 Three hundred and twenty visits. One point six. And at four point one visits
 a day, four hundred and ninety-two visits a week —
 
-"Three hundred and seven repairs," Corinne said. "With fewer visits. We did
-more repairs when everyone was doing less."
+“Three hundred and seven repairs,” Corinne said. “With fewer visits. We did
+more repairs when everyone was doing less.”
 
 Mags looked up at the wall, where her own row would light tomorrow with six
-blocks. "Don't tell him tonight," she said. "Let him have his supper."
+blocks. “Don’t tell him tonight,” she said. “Let him have his supper.”
 
 On the bus Corinne typed three characters to a number in Halifax, /2.4/, and
 looked at them, and sent them. No answer came. She had not expected one.
@@ -237,8 +244,8 @@ Org Reason can fix an expectation in place before the result is known.
 
 *If you keep a trusted system:* if the record you need belongs to someone
 else, clarify the request as =delegate= with their name. A check you mean to
-do yourself on a certain day is a =calendar= entry. The dashboard (~C-c r
-d~) lists predictions whose date has come.
+do yourself on a certain day is a =calendar= entry. The dashboard
+(~C-c r d~) lists predictions whose date has come.
 
 * The same step in Reason Commons
 

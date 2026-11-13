@@ -1,11 +1,18 @@
+#+title: 3. Four Things
+#+subtitle: The Fourth Visit · Part One: Busy
+#+startup: showall
+#+options: toc:nil num:nil
+
+Previous: [[file:02-what-the-vans-are-for.org][2. What the Vans Are For]] · [[file:README.org][Contents]] · Next: [[file:04-thirty-one-percent.org][4. Thirty-One Percent]]
+
 * The chapter
 
 The control room was on the sixth floor of a concrete tower at the end of the
 container terminal, and at six on Thursday morning it was the only lit window
 on the waterfront.
 
-/If you want to see what I do, come before the day shift,/ Odile's message had
-said. /I can't leave the desk but you can stand behind it./
+/If you want to see what I do, come before the day shift,/ Odile’s message had
+said. /I can’t leave the desk but you can stand behind it./
 
 So Corinne stood behind it, holding coffee from a machine in the lobby, and
 looked down at four berths. Three of them had ships alongside, lit like
@@ -19,74 +26,74 @@ Odile had two screens and a paper chart, and spoke for some minutes to a
 radio in a language of numbers. When she put the handset down Corinne said
 what anyone would have said.
 
-"There's a ship out there and an empty berth in here."
+“There’s a ship out there and an empty berth in here.”
 
-"Yes."
+“Yes.”
 
-"Why isn't it on the berth?"
+“Why isn’t it on the berth?”
 
-"What would it do there?"
+“What would it do there?”
 
-Corinne looked again. "Unload."
+Corinne looked again. “Unload.”
 
-"With what?"
+“With what?”
 
-The dark crane. "It's broken?"
+The dark crane. “It’s broken?”
 
-"A cable is being replaced. Until noon." Odile wrote something on the chart.
-"So tell me what that ship needs. Not what it wants. What it can't be
-unloaded without."
+“A cable is being replaced. Until noon.” Odile wrote something on the chart.
+“So tell me what that ship needs. Not what it wants. What it can’t be
+unloaded without.”
 
-"A berth. A working crane."
+“A berth. A working crane.”
 
-"Go on."
+“Go on.”
 
-"People to work it."
+“People to work it.”
 
-"A gang, yes. Twelve, for that ship."
+“A gang, yes. Twelve, for that ship.”
 
-"Somewhere for the boxes to go?"
+“Somewhere for the boxes to go?”
 
-"Trucks, and room in the yard behind. Four things." Odile glanced at her.
-"The berth has been free since two this morning. If I had put the ship on
+“Trucks, and room in the yard behind. Four things.” Odile glanced at her.
+“The berth has been free since two this morning. If I had put the ship on
 it, my berth would have looked busy. Is the ship any nearer to being
-unloaded?"
+unloaded?”
 
-"No."
+“No.”
 
-"No." She turned back to the screens. "Three years ago this terminal paid a
+“No.” She turned back to the screens. “Three years ago this terminal paid a
 bonus on crane moves per hour. The cranes had never been busier. Ships waited
-longer than they had in ten years. I'll let you work out how; I have a pilot
-to call."
+longer than they had in ten years. I’ll let you work out how; I have a pilot
+to call.”
 
 She made her call. Corinne watched a box the size of a room travel through
 the air and settle on a truck as lightly as a cup on a saucer, and thought
-about Bram's wall with its six colored blocks a row.
+about Bram’s wall with its six colored blocks a row.
 
-When Odile was free again she said, without turning, "You sent me a sentence
-last night. Soon, and stays fixed. What can't that happen without?"
+When Odile was free again she said, without turning, “You sent me a sentence
+last night. Soon, and stays fixed. What can’t that happen without?”
 
 Corinne had her notebook. She had, in fact, already made a list on the bus,
 and it had eleven items on it, beginning with /adequate staffing/ and ending
 with /a culture of ownership/. She read it out. It took a while.
 
-Odile waited until she had finished. "How many of those did the ship have?"
+Odile waited until she had finished. “How many of those did the ship have?”
 
-"Four."
+“Four.”
 
-"Could you run your service if I took 'a culture of ownership' away from
-you?"
+“Could you run your service if I took ‘a culture of ownership’ away from
+you?”
 
-"Not well."
+“Not well.”
 
-"Could you fix my father's radiator?"
+“Could you fix my father’s radiator?”
 
 Corinne thought about a seized valve and somebody with the right part
-turning up to replace it. "Yes."
+turning up to replace it. “Yes.”
 
-"Then perhaps it isn't one of them. I'm not saying it doesn't matter." She
-reached for the radio again. "Try each one that way. Take it away and see if
-the radiator can still be fixed."
+“Then perhaps it isn’t one of them. I’m not saying it doesn’t matter.” She
+reached for the radio again. “Try each one that way. Take it away and see if
+the radiator can still be fixed.”
 
 It was a curious twenty minutes, standing in the dark above the cranes
 crossing things out. /Adequate staffing/ went, to her surprise; twenty-four
@@ -113,62 +120,62 @@ the only condition Gloria would have thought of first.
 /The tenant can let us in at a time they agreed./
 /The money lasts the year./
 
-"Four," she said.
+“Four,” she said.
 
-"Read them to me."
+“Read them to me.”
 
 She did. Odile listened with her eyes on the anchored ship.
 
-"If you had all four for a given repair, would it get done?"
+“If you had all four for a given repair, would it get done?”
 
-"Yes. I think so. Yes."
+“Yes. I think so. Yes.”
 
-"And if you had three?"
+“And if you had three?”
 
 Corinne ran them. Knowing, and the tenant home, and the money, but no part:
 that was the second visit to 4C. The part and the tenant and the money, but
-the wrong idea of the job: that was the first. "No. Any one missing and it's
-a wasted trip."
+the wrong idea of the job: that was the first. “No. Any one missing and it’s
+a wasted trip.”
 
-"Then you have something like my four." Odile's desk phone lit and she let it
-ring once. "I'd keep the list where the people who gave you your other
+“Then you have something like my four.” Odile’s desk phone lit and she let it
+ring once. “I’d keep the list where the people who gave you your other
 answers yesterday can see it. They each look after a piece of one of those.
-I doubt anybody looks after all four."
+I doubt anybody looks after all four.”
 
-"That would be me, as of Friday."
+“That would be me, as of Friday.”
 
-"Would it?" It was the first thing she had said that sounded like doubt, and
-she softened it at once. "I mean: do you control any of them?"
+“Would it?” It was the first thing she had said that sounded like doubt, and
+she softened it at once. “I mean: do you control any of them?”
 
 Corinne considered the call center, which reported to the customer services
-director; the yard, which was Bram's; the stockroom, which for reasons of
+director; the yard, which was Bram’s; the stockroom, which for reasons of
 history belonged to the controller, Wendell Price; and the money, which was
-Gloria's and the board's.
+Gloria’s and the board’s.
 
-"I can ask people for things," she said. "That's about the extent of it."
+“I can ask people for things,” she said. “That’s about the extent of it.”
 
-"Mm." Odile picked up the phone.
+“Mm.” Odile picked up the phone.
 
-Corinne's own phone buzzed while she waited: the dispatcher at the yard.
-/4C Garnet is in for Tue 11th, first job. Dev's got the valve now./
+Corinne’s own phone buzzed while she waited: the dispatcher at the yard.
+/4C Garnet is in for Tue 11th, first job. Dev’s got the valve now./
 
 She showed it to Odile when the call ended, pleased to have something
-finished to offer. "Tuesday. First thing. With the part."
+finished to offer. “Tuesday. First thing. With the part.”
 
 Odile read it and for a moment said nothing. Down on berth two a crane had
 stopped with a box hanging.
 
-"Has anyone told my father what time?"
+“Has anyone told my father what time?”
 
-"It's the first job of the day. He'll be glad to get it over with."
+“It’s the first job of the day. He’ll be glad to get it over with.”
 
-"He takes the hearing aid out at night," Odile said. "It charges on the
-kitchen counter. He's not quick in the mornings." She handed the phone back.
-"It's kind of you. Truly. I'd only say that you have just read me four things
-a repair can't happen without, and you have arranged two of them."
+“He takes the hearing aid out at night,” Odile said. “It charges on the
+kitchen counter. He’s not quick in the mornings.” She handed the phone back.
+“It’s kind of you. Truly. I’d only say that you have just read me four things
+a repair can’t happen without, and you have arranged two of them.”
 
 The day shift was coming in behind them, hanging up coats. Corinne made a
-note, /4C: what time is "first job"?/, and on the bus back to Tolland Avenue
+note, /4C: what time is “first job”?/, and on the bus back to Tolland Avenue
 began drafting what she would say to the board.
 
 * What Corinne has just learned
